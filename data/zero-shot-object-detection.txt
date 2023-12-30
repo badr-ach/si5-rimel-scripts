@@ -1,0 +1,14 @@
+google/owlvit-base-patch32
+google/owlv2-base-patch16
+google/owlv2-large-patch14
+google/owlvit-base-patch16
+google/owlvit-large-patch14
+hf-tiny-model-private/tiny-random-OwlViTForObjectDetection
+juhi7ag/idea-model
+google/owlv2-base-patch16-ensemble
+google/owlv2-base-patch16-finetuned
+google/owlv2-large-patch14-ensemble
+google/owlv2-large-patch14-finetuned
+Xenova/owlvit-base-patch32
+Xenova/owlvit-base-patch16
+Xenova/owlvit-large-patch14

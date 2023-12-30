@@ -1,0 +1,15 @@
+clefourrier/graphormer-base-pcqm4mv2
+clefourrier/graphormer-base-pcqm4mv1
+PromptKing/GTA5_PROCESS_LEARNING_AI
+riship-nv/RGCN
+manetov/ControlNet_qrcode
+Huhujingjing/custom-gcn
+Huhujingjing/custom-mxm
+hle2000/graphsormer_subgraphs_reranking_t5large
+hle2000/graphsormer_subgraphs_reranking_t5xl
+Orgilbold09/Orikore
+Admin08077/P
+NysPsycho/TrailerParkSteve
+mgalkin/ultra_3g
+mgalkin/ultra_4g
+mgalkin/ultra_50g

@@ -1,0 +1,6 @@
+stabilityai/stable-zero123
+openai/shap-e
+Intel/ldm3d
+One-2-3-45/code
+ironjr/LucidDreamer
+model-hub/stable-zero123

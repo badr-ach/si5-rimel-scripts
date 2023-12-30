@@ -1,0 +1,10 @@
+stabilityai/stable-video-diffusion-img2vid-xt
+stabilityai/stable-video-diffusion-img2vid
+thingthatis/stable-video-diffusion-img2vid-xt
+Vchitect/SEINE
+motexture/VSeq2VSeq
+Latinos/TH3BULL
+joshhhyyy/ai
+model-hub/stable-video-diffusion-img2vid-xt
+model-hub/stable-video-diffusion-img2vid
+zyand/animate-anything-v1.02
