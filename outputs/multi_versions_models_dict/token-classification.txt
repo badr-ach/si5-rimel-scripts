@@ -1,0 +1,468 @@
+bert: base, ner, chinese, medical, proj, multilingual, cased, hrl, large, german, upos, finetuned, pii, addresses, uncased, pf, conll2000, conll2003, conll2003_pos, fce_error_detection, mit_movie_trivia, pmb_sem_tagging, ud_deprel, ud_pos, wnut_17, srb, setimes, accelerate, greek, punctuation, prediction, kmeans, multi, pad, arabic, camelbert, ca, pos, egy, glf, msa, da, mix, spanish, wwm, masakhaner, ehsan, dutch, alpino, frisian, gronings, parsbert, armanner, peymaner, fa, arman, peyma, zwnj, swedish, neriob, reallysimple, lowermix, japanese, luw, unidic, thai, bangla, ner8, mbert, ner1, hungarian, turkish, uncased_token_itr0_0.0001_all_01_03_2022, 04_48_27, 14_21_25, uncased_token_itr0_2e, 05_all_01_03_2022, 04_40_10, whole, word, masking, kin, pcm, swa, pretrained, indonesian, ws, i2b2, conll03, english, model, test, conll, romanian, hu, restore, tiny, irish, portuguese, archive, pt, city, country, ler, small, typo, detection, finedtuned, tags, syntax, degree, major, title, org, lemma, cgn_elex, nld, conll2002, sonar1, deepfrog, italian, uncased_clinical, uncased_med, reptile, datasets, es, chunk, mention, de, en, fr, lassysmall, sonar, udlassy, tf, isu, uncased_token_itr0_0.0001_train_webdiscourse_test_test_set_05_03_2022, 05_48_17, 05_51_01, 05_53_50, uncased_token_itr0_0.0001_train_essays_test_test_set_05_03_2022, 05_56_32, 05_58_31, 06_01_05, uncased_token_itr0_0.0001_train_webdiscourse_test_webdiscourse_05_03_2022, 06_08_23, uncased_token_itr0_0.0001_train_webdiscourse_test_essays_05_03_2022, 06_11_09, uncased_token_itr0_0.0001_train_webdiscourse_test_editorials_05_03_2022, 06_13_50, uncased_token_itr0_0.0001_train_essays_test_essays_05_03_2022, 06_16_34, uncased_token_itr0_0.0001_train_essays_test_webdiscourse_05_03_2022, 06_19_06, uncased_token_itr0_0.0001_train_essays_test_editorials_05_03_2022, 06_21_38, uncased_token_itr0_0.0001_train_editorials_test_editorials_05_03_2022, 06_24_13, uncased_token_itr0_0.0001_train_editorials_test_essays_05_03_2022, 06_26_52, uncased_token_itr0_0.0001_train_editorials_test_webdiscourse_05_03_2022, 06_29_29, mt4ts, russian, comp2, punct, restoration, slavic, cyrillic, fine, tuned, insurance, subj, subj_, subj__, subj__5epoch, subj__7epoch, subj__11epoch, multilingual_en_ner_, task5finetuned, theseus, bg, ard, adr, ft, xtreme, id, ner3, sem, chunking, ades_model_1, seg, split, filler, inspec, protagonist, own, data, to, distilbert, subj_pretrained_with_noisydata, noisy, pretrain, epochs, pc, cased_ner, task, subj__7epoch_, subj_pretrained_with_noisydata_, tuned_, keyword, extractor, discriminator, with, cf, ccg, uncased_token_itr0_0.0001_train_all_test_null__second_train_set_null_false, ner_0, ner_swedish_test, ner_swedish_test_numb_2, ner_swedish_test_large_set, ner_swedish_small_set_health_and_standart, radarr, ubb, ner2, endava, only, misc, ner_sourcerecognition, clinical, mutation, recognition, han, malayalam, tagger, tweetner7, panx, ancient, ner_swedish_small_set_health_and_prices, continuous, random, all, ptbr, cased_conll2003, sm, first, cased_harem, selective, lowc, nsm1, nsm2, finer, longer, full, intel, cpu, gpu, xglue, wnut17, skill, mlm, longer6, longer10, longer20, longer50, favsbot, ner_all, ner_cv, med, tajik, loodos, sunlp, for, echo, reading, propaganda, multilingual_pos, tamil, biomedical, ontonotes, uncased_fine_tuned_for_token_classiciation, job, skills, albanian, norsk, uncased_fine_tuned_for_token_classiciation_zh, hans, uncased_fine_tuned_for_token_classiciation_es, tmvar, corpus, target, signature, segmentation, enrun, enrun1k, hatexplain, label, tokens, true, 3epoch, enrun10k, train0.003, validation, train0.1, validation0.1, test1, zh, train0.3, validation1, test0.1, revisit, train0.01, para, lener_br, lener, br, ner_stake, qadata, no, apostrophe, testing, trained, on, synthea, fcit499, event, trigger, wash, binary, 10percent, 20percent, 30percent, 40percent, 50percent, 60percent, 70percent, 80percent, 90percent, 100percent, targetexpression, targetexpressionaug, targetexpressionaug_epoch5, expression_epoch5, food, indo, split_food, quantized, gl, sli, tagalog, sumups, cased_wikiann, dt, token, classification, atc, uwb, atcc, dd, enamex, atco2, 1h, abbrev, vietnamese, ud, goeswith, uncased_ner_wnut_17, uncased_ner_conll2003, uncased_ner_wikiann, bpmn, medicalchunk, medicalchunksecond, truecaser, animacy, ner_, trainer, ner_offres, accelerate_offres, lm, sv, requirements, arabert, jnlpba, strong, labelled, it, shanggu, zhonggu, jindai, xiandai, food_requirement, math_punctuation, ignore_word_parts, per, bn, hi, uk, based, ijelid, ncbi, wnut, literary, wikiann, deid, wnut2017, ncbi_disease, multilang, ner_0220_j_oridata, ner_0220_j_oridata_full_nomod, trainerapi, absa, uncased_ner_visbank, ner_0301_j_data, cv, material, synthesis, t1, adwait, gesture, classes, legacy, gest, pred, seqeval, partialmatch, cerec, fixed, weights, dynamic, paper, cased_0319_j, paperconc3, balanceddata, balanceddata_, cybersecurity, balanceddata_1, swe, epoch, ner9, ner0, amh, conll_2003_en, hau, ibo, lug, luo, wol, yor, new, nbci, disease, patents, address, en0.1.1, de0.1.1, name, onomatopoeia, david, brands, nbme, bioner, ar, harem, colab, mini, demo, mongolian, klue, padt, gsd, coptic, scriptorium, ewt, hindi, hdtb, korean, ttb, vtb, uncase, univ, scientific, exp, recruitment, conversational, ner_test, ner_test1, class, cross, accelerator, eval, wikipedia, dataset, crf, ner_test_hfcourse, tokeni, people, daily, neuronx, ime, 3epochs, unpunctual, text, 10epochs, finnish, ctebmsp, distemist, ehealth_kd, livingner1, meddocan, nubes, pharmaconer, socialdisner, political, statements, and, questions, tv, dim, reqsolvgencat, ner_tmp, win_file, zemoso, stromberg_nlp_twitter, bio_nlp_2004, bc2gm, iob, custom, dfki, slt_few, nerd, pos_, baseline, hausa, roberta, beto, alberto, robertadcc, albert, xxlarge, bertin, 2.0, trials, plncmm, wikineural, n2c2, win_f, cns, entity, archaeo, lora, embo, sourcedata, lscp, 500k, tflite, int8, cefr, copy, fishing, fine_tuned, wikineural_multilingual, 10k, accelerate_nlp_course, lid, a1, a2, 5k, without, tranxdetails, 1lk, finetuned_custom_complain_dataset_ner9, a3, a4, e3, hausa_ner, tok, 1k, e6, resumes, noise, goodsmemo, tokencls, catalyst, battery, chemistry, named, s8, smell, detector, sky, wolof, maplestory, tech, product, ncbi__disease, augment, extractor_oknashar, history, sub, ontology, sst2, cb, fl, case, finetunes, final, baseline2, default_parameters, baseline3, baseline4, best, noval, combination, essays, find_span, batch32, lr1e, lr3e, lr5e, batch16, optuna, baselines, ner_lr1e, 05_bs16, linnaeus, 05_bs32, ner_lr0.001_bs16, ner_lr0.001_bs32, ner_lr2e, ner_1, ner_2, ner_3, ner_4, ner_5, ner_6, ner_7, ner_8, optim, nc1, label_span, onnx, silvanus, nlp, typetag, xomlac, cti, pepe2, bin, mountain, resume, term, custom_custom_data, slot, filling, cadec, conllp, project, abbreviation, ko, initial, ru, pe, ner_epoch15, augmented, privacy
+wikineural: multilingual, ner, finetuned, accelerate, colab
+camembert: ner, with, dates, squadfr, fquad, piaf, answer, extraction, keyword, extractor, discriminator, base, finetuned, avec, symbole, dd, sans, mixte, train_raw_157080, favsbot, raw20, raw15, train_raw10, train_raw15, train_raw20, articles, nomination, lr10e3, lr10e6, classical, fr, pos, lm, tags, jul, bio, bioner, mwer, large, desambiguise, lora
+deberta: base, fine, tuned, ner, base_finetuned_ai4privacy_, finetuned, small, japanese, upos, luw, large, coptic, thai, unidic, wikipedia, base_fine_tuned_food_ner, wnut2017, conll2003, bc5cdr, tweebank, mit, restaurant, movie, trivia, fin, bionlp2004, ttc, ontonotes5, ud, goeswith, connll, late, stop, btc, aozora, large_basetags_10k_1_p3, large_basetags_10k_2_p3, large_basetags_10k_3_p3, large_basetags_5k_1_p3, large_basetags_5k_2_p3, large_basetags_5k_3_p3, large_basetags_5k_4_p3, large_basetags_5k_5_p3, large_basetags_5k_6_p3, large_lemon_10k_1_p3, large_lemon_10k_2_p3, large_lemon_10k_3_p3, large_lemon_5k_1_p3, large_lemon_5k_2_p3, large_lemon_5k_3_p3, large_lemon_5k_4_p3, large_lemon_5k_5_p3, large_lemon_5k_6_p3, large_lemon, spell_10k_1_p3, spell_10k_2_p3, spell_10k_3_p3, spell_5k_1_p3, spell_5k_2_p3, spell_5k_3_p3, spell_5k_4_p3, spell_5k_5_p3, spell_5k_6_p3, large_spell_10k_1_p3, large_spell_10k_2_p3, large_spell_10k_3_p3, large_spell_5k_1_p3, large_spell_5k_2_p3, large_spell_5k_3_p3, large_spell_5k_4_p3, large_spell_5k_5_p3, large_spell_5k_6_p3, classifier, feedback, pseudo, final, chinese, erlangshen, ainu, xlarge, hw, juman, inca__retrained, italian, uncased, pos, inca, la, fe, 10epochs, ad, opentag, 5epochs, 2epochs, la_fe, ece, large_conll2003_breast, castellon, large_token_multi, open, large_ais, token, composite, ind, korean, morph, large_conll2003_breast_, orgs
+distilcamembert: base, ner, address
+ner: english, large, swedish, wikiann, hu, model, danish, dutch, fast, ontonotes, french, german, legal, multi, spanish, bert, base, cased, pt, lenerbr, chemical, bionlp, bc5cdr, pubmed, disease, ncbi, gene, dna, rna, jnlpba, dummy, test, roberta, distilbert, uncased, albert, classification, roles, openapi, vietnamese, electra, deberta, from, bertje, tagdetekst, geocite, multilingual, replica, finetuned, lst20, lenerbr2, investing, conll2003, es, clinical, trials, ner, wwm, ner_, experiment, custom, labeled, 500k, epoch, adamw, bio, distillbert, tags, annotated, pass2, locations, slu, aug, phoner, flair, endpoint, t5, tiny, standard, bahasa, small, test3, fine, tune, xlm, ner_temporal, bertweet, ner_random0_seed0, ner_random1_seed0, ner_random2_seed0, ner_random3_seed0, ner_random0_seed1, ner_random1_seed1, ner_random2_seed1, ner_random3_seed1, ner_random0_seed2, ner_random3_seed2, ner_random2_seed2, ner_random1_seed2, twitter, 154m, bernice, 124m, more, data, new, 90m, dec2020, general, classes, named, entity, recgnition, resume, contratos_tceal
+fullstop: punctuation, multilang, large, dutch, prediction, multilingual, base, catalan, sonar, welsh, indonesian
+indonesian: roberta, base, posp, tagger, bapos, punctuation, ler, xlmr, large
+stanford: deidentifier, only, radiology, reports, i2b2, augmented, with, and, base
+biomedical: ner, all, roberta, finetuned, cantemist, test, all_datasets_4, anonimization_try_2, anonimization_try_4, anonimization_try_5, anonimization_try_6, anonimization_try_7, anonimization_try_8, anonimization_try_9, iomed_task
+xlm: roberta, ner, japanese, ja, base, masakhaner, hrl, sadilar, wikiann, large, finetuned, panx, de, english, upos, spanish, all, fr, en, it, turkish, bc5cdr, bionlp2004, conll2003, fin, dataset, ar, es, ko, ru, uncased, mit, movie, trivia, restaurant, wnut2017, conll03, sinhala, indonesian, amharic, swahili, hausa, igbo, kinyarwanda, luganda, luo, naija, wolof, yoruba, ft, udpos28, af, be, bg, ca, cs, cu, cy, da, el, et, eu, fa, fi, fo, fro, ga, gd, gl, got, grc, he, hi, hr, hu, hy, hyw, id, is, la, lt, lv, lzh, mr, mt, nl, no, orv, pcm, pl, pt, ro, sa, sk, sl, sme, sr, sv, ta, te, tr, ug, uk, ur, vi, wo, zh, conll2002, dutch, emoji, recipe, gk, arman, peyma, capu, data, finetune, full, postagging, urdu, clinical_25epochs_20val_, favsbot, fintuned, amazon, massive, slot, meddocan, shopsign, lener, br, char, lener_br, esg, flert, we, word, new, pretrained, tracking, language, detection, lm, tags, finetunned, finetuned_panx_de, bn, with, skills, without, germeval, aug, higher, ratio, robereta, multi, ncbi_disease, ontonotes, ft_for_multi_ner, absa, large_ner_visbank, allv, wnut, pos, tasteset, fewnerd, coarse, mapa_coarse, pie, recleaned_cased_0.4, demo, pnax, mongolian, finetuning, uz, robert, ov, harem, cond, full_equal_dist, david, kazakh, de_old, tjdrms, custom, labels, ctebmsp, distemist, ehealth_kd, livingner1, nubes, pharmaconer, socialdisner, anonimization_try_11, longformer, ext_head, ext_head_loss, bid, hindi, de_, spa, 3k, sq, de_3, de_2, panx_de_fr, forner_mophodescalllabel_es, wol, forner_mophodescstandardlabel_es, finetuned2, panx_de, crypto, silvanus, msra, semantics, base_ner_covid19phenomes, ka, xxl, final, test2, final2, thesis, dseb, wikineural, vietmed, base_pharma, transliterate, de2, ja2
+xml: roberta, large, ner, russian, base, finetuned, panx, fr, de, it, en
+indobert: large, p2, finetuned, ner, pos, bapos, indotimex, chunking, base, uncased, nergrit, model
+albert: medical, ner, proj, base, finetuned, agglo, twitter, gmm, kmeans, spanish, pos, large, tiny, xlarge, xxlarge, fa, zwnj, chinese, ws, arman, peyma, abbdet, punctuation, japanese, large_ner_wnut_17, large_ner_conll2003, large_ner_wikiann, es, lm, tags, distilled, david, version, bp, scalability, cadec, no, iob
+wtp: canine, 1l, bert, tiny, mini, 3l, 6l, 9l, 12l, no, adapters
+span: marker, mbert, base, multinerd, roberta, large, fewnerd, fine, super, bert, tiny, conll03, coarse, xlm, doc, context, conllpp, ontonotes5, robert, verbs, multilingual, cased, ncbi, disease, acronyms, uncased, cross, ner, gelectra, germeval14, token, dropping, teams, keyphrase, inspec, bionlp, sourcedata, conll, es, bne, ar, bge, en, generic, tlunified, tagalog, orgs, small, nemo, mt, he, alephbert, xdistil, l12, h384
+BiomedNLP: pubmedbert, proteinstructure, ner, base, uncased, abstract, fulltext, finetuned, ft, ncbi, disease, ndd, ner_
+indicner: oriya, finetuned
+distilbert: base, uncased, finetuned, ner, srb, setimes, spanish, pos, multilingual, cased, masakhaner, hrl, fa, zwnj, concept, extraction, iir, kp20k, wikipedia, allwikipedia, truncated, 3edbbc, extracti, 7d1e33, chunk, cloud, cloud1, cloud2, hypertuned, sst, english, argumentative, conll2003, mit, restaurant, german, comma, derstandard, casing, fine, tuned, for, food, conll03, ingredients, based, ler, multi, typo, detection, ft, devops, devops1, europeana, germeval_14, combinedmodel1, ncbi, disease, int8, static, final, trans, finetune, expense, cord, tt2, exam, uncase, ai, ner_only_actions, direct, finetuning, ner_3labels, wnut, conll2003_100train, cased_fine_tuned_food_ner, dapt, ai_data, ai_data_3labels, test2, ner_cv, tapt, dapt_tapt, music, ner__dataset, heb, standard, labels, small, job, skills, legal, definitions, ontonotes, hatexplain, label, all, tokens, false, 3epoch, latfalse, updatedalligning, lattrue, re_smell_detector, trained, on, synthea, nlp, accelerate, sbd, fr, judgements, laws, es, it, en, de, uncased_ner_wnut_17, uncased_ner_conll2003, uncased_ner_wikiann, invoicesendername, viet, diacritic, restoration, invoicesendername1912, invoicesendername_all_inv_20_12, invoicesenderrecipient, inv, absa, deid, ner_0212, invoicesenderrecipient_all_inv_17_02_23, ner_0220_j_oridata, invoicesenderrecipient_all_inv_20_02, un, huongle, tokenclassification, uncased_ner_visbank, invoicesenderrecipient_clean_inv_27_02, invoicesenderrecipient_clean_inv_28_02, test, ner_0301_j_data, nalllabel, gesture, prediction, classes, tasteset, mapa, coarse_grained, paper, bpmn, paper2, paper3, disaster, entity, mapa_coarse, mapa_fine, wikineural, annotation, gest, pred, seqeval, partialmatch, tcm, 0.9, quant, ner1, wnut_17, carpentries, demo, naamapdam, scientific, exp, recruitment, token, class, indic_glue, naamapadam, eval, italian, date, lscp, 500k, re, punctuate, mlm, scirepeval_fos_chemistry, tokencls, battery, pha, new, punctuator, finetuned_model1, finetuned_model2, finetuned_model3, finetuned_model4, gmb, wikiann, ner_1, t1, g1, t2, g2, tag, t3, speaker, diarization, nersd, exp_a, exp_b, cadec, 5tagonly, initial, pii, redaction, augmented, active, maccrobat, no, iob
+macbert: base, chinese, medical, collation, medicine, recognition
+cyner: xlm, roberta, base, large
+roberta: base, pf, conll2000, conll2003, conll2003_pos, fce_error_detection, mit_movie_trivia, pmb_sem_tagging, ud_deprel, ud_pos, wnut_17, finetuned, ner, agglo, twitter, kmeans, bne, capitel, plus, pos, large, fa, zwnj, english, ticker, upos, japanese, char, luw, thai, spm, syllable, classical, chinese, sentence, segmentation, small, biomedical, clinical, es, craft, kin, pcm, swa, bigram, binary, unigram, quaternary, ternary, timex, semeval, bulgarian, roa, ca, cased, mitmovie, defteval, t6, st2, cluener2020, mt4ts, ukrainian, concat_craft_es, without, data, sort, belarusian, craft_augmented_en, craft_augmented_es, craft_augmentedtransfer_en, craft_augmentedtransfer_es, inspec, crf, serbian, error, detection, accelerate, abbr, multilingual, medieval, ades_model_2, wikilingua, coptic, onnx, chunking, complexity, classifier, trials, demo, tweetner7, all, selflabel2020, selflabel2021, continuous, beer, random, informal, tagger, wnut2017, bc5cdr, btc, tweebank, bionlp2004, mit, restaurant, ontonotes5, movie, trivia, ttc, fin, es_50epochs_20val_, favsbot, md, conllpp, ud, goeswith, latin, aozora, large_basetags_10k_1_p3, large_basetags_10k_2_p3, large_basetags_10k_3_p3, large_basetags_5k_1_p3, large_basetags_5k_2_p3, large_basetags_5k_3_p3, large_basetags_5k_4_p3, large_basetags_5k_5_p3, large_basetags_5k_6_p3, large_lemon_10k_1_p3, large_lemon_10k_2_p3, large_lemon_10k_3_p3, large_lemon_5k_1_p3, large_lemon_5k_2_p3, large_lemon_5k_3_p3, large_lemon_5k_4_p3, large_lemon_5k_5_p3, large_lemon_5k_6_p3, large_lemon, spell_10k_1_p3, spell_10k_2_p3, spell_10k_3_p3, spell_5k_1_p3, spell_5k_2_p3, spell_5k_3_p3, spell_5k_4_p3, spell_5k_5_p3, spell_5k_6_p3, large_spell_10k_1_p3, large_spell_10k_2_p3, large_spell_10k_3_p3, large_spell_5k_1_p3, large_spell_5k_2_p3, large_spell_5k_3_p3, large_spell_5k_4_p3, large_spell_5k_5_p3, large_spell_5k_6_p3, parser, neg, tags, wl, condaqa, tag, token, conll, tagalog, large_wikiann, en, korean, morph, large_ner_wnut_17, large_ner_conll2003, large_ner_wikiann, vietnamese, aces, ainu, lm, deid, juman, switchboard, non, normalized, earnings21, and, clara, gesture, prediction, classes, wnut, paper, cv, papernew, papernew4, papernew5, cvbest2, classification, mapa_fine, paperconc, paperconc2, paperconc3, paperconc4, gest, pred, seqeval, partialmatch, mnli, scientific, exp, recruitment, class, demo3, span, eval, el, ner4, ner18, ctebmsp, distemist, ehealth_kd, livingner1, meddocan, nubes, pharmaconer, socialdisner, spacing, cpt, medical, food, no, ges, chile, wikineural, ivrmenu, entity, lscp, 500k, fact, 10k, tok, text, base_definiendum, embedding, http, time_identification, ner_oknashar, ner_keyword_oknashar, distilled, quantized, ua, basefinetuned, cadec, fine, tune, de, pii, redaction, ontonotes, iob, tagging
+convbert: base, turkish, ner, cased, quantized, restore, punctuation
+electra: srb, ner, setimes, large, discriminator, finetuned, conll03, english, small, base, irish, cased, turkish, minuscule, large_basetags_10k_1_p3, large_basetags_10k_2_p3, large_basetags_10k_3_p3, large_basetags_5k_1_p3, large_basetags_5k_2_p3, large_basetags_5k_3_p3, large_basetags_5k_4_p3, large_basetags_5k_5_p3, large_basetags_5k_6_p3, large_lemon_10k_1_p3, large_lemon_10k_2_p3, large_lemon_10k_3_p3, large_lemon_5k_1_p3, large_lemon_5k_2_p3, large_lemon_5k_3_p3, large_lemon_5k_4_p3, large_lemon_5k_5_p3, large_lemon_5k_6_p3, large_lemon, spell_10k_1_p3, spell_10k_2_p3, spell_10k_3_p3, spell_5k_1_p3, spell_5k_2_p3, spell_5k_3_p3, spell_5k_4_p3, spell_5k_5_p3, spell_5k_6_p3, large_spell_10k_1_p3, large_spell_10k_2_p3, large_spell_10k_3_p3, large_spell_5k_1_p3, large_spell_5k_2_p3, large_spell_5k_3_p3, large_spell_5k_4_p3, large_spell_5k_5_p3, large_spell_5k_6_p3, tagalog, uncased, hongkongese, hk, ws, hkt, food, recipe, combined, weighted, restore, punctuation, s800, copious, 3layer, text, complexity, task, cadec, no, iob
+sentence: compression, roberta, tokenizer, th
+mbert: finetuned, ner, bengali, base, albanian, cased, uncased, kin, pcm, swa, azerbaijani, finnic, nl, legislation, refs, conll2003, fine, tune, ner_fr, masakhaner, amh, conll_2003_en, hau, ibo, lug, luo, wol, yor, zh, pos, ud, arabic, padt, chinese, gsd, coptic, scriptorium, english, ewt, hindi, hdtb, japanese, korean, tamil, ttb, vietnamese, vtb, baseline, ru, nope, epoch15
+SRoBERTa: ner, nlp, xl, base
+IceBERT: finetuned, ner
+XLMR: enis, finetuned, ner, conll_ner
+food: dbert, multiling, ner
+sd: ner, panelization, geneprod, roles, smallmol
+autonlp: pos, tag, bosque, prodigy, wikiann, entity_extraction, 1e67664, tele_new_5k, tele_red_data_model, ingredient_sentiment_analysis
+wangchanberta: ner, w10, w20, w50, finetune, base, att, spm, uncased, tagging, ud, thai, pud, upos, th
+emscad: skill, extraction, conference, token, classification
+layoutlmv2: finetuned, funsd, test, sroie, sroie_mod, cord, jaen, gemai, cord2, ner, er, slr, cord_100, cord_500, cord_300, cord_200, base, uncased, large, seq
+chinese: bert, wwm, ext, upos, roberta, base, large, address, ner, finetuned, electra, discriminator, macbert
+bertimbau: base, lener_br, large, finetuned, pos, accelerate, accelerate2, accelerate3, lener, br, ner
+aelaectra: danish, electra, small, cased, ner, dane, uncased
+BERT: ner, finetuned, conll2003, pos, tamil, s800, base_ner, ar, mountains, cased, conll03
+keyword: tag, model, 16_more_ingredient
+recipe: tag, model, ner, koelectra, small
+evaluating: student, writing, distibert, ner, with, metric
+Swedish: ner, sentiment, fear, targets, violence
+rubert: base, srl, seqlabeling, lesha17, punctuation, tiny, essay, speech, ner, toxicity, tiny2, sentence, compression, finetuned, cased, panx, de, collection3, morph, tagging, massive, conversational_ner, obj, asp
+longformer: base, finetuned, chunk, prize, swda, nolower, large, tokens, dirty, half, data, validation, full, new, cards, almost, done, no, line, bne, es, augmented1, internet, pico, savings, account, one, step
+gbert: base, germaner, ler, large, legal, ner
+test: bert, finetuned, ner, push, public, small, with, loss, weight, base, beto, bertlike, bertimbau, distilbert, multilingual, cased, mongolian, xlm, roberta, large, model, other, dataset2, train, onnx, run, medner
+mBERT: base, biomedical, ner, naamapdam, fine, tuned
+microtransquest: de_en, pharmaceutical, smt, en_cs, it, en_de, nmt, wiki, en_lv, en_zh
+arabert: ner, finetuned, caner
+spanbert: large, cased, finetuned, ade_corpus_, base, lat, true, added, tokenizer
+correct_BERT_token_itr0_0: 0001_all_01_03_2022, 15_52_19, 0001_editorials_01_03_2022, 15_50_21, 0001_essays_01_03_2022, 15_48_47, 0001_webdiscourse_01_03_2022, 15_47_14
+correct_distilBERT_token_itr0_1e: 05_all_01_03_2022, 15_43_47, 05_editorials_01_03_2022, 15_42_32, 05_essays_01_03_2022, 15_41_29, 05_webdiscourse_01_03_2022, 15_40_24
+correct_twitter_RoBERTa_token_itr0_1e: 05_all_01_03_2022, 15_36_04, 05_editorials_01_03_2022, 15_33_51, 05_essays_01_03_2022, 15_32_16, 05_webdiscourse_01_03_2022, 15_30_39
+distilBERT_token_itr0_0: 0001_all_01_03_2022, 15_22_12, 0001_editorials_01_03_2022, 15_20_12, 0001_essays_01_03_2022, 15_18_35, 0001_webdiscourse_01_03_2022, 15_16_57
+distilBERT_token_itr0_1e: 05_all_01_03_2022, 15_14_04, 05_editorials_01_03_2022, 15_12_47, 05_essays_01_03_2022, 15_11_44, 05_webdiscourse_01_03_2022, 15_10_39
+finetuned: token, argumentative, layoutlm, klippa, neural, bert, ner, base, 10pct, xlm, masakhaner, swa, roberta, electra, deberta, nuriel, nurielw, finegrained, offer, accelerate, hadith, try3, try398, try3785, fistsubisa, fistsubisa1, distil, biobert, conll2003, cased, biogpt, large, chinese, rubert, brand, invoice, epitope_attempt7_150m_200k_default_accuracy, epitope_attempt7_150m_200k_weighted_accuracy, epitope_attempt7_150m_200k_focal_accuracy, epitope_attempt7_150m_200k_default_accuracy_more, epitope_attempt7_150m_200k_focal_accuracy_1.5, epitope_attempt7_150m_200k_weighted_accuracy_1.5, epitope_200k_attempt6_650m_focal, epitope_attempt7_150m_200k_weighted_accuracy_3
+finetuned_token_2e: 05_16_02_2022, 01_30_30, 01_55_54, 14_15_41, 14_18_19, 14_20_41, 14_23_23, 14_25_47, 14_28_10, 14_30_32, 14_32_56, 14_35_19, 14_37_42, 05_all_16_02_2022, 15_41_15, 15_43_42, 15_46_07, 15_48_32, 15_50_54, 15_53_17, 15_56_33, 15_59_50, 16_03_05, 16_06_20
+finetuned_token_3e: 05_all_16_02_2022, 16_09_36, 16_12_51, 16_16_08, 16_19_24, 16_22_39, 16_25_56, 16_29_13
+finetuned_token_itr0_0: 0002_all_16_02_2022, 20_14_27, 20_30_01, 20_45_27, 21_13_10, 0002_editorials_16_02_2022, 21_07_38, 0002_essays_16_02_2022, 21_04_02, 0002_webdiscourse_16_02_2022, 21_00_50
+finetuned_token_itr0_2e: 05_all_16_02_2022, 20_09_36, 20_25_06, 20_40_28, 21_08_55, 05_editorials_16_02_2022, 21_05_05, 05_essays_16_02_2022, 21_01_51, 05_webdiscourse_16_02_2022, 20_58_45
+finetuned_token_itr0_3e: 05_all_16_02_2022, 20_12_04, 20_27_36, 20_43_00, 21_11_08, 05_editorials_16_02_2022, 21_06_22, 05_essays_16_02_2022, 21_02_59, 05_webdiscourse_16_02_2022, 20_59_50
+twitter: roberta, base, sentiment_token_itr0_2e, 05_all_01_03_2022, 04_19_45, conll, wnut, dec2021, tweetner7, all, continuous, dec2020, 90m, random, finetuned, ner, large, 154m
+twitter_RoBERTa_token_itr0_1e: 05_all_01_03_2022, 14_37_35, 15_02_39, 05_editorials_01_03_2022, 14_43_21, 15_00_35, 05_essays_01_03_2022, 14_40_24, 14_58_58, 05_webdiscourse_01_03_2022, 14_45_20, 14_57_21
+hvila: block, layoutlm, finetuned, docbank, grotoap2, row
+ivila: block, layoutlm, finetuned, docbank, grotoap2, s2vl, row
+timer: ner, en, fr
+tner: roberta, large, multiconer, en, xlm, base, all, english, ontonotes5, uncased, bc5cdr, mix, multi, tweet, st, switchboard, non, normalized, earnings21, and
+gelectra: large, comma, germeval_14, germaner
+bertin: base, ner, conll2002, es, pos, roberta, spanish, finetuned
+gpt2: large, detector, de, finetuned, comp2, ner, favsbot, invoicesenderrecipient_all_inv_03_01, klue, token, class
+bioformer: 8l, bc2gm, ncbi, disease
+layoutxlm: finetuned, funsd, test, xfund, fr, run, it, pt, de, base, uncased, ja, es, tokenclass, tc, finetuning, cv, durch, doc
+biobertpt: all, finetuned, ner, clin, tempclinbr
+ck: ner, disease, subgroup
+layoutlm: finetune, sroie, bill, finetuned, funsd, custom, fine, tuned, tf, pytorch, document, extract, ttform, doclaynet, test, synth, synth2, synth3, synthchecking, padding, binary, sequence, donut, own, form, sroie_1
+slovakbert: ner, pos, upos, address
+flair: clef, hipe, german, base, distilbert, ner, germeval14, historic, lft, onb, de, swe, arabic, msa, aqmar, dialects, codeswitch, egy, lev, multi, english, sl, pos, ajmc, all, skill, ontonotes, large, pii, uk, spanish, judicial, acknowledgments, en, fr, newseye, fi, sv, icdar, nl, hipe2020, topres19th, letemps
+distilroberta: base, finetuned, ner, conll2003, wikiann, class, mapa_coarse, ind, rsbio, crf, geo
+dbert: ner, finetuned, ct
+guwen: ner, punc, quote, seg
+optimizer: ner, finetune, lst2021
+biobert_v1: 1_pubmed, finetuned, ner
+chunk: english, fast
+frame: english, fast
+pos: english, fast, french, camembert, flair, tags, ner, tagging, morph, analysis, eng, hn, pud, t5, small, standard, bahasa, cased, tiny, bert, bg
+upos: english, fast, multi
+BC2GM: gene, modified_biom, electra, base, discriminator, modified_pubmedbert, modified_scibert_scivocab_cased, gene_imbalancedbiom, gene_imbalancedpubmedbert, gene_imbalancedscibert_scivocab_cased, wlt, biobert, scibert, latest, pubmedbert, bluebert, ins, isns, original, org, ens, 0.5, 0.9, 0.3, bioelectra, pubmed, welt
+BC4: original, biobert, bluebert_pubmed_uncased_l, 12_h, 768_a, scibert_scivocab_uncased, modified, pubmedbert, pubmedbert_small
+BC4CHEMD: modified_biom, electra, base, discriminator, modified_pubmedbert, modified_pubmed_clinical, modified_scibert_scivocab_cased, chem, modified, scibert, pubmedbert, bluebert, biobert, original, wlt, latest, trial, general, general111, general2, ins, isns, org, ens, 0.5, 0.9, 0.3, bioelectra, pubmed, welt
+BC4_Modified: biobert, bluebert_pubmed_uncased_l, 12_h, 768_a, scibert_scivocab_uncased
+BC5CDR: chem, modified_biobert, large, cased, modified_biobert_latest, modified_bluebert_pubmed_uncased_l, 12_h, 768_a, 12_latest, modified_pubmed_abstract_3, modified_pubmed_abstract_latest, modified_pubmed_full_3, modified_scibert_scivocab_uncased_latest, chemical, disease, balanced, biomednlp, pubmedbert, base, uncased, abstract, fulltext, sapbert, from, biobert, scibert_scivocab_cased, balancedbiom, electra, discriminator, disease_imbalancedbiom, imbalanced, abstract_latest, biobert_latest, bluebert_pubmed_uncased_l, scibert_scivocab_uncased_latest, chemical_imbalanced, chemical_imbalancedbiom, chemical_modified_biom, chemical_modified_pubmedbert, chemical_modified_scibert_scivocab_cased, modified_biomednlp, modified_scibert_scivocab_uncased, balancedpubmedbert, scibert_scivocab_uncased, disease_modified_biom, disease_modified_pubmedbert, disease_modified_scibert_scivocab_cased, modified, scibert, bluebert, original, wlt, latest, ins, isns, org, latest_org, ens, 0.5, 0.9, 0.3, bioelectra, pubmed, welt
+WELT: pubmedbert, bc5cdrchemical, biobert, bc5cdrdisease, ncbi, bioreddis, bioredchemical
+Original: pubmedbert, bc5cdrchemical, biobert, bc5cdrdisease, ncbi, bc5cdr, disease, bluebert, scibert, chemical, bc4chemd, bc2gm, linnaeus, t1, t2, bioreddis, bioredchemical, biored, chem, scibert_scivocab_cased, bluebert_pubmed_uncased_l, 12_h, 768_a, biomednlp, base, uncased, abstract, cd, dis, biored_dis
+BioNLP13CG: chem, modified, bioformers, bioformers_2, pubmedbert, abstract, full, pubmedabstract_latest, modified_biom, electra, base, discriminator, modified_pubmedbert, modified_scibert, modified_biobert, large, chem_imbalanced, biobert, scibert_scivocab_cased, chem_imbalancedbiom, chem_imbalancedpubmedbert, biobert_latest, bluebert_pubmed_uncased_l, 12_h, 768_a, 12_latest, scibert, uncased_latest, original, latest, scibert_latest
+CRAFT: chem, modified, bioformers, biomednlp, pubmedbert, base, uncased, abstract, biobert, bluebert_pubmed_uncased_l, 12_h, 768_a, scibert_scivocab_uncased, modified_biom, electra, discriminator, modified_pubmedbert, modified_scibert, modified_biobert, large, cased, chem_imbalanced, scibert, chem_imbalancedbiom, chem_imbalancedpubmedbert, chem_original, original, bluebert
+french: camembert, postag, model, finetuned, perceo
+turkish: ner, earthquake, tweets, bert, base, berturk
+arabic: ner, token, ged, arabert
+XLM: fine, tuned, for, ner, ar, model, en, es, hy, lt, ta, roberta, xtreme, token, drift, r_base, multilingual_finetuned_ner, finetuned, zs, nsr, fs, ib, concat, merged, concatenated, hien, lid, pos, semcor, robert, finetune, fr, mm, thai
+bertweet: ner, base_wnut17_ner, tb2, pos, tagging, tb2_ewt, tb2_wnut17, base, tweetner7, large, all, continuous, random, wnut2017
+tf: xlm, ner, lang, albert, base
+scibert_scivocab_uncased: finetuned, ner
+EsperBERTo: small, pos
+nominalization: candidate, classifier
+satellite: instrument, bert, ner, roberta
+icelandic: ner, bert, distilbert, roberta
+typo: detector, distilbert, en, is
+iML: distilbert, base, uncased, select
+kocharelectra: base, kmounlp, ner, modu, all, nx, sx, onnx
+koelectra: base, finetuned, naver, ner, small, discriminator, klue, kemofact, efe
+invoice: extraction, recognizer
+RuPERTa: base, finetuned, ner, pos, anonimization_try_10_different_model_base
+codebert: base, finetuned, stackoverflow, ner, mt4ts, buggy, token, classification, code, 15e
+electricidad: base, finetuned, ner, pos
+mobilebert: finetuned, ner, pos, uncased
+en: base, large, hi, pos, tagger, symcom, bertsemtagger, gold, multinerd, ner, masked, more, training, upsampled, unmasked, roberta
+multilingual: base, large, xlm, roberta, for, ner
+Icelandic: ner, base, large
+nerkor: cars, onpp, hubert
+twiner: bert, base, mtl
+robbert: dutch, ner, cased, sonar1, nld, pos, deepfrog, base, nl, legislation, refs
+shopping: list, ner, category
+robbert2: ner, cased, sonar1, nld, pos, deepfrog
+clinicalnerpt: chemical, diagnostic, disease, disorder, finding, healthcare, laboratory, medical, pharmacologic, procedure, quantitative, sign, therapeutic
+gec: token, classification, arabert
+codeswitch: hineng, lid, lince, ner, pos, nepeng, spaeng
+biobert: base, cased, finetuned, ner, concat_craft_es, craft_english, craft_augmented_en, craft_augmented_es, craft_augmentedtransfer_en, craft_augmentedtransfer_es, protein, k2, ehr, prior, rmv, cased_ncbi_disease, softmax, labelall, sm, first, all, lowc, diseases, model, bc2gm, ncbi, craftner_en, pico, ft
+german: press, bert, intensifiers, tagging, finetuned, ner, english, code, switching, identification
+tiny: dbmdz, bert, large, cased, finetuned, conll03, english, distilbert, base, albert, random, bertfortokenclassification, debertafortokenclassification, gpt2fortokenclassification, liltfortokenclassification, yosofortokenclassification, vanilla, target, conll2003, mlm, wikitext, imdb, tweet, from, scratch, custom, tokenizer, rotten_tomatoes, snli, tweet_eval, for, token, classification, albertfortokenclassification, bigbirdfortokenclassification, bloomfortokenclassification, caninefortokenclassification, convbertfortokenclassification, data2vectextfortokenclassification, distilbertfortokenclassification, electrafortokenclassification, erniefortokenclassification, erniemfortokenclassification, esmfortokenclassification, flaubertfortokenclassification, fnetfortokenclassification, funnelfortokenclassification, ibertfortokenclassification, layoutlmfortokenclassification, longformerfortokenclassification, lukefortokenclassification, markuplmfortokenclassification, megafortokenclassification, megatronbertfortokenclassification, mobilebertfortokenclassification, mpnetfortokenclassification, nezhafortokenclassification, nystromformerfortokenclassification, rembertfortokenclassification, robertaprelayernormfortokenclassification, robertafortokenclassification, rocbertfortokenclassification, roformerfortokenclassification, squeezebertfortokenclassification, xlmrobertaxlfortokenclassification, xlmfortokenclassification, xlnetfortokenclassification, xmodfortokenclassification
+stanza: af, ar, be, bg, ca, cop, cs, cu, cy, da, de, el, en, es, et, eu, fa, fi, fo, fr, fro, ga, gd, gl, got, grc, he, hi, hr, hu, hy, hyw, id, is, it, ja, ko, la, lt, lv, lzh, mr, mt, multilingual, my, nb, nl, nn, orv, pcm, pl, pt, qtd, ro, ru, sa, sk, sl, sme, sr, sv, swl, ta, te, th, tr, ug, uk, ur, vi, wo, zh, hans, hant, bxr, hsb, kmr, kk, lij, bn, ml, sd, si, myv, gv, ky, hbo, qaf, qpm
+token: classification, bigbird, roberta, base, random, playground
+NER: rubert, per, loc, org, en, vi, it, es, for, female, names, conll2003, distilbert, base, uncased, wnut_17, fine, tuned, beto, ptrobertalarge, 3ep, tamillion, indic, bert, pt, crf, harem, selective, default, deberta, tut, handson, personname, finetune, indian, xlm, roberta, luxury, multilingual, tushi, finetuned, 7cat, llama, 7b, nepali, medoccan, news, e3b8, e4b8, e1b4, al, newsbi, e3b4
+shopee: ner
+bioBERT: ner, bc2gm_corpus, ncbi_disease
+distil: slovakbert, upos, ner, added, voca, bert, docred
+marathi: ner, iob, social, mixed
+Roberta: base, biomedical, clinical, es, finetuned, ner, craft_en_es, large, conll2003, mnli, mongolian, fa, en
+Biobert: base, cased, finetuned, ner, craft, craft_es_en, en, fr, es, it, de, aug, noewc, optim
+small: czech, finetuned, ner, wikiann, pw, test, vanilla, target, conll2003, mlm, wikitext, imdb, from, scratch, custom, tokenizer, rotten_tomatoes, snli, tweet_eval, yoruba
+MEDIA_NLU: flaubert_oral_ft, flaubert_base_uncased, flaubert_base_cased, flaubert_oral_mixed, flaubert_oral_asr, flaubert_oral_asr_nb
+Longformer: finetuned, comp5, norm
+keyphrase: extraction, distilbert, kptimes, inspec, openkp, kbir, kpcrowd, semeval2017
+persain: flair, upos, ner
+Cybonto: distilbert, base, uncased, finetuned, ner, fewnerd, wnut17
+lilt: camembert, base, infoxlm, dit, hf, roberta, en, finetuned, funsd, selego, docloop, org, form, read, xlm, iob, original, ru, bio, ruroberta, with, doclaynet, at, linelevel, ml384, paragraphlevel, ml512, 1k_img, custom, invoices, invoices2, xfund, fr, base_paragraphs_ml512, large_paragraphs_ml512, cp4500, cp5000, law
+anglicisms: spanish, mbert, flair, cs, beto, bert
+hunflair: enhancer, promoter, tfbs
+bde: abbrev, batteryonlybert, cased, base, cner, uncased, pos, bert
+named: entity, recognition, nerkor, hubert, hungarian, multinerd, distilbert, aaa
+bsc: bio, ehr, es, pharmaconer, cantemist, finetuned, ner, clinais, augmented1, augmented2, ctebmsp, distemist, ehealth_kd, livingner1, meddocan, nubes, socialdisner
+uk: ner, morph, punctcase
+bert_de_ner: finetuned, ner
+punctuate: all
+evalatin2022: pos, closed, open, feats
+comma: xlm, roberta, base, large, mdeberta
+layoutlmv3: base, finetuned, funsd, large, cord, ner, er, invoice, sroie, wildreceipt, eurocorporation, cord_800, cord_500, cord_300, cord_200, cord_100, vinai, vin, dummy, locally, cord_vimal, cord_100_other, enfavet, token, classifictaion, and, extraction, test, test6345444, works, finally, yes, intellectai, triplet, doclaynet, real_triplet, 124px, cord_1000, generated, easy, ocr, letter_100, registros_100, registros_, cedulas_, cord_50, 40e, testing, algo_22000words, algo_427images, final, bie, please, work, usingalgodataset_427images, bi, cne_100, cne_nvidia_100, chinese, xfund, large1, large2, fine_tuned, funsd_dataset, finetune, 100k, fintuned
+distillbert: base, uncase, conll2003, finetuned, ner
+autotrain: ner, final, hi_ner_xlmr, name_vsv_all, company_vs_all, company_all, job_all, name_all, hi_ner_xlmr_large, acronym, identification, oms, bi, zuozhuan, tk, medicaltokenclassification, bert, favsbot, lucy, alicorp, trial, run, ratnakar_1000_sample_curated, song, request, person, name, validity1, stocks, sample, test, name_classification, name_classification_3, cert, 1200cut_rich_neg, 17102022_only_sceond_label_no_split, 17102022_change_modlel, 17102022_modifty_split_func_cert, 17102022_relabel, cert_update_date, update_label2, update_scope_and_date, 18102022_retoken, pachyderm, sexy, or, ugly, 21102022_cert_check_date, cert4, 24102022_cert, cert2, cert5, cert6, cert7, cert9, cert1, documentos, oficiais, disease_tokens, cert3, cert8, exam_cert, exam, medical, only, effect, exam4, 2022_rated_speed_only_exam, 2022_rated_speed_exam, 2022_rated_speed_exam2, 2022_general_info_exam, 2022_exam_part3, 2022_rated_speed3_exam, 2022_rated_speed2, 2022_exam_part3_1, 2022_exam_part5, 2022_overspeed_governor, 2022_exam_part4_1, final_model, light, control, jobbert4, jobbert, jobbert11, jobberta, activity_parameters, syn, ner2, cased, base, correct, test4format, ni_io_03, ni_ioio_04, historic, sv, fi, fr, ajmc_en_ner, xlmr, rs, fulltext, roberta, re_syn_cleanedtext_bert, rhenus_eml, rhenus_email, 20_ner_en, ann_en, ann_nl, nes_en, nes_nl, token, classification, prescribing, air, sea, services, mixed, data, flair, mobie, gbert_base, bs16, e10, lr3e, lr5e, ext, georgian, xlm_r_large, bs4
+new: test, model, model2
+HiNER: collapsed, muril, base, cased, xlm, roberta, large, original, finetuned, ner
+meddocan: beto, ner, flair, lstm, crf, we
+bert4ner: base, chinese, uncased
+lang: segmentation, roberta, finetuned, ner
+das22: camembert_finetuned_pero, camembert_pretrained_finetuned_pero, camembert_finetuned_ref, camembert_pretrained_finetuned_ref
+medical: sentence, tokenizer, ner
+entity: extraction, not, evaluated, recognition, general, sota, finetuned, ner
+berturk: keyword, extractor, cased, discriminator, 128k, uncased, sunlp, ner, turkish
+my: awesome, pubmed, bert, distilbert, finetune, ner, lilt, en, funsd, new, model, id, nergrit, finetuned, address, tokenizer, 25l, 40l, 50k, 4l, 3.5l, 25k, combinations, wnut
+layoutlmv1: cord, ner, er, finetuned, cord_100_other, cord_addmoredata_other, cord_addmoredata_addepochs_other, cord_layoutlm, cord_12255, cord_uncased_foralldata, card, registration, front, google, ocr, withoutnoramlcrop, googleocr, withsafeandcropout, normal, test, cardfront, cuttedfromborder, justcropout, withall, iraqback, best
+NLP: cic, wfu_clinical_cases_ner_mbert_cased_fine_tuned, wfu_clinical_cases_ner_sents_tokenized_mbert_cased_fine_tuned, wfu_clinical_cases_ner_sents_tokenized_bertin_roberta_base_spanish_fine_tuned, wfu_clinical_cases_ner_paragraph_tokenized_mbert_cased_fine_tuned, wfu_socialdisner_fine_tuned_ner_ehr_spanish_model_mulitlingual_bert_, tokenclass, ner, hw5, nertaggermodel, postaggermodel, wfu_distemist_fine_tuned_bert, base, multilingual, cased, hiba_distemist_fine_tuned_bert, hiba2_distemist_fine_tuned_biobert, pretrained, model, hiba2_distemist_fine_tuned_distilbert, hiba_distemist_fine_tuned_clinicalbert, hiba_distemist_fine_tuned_biobert, hiba_biomednlp, biomedbert
+WLT: bluebert, ncbi, pubmedbert, scibert, biobert, bc5cdr, disease, chemical, bc4chemd, bc2gm, linnaeus, t1, t2
+IDRISI: lmr, hd, tb, tl, partition, en, random, typebased, typeless, timebased, ar
+lmv2: pan, 143doc, aadhaar, 236doc, w9, doc, 07_1, invoice, w2, recp, bnkstm, paystb, passport, dl, voterid, rai2, rai_1, receipts2, receipts3, receipts4, rai, auth, arx, refill
+custom: model, ner, viajes
+xlmr: finetuned, ner, aer, animacy, roberta, base, fintuned, panx, all, hausa, igbo, 2e, 5e, 41k, qa, extraction, fi, en, lstm, crf, resume, ner2
+BioNLP13: modified, scibert, pubmedbert, bluebert, biobert
+BIONLP13CG: chem, original, scibert, bluebert, biobert
+BERTweet: conll, wnut17
+mdeberta: base, finetuned, pos, finetuded, porttagger, harem, ctebmsp, distemist, ehealth_kd, livingner1, meddocan, nubes, pharmaconer, socialdisner, kor, further, ner, open, ud, thai, pud, upos
+gro: ner, 60k
+BERTu: xpos, upos, ud, ner
+BioRed: cd, modified, pubmedbert, dis, chem, original
+Indic: bert_multiconer22_hi, bert_multiconer22_bn
+Modified: bluebert, biored, chem, scibert_scivocab_cased, bluebert_pubmed_uncased_l, 12_h, 768_a, biomednlp, pubmedbert, base, uncased, abstract, cd, dis, biobert
+20220711: h09m49s39_example_conll2003, h10m00s56_example_conll2003
+20220712: h07m20s32_example_conll2003, h08m02s04_example
+pixel: base, finetuned, pos, ud, arabic, padt, chinese, gsd, english, ewt, coptic, scriptorium, hindi, hdtb, japanese, korean, tamil, ttb, vietnamese, vtb, masakhaner, amh, conll2003, en, hau, ibo, kin, lug, luo, pcm, swa, wol, yor
+20220713: h08m19s38_example_conll2003, h10m20s05_example_conll2003, h13m33s02_example_conll2003, h14m38s16_example_conll2003
+udpos28: sm, all, pos, first, en
+Originalbiobert: biored, chem, cd
+OriginalBiomedNLP: pubmedbert, base, uncased, abstract, biored, cd, bluebert_pubmed_uncased_l, 12_h, 768_a, biored_dis
+Modifiedbiobert: biored, cd
+Modifiedbluebert_pubmed_uncased_L: 12_h, 768_a, biored, dis
+postagger: bio, portuguese, english, azb
+roberta_large: chunking_0715_, chunking_0728_, chunking_0811_, chunking_0812_, ner, conll2003_0818_, chunk, simple, conll2003_0819_, filtered_simple, conll2003_0907_, unbalanced_simple, conll2003_0908_
+alephbert: finetuned, metaphor, detection, base, ner, ner__dataset, heb, standard, labels, small
+pw: canine, ameps, ame, bert, token, char
+IndicBERTv2: alpha, pos, tagging, mlm, only, ner, sam, tlm, indic_glue, naamapadam
+BioLinkBERT: base, finetuned, ner, n2c2, tc, po, so, ncbi, ha, jnlpba, bc5cdr_d, bc5cdr_c, bc2gm, zs, os, fs
+kor: naver, ner, name
+clin: finetuned, distemist, test1, test
+distilkobert: finetuned, ner, kemofact, efe
+tempclin: biobertpt, clin, all, bio
+sophie: spanish, implementation
+med: ner, qa, bert
+electramed: small, ade, ner, ncbi, bc5cdr, bc4chemd, species800, jnlpba, deid2014, bc2gm, drug, effect, dosage, classweights
+scibert: finetuned, ner, ft, cased, bert, allen, case, demo, shuffle
+LayoutLMv1: funsd, ft, kleisternda
+LayoutLMv2: funsd, ft, kleisternda
+LayoutLMv3: funsd, ft, kleisternda, fine, tuning, invoice, finetuned, cord_100, wildreceipt, first
+pubmedbert: finetuned, ner, bigbio_blurb, bc5disease, bc5chem, jnlpba, ncbi_disease, bc2gm
+LayoutXLM: chru
+llmv3: large, funsd, base
+greek_legal_bert_v2: finetuned, ner
+spanish: sm, disease, finder, clinical, ner, tagger, nominal, group, attitude
+bpmn: task, extractor, information, extraction
+prot_bert_bfd: disodna, disopro, disorna, disoanno
+BioRED: dis, wlt, chem, biobert, scibert, pubmedbert, bluebert, ins, isns, original, org, latest, ens, 0.5, 0.9, 0.3, bioelectra, pubmed, welt
+linnaeus: wlt, biobert, scibert, pubmedbert, bluebert, trial, ins, isns, original, org, ens, 0.5, 0.9, 0.3, bioelectra, pubmed, welt
+fast: food, entity, extraction, amazon
+NCBI: disease, wlt, biobert, scibert, pubmedbert, bluebert, ins, isns, original, org, welt, trial, ens, bioelectra, pubmed, 13isns, 13ens, 13welt, 13ins
+canine: wordseg, en, pl, bashkir, gec, base, finetuned, masakhaner, amh, conll_2003_en, hau, ibo, kin, lug, luo, pcm, swa, wol, yor, zh, pos, ud, arabic, padt, chinese, gsd, coptic, scriptorium, english, ewt, hindi, hdtb, japanese, korean, tamil, ttb, vietnamese, vtb
+VietAI: assignment2, asm1, ner
+metaphor: id, bert, roberta, xlm, electra
+dark: bert, finetuned, ner, ner1
+finetune: bert, base, multilingual, cased, ner, hrl, deberta, roberta, electra, xlm, de
+vi: deberta, xsmall, word, segmentation
+esm2_t12_35M_UR50D: finetuned, secondary, structure, classification, localization, structure_march_8, actives, bindings, sequence, reconstruction, glycosylation, epitope, epitope_100k
+esm2_t30_150M_UR50D: finetuned, secondary, structure, epitope_100k_150m
+banglabert: bert, finetuned, ner, per, extractor
+ijelid: indobertweet, bert, base, multilingual, ft, indojave
+beto: sentiment, analysis, finetuned, ner, uncased, flert, context, we, finetune, meddocan, lstm, crf, prescripciones, medicas, admin, token, reqadjinsiders, reqadjzar, fact
+punctuation: taboa, bert, finetune, mec, tedtalk2012, base, large, full, text, pt, br
+legal: bert, ner, base, cased, ptbr, deberta
+dalembert: classical, fr, ner, pos
+hp: search, bert, deberta
+DistilBERT: smallfiner, finetuned, ner, s800, conll2003, copious
+hmBERT: conll, cp1, cp2, cp3
+xlnet: large_basetags_10k_1_p3, large_basetags_10k_2_p3, large_basetags_10k_3_p3, large_basetags_5k_1_p3, large_basetags_5k_2_p3, large_basetags_5k_3_p3, large_lemon_10k_1_p3, large_lemon_10k_2_p3, large_lemon_10k_3_p3, large_lemon_5k_1_p3, large_lemon_5k_2_p3, large_lemon_5k_3_p3, large_lemon, spell_10k_1_p3, spell_10k_2_p3, spell_10k_3_p3, spell_5k_1_p3, spell_5k_2_p3, spell_5k_3_p3, large_spell_10k_1_p3, large_spell_10k_2_p3, large_spell_10k_3_p3, large_spell_5k_1_p3, large_spell_5k_2_p3, large_spell_5k_3_p3, large, cased, ner, food, recipe, combined, weighted, base, finetuned, wikineural, pos, hpii
+scideberta: cs, finetuned, ner, tdm, pretrained
+SECBERT: smallfiner
+all: bert, finetuned, ner, roberta
+OCR: lm, layoutlm, invoice
+week5: distilbert, base, multilingual, cased, finetuned, eng
+luganda: ner
+mwo: ner, test
+distilBERT: fresh, fresh_10epoch, binary, infoextract
+deberta_v3_xsmall: finetuned, ner, exp1, exp2
+roBERTa: 3epoch
+toxicBERT: params, tryout
+vietnamese: nera2, spelling, type, bert
+porttagger: news, base, tweets, oilgas
+FastPDN: distiluse
+dummy: rocbert, ner, model
+ArgumentMining: cat, as, vivesdebate, e2e
+BioNER: es
+enlm: roberta, conll2003, final, stemmed
+elastic: bert, chinese, ner, distilbert, base, uncased, finetuned, conll03, english, ov, cased
+klue: roberta, base, finetuned, ner, small, bert, klue, large, 2016klp, crime1, crime
+KR: finbert, finetuned, ner, medium, kluedata
+WoBERT: bio
+enr: excipient, units
+3epoch: 1warmup, 0.1decay, 2e, 6lr
+funnel: transformer, xlarge_ner_wnut_17, xlarge_ner_conll2003, xlarge_ner_wikiann
+microsoft: deberta, large_ner_wnut_17, large_ner_conll2003, large_ner_wikiann, la, fe, inca, la_fe, anonimization_try_1, general, model, breast, without, castellon, docs
+de: ru, lid, identify
+tetis: geochallenge, textmine, camembert, large, based
+BENT: pubmedbert, ner, disease, chemical, gene, organism, bioprocess, anatomical, cell, type, line, component, variant
+esm2_t6_8M_UR50D: finetuned, psite, clustering, secondary, structure
+ananth: docai1, docai2
+phobert: base, vietnamese, ud, goeswith, large, finetuned, history, ner, base_vietmed_corpus, large_vietmed_corpus, large_vietmed_corpus_nonfreeze, vietmed_vietmed_corpus_freeze, vietmed, thesis, dseb
+sumups: batch3, model, batch4
+CamemBERT: plant, health, ner, mednerf
+ChouBERT: plant, health, ner
+Ner: ptlegalbert, 3ep, ptcaselawbert, testing, our, base, model
+bkk: ner, model, budget
+insertion: prop, correct, data, prop05, ls01, vocab
+layout: xlm, geocite_reduced, geocite, base, finetuned, with, doclaynet, at, linelevel, ml384, paragraphlevel, ml512
+lsg: ner, vietnamese, electra, base, phrases
+DirectQuote: sentlevel, distilbert, chunktext
+phibert: finetuned, ner, new
+luke: japanese, base, finetuned, ner, large
+muril: base, cased, hi, tags, lm, indic_glue
+banglabert_large: bn, lm, tags
+dbmdz: bert, base, italian, cased, it, lm, tags, large, finetuned, conll03, english, ov
+neuralmind: bert, base, portuguese, cased, pt, lm, tags
+climateattention: ctw, 10k, upscaled
+model1: thesis
+innox: bert, distilbert, roberta, xlm, large, uncased
+deprem: ner, mdeberta, convberturk
+ahisto: ner, model, tds2, tds1, ci
+icdar23: entrydetector_plaintext, entrydetector_plaintext_breaks, entrydetector_plaintext_breaks_indents_left_ref, entrydetector_plaintext_breaks_indents_left_diff, entrydetector_plaintext_breaks_indents_left_ref_right_ref, entrydetector_plaintext_breaks_indents_left_diff_right_ref, entrydetector_texttokens_breaks_indents_left_diff_right_ref, entrydetector_labelledtext_breaks_indents_left_diff_right_ref, entrydetector_jointlabelledtext_breaks_indents_left_diff_right_ref
+fedcsis: slot_baseline, xlm_r, leyzer_en, pl, es, en
+KLUE: bert, base, ner, data60, kluedata
+LiLT: finetune, funsd, finetuned, xlm, roberta, sroie, xml, tax_only, tax_only_really
+ner4opt: roberta
+rembert: ft, for, multi, ner, finetuned
+jobbert: skill, short, sentences, f60, base, cased, ner
+slu: wavec2, ctc, media, full, relax
+herbert: onom, interjection, recognition, base, ner
+tmvar: bert, base, cased, finetuned, pubmedbert
+tmvar_ES_27_02_Step50_Rate5e: 5_tmvartag
+tmvar_ES_27_02_Step50_Rate2e: 5_tmvartag, 5_tmvartag_stopevalloss
+SETH_ES_27_02_Step50_Rate2e: 5_tmvarsethtag, 5_tmvarsethtag_stopevalloss
+videberta: xsmall, base, finetuned, ner, base_ner_covid19phenomes, vietmed
+nutrifacts: llmm
+aces: roberta, base
+clinico: xlm, roberta, large, biomedical, finetuned, augmented1, bsc, bio, ehr, es, longformer
+ft: distilbert, gest, pred, seqeval, partialmatch, roberta, bert, large, base, uncased, with, wnut17, ms, layoutlm, funsd
+enfavet: invoices, text, extraction, test
+balanced: augmented, ft, distilbert, gest, pred, seqeval, partialmatch, bert, roberta, base, large
+IRyS: ner, recruitment, paper
+thainer: corpus, base, model
+clinical: bias, ner, distilbert, i2b2, mobilebert
+SETH_5e: 5_29_03, 5_0.01_29_03, 5_0.03_29_03, 05_250, 05_0404_es6, 05_0404_es6_strict, 05_0404_es6_strict_2, 05_0404_es6_strict_tok
+SETH_2e: 5_29_03, 05_250, 05_0404_es6, 05_0404_es6_strict_tok
+rhenus_v2: 0_cleared, 0_bert, base, multilingual, uncased
+Yepes_2e: 05_29_03, 05_31_03, 05_250, 05_0404_es6, 05_0404_es6_strict_tok
+Yepes_5e: 05_29_03, 05_30_03, 05_31_03, 05_250, 05_0404_es6, 05_0404_es6_strict_tok
+Yepes_0: 0001_29_03, 0001_250, 0001_0404_es6, 0001_0404_es6_strict_tok
+Variome_2e: 05_29_03, 05_250, 05_0404_es6_strict_tok
+Variome_5e: 05_29_03, 05_30_03, 05_250, 05_0404_es6, 05_0404_es6_strict_tok
+Variome_0: 0001_29_03, 0001_250, 0005_250, 0001_0404_es6, 0001_0404_es6_strict_tok
+tmvar_2e: 05_250, 05_es2, 05_es12, 05_0404_es6, 05_0404_es6_strict_tok, 05_0404_es6_strict_tok1
+tmvar_5e: 05_250, 05_es2, 05_es12, 05_0404_es6, 05_0404_es6_strict_tok, 05_0404_es6_strict_tok1
+tmvar_0: 0001_250, 0001_es2, 0001_es12, 0001_es6, 0001_0404_es6, 0001_0404_es6_strict_tok, 0001_0404_es6_strict_tok1
+SETH_0: 0001_250, 0001_0404_es6
+multiCorp_5e: 05_250, 05_0404, 05_labelnorm_0404
+disfluency: base, large, xml, roberta
+multiCorp_2e: 05_0404, 05_labelnorm_0404
+CAS: biomedical, pos, tagging, privacy, preserving, model
+HoogBERTa: ner, lst20, pos, sentence
+celloscope: ner, banglabert, finetuned
+bert_base_tcm_0: 9_no_valor_objeto
+biogpt: finetuned, ner, mlma, new, custom, dataset
+TaNER: 1k, indic_glue, 2k, 4k
+TryNer: 2k, 4k
+TryNER: tabert, 2k, 4k, 1k
+fine: tuned, markuplm, cybersecurity, ner, ner2
+ckiplab: bert, chinese, david, ner, albert, base
+RoBERTa: token, model, base, pm, m3, voc, distill, align, hf, finetuned, ner, large, combine, filtered, privacy, detection, dnrti, cyner, aptner, our, data
+kogpt2: base, finetuned, klue, ner, ner2
+nlp: p4, mini, project
+model: lilt, w2, rubert2, rubert3, rubert1, obj, asp, en, custom, loop
+tabert: lstm, ner, naamapadam, 1k, 2k, 4k
+taNER: 1k, naamapdam, fine, tuned
+testlink: class
+mongolian: xlm, roberta, base, ner, bert, multilingual, cased, twitter, sentiment, large, mnli, davlan, hrl, gpt2, finetuning, distilbert, mn, demo, facebook
+ElhBERTeu: pos, ud1.2, nerc
+reduplication: repetition, xlmr, xlmv
+bert_finetuned: ner, augment
+BioBERT: mnli, snli, scinli, scitail, mednli, stsb, ncbi, finetuned, ner, conll2003, s800
+affilgood: ner, test
+mn: bert, base, demo, named, entity, roberta, xlm, cased, twhin
+redewiedergabe: direct, indirect, reported, freeindirect
+OTE: absa, qarib, dapt, labr, run1, domianadaption, tapt, marbert2, hard, semeval, run3, prep, span, camel, msa, nodapt, bert, base, marbert, defulthp, finetune, orginalhp
+Mongolian: distilbert, base, multilingual, cased, ner, xlm, roberta, hrl
+perioli_manifesti_v5: 6_detailed, 8.2, 8.3, 8.4, 8.5, 8.7
+IndoBert: base, ler, large
+quote: model, delta, bertm
+esm2_t33_650M_UR50D: finetuned, secondary, structure
+DeBERTa: finetuned, ner, s800, conll2003, inca, la_fe, copious, ft, emr, data, cyner, aptner, dnrti, our
+iraq: front, face, 3000e
+claims: data, model
+san_BERT1: newdata, newdata1, newdata2
+BETO_Galen: ctebmsp, distemist, ehealth_kd, livingner1, meddocan, nubes, pharmaconer, socialdisner
+XLM_R_Galen: ctebmsp, distemist, ehealth_kd, livingner1, meddocan, nubes, pharmaconer, socialdisner
+NER2: 0.1, dataset, 0.2, bioesdataset, 0.3, alpha_num_dataset, 0.4, alpha_num_dataset_, 0.5
+SecureBERT: ner, aptner, dnrti, cyner, our, data
+me: lid, roberta, bert
+metaextractor: spacy
+hueta: finetuned, finetuned_1
+nominal: groups, recognition, bert, base, spanish, wwm, cased, medical, disease, competencia2, ner, beto, cmm, prescripciones, medicas, clinical, wl, es, uncased, roberta
+san: qspot, july6
+QSPOT: bert, base, uncased, cased, multilingual, distilbert, xlm, roberta
+afriberta: finetuned, hausa, base, small, large, igbo, 2e, 5e
+PubMedBERT: base, finetuned, n2c2, ner, tc, po, so, ft
+afro: xlmr, mini, finetuned, hausa, igbo, 2e, base, 5e, seed
+khmer: pos, roberta, sentence, segmentation
+skill: ner, model, role, mapper
+Layoutlmv3: finetuned, doclaynet, test, small
+no: deletion, delete_5e, 5_hausa
+bol2: 0.6, 0.7, 0.8, 0.2
+DrBERT: casm2
+medlid: byabstract, bysent, biobert, brat, identify
+flipped_2e: 4_hausa, 5_hausa
+vila: roberta, large, s2vl, internal, scibert, cased
+living_nature_BIO_v1: manual
+sec: bert, base, finetuned, ner, shape
+fastfood: ner
+wikiser: bert, large, base
+XMTCQA: bert, legalbert, legalbertsc, zlucialegalbert, zluciacustomelegalbert
+gcm: xlmr, lid, ner, pos
+Bert: pii, ner, base, keyword, extraction
+finance: ner, finetuned
+spa: eng, pos, tagging
+cross: lingual, transfer, ner, demo
+text: complexity, roberta, electra, final
+birdi: finetuned, ner, address
+wonders: food, bert, ner2, ner_50, ner_50_0920, ner_50_0922_1, ner_50_0926, ner_50_1116, ner_50_1124, ner_50_1127
+latte: mc, bert, base, chinese, ws, thai
+BioMedical_NER: maccrobat, distilbert, bert
+EcoBERT: finetuned, ner, s800, copious
+generic: entity_recognition_ner, multilingual
+PuoBERTa: ner, pos
+punjabi: roberta, ner, distilbert, bert, muril
+hindi: roberta, ner, distilbert, muril, bert
+8bit: distilcamembert, base, ner, address
+chembert_cased: tokencls, catalyst, battery, mlm, chemistry
+urdu: bert, ner, distilbert, roberta, muril
+uner: roberta, ner, distilbert, bert, muril
+cord: repo
+guj: pos, tagging
+BulBERT: ner, bsnlp, wikiann, wikiann_3epochs, udep, 5epochs
+KcELECTRA: base2, kemofact, efe
+syn: ner, full, df, xlmrobbase, imputed5pc, imputed10pc, xlmrobberta, 6oct24, ii
+student: tinybert, 4layer, msra, ner, ner_f1_76, ner_f1_81, ner_stage1, electre, mask, pad, f184, base88, f182, f1, base
+robbert0210_lrate2: 5b8, 5b16
+nyt: ingredient, tagger, paraphrase, minilm, l3, gte, small, base, jina, embeddings, en, food, ner
+robbert0410_lrate7: 5b4, 5b8, 5b32
+robbert0410_lrate2: 5b4, 5b32
+robbert0510_lrate2: 5b16, 5b8
+xlmroberta: ner, multilingual, english
+pashto: pos, word, segmentation
+hmbench: ajmc, en, hmbyt5, bs4, wsfalse, e10, lr0.00015, poolingfirst, layers, crffalse, lr0.00016, bs8, de, fr, newseye, fi, sv, icdar, nl, letemps, hmbert, lr3e, lr5e, topres19th, hipe2020, hmteams, hmbert_tiny, hmbert_64k
+damage_trigger_effect_2023: 06_11_33, 19_14_11
+UnBIAS: named, entity, recognition, ner
+wolof: finetuned, ner, accelerate
+robbert1010_lrate7: 5b8, 5b4, 5b32
+tab: anonymizer
+multibert1110_lrate7: 5b4, 5b8
+ALDi: token, di
+comp: seqlab, deberta, dslim, bert
+my_xlm: roberta, large, finetuned, conll03, conlljob01, conlljob02, conlljob03, conlljob04, conlljob05
+ner__edgar_all_4: simple, no, valid, roberta, base__roberta, base
+basic: bio, ner
+scipaper: bert, finetuned, ner, larger
+pizza: ner2, ner
+tydiqa: indonesian, finetuned, roberta, bengali, arabic
+conll2003: roberta, large, lora, distill, base
+TM: a2, bert, finetuned, base, ner
+assignment2: bert, ner
+lr1e: 06batchsize8output, 06batchsize16output, 06batchsize32output
+lr0: 0001batchsize8output, 0001batchsize16output, 0001batchsize32output
+lr2e: 05batchsize8output, 05batchsize16output, 05batchsize32output
+results_lr1e: 05_wd0.0, 05_wd0.01, 05_wd0.1
+results_lr0: 0001_wd0.0, 0001_wd0.01, 0001_wd0.1, 001_wd0.0, 001_wd0.01, 001_wd0.1
+lr5e: 05batchsize8output, 05batchsize16output
+camelbert: msa, qalb14, ged, qalb15, zaebuc
+wineberto: ner, labels
+hadith: finetuned, ner, ner1, ner2, ner3, ner4, ner5, ner6, ner7, ner11
+am: sentence, 4sentences
+sembr2023: distilbert, base, uncased, finetuned, sst, english, cased, bert, tiny, small, mini, multilingual
+protein: binding, site, predictor, predictor2
+Thai: xlm, robert, finetune, model, ver2
+AE: detection, distilbert, detection_tac_data
+passive_invoices_v3: 8.2, 10.2
+rise: ner, distilbert, base, cased, system
+BioGPT: ner, ncbi, ha, jnlpba, bc5cdr_d, bc5cdr_c, bc2gm, base, os, fs, zs
+CyBERT: cyner, dnrti, aptner, our, data
+SecBERT: aptner, dnrti, cyner, our, data
+polish: roberta, base, cposes, tagging, pos
+test1: m1, semi, m2, m3, wlv
+test2: m2, semi, m3, wlv, m4
+BoL3: 0.2
+rhenus_v3: 0_bert, base, multilingual, uncased
+TEST: 5e5, ner, roberta, train, val, 5e6

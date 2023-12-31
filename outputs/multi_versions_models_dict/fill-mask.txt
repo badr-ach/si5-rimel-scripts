@@ -1,0 +1,549 @@
+chinese: roberta, wwm, ext, large, bigbird, base, mini, bert, electra, 180g, generator, small, ex, legal, macbert, finetuned, jd, similarity, lert, chnsenticorp, compliance
+deberta: base, small, large, xlarge, xxlarge, xsmall, uncased, clrp, nepali, tapt, japanese, aozora, coptic, thai, unidic, feedback, wikipedia, wiki, mlm, test, dapt, scientific, papers, pubmed, autotrain, clinical, scratch, cowese, es, lm, vie, conv, finetuned, imdb, chinese, ainu, accelerate, bs_32, epochs_3, lr_5e, bs_16, epochs_5, acc_grad_2, bs_8, acc_grad_4, max_length_200, tiny, char, wwm, reddit, gab, kintweetse, hf, weights, weights_, llm, science, wiki_, with, auto, jumanpp, 22m, wikitext2, kaggle
+bert: base, arabic, camelbert, da, ca, msa, laos, uncased, parsbert, fa, for, patents, arabert, japanese, whole, word, masking, portuguese, cased, greek, large, swedish, wikitext2, srb, oscar, finetuned, mix, eighth, half, quarter, sixteenth, irish, danish, uncased_botxo, ai, multilingual, amharic, hausa, igbo, kinyarwanda, luganda, luo, naija, swahili, wolof, yoruba, ar, en, emoji, latvian, twitter, khmer, tokenized, small, myanmar, tagalog, dutch, gem, 10lang, 15lang, 25lang, bg, de, el, ru, es, it, pt, zh, fr, ja, vi, no, lt, pl, nl, uk, ro, hi, sw, th, tr, ur, frisian, gronings, zwnj, mnli, sparse, unstructured, classifier, pruneofa, cnc, alpha, new, char, extended, peticoes, tcu, acordaos, urgency, cord19, gv, bertbero, finnish, hinglish, big, chinese, pretrained, mlm, coqa, stories, 5lang, medium, on, squad, macedonian, bulgarian, mini, bn, nli, stsb, model, pretrain, indonesian, 1.5g, 522m, issues, tutorial, europeana, german, historic, english, italian, xxl, tiny, spanish, wwm, oldvocab, polish, romanian, sports, stackoverflow, comments_1m, comments_2m, ar_miner, code_comments, basic, jira, hyperledger, issue, titles, and, bodies, inteldaos, qt, fin, dv, batchsize8, xsmall, dummy, political, election2020, kor, ko, imdb, hateful, memes, expanded, gl, mark, comunaliroma, qna, mc4, bnsp, final, contracts, echr, eurlex, testing, lenerbr, qarib, qarib60_1790k, qarib60_1970k, qarib60_860k, luxembourgish, historical, rw, rramicus, covid, tweets, 50k, sanay, frozen, generics, case, rotten_tomatoes, pisa, retrained, epochs, mongolian, dstc9, jinyong, product, comment, title, shipping, address, embedding, relative, key, query, exp2, feminist, parent, mumsnet, all, first, no859, netmums, reddit, business, lib, theme1, theme2, exp3, nointersection, double, customer, message, scouting, wiki, googlere, masked, subj, obj, genderswap, 64k, td, 1x4, block, multi, complaint, lyrics, buddhist, sanskrit, theseus, ganapati, ganesh123, hkdse, paper4, corpus, french123, shreeganesh, reviews, ucb, finetune, trash, email, koidiom, epoch5, gb, ed_bert_test, scratch, powo_mgh_pt, uncased_dish_descriptions_128, uncased_dish_descriptions_128_0.5m, news, security, oparticles, aeslc, cad, cnndm, pubmed, acordao_, gu, ancient, medlog, clinical, wl, englishlawai, xsum, esg, a4s, wikihow, idioms, academic, rp, testmodel, han, sent, grp, l2, h256, h512, h768, l4, h128, l6, l8, l10, l12, sentchunks, test, wsd, youcook_1, youcook_2, youcook_4, cleaned, plus, juman, unigram, clean, tcfd, snpcsr, gri, bpe, spm, ipadic_bpe, pile, of, law, tos, persian, sport, bert, legal, definitions, longer, nan, labels, parsed, habana, yoga, m2, test2, test4, test5, contracts10train10val, nvidia, yfcc15m, larger4010, based, restaurant, review, larger20, fce, parsed20, longer50, longer100, new_data_bert1, finer, longer10, lm, bert_mask_complete_word, noisy, orcas, 1.0positive, 0.5, negative, margin1.0, cosine, saurus, longer60, longer80, finetunedall, yelp, tuned, basil, wellness, oa, bert_mask_complete_word_updated_vocab, standard, bahasa, chico, xavier, berttokenizer, shards_ext_, low_resource, feedback, visio, lexglue, multilingial, geolocation, prediction, hs, idpt, deep, ritmo, sampa, own, lener_br, enjoei, onnx, multibert, pz, language, car_corpus, int, dbp15k, vn, swiss, pretraining, gaudi, batch, size, amvv, salvadoran, emotion, nlp, project, google, chemistry, uncase, p1, untrained, turkish, p2, from, p3, algarlegalbert, tsdae, server, revision, booklet, 15e, 10334t, opinion, galician, fromscratch, khorshid, accelerate, conditioned, ccorpus, xlarge, rahuldave, transformers, github, sentiment_, naab, c1, only, c2, zero, shot, prompt, coffeebazaar, low20, low10, low100, ov, lowr10, lowr100, sigir, lr100, lr10, prepend, full, label, support, tune2nd, labelled, refute, evidence, 2nd, ipadic, unidic, bpe2, unidicbpe2, uncased_onnx, quantized, cased_onnx, ipadicunigram2, 30m, 70m, semeval2017, semeval2010, tf, swe, dialogtag, literature, pro, masked_language_modeling, ag_news, reddit_comments, masked_language_model, us_economic_news_articles, personalized, prealpha, iwslt14deen, copy, homie, 128k, offensive, finetuned1, ssuw, reddit_conservative, pashto, reddit_liberal, imdb3, realnews, 1m, ngram, perplexity, imdb4, random, selection, textrank, cross, entropy, customselect, semeval2014, cased_web, weights, restaurants, laptops, semeval2015, semeval2016, facebook, election, ads, fast, recipes, recipes2, clinc150, bioasq, java, bfp_combined, crypto, domain, adaptation, unidicunigram, tweet, billboard, gap, lr50, confusion, local, bfp_single, amazonreviews, trainer, 8b, japanese_mecab, wordpiece, japanese_jumanpp, japanese_sudachi, japanese_vaporetto, japanese_nothing, dp, second, concat, truncate, simcse, web, bs32, owt2, ctc, bak, denoise, mlsm, maskedlm, polylex, kintweetse, archaeo, arapoembert, with, custom, code, sentence, type, classification, dewiki, token, dropping, air, nonbuddhist, cased_b4h7, movie, field, brand, mg, conversational, wls, lower, scirepeval_fos_chemistry, hangman, bookcorpus, wikitext, mlp, scirepeval, duplicate, minipile, nordic, steps, bangla, summarization, dataset, multilang, eu_chemistry_regulation, peppa, pig, wine, reviews_spanish, whisper, 1ep, 2ep, 3ep, 4ep, 5ep, 6ep, 7ep, 8ep, 9ep, 10ep, manual, minpaku, additional, raw, cantonese, smiles, cypriot, eu, or, ddr, chemistry_technical, fos, lorafinetuned, covidqa, ita, dob, ml, kubhist2, proteins, tiny_20m, small_20m, mini_20m, medium_20m, base_20m, sql, gpt, word_sentence_1_1, dialogue, retriever, context, hp, 130m, collator, wikipedia, qpp_sample, paradetox, editops, editdistance, state, mutability, preprocess, 55mb, cda, spec5g, wikitext200, encoder, 1token, split, gender, neutral, cda2, mask, dbpedia, dietdupe, foodb, desc, twitch, emotes, prep, zhtw, justizscrap, verkehrsunfall, spam, 10e, data, culturax, one, git, sliding, window, attention, pemilu, hybrid
+biobert: base, cased, giotto, it, base_1.2, tiny, model, finetuned, clinical, context, smpc
+graphcodebert: base, german
+legal: bert, base, uncased, bigbird, eurlex, us, small, finetuned, rramicus, longformer, roberta, cased, ptbr, spanish, large, xlm, base_128k, camembert, distilcamembert, ledgarscotus7, german, french, italian, swiss, bulgarian, croatian, czech, danish, dutch, estonian, finnish, greek, hungarian, irish, latvian, lithuanian, maltese, polish, romanian, slovak, slovenian, swedish, english, portuguese, legal, azzam, indobert, pytorch, indonlu, indolem
+Erlangshen: megatronbert, 3.9b, chinese, deberta, 97m, 320m, ubert, 110m, 330m, 710m, 186m, sentencepiece, unimc, albert, 235m, english, roberta, tcbert, classification, sentence, embedding, macbert, 325m, nli, textmatch, binaryclassification, uniex
+roberta: large, finnish, small, base, finetuned, schizophreniareddit2, biomedical, clinical, es, bne, ca, temporal, predictor, retrained_ru_covid, pretrained, mr, wechsel, hindi, romanized, devanagari, tagalog, fa, zwnj, swedish, cased, japanese, aozora, char, thai, spm, syllable, classical, chinese, education, domain, ncc, 1shard, rolvb, abs, abr, abrar, hinglish, big, ne, cord19, 1m7k, french, german, swahili, tamil, russian, indonesian, 1.5g, 522m, polish, kgr10, el, news, uncased, twitter, go, java, javascript, php, python, mlm, marathi, dream, als, demo, danish, scandinavian, sundanese, flax, dataset, stream, is, pretraining, 1m, freddy, ar_miner, bulgarian, eng, ara, 128k, klue, re, tapt, vocab50004, pt, br, dialog, narrative, ko, web, embedding, minuscule, wsc, 100m, 10m, 1b, med, latin, pubmed, frozen, generics, clrp, rotten_tomatoes, wikimovies, retrained, epochs, word, cluecorpussmall, medium, mini, tiny, urdu, 512b, 512c, 512d, shampoo, exp1, exp2, all, intersection, parent, netmums, exp3, feminist, ukrainian, trained, eus, cc100, euscrawl, mc4, 7epochs, belarusian, copy, retrained_ru_covid_papers, ernie2, skep, en, food, serbian, turkish, culinary, hkdse, english, paper4, mlni, kaggledev, testing, acl, arc, coptic, unigram, prime, koidiom, corener, epoch5, wl, seq512, on, runaways, spanish, academic, catalan, cased2, hi, basque, wwm, greek, one_mil, imdb, epoch_1, epoch_2, epoch_3, epoch_4, epoch_5, epoch_6, epoch_7, epoch_8, epoch_9, epoch_10, epoch_11, epoch_12, epoch_13, epoch_14, epoch_15, epoch_16, epoch_17, epoch_18, epoch_19, epoch_20, epoch_21, epoch_22, epoch_23, epoch_24, epoch_25, epoch_26, epoch_27, epoch_28, epoch_29, epoch_30, epoch_31, epoch_32, epoch_33, epoch_34, epoch_35, epoch_36, epoch_37, epoch_38, epoch_39, epoch_40, epoch_41, epoch_42, epoch_43, epoch_44, epoch_45, epoch_46, epoch_47, epoch_48, epoch_49, epoch_50, epoch_51, epoch_52, epoch_53, epoch_54, epoch_55, epoch_56, epoch_57, epoch_58, epoch_59, epoch_60, epoch_61, epoch_62, epoch_63, epoch_64, epoch_65, epoch_66, epoch_67, epoch_68, epoch_69, epoch_70, epoch_71, epoch_72, epoch_73, epoch_74, epoch_75, epoch_76, epoch_77, epoch_78, epoch_79, epoch_80, epoch_81, epoch_82, epoch_83, epoch_0, englishlawai_roberta_base_version4, wikitext2, cased3, imdb_roberta, lm, indo, long, bahasa, psych, squad2, hendrycks, standard, legal, pronouns, scand, seq, with, auto, jumanpp, realnews, epoch1, vn, xlm, onnx, exp, 32b, unlabeled, gab, semeval2023, task10, 9000sample, 45000samplesample, 45000sample, codemixed, reddit, 57000sample, debug, labeled, data, and, sample, pod, task, t10, 90000sample, korean, hanja, 150000sample, smiles, 1670635445.3168352, 1670637022.048604, 1670643715.7893414, 1670643864.139743, 100k, 250k, vietnamese, 350k, accelerate, bs32, epochs5, lr5e, bs_32, epochs_10, lr_5e, epochs_5, 500k, bs_16, acc_grad_2, max_length_165, epochs_8, accel, 210000sample, 270000sample, ainu, epochs_7, acc_grad_1, epochs_6, ds_total_bs_16, ep_9, gas_2, ml_165, ma_n, ds_conly, ep_6, ds_total, ep_7, gas_1, ma_wwm, ep_10, academic3, university, writing2, research, papers, myb, ar, fine, tuned, 2l, 4l, 8l, factchecker, ccorpus, clinais, ingredients, recipes, strict, corpus, no, wd, homie, ssuw, for, bot, detection, tripadvisor, gen, poetry, tripadvisordomainadaptation, clinc, clinc150, retrainedonrace1, 32k, retrainedonrace2, base_first, char_acl2023, chars_acl2023, base_last, schizophrenia, tutorial, test, 64k, base_mlm_acl2023, nl, oscar2301, italian, aphasia, picture, description, 10e, narration, masked, nom, amazon, pile, lr2e, bs16, 8gpu, amazon_conversations, sinhala, 53m, retrainedonhotqa, oscar23, fr, explorer, epoch2, large1, ssm, large2, epoch3, narration_eps_6, narration_eps_10, weightdecay0_eps_10, weightdecay0, lr2e4_eps_10, tass2020, chatgpt, cnn_dailymail, kubhist2, kintweetse, philpapers, music, version, dependency, max, 4split, movie, genre, text, encoder, stable, diffusion, wls, whisper, 1ep, 2ep, 3ep, 4ep, 5ep, 6ep, 7ep, 8ep, 9ep, 10ep, manual, uy22, azerbaijani, xlarge, perigon200k, happiness, crpo, sadness, anger, art, life, love, nature, religion, ga, base_imdb, final, minus1, banner, q1, filtered, q2, ic, spec5g, msmarco, pseudo, clean, craigslist, bargains, sotus, mp, unannotated, half
+distilbert: base, es, cased, srb, oscar, spanish, uncased, finetuned, recipe, accelerate, 25lang, ar, bg, da, de, el, en, ru, it, pt, zh, fr, ja, vi, no, lt, pl, nl, uk, ro, hi, sw, th, tr, ur, fa, zwnj, sparse, unstructured, pruneofa, imdb, down, sampled, evaluating, student, writing, multilingual, nepali, hinglish, big, small, indonesian, wordnet, negative, positive, sarcasm, classification, whole, word, masking, existence, mi, quantifier, netmums, parent, exp2, exp3, feminist, mushrooms, mlm, 250k, 500k, 750k, 1000k, best, ta, local, powo, word2vec_256k, mlm_250k, mlm_500k, mlm_750k, mlm_1m, tokenizer_256k, test, headline, mlm_best, finetuned2, otto, powo_all, product, aisera_texts, uncase, squad, d5716d28, cvent, electronics, 2019_2022, powo_mgh_pt, homedepot, cust, scratch, cyber, pubmed, powo_all_pt, esg, a4s, continued_training, medqa, fine, tuned, blbooksgenre, ids, ai_data, bert, yoga, imdb_distilbert, imdb_disbert1, cnn, wholewordmasking, dapt, lm, ai, tapt, issues, dapt_tapt, music, 1x4, block, lang, vaolo, cisco, imdb1, russian, the_donald, civi, cooments, lyrics, letters, from, jenny, medium, preprint_full, wb, dakshina, ml, cmc, a8, h512, l4, residency, pred, uncased_proba, uncased_proba2, uncased_za_pravo, 1mjuicios, uncased_za_pravo_2, opinion, alm, first, draft, ibm, bs8, epochs5, lr5e, debug, mmsg, 5e, 10334t, model, labor_space, labor_space_, for, legal, grammar, error, correction, uscc, im, auto, coffeebazaar, ocr, ccnews, pquad, pquad_2, speeches, ct, nitro, onnx, german, amazon, reviews, clinais, hbr, poemas, corto, dt, rally, turkish, offensive, eplorer, explorer, ner, hrl, crypto, esco_skills, vk, clinc150, provenances, discord, arxiv, papers, wikipedia, italian, distilbert_mlm, confusion_mlm, confusion, cohl, allocation, netflix, r2, amazon_review, replicate, r3, domain, adaptation, linkedin, kintweetse, heaps, half, ivr, masked, auto9, outoh, outop, p1, himani3, himani5, hina, himani_auto, text, gen, himani, food_review, dis, mlm5, 1perc, wos, tweet, financial, char, scirepeval_fos_chemistry, mask, perigon, 200k, abstracts, 10k, holocaust, description, splade, sparsembed, rap, imdb_, imdb__accelerate, game, accelerate_, don, trained, lemma, finetuned_imdb, fetch, vietnamese, case, dob, recipe_ner, recipe_ner_batch32, recipe_ner_batch16, recipe_ner_batch8, recipe_ner_batch8_dataset80000, predict, category, batch64, chunk1, distribution, addtoken, wanted, rock, argentino, pretrained, gosv, print, score, score2, transductive, finetune, on, masked_language, ww, ark, dol_ecab, cfpb_creditcard_contracts, financial_reports_sec, uscode, bible, predictive, search, unlearned, sun, full, ft, religious_political, eo, streamers, commo, market, tweet_pemilu, sotus, tweet_pemilu_2, tweet_pemilu2024, sotus_parltexts, school, questions, mp, unannotated, frozen, edgar10pct, epoch3
+wangchanberta: base, att, spm, uncased, wiki, newmm, sefr, syllable, news, finetuned, imdb, cosme, masking
+bioformer: 8l, litcovid, 16l
+indonesian: roberta, base, large
+electra: base, generator, srb, oscar, small, japanese, irish, cased, finnish, khmer, uncased, tokenized, myanmar, tagalog, swedish, macedonian, french, europeana, german, italian, mc4, xxl, turkish, ukrainian, medical, large, fin, paper, minuscule, da, discriminator, clrp, gc4, 64k, hongkongese, yelp, mlm, vn, bahasa, offensive, fr, explorer, finetuned, imdb, stories
+CodeBERTa: small, finetuned, cpp, gh, commit, message, autocomplete, codesearchnet
+indobert: base, uncased, p2, finetuned, mer, 10k, 80k
+albert: fa, base, japanese, zwnj, german, ner, arabic, large, xlarge, mongolian, chinese, tiny, kor, urdu, rotten_tomatoes, cluecorpussmall, pt, br, subword, masking, domain, adapted, nbme, with, tokenizer, xxlarge, finetuned, poems, tweak, offensive, lm, tapt, small, geo, test, ml, arxiv, papers, zero, spanish
+BiomedNLP: biomedbert, base, uncased, abstract, fulltext, large
+mMiniLMv2: l12, h384, distilled, from, xlmr, large, l6, l6xh384
+chinese_roberta_L: 12_h, 8_h, 2_h, 512_relative_key_query_token_type_100, 10_h, 4_h, 6_h
+Clinical: longformer, bigbird, mlm, opnote, pubmed, surgicalcardiothoracic, breastcancer, bert, finetuned
+bio: gottbert, base, distilbert, uncased, lm, bert, spanish, wwm, cased, tinybert, mobilebert, minialbert
+afro: xlmr, large, base, small, mini, 29l, 61l, finetuned, kintweetsb, kintweetsc, kintweetsd, kintweets, 75l, kinyarwanda, tweets, news, all, kin, kinre, tweet, kinte, domain, kinteal, task, finetune
+scideberta: cs
+luke: japanese, base, lite, large, comp, wordpiece
+telugu: bert, scratch, roberta, base
+xlm: base, align, roberta, finetuned, amharic, chichewa, english, hausa, igbo, kinyarwanda, lingala, luganda, luo, naija, shona, somali, swahili, wolof, xhosa, yoruba, zulu, longformer, large, mlmfintune, hi, fraudcall, xlarge, xxlarge, pretrained, xl, xxl, id, clinical, spanish, toxicomments, 12k, sag, uk, yelp, mlm, amazon, en, es, fr, accelerate, hkdse, paper4, ft, cstwitter, koidiom, epoch5, on, runaways, nl, my_dear_watson, my_dear_watson2, arabic, malagasy, lener_br, ncc, zero, long, telugu_nlp, ance, warmup, ac, ac_, twitter, xlmberttest, trimmed, de, it, ar, pt, thaiclm, thairath_base_thai, thairath_base_thai_special, clinais, tranliterated, ml, imdb, data, fintune, lm, mhg, charter, thainew, sukhothai, offensive, sukhothaionly, kfoldsukhothaionly, base_bzg, test, questions, massive, intent, clinc150, confusion, revised, revised_2, kintweetse, test_2, digikala, music, version, clm, ende, enfr, enro, tlm, xnli15, parla, creoleeval_all, creoleeval_eng, creoleeval_fra, creoleeval_kon, creoleeval_msa, creoleeval_ngb, creoleeval_por, creoleeval_spa, recipe_30, yiddish, smcp, kin, tweets, kinre, tweet, focus, german, kiswahili, isixhosa, extend, ka, newstitles, slobertic, bertic, predictive, search, ebay, emm20162018orlang, str, semeval2024
+mega: base, wikitext, 150m, arch, small, c1024, tk_id, simplewiki, mr50, sw_minipile, tk_ema32
+line: distilbert, base, japanese, fork
+EntityCS: wep, xlmr, base, mlm, pep_ms, pep_ms_mlm
+longformer: kor, char, gottbert, base, aw512, spanish, finetuned, big_patent, large, biomedical, clinical, es, mini, bne, replicated, pos, encodings, interleaved, predicted, random, 2l, ca, phobert, ko, sroberta, multitask, clinais, mlm, legal
+robbert: dutch, large, base, finetuned, on, runaways, nl
+distilroberta: base, finetuned, wikitext2, testingsb, abr, climate, toxic, jira, qt, issue, title, titles, and, bodies, model, transcript, yttranscript23, clrp, retrained, epochs, theme1, theme2, trained, trainedmodel, genderswap, test1, ctrl, ctrl2, ctr2, ctr3, smithsmodel2, horror_shake_head, shake, taylor, less, swift_shake, wiki_shake_mask, onlyshakemask, bruno, mars, kendrick, lamar, the, beatles, billy, ray, cyrus, onlywikimask, wiki, assignment2, mark_example, mark, dna, marktextepoch_35, wikitextepoch_230, wikitextepoch_150, marktextepoch_n200, wikitextepoch_n200, wikitextepoch_50, wikitextepoch_300, wikitextepoch_350, telugu_bert1, sarcojicomplemojismlm, distilroberta, sarcojicomplemojisdistilroberta, baseclm, basemlm, basemlm1, ireland, dataset, accelerate, bs_64, epochs_10, lr_5e, ca, aumet, lm, twitter, 16m_aug, oct22, myb, bbc, bbc_2, thaiclm, thairath, mhg, charter, mlm, teen, lol, folk, mythology, tales, test, amazon, products, drms, csn, python, bimodal, unimodal, ft, leagueoflegends, summonerschool, wow, games, gaming, relationship_advice, sex, dating_advice, politics, worldnews, news, tifu, technology, science, askwomen, fitness, twoxchromosomes, changemyview, relationships, pr200k, ep20, walkaway, consoom, conservatives, 4chan, prolife, mensrights, goldandblack, trueunpopularopinion, conspiracy, climateskeptics, kotakuinaction, nfl, imdb, newsapi121k, reuters, bloomberg, ep30, rb156k, ep40, opt15, rbm213k, predictive, search, rbm231k, op20, op1, op40, dietdupe, foodb, desc, loghdfd, log
+bertimbau: large, fine, tuned, md, sd, base, finetuned, lener, br
+aethiqs: base_bertje, data_rotterdam, epochs_10, epochs_30, epoch_30
+SRoBERTa: xl, base
+declutr: biomed, roberta, papers, model, emanuals, distilroberta, base
+dummy: model, model2, model3, diff, tokenizer, from, colab, unknown, test, finetuned, imdb, model1, model_101_pronay_ghosh, camembert, data, model____3, databricks, model_2, model_8mly, modeltokenizerpushtohub, base, vn240923
+JavaBERT: uncased
+BERT: base, ct, nli, distil, large, dk_laptop, dk_rest, pt_laptop, pt_rest, persian, poetry, pt, inf, corpus, institutional, contrastive, self, supervised, acl2020, nlp, fold1, lr5, single, tpu, pretrain, swedish, cased, finetuned, easy, text, system, application, csic, pkdd, bgl, fully, trained, accuracy, ceb, tl
+robbertje: gb, bort, merged, non, shuffled
+marathi: distilbert, albert, bert, roberta, tweets, hateful, scratch, small, smaller
+camembert: base, finetuned, on, runaways, fr, bio, deanw, handshake, auto, finance, test, model, domain, adaptation, accelerate, nl, oscar19, clone, masked, lm, onnx, sentiment, analysis
+ChemBERTa: 10m, mlm, 5m, 77m, zinc, base, zinc250k, finetuned, 4m, 4m_2, 4m_3, 4m_4, 4m_5, tchard, bace
+HotelBERT: small
+convbert: base, generator, finnish, turkish, mc4, cased, uncased, offensive, mlm
+abena: base, akuapem, twi, cased, asante, uncased
+distilabena: base, akuapem, twi, cased, asante, uncased
+robako: base, akuapem, twi, cased, asante, uncased
+Cro: cov, bertic, csebert
+DA: lf, bert
+sMLM: lf, roberta, bert
+megatron: bert, base, swedish, cased, 600k, 125k, large, 165k
+DarijaBERT: arabizi
+bangla: bert, base, finetuned, tweets
+model: bangla, bert, imdb, finetuned, stress, hf, vizwiz, uncased, pl, ner
+kcbert: base, petition, mlm, finetune, dev, large, khs, itpt, ckpt, finetuned, josa, patent, special, kor, ner
+mengzi: bert, base, fin, oscar, caption, retrieval, l6, h768
+nystromformer: gottbert, base
+finbert: wechsel, korean, pretrain, yiyanghkust, lm, finetuned, news, tweets
+scibert: wechsel, korean, lm, const, finetuned
+co: condenser, marco, wiki, large, msmarco
+mlm: spanish, roberta, base, distilbert, xlmr_base, vlsp, xlmr_large, portuguese, digitarq, model, fin, lm, mbert, indobertlarge, indobert, p2, large, p1, combined, pt2, pt1, klue, bert, persian, heb, medical
+danish: bert, botxo, legal, lm, base, xlm, longformer
+umberto: commoncrawl, cased, wikipedia, uncased
+SinBERT: large, small
+nb: bert, base, large, roberta, scandinavian, long, ncc, male2female, old, scandi, tpu, tpuold, tpunew64, tpunew128, ext, plus, 1e4, 2e4, domainaddapt, reddit
+japanese: roberta, base, finetuned, wikitext2
+distil: bigbird, fa, zwnj, eng, slovakbert, biobert, clinicalbert, bert, aave, large, nystromformer, ita, legal, cencio, ft, lsg, roberta, base
+clr: finetuned, albert, base, large, bert, uncased, roberta, xlm, pretrained, distilbert
+transcriptome: iseeek, bert
+TOD: bert, jnt, distilbert, xlmr
+scibert_scivocab_uncased: finetuned, scibero, scibert, agu, abstracts, model
+clinical: bert, base, pubmed, longformer, distilbert, mobilebert, minialbert
+berturk: social, 5m
+my: awesome, model, bert, mlm, finetuned, distilbert, pt, test, tiny, based_model, roberta, mps, camembert, base, repo, dummy, tinybert_model_final_origfp32, tinybert_model_final_origfp32_3090
+twitterko: cha, electra, base, generator, large
+bert_uncased_L: 10_h, 512_a, 8_cord19, 2_h, 128_a, 2_cord19, 4_h, 256_a, 4_cord19, 768_a, 12_cord19, 6_h, 12_h, 12_italian_alb3rt0, 12_italian_alberto, 12_new, 8_h, 12wiki103, 8wiki103, 4wiki103, 2wiki103, 12_wiki103, 8_wiki103, 4_wiki103, 2_wiki103, mlm, multi, emails, hq, finetuned, hangman
+dv: electra, small, labse, muril
+Gujarati: xlm, base, large, in, devanagari
+Indo: aryan, xlm, base, legalbert
+batterybert: cased, uncased
+batteryscibert: cased, uncased
+mongolian: roberta, base, large
+exKcBERT: kowiki, paws, extonly
+bertin: base, gaussian, exp, 512seqlen, random, stepwise, roberta, spanish, large
+alephbert: base, finetuned, for, shut
+twitter: roberta, base, 90m, 124m, dec2020, dec2021, jun2020, jun2021, mar2020, mar2021, sep2020, sep2021, xlm, finetuned, twitter, user, desc, mar2022, jun2022, 15m, incr, sep2022, scratch, 154m, large
+lsg: legal, base, uncased, small, bart, large, barthez, camembert, pegasus, distilbert, distilcamembert, distilroberta, xlm, roberta, albert, bert
+env: bert, chinese, large
+defsent: bert, base, uncased, cls, max, mean, large, roberta
+distilcamembert: base, finetuned, allocine
+fairlex: cail, minilm, ecthr, fscs, scotus
+rubert: tiny, base, vet, tiny2, war, posts, finetuned, cased, kinopoisk_old, kinopoisk
+fralbert: base, cased
+ko: rest, electra, generator, mbertmodel, mberttok, monotok, adapter, monomodel, mathbert, roberta, math, bert
+kosentelectra: generator
+language: perceiver, modeling, from, scratch, ml
+gbert: base, large, finetuned, cust, cust18, nl, oscar19, twitter, autopart, twitter_, mlm, eu, or, ddr
+gelectra: base, generator, large
+wiki: bert, sentence, alignment, retrieval, base, no, patch, small, xs, bias
+chemprot: seed, 0k, 1000k, 100k, 1500k, 1800k, 2000k, 200k, 20k, 400k, 60k, 700k
+sciie: seed, 0k, 1000k, 100k, 1500k, 1800k, 2000k, 200k, 20k, 400k, 60k, 700k
+finetune: clm, employment, data, skills
+bertinho: gl, base, cased, small
+Bert: l12, h240, a12, h256, a4, h384, a6, pretrained, smilesbindingdb, nepali, based, answer, model, base, uncased, berttoken, toxigen, pretrain, hatexplain
+prunedBert: l12, h256, a4, finetuned, h384, a6
+ekonelectra: base, generator, small
+beto: base, cased, gn, clinical, wl, es, twitter, depression, external, data, only, depressives
+guwenbert: base, large
+heil: 412c, negative, positive
+muppet: roberta, base, large
+FERNET: c5, cc_sk, news, news_sk
+betonews: bodycontext, nonecontext, tweetcontext
+robertuitonews: cased, tweetcontext
+indo: biobert, base, uncased, roberta, small
+RoBERTa: large, finnish, hindi, guj, san, uncased, exp2, feminist, parent, tr, medium, bpe, 16k, word, wp, morph, char, 7k, 28k, 44k, 66k, fake, news, detection, tg, base, japanese, sentencepiece, janpanese, perigon, ceb, cased, tl
+alberti: bert, base, multilingual, cased
+clip: vision, bert, cc12m, 60k, 70k
+robit: roberta, base, it
+reddit: bert, text2, text3, text4, text_10, text_20, text_5
+youtube: bert, bert_10
+elasticbert: base, large, chinese
+Electra: medical, generator, medical000, gen, ontocoref, it
+greeksocialbert: base, greek, uncased, social, media
+palobert: base, greek, uncased, social, media
+klue: bert, mlm, roberta, large, tapt, wiki, bt, wikipedia, semi, tsm, base, finetuned, epoch3, bible
+koelectra: mlm, base, generator, small, finetuned, koidiom, epoch5
+bigbird: roberta, large, base, original, attn, finetuned, big_patent, small, indonesian, japanese
+muril: base, cased, adapted, local, bigbird, large, 1k, with, mlm, temp, en, hi, codemixed
+tapas: base, masklm, large, medium, mini, small, tiny
+new: dummy, model, wikitext2
+bertweet: base, sns_brands_100k, sns_brands_200k, sns_brands_50k, finetuned, igtext, sns, brand, personality, covid19, uncased, pretraining, covid, vaccine, tweets, cased, large, refugee, group, group_2, reddit, gab, 16000sample, q1, filtered
+AStitchInLanguageModels: task2_en_berttokenizedallreplacepretrain, task2_en_berttokenizednopretrain, task2_en_berttokenizedselectreplacepretrain, task2_pt_mberttokenizedallreplacepretrain, task2_pt_mberttokenizednopretrain, task2_pt_mberttokenizedselectreplacepretrain
+PT: dev, test, all, pretrain, e10, e5, select, e6, e7, distilroberta, base, distilbert, pol, caselawbert, legalbert, roberta, large
+preTrained: xlm, pt, e5, select, e8, all
+EsperBERTo: malgranda, small
+cino: base, large, small
+ar: mbertmodel, mberttok, monotok, adapter, monomodel, tapt, mlm, minilm
+fi: mbertmodel, mberttok, monotok, adapter, monomodel
+id: mbertmodel, mberttok, monotok, adapter, monomodel, g2p, bert
+tr: mbertmodel, mberttok, monotok, adapter, monomodel
+xlmindic: base, multiscript, uniscript, rembert
+gilberto: uncased, from, camembert, fast, tokenizer
+indobertweet: base, uncased, finetuned, pemilu
+wolfbbsRoBERTa: large, small
+music: mlm, production, qa
+xlmroberta: klue_mln_train_only_train, tw_eng
+soongsil: bert, base, small
+KinyaBERT: large, small, finetuned, kintweetsb, kintweetsc, kintweetsd, kintweetsa, kintweets, pretrained, kinyarwanda
+kinyaRoberta: large, small, pretrained, kinyarwanda, gahuza, kinnews, finetuned, kin, tweets, kinre, tweet, kinte
+MTL: bert, base, uncased, ww, distilbert, roberta
+SAE: bert, base, uncased, distilbert, roberta
+bibert: ende, iwslt14ende, epochs
+roberta_base: mnli, two_stage, qnli, qqp, rte
+roberta_large: mrpc, two_stage, sst2
+kobert: esg, e3, e5, b32, lm, finetuned, klue, ner, bible
+AraBERT32: flickr8k, coco
+tf: camembert, base, flaubert, cased, uncased, large, small, xlm, roberta, distilbert, finetuned, imdb, dummy, model, model_1, xml, ape, wwm, swm
+ChineseBERT: base, large
+autobert: small, light, sdconv
+sinhala: roberta, mc4, oscar, large, bert, 1.2, small, medium
+finance: electra, small, generator, koelectra, base
+ibert: roberta, base, large
+fine: tune, lr, tuned, distilbert, nosql, injection, distilroberta, roberta, roberta2, bert, mlm, tune_simcse, finetuned, ise, dsc, tuning
+MiniLM: l12, h384, uncased, finetuned, imdb, stackoverflow, l6
+minilm: finetuned, imdb, accelerate, l6, h384, uncased, eli5, italian, cased, l12
+flaubert: minuscule, trustpilot, adapted
+char: bert, base, uncased, level, logion
+ltrc: albert, distilbert, roberta
+temp: bert2
+splade: roberta, cocondenser, selfdistil, ensembledistil, max
+Hinglish: bert, distilbert
+hinglish: sbert, sentence, bert, finetuned
+mental: bert, base, uncased, roberta, cased, large, longformer
+codebert: base, mlm, python, javascript, cpp, java
+infoxlm: base, large
+mdeberta: base, wl, es, cowese, cased, pt, ccorpus, offensive, mlm
+IceBERT: igc, ic3, mc4, is, xlmr, large
+kobigbird: bert, base, roberta, large
+kocharelectra: base, generator, small
+RuPERTa: base, finetuned, spa, constitution
+indic: transformers, hi, distilbert, bn, mlm, te
+ernie: 1.0, base, zh, 3.0, medium, xbase, large, cw
+mbert: resp, en, de, it, zh, tlm, chat, sent, xdm, squad, swedish, distilled, cased, finetuned, pytorch, invoices
+dbert: rda, finetuned, test
+sec: bert, base, num, shape
+MiniLMv2: l12, h384, distilled, from, roberta, large, l6, bert, base, h768, finetuned, wikitext103, qa, encoder, mlm, multi, emails, hq
+german: roberta, base, financial, statements, bert, poetry, distilbert, xlm, english, code, switching
+norwegian: roberta, als, base, large, highlr
+pretrained: smiles, pubchem10m, distilroberta, on, ireland, tweets, mario, bert, paths, ctx, bertbase, wikitext
+robBERT: base, dutch, books
+nezha: chinese, base, cn, wwm, large
+test: esperberto, small, mlm, wwm2, finetuned, imdb, model, trainer, repo, detsutut, hangzhou, story, target, bert, base, spanish, wwm, cased, ultrasounds, camembert, repo2, dummy
+nepali: bert, npvec1
+PubMedBert: abstract, cord19, fulltext
+biobertpt: all, bio, clin
+robertuito: base, deacc, uncased
+malayalam: wiki2021, berto, bert, scratch
+agriculture: bert, uncased, base, chinese
+chemical: bert, uncased, finetuned, cust, c1, c2
+AraRoBERTa: dz, egy, jo, ku, lb, om, sa
+bertabs: finetuned, cnndm, extractive, abstractive, summarization, xsum
+segabert: large, uncased, base, 50k
+finetuned: arabert, head, gec, codebert, mlm, stories, test, imdb, marktextepoch, n200, n500, n600, n800, xlm, masakhaner, swa, whole, word, phonetic, wikitext2, ayush, text
+covid: twitter, xlm, roberta, large, model, vaccine, bert, trained, deberta
+ruBert: base, large, finetuned, russian, moshkov, child, corpus, pro
+ruRoberta: large, finetuned, for, chat, arithmetics, distilled
+odia: bert, classifier
+polish: distilroberta, roberta, base, large, longformer, splade
+dhivehi: roberta, base
+arqmath: roberta, base, 1.5m, 2m
+macbert4csc: base, chinese, scalarmix, cn
+German: medbert, issues
+KR: electra, generator, finbert, patent, deberta, large
+tiny: distilroberta, base, bert, turkish, cased, biobert, rubert, war, finetuned, random, debertaformaskedlm, bertformaskedlm, albertformaskedlm, mlm, imdb, tweet, snli, glue, cola, mnli, mrpc, qnli, qqp, rte, sst2, stsb, wnli, custom, tokenizer, squad, wikitext, rotten_tomatoes, conll2003, from, scratch, tweet_eval, expand, vocab, clinicalbert, bigbirdformaskedlm, convbertformaskedlm, data2vectextformaskedlm, distilbertformaskedlm, electraformaskedlm, ernieformaskedlm, esmformaskedlm, flaubertwithlmheadmodel, fnetformaskedlm, funnelformaskedlm, ibertformaskedlm, layoutlmformaskedlm, longformerformaskedlm, lukeformaskedlm, megaformaskedlm, megatronbertformaskedlm, mobilebertformaskedlm, mpnetformaskedlm, nezhaformaskedlm, nystromformerformaskedlm, perceiverformaskedlm, reformerformaskedlm, rembertformaskedlm, robertaprelayernormformaskedlm, robertaformaskedlm, rocbertformaskedlm, roformerformaskedlm, squeezebertformaskedlm, tapasformaskedlm, wavec2formaskedlm, xlmrobertaxlformaskedlm, xlmwithlmheadmodel, xmodformaskedlm, yosoformaskedlm, mclip
+bort: full
+mluke: base, large, lite, qid
+hindi: bert, roberta, albert, marathi, dev, scratch, tweets, hateful
+BioM: albert, xxlarge, pmc, electra, base, generator, large
+ts: test, test2
+tavbert: he, tr, ar
+MathBERT: custom
+ProtAugment: lm, banking77, clinic150, hwu64, liu
+movie: roberta, base, finetuned, movie, p1
+neuba: bert, roberta
+robeczech: base, test
+gottbert: base
+phobert: base, large, finetuned, imdb, law, vbert, mlm, timi
+msmarco: distilbert, word2vec256k, mlm_210k_emb_updated, mlm_230k, mlm_400k, mlm_445k_emb_updated, mlm_785k_emb_updated
+javanese: bert, small, imdb, distilbert, roberta
+jdt: fin, roberta, wwm, large
+tcr: bert, mlm, only, finetuned, tchard
+tlm: ag, large, scale, medium, small, amazon, chemprot, citation_intent, hyp, imdb, rct, 20k, sciie
+comparison: bert, base, uncased, netmums, feminist, parent, distilbert, roberta
+v1: theme1, theme2
+gn: bert, base, cased, large, tiny, small
+batteryonlybert: cased, uncased
+hing: bert, mbert, roberta, mixed
+yelp: pretrained, m1a, m1b, m2a, m2b, m0a, m0b
+dpr: spanish, passage_encoder, squades, base, question_encoder, allqa, klue, roberta, context_encoder, catalan, viquiquad, cocomae, bertnsp, cocondenser, cotmae, cotbert, vanilla, bert, math, aware, albert, query, uned, passage
+distillbert: base, uncased, finetuned, squad, d5716d28, spanish, imdb, corpus, uncased_finetuned_with, llama2, knowledge, distillation
+xtremedistil: l6, h384, uncased, finetuned, wikitext103, l12
+java: roberta, tara, small, javascript_model, javascript, model
+python: gpt2, large, issues, perceiver
+news: pretrain, roberta, bert
+lilt: camembert, dit, base, xlm, roberta, myb
+nbme: distilroberta, base, bio_clinicalbert, roberta, clinical, longformer, large, deberta, electra, discriminator, xlarge
+bsc: bio, es, ehr, finetuned, clinais
+chirowm: large
+lingbert: base, 32k, mini, 60k, 500k, 1m
+mybert: base, 32k, mini, 60k, 172k, 500k, 1m
+jobbert: base, cased, based, phobert
+all: distilroberta, finetuned, dit, 10_epochs, minilm, l6, wikitext2, mpnet, base, base_o3, imdb, personal, project
+Metaphor: finetuned, bert, 5epochs
+bengali: english, word, aligner, bert
+sanbert: from, indicbert, scratch
+Legal: hebert, hebert_ft, bertimbau, large, base
+glucose: bert, large, roberta
+tamil: roberta, small, bert
+unite: up, mup
+parlbert: german, law
+fyp: finetuned, imdb, brown
+atomic: bert, large, full, roberta
+legalbert: large, 1.7m, adept
+ConfliBERT: scr, cased, cont, uncased
+closure_system_door_inne: bert, base, uncased, roberta
+prot_bert: finetuned, smiles, bindingdb, sp6, tchard, cdr1, cdr3, cdrf, mhc
+polibertweet: political, twitter, roberta, mlm, small
+MVR_panx_XLM: roberta, large, base
+MVR_squad_XLM: roberta, large, base
+BiomedVLP: cxr, bert, general, specialized
+distill: bert, csn, python, test, scibert_scivocab_uncased
+hi: tapt, mlm, minilm, least, ht, 1m, random, twt, bert, embed
+vi: tapt, mlm, minilm, en, roberta, base, xlm
+vbert: base, large
+de: tapt, mlm, minilm, bert, base, german, cased, finetuned
+pai: dkplm, medical, base, zh, bert, tiny, financial, ckbert, large, huge
+cjkbert: small, base
+ground: en, roberta, large, base
+robertabase: finetuned, claim, ltp, full, prompt, prompt_, claims
+dfm: encoder, medium, large, small
+XTREME_squad_XLM: roberta, base, large
+XTREME_panx_XLM: roberta, large, base
+XTREME_udpos_XLM: roberta, base, large
+ScholarBERT: xl, xl_1
+recipe: steps, en, tis, is, ts, clean_steps, test, distilbert, roberta, upper, bert, base, uncased
+rlb: cyber, finetuned, imdb
+DistilBERT: finetuned, acdp, agg, powo_scratch
+coreyresults: smaller
+dal: bert, finetuned, medical
+StereoKG: dt, sk, uk
+SSCI: bert, e2, e4, scibert
+reqbert: tapt, epoch29, epoch30
+reqscibert: tapt, epoch49, epoch20, epoch31, epoch10
+reqroberta: tapt, epoch20, epoch33, epoch43, epoch50
+Covid19: fake, news, bert, uncased
+twitch: distilbert, base, uncased, finetuned, cased, bert, pytorch, league, roberta, test
+roBERTa: base, finetuned, big_patent, model, babylm, challenge, strict, small
+reformer: finetuned, big_patent, wikipedia, arxiv
+kw_pubmed_vanilla_sentence_10000_0: 0003_2
+FLANG: bert, spanbert, distilbert, roberta
+kw_pubmed_vanilla_document_10000_0: 0003_2
+Discord: message, small, philosophy, medium
+dlub: mlm, full
+jurisbert: base, portuguese, uncased
+bertabaporu: base, uncased, large
+mayo: bert, uncased, wordlevel, block512, ep10, event, batch8, visit, batch4, ep100, ep50, timebert
+cchs: bert, visit, uncased, wordlevel, block512, batch8, ep10, event, timebert, batch4, ep30, ep60, ep100
+efficient: splade, large, doc, query, vi, bt
+mnli: var33, 6x9n
+Italian: legal, bert, sc
+recipes: roberta, base, no, ingr, large, trainer_n_sentences_per_recipe_3_sep_true, trainer, wwm_n_sentences_per_recipe_3_sep_true, trainer_sen_3_sep_true_prefix_true, wwm_sen_3_sep_true_prefix_true
+IndicBERTv2: alpha, mlm, only, sam, tlm, back, ss
+hklegal: xlm, base, large
+MLM: for, marktuin, tuned, deberta, large, mnli, fever, anli, ling, wanli, stock, distilbert, base, uncased, finetuned, game_titles_accelerate
+mini: phobert, phoelectra, mlm, tweet, imdb, tabert, whole_word, test, bert, sub_word
+TwitchLeagueBert: 260k, 500k, 1000k
+lddbert: mlm, wwm, pretrained
+DNA_bert_3: finetuned
+gpn: arabidopsis, brassicales, msa, sapiens
+simlm: base, msmarco, wiki100w
+sloberta: long, not, pretrained, 50e, 9k, sleng, finetuned, dlib
+XLM: mlm, tlm, xnli15, 1024_wlac, prefix, de2en, suffix, bicontext, en2de, roberta, large, finetuned, ccidnews, eusberta
+DAM: bert_base, mlm, dureader, cpr_ecom, cpr_video, cpr_medical, cmedqa, msmarco, lotte_life_test, lotte_write_test, lotte_tech_test, lotte_sci_test, lotte_rec_test, trec_covid
+smole: bert, mtr
+MWP: bert, en, zh
+esci: mlm, alllang, bert, base, uncased, us
+mr: ht, 5m, 1m, no, random, twt, least, bert, embed, muril
+e4a: covid, bert, base, romanian, cased, distilbert, permits
+Roberta: large, indo, dpt, online, sexism, detection, finetuned, parsi, mianeh, corpus
+GlossBERT: finetunedall, finetunedtest, finetunedtrain
+my_distilbert: finetuned, imdb, vaolo
+Bio_ClinicalBERT: mlm, surgicalcardiothoracic, finetuning, data, finetuned, imdb
+bert_amazon: finetuned, imdb
+ScandiBERT: no, faroese
+tutorial: finetuned, imdb
+debiasing_pre: trained_contextualised_embeddings_distil_bert, trained_contextualised_embeddings_albert, trained_contextualised_embeddings_electra
+bygpt5: base, en, small, medium, de
+poetry: bygpt5, small, en, base, medium, de
+BEM: sm_en, sm_zh
+tgf: xlm, roberta, base, pt, br, bpe, tokenizer
+ia: multilingual, transliterated, roberta, original, script
+hierarchical: transformer, base, i3, mini, lc1, ec2, dialog, bert
+condenser: bert, large, uncased
+cdgp: csg, bert, cloth, dgen, scibert, roberta
+xlmr: base, squad, large, law, bert, multilingual, merge, hi, bn, mlm, te
+RadBERT: roberta, 4m, 2m
+twhin: bert, base, large, base_retrain2019_22, base_retrain2020_01, base_retrain2019_23, base_retrain2020_02, base_retrain2019_24, base_retrain2020_03, base_retrain2019_25, base_retrain2020_04, base_retrain2019_26, base_retrain2020_05, base_retrain2019_27, base_retrain2020_06, base_retrain2019_28, base_retrain2020_30, base_retrain2020_07, base_retrain2019_29, base_retrain2020_31, base_retrain2020_08, base_retrain2019_30, base_retrain2020_32, base_retrain2020_09, base_retrain2019_31, base_retrain2020_33, base_retrain2020_10, base_retrain2019_32, base_retrain2019_33, base_retrain2020_34, base_retrain2020_11, base_retrain2019_34, base_retrain2020_35, base_retrain2020_12, base_retrain2019_35, base_retrain2020_36, base_retrain2019_36, base_retrain2020_13, base_retrain2020_37, base_retrain2019_37, base_retrain2021_01, base_retrain2020_38, base_retrain2020_14, base_retrain2019_38, base_retrain2021_30, base_retrain2020_39, base_retrain2021_02, base_retrain2021_31, base_retrain2020_15, base_retrain2019_39, base_retrain2022_01, base_retrain2020_40, base_retrain2021_03, base_retrain2019_40, base_retrain2020_16, base_retrain2022_02, base_retrain2020_41, base_retrain2021_04, base_retrain2019_41, base_retrain2020_17, base_retrain2022_03, base_retrain2019_42, base_retrain2021_05, base_retrain2020_42, base_retrain2020_18, base_retrain2022_04, base_retrain2019_43, base_retrain2021_06, base_retrain2020_43, base_retrain2022_05, base_retrain2020_19, base_retrain2019_44, base_retrain2021_07, base_retrain2020_44, base_retrain2022_06, base_retrain2019_45, base_retrain2020_20, base_retrain2021_08, base_retrain2020_45, base_retrain2022_07, base_retrain2019_46, base_retrain2021_09, base_retrain2020_21, base_retrain2022_08, base_retrain2020_46, base_retrain2019_47, base_retrain2021_10, base_retrain2020_47, base_retrain2022_09, base_retrain2020_22, base_retrain2019_48, base_retrain2020_48, base_retrain2021_11, base_retrain2022_10, base_retrain2020_23, base_retrain2019_49, base_retrain2020_49, base_retrain2022_11, base_retrain2021_12, base_retrain2020_50, base_retrain2022_12, base_retrain2021_13, base_retrain2019_50, base_retrain2020_24, base_retrain2020_51, base_retrain2022_13, base_retrain2021_14, base_retrain2019_51, base_retrain2020_25, base_retrain2020_52, base_retrain2019_52, base_retrain2022_14, base_retrain2021_15, base_retrain2022_30, base_retrain2020_26, base_retrain2022_15, base_retrain2021_16, base_retrain2022_31, base_retrain2022_16, base_retrain2021_17, base_retrain2020_27, base_retrain2022_32, base_retrain2022_17, base_retrain2021_18, base_retrain2020_28, base_retrain2022_33, base_retrain2022_18, base_retrain2021_19, base_retrain2020_29, base_retrain2022_34, base_retrain2022_19, base_retrain2021_20, base_retrain2022_35, base_retrain2022_20, base_retrain2021_21, base_retrain2022_36, base_retrain2022_21, base_retrain2021_22, base_retrain2022_37, base_retrain2022_22, base_retrain2021_23, base_retrain2022_38, base_retrain2022_23, base_retrain2021_24, base_retrain2022_24, base_retrain2022_39, base_retrain2021_25, base_retrain2022_25, base_retrain2021_26, base_retrain2022_40, base_retrain2022_26, base_retrain2021_27, base_retrain2022_41, base_retrain2022_27, base_retrain2021_28, base_retrain2022_42, base_retrain2022_28, base_retrain2021_29, base_retrain2022_43, base_retrain2022_29, base_retrain2022_44, base_retrain2022_45, base_retrain2022_46, base_retrain2022_47, base_retrain2022_48, base_retrain2022_49, base_retrain2022_50, base_retrain2022_51, base_retrain2022_52, base_retrain2023_01, base_retrain2023_02, base_retrain2023_03, base_retrain2023_04, base_retrain2023_05, base_retrain2023_06, base_retrain2023_07, base_retrain2023_08, base_retrain2023_09, base_retrain2021_32, base_retrain2021_33, base_retrain2021_34, base_retrain2021_35, base_retrain2021_36, base_retrain2021_37, base_retrain2021_38, base_retrain2021_39, base_retrain2021_40, base_retrain2021_41, base_retrain2021_42, base_retrain2019_53, base_retrain2020_53, base_retrain2021_53, base_retrain2022_53, base_retrain2021_43, base_retrain2021_44, base_retrain2021_45, base_retrain2021_46, base_retrain2021_47, base_retrain2023_10, base_retrain2021_48, base_retrain2023_11, base_retrain2023_12, base_retrain2021_49, base_retrain2021_50, base_retrain2021_51, base_retrain2021_52
+autohome: deberta, xlarge, base, roberta, large
+Test: finetuned, imdb
+deepthulac: seg, pos
+Masked: language, model, 2ktweets, conflibert, scr, cased, uncased, cont
+carlbert: webex, mlm, spatial, wo, recipient
+cocodr: base, large, msmarco, warmup, idro, only
+mabel: bert, base, uncased, roberta, large
+AAVE: bert, distil
+relation: distilbert, inv, em
+absa: restaurant, froberta, base, mlm
+jmedroberta: base, manbyo, wordpiece, vocab50000, sentencepiece
+prompt: ls, es, pt, en
+olm: bert, base, uncased, oct, roberta, test, dec, latest, tiny, december, oscar, nl, step4, step2
+enlm: roberta, final
+polarity: tweet, roberta, base, 1e
+minirbt: h256, h288
+rbt4: h312
+erwt: year, st, masked
+norbert2: finetuned, comments
+kannada: bert, scratch
+gujarati: bert, scratch
+medbert: no, duplicates
+poebert: checkpoint, finetuned, poetry, foundation, clean, balanced, eras
+medBIT: r3, plus
+ChpoBERT: wwm, mlm
+ChpoRoBERTa: mlm, wwm
+alephbertgimmel: base, small
+small: mlm, tweet, imdb, glue, cola, mnli, mrpc, qnli, qqp, rte, sst2, stsb, wnli, custom, tokenizer, squad, wikitext, rotten_tomatoes, conll2003, snli, from, scratch, tweet_eval, expand, vocab
+medium: mlm, tweet, imdb
+base: mlm, tweet, imdb
+lsg16k: italian, legal, bert, sc
+kistep: koelectra
+model_name: finetuned, alm
+DrBERT: 4gb, 7gb, cp, pubmedbert, large
+npm: single
+xmod: base, 125k, 195k, 265k, 269k, large, prenorm
+MedBERT: breastcancer
+ro: bert, tweet, large
+ABSA: with, maskedlm, finetuned, sentihood, bertbase, vietnamese
+bodo: roberta, mlm, base, bert, article, large, sentencepiece
+kebyt5: small, preview, base, large
+genome: bert, ds
+distilbert_add_pre: training, complete, dim
+crammed: bert, legacy
+tulio: bert, chilean, spanish
+spladeX: tt, es, zs
+MARBERT: adept
+SocBERT: base, final
+KantaiBERT: mlm
+neuclir22: splade, fa, ru, zh, pretrained
+indojave: codemixed, bert, base, roberta, indobertweet, indobert
+dish: finetune, gpt3, menudata, only
+mBERTu: arabic
+mBERT: rom, arabic, hi, bn, mlm, te
+slimr: msmarco, passage, pp
+TW: zh, legalbert, wwm, legalroberta
+genkalm: medium, gpt2, base, og, pyg
+biomedical: longformer, base, large
+guilbert: base, uncased
+greek: media, bert, base, uncased, longformer
+norbert3: large, base, nak, nb, wiki, c4, ncc, oversampled, small, xs
+knowbias: bert, base, uncased, race, gender
+mosaic: bert, base, seqlen
+cms: ext, bio_clinicalbert, rx, language, correction, invoice
+BERTrade: camembert, flaubert, base
+thesis: pretrained
+unsupervised: exist, rb, comb, cased
+LEIA: lm, large, base
+swissbert: xlm, vocab
+MigBERT: large, base
+thucbert: cm, mm
+bnc: bert, span, 0.5x, 0.25x, 2x, document, order, subword, word
+rl: bert, oscar, nl, step4, step1, step2
+bert_labor_space_token_128_batch_64_0: 0001_not_firm, 0003_not_firm
+bert_labor_space_token_512_batch_8_0: 0003_not_firm, 0001_not_firm
+gena: lm, bigbird, base, t2t, bert, lastln, multi, large, sparse
+lsg4k: italian, legal, bert, sc
+ecir23: scratch, msmarco, splade, document, tydi, arabic, japanese, russian, mlmflops, query
+humbert: chinese
+InLegalBERT: cbp, lkg, finetuned, triples
+nucleotide: transformer, 500m, human, ref, 1000g, 2.5b, multi, species, 50m, 100m, 250m
+tabert: 1k, 2k, 4k, test, whole_word
+Hypert: medical, music
+backbone: cocomae, bertnsp, cocondenser, cotmae
+colbert: cocomae, bertnsp
+splade_all: cocomae, bertnsp
+splade_nomath: cocomae, bertnsp
+splade_somemath: cocomae, bertnsp
+CT: pubmedbert, re, m1, bestloss, m2, onelook, m3, complete
+TCR: bert, mlm, positionloss, large, substring
+vipubmed: deberta, xsmall, base
+me: bert, mixed, roberta
+AlephBertGimmel: epochs
+Hindi: bert, roberta
+SELFormer: lite
+perceiver: io, mlm, imdb
+LOGION: base, 50k_wordpiece
+uspanteko: masked, lm, mlm, large
+albertina: 900m, portuguese, ptpt, encoder, ptbr, brwac
+PharmBERT: cased, uncased
+BEREL: base
+original_topic: sports_bert, sports_kcbert
+improvedABG: epochs
+quant: tinybert, first, second, third, nas3, fixed, quant, fp32relusoftmax, from, loading, my, tinybert_model_final_origfp32_fixsave_noteacher
+masked: lm, tpu, language, finetuned, model, eli5
+amazon: roberta, lowercase
+AlgArLegal: large, arabert, base, nonumber
+MuLan: methyl, bert, distilbert, albert, electra
+KannadaBERT: lamb
+Nepali: bhai, albert, xl, ner, bert
+buffer: search, query, doc
+distilbertu: base, cased, 0.5, 0.0, 1.0, anneal
+ern3: xb, zh
+inisw08: distilbert, mlm, adamw_hf, adamw_torch, sgd, adagrad, adamw_torch_0608, adamw_torch_fused, lion_32bit, lion_32bit_test, robert, lion_8bit, adamw_torch_test, adamw_torch_bs16, adamw_torch_bs8
+teste: conversion, deberta, generator
+San: bert, albert, roberta
+mra: base, d3
+output: txt
+ai: ja_bibert, ja_mlm
+hf: distilbert, imdb, mlm, cosine
+banglabert_generator: finetuned, fill, in, the, blanks
+afriberta_large: finetuned, kintweetsb, kintweetsc, kintweetsd, pretrained, kinyarwanda
+afriberta_base: finetuned, kintweetsb, kintweetsc, kintweetsd, kinyarwanda
+afriberta_small: finetuned, kintweetsb, kintweetsc, kintweetsd
+simple: latin, bert, uncased, gpt, doupo
+KcBERT: large, finetuned, josa
+spanish: bert, base, spanish, wwm, cased, uncased
+ru: longformer, base, large, tiny
+20230714: xlm, roberta, base, confusion
+1_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+2_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+3_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+4_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+5_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+6_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+7_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+8_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+9_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+10_20230714_01: xlm, roberta, base, confusion, bert, multilingual, cased, distilbert
+esm2_t12_35M_UR50D: finetuned, tchard
+incel: bert, base, uncased, 1000k_english, multilingual, cased, 627k_italian, mbert, 1000k_multi, alberto, umberto
+blade: en, zh, fa, ru
+lil: bevo, short, only, long, music, target
+geberta: base, large, xlarge
+BabyLM: jde, larger
+baby: mae, byol, 10m
+babylm: strict, small, mlsm, deberta, large, final
+teams: base, dewiki, generator, historic, multilingual
+2020: q1, filtered_tweets, full_tweets, filtered_tweets_tok, full_tweets_tok, q2, filtered_tweets_tok_prog, filtered, filtered_prog, 90p, 25p, 50p
+esm2_t33_650M_UR50D: finetuned, mhc
+MeMo: bert
+BulBERT: mlm, 1m, fp, wiki, bg, chitanka, model, finetuned, cinexio
+gcm: xlmr
+mergedistill: base, cased, anneal, kmt, it, mt, ar, en, no, distill
+DistilRoBERTa: system, application_5, application_3, aa, csic, spirit
+retnet: 1b, random, 1m, 100m, 3.5m, 3b, 120m
+oyo: bert, base, mt, large
+usp: gloss, denoiser, mlm, genbench, lang, relative_key_query, micro
+ir100: dogfooding, bert, embedding
+BERTu: tf
+legal_base: _5__checkpoint_last, _5__checkpoint_3_50000, _5__checkpoint_2_26000
+ptcrawl_base: _5__checkpoint_last, _5__checkpoint_3_52000, _5__checkpoint_2_26000
+commerce: bert, kr, debug
+distilbert_masking: simplified_2, simplified_3
+smolm: mlm, bpe, unmask, seed_111, seed_222, seed_333, seed_444, seed_555, seed_666, seed_777, seed_888, seed_999, seed_1709
+issueBERT: base, large
+viz: wiz, bert, base, uncased_f32, uncased_f16
+hangman: bert, mini, base, large
+20230928: xlm, roberta, base, new
+V2_20230929: xlm, roberta, base, new
+V3_20230929: xlm, roberta, base, new
+20231005: bert, base, multilingual, cased, new
+gte: small, l3, ingredient, base, finetuned, imdb
+20231008: distilbert, base, multilingual, cased, new
+afrikalm: multilang, kin, bbj
+serengeti: e110, e250
+Indian: annual, report, lm, bert, roberta
+Esteler: distilbert, id, mobilebert
+hateBERT: finetuned, imdb, imdb_, snli, stories, ethics, glue, cnn, govreport
+SecBERT: finetuned, imdb, cnn
+LessSexistBERT: finetuned, imdb
+spanish_mlm: test, mix
+jina: embeddings, small, en, quant, quantized, arm64, avx2, avx512_vnni
+m2: bert, 80m, 110m, 260m, 341m
+FiLM: sec
+tahrirchi: bert, base, small
+NetFID: netflow, pcap, ip, header
+ipet: pattern0, shots, pattern1, model1, model2, model3, model4
+ofa: multi
+mlm_bert: steps27053, bs4096, 0.0003, 0.1
+MaskedLM: roberta, large
+PhoneBERT: large, base, tiny, small
+vinucmer: small, 1mer, 2k
+bert_True_0: 5_train, 5_eval
+ThaiBERT: tiny, small
+MLM_finetuned_on_HIV_lr_5e: 5_epochs
+GysBERT: 1.5m, 2m
+MLM_finetuned_on_BACE_lr_5e: 5_epochs
+NLP: course, chapter4, test, model, try_it_out, bert_model, repo
+hml: best, bi, en, last, es
+tweet: bert, uncased

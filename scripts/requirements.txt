@@ -2,3 +2,7 @@ bs4
 requests
 matplotlib
 numpy
+WordCloud
+Circlify
+seaborn
+networkx

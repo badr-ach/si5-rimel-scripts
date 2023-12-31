@@ -1,0 +1,950 @@
+flan: t5, base, large, small, xl, xxl, grammar, synthesis, ul2, finetuned, gsm8k, xsum, summarization, sharded, fp16, kw2email, en, to, no, test, opus_books, small_en, base_en, large_en, open_subtitles, coref, unnatural, instructions, samsum, squad2, swe, common_gen, openai, summarize_from_feedback, pwkp, 8bit, flant5, apple, support, text2sql, with, schema, codeparrot, xlcost, text, code, extraction, cnndm_2000, all, cnndm_4000, da, multiwoz_500, multiwoz_1000, multiwoz_250, ipu, squad, qg, ae, ro, tuned, zolvit, qag, cnndm_5000, cnndm_8000, juraqanda, cnndm, analogy, permutation, cnndm_20000, cnndm_10000, poll, generation, financial, phrasebank, lora, domain, bf16, sat, reading, summary, multiwoz2.1_fs0.2, multiwoz2.1_fs0.1, multiwoz2.1_fs0.05, multiwoz2.1_fs0.01, conceptnet, rex, nell, multiwoz2.0_400, multiwoz2.0_80, multiwoz2.0_800, nlg, multiwoz2.1_80, best, new, multiwoz2.1_800, multiwoz2.1_400, cnndm_1000, 20b, cnn_dailymail, ep10, ep20, hint_hit, hint_precision, length_control_token, ep2, ep1, sum, cnn, loss, ppo, dialogue, testing, violation, user, use, first, run, supervised, batch, size, epoch, lex, de, samsum2, samsum3, samsum5, gss, instructiongen, instruct, geoqa, alpaca, nli, explanation, label, botco_qa, question, context, only, pubmed_qa, pqa_labeled, botco_qa_no_context, taska, pt, es, tldr, 50k, cbp, lkg, mlm, paraphrase, jfleg, pqa_artificial, attitude, oig, custom, gpt4all, ft, filtered, clang8, e1, b16, jain, e8, sharegpt, alt, ep50, 100k, ep100, small_askscience, base_askscience, simplification, cnndm_40000, nonstop, small_yake_top3_asks_qg, base_yake_top3_asks_qg, corpus, peft, allenai, prosocial, dialog, upload, billsum_model, ep8, ep25, qa, gpt4, cnn_2000, dm_2000, deepspeed, zero3, dm_4000, cnn_4000, cnn_8000, dm_8000, dynasent_r1_r2_sst, sales, answer, generator, facet, ep15, gist, pos_control, neg_control, ep12, ep18, dolly, epochs, customer, sentiment, kelm, tekgen, kg, ep11, lfqa, fr, ep7, codesearchnet, python3, edos_labelled_aggregated, par3, 075sim, shuffled, python, coqa, samsum_nl_split_ep5, samsum_nl_split, summerize, legal, doc, padded, finetune, cuad, lq, req, extractor, learningq, tarek, augmented, c9210, st, definition, work, filters, imdb, classification, lqq, fine, grained, ep5, fce, ep6, forecast, seprator, billsum, unsupervised, bp_ml, tigger, new_edos_fine, gecfirst, dolly_hhrlhf, lmqg, squad_, naive, report, website, summarizer, tacred, productdomain_instructions, qmsum, 3k, emotional_reaction, retacred, end2end, arxiv, taboo, for, llms, deft, ct2, int8, tweet, tempo, wic, nerd, hate, similarity, intimacy, emoji, emotion, topic, ner7, var, len, triviaqa, direct, cogs, passage, evidence, wikitablequestions, 4bit, 128g, gptq, base_with_pragmatics_version1, base_with_pragmatics_normalised, base_with_pragmatics_version2, base_with_pragmatics_all_costs_100_epoch, base_with_pragmatics_only_utility, cpt, medical, ner, hai, cleaned, chat, rlaif, detoxified, copy, preferencebot, factual, sg, vg, totto, intent, critical, constructive, translator, t5_base, sample, downsamples, flashcards, gold, solr, finetunned, reviewb, finetunned2, cc, news, subset, date, from, scratch, subjective, absa, dst, as, science, exam, gaudi2, multicard, recipe, checkpoint, ingredient, samah_finetuned_flan, op, medicine, three, line, english, title, japanese, master, eli5, clickbait, spoiling, case, final, shards, sherif, rl, small_twon, debug, generative, agent, base_twon, text_summarization_data, recipes, carvia_nlc2cmd, carvia_nlc2cmd_ver2, mc, scientific_papers, activity, surrounding, summarize, finetuning, prompt, respinse, response, tobacco_intent, tobacco_intend, tobacco_intd, classification_int, classification_int1, options, response2, response3, response4, response5, coding_instructions_2023_08_18__07_51, coding_instructions_2023_08_18__12_06, noun, completion, orca, 30k, 3b, lamini, trading_candles, quora, multiqg, xlsum, xl_onnx, ocp, bottleneck, adapter, cpgqa, unique, html, srbd, adherence, quantized, summaries, regex, controllable, amazon, reviews, multi, empathy, auto, complete, starwars, text2sparql, indian, constitution, samsumtraduzido, id, ia3, merged, churnescalation, tokenizer, fomc, bioarxiv, lpi, predicts, nqdata, premise, conclusion, twitter, analysis, zero, shot, cti, interactly, yt, transcript, transcripts, ameli_qa_1k, model2, il_post, it, alphax, budget, seq, professionalismempathy, model3, token1, smcp, bsp_cl, kaggle, llm, select, search, conditional, translation, me, rank, prompt_generation, ellis, template, gen, fill, t2s, plan, ameli_qa_10k, ds, generic_branch, full, extract, issues, and, suggestions, suggestions_2, suggestions_3, python_qa, intra_model, ameli_qa_100_en, ipa, optimum, onnx, avx2, wiki, amazon_reviews_multi, lot, cars, descriptions, ecommerce, terms, wiki2, med, qasem, joint, tokenized, sentence, reaction, encoder, relevant_df, ner_noncustom, llm_detect_ai, education, continuity, rephrase, simplif, farag, gis, comma, correction, mathqa_, nvidia, datadive, openbsd, faq, coca, discourse, axh, spotify, podcasts, xerr, svamp, mathqa, astro, artapolitica, eng, tgl, booksum, product, review, zalo, 1.1, 1.2, updated_data, medication, lists, knowsql, prompting, nlp, paper, gen4, gen5, gen6, wikisql, nov, data_train, csv, mawpnli, calcx, samsam, small_full_finetune, large_full_finetune, xl_full_finetune, small_adversarial_finetune, large_adversarial_finetune, t5flan_finetune_reformat_in_given_manner, ameli_qa_20k, xl_adversarial_finetune, imagine, nq, dialogsum, tqa, ameli_qa_30k, gguf, plsql, vetdataset, interpreter, bm25, hnsw, data, categorization, bert, wq, book_summarizer, veterinaryqa_data, sciq, lamp, 4u, input, ameli_qa, bangla, lemmatizer, own, rlhf, detoxify, dialogsum_, ameli_gen_qa, tos, simplify, instruction, type, samp
+bart: kurd, spell, base, large, cnn, finetuned, pubmed, paraphrase, chinese, food, summarizer, legal, es, japanese, grammar, synthesis, swedish, cased, on, patent, deepspeed, ds, test, formal, test001, test002, test004, test005, test10, test11, test12, test13, test14, test15, test18, test2, test20, test23, test25, test29, test30, test31, test32, test33, test35, test36, test8, test9, with, xsum, samsum, detox, multi, en, wiki, news, combine, de, fr, pretrained, qg, alpha, interro, keyphrase, generation, kptimes, extractive, openkp, squad, default, no, answer, paragraph, weaksup, earlystop, pad, early, concise, baseline, kaggglenews, final, batch8, lr1, lr2e6, lr4, epochs10, epochs3, fact, corrector, ii, kagglenews, entityfiltering, cnhdwriter, summarizer_03, commentaries_hdwriter, zh, ko, mini, small, tl, all, ng, ru, python, 1m, large_genrl_lcquad1, large_genrl_lcquad2, large_genrl_qald9, large_genrl_simpleq, mlm, medterm, 1.1, jes, cnn_dailymail, eli5c, negative, claim, arxiv, multinews, billsum, words, pkuseg, transcription, aggregation, drcd, hl, nqg, tiny, random, daily, dialog, empathetic, dialogues, cluecorpussmall, distractor, both, pm, eqg, question, generator, base_tapt_email1e4, new, doc, tapt, booksum, chapter, sum, tfidf, tfidf1, new1, lit, paraphrasing, 10k, med, term, 100k, evalma, try, nq, original, nopad, early1, early2, nopad1, nopad2, ga, mds, own, qmsum, meeting, summarization, tldrhq, dailymail, conditional, masking, checkpoint, mlquestions, backtraining, news1, qa2d, selftraining, end, to, conala, sci, definition, poem, l2s, roundup, e16, e1, e8, e4, acled, t2s, e2, e32, e64, e12, e10, earlystopping, mnli, e100, e60, e43, r3d3, e3, pubmed1o3, pubmed2o3, pubmed3o3, arxio3, science, e5, e6, subjqa, restaurants, electronics, grocery, tripadvisor, books, movies, pt, aprischa, aprischa2, filtered, spotify, podcast, summ, manual, squadshifts, new_wiki, vanilla, nyt, reddit, amazon, aeslc, styletransfer, subjective, neutral, ytubenewssum, base_aeslc_23419, base_aeslc_705525, base_aeslc_4837, base_xsum_23419, base_xsum_705525, kor, base_xsum_4837, base_aeslc_42, base_aeslc_12345, base_aeslc_3878022, base_aeslc_919213, base_aeslc_9467153, base_aeslc_5537116, base_aeslc_6585777, base_aeslc_5893459, base_aeslc_8653685, base_aeslc_2930982, base_aeslc_7629317, base_aeslc_6880281, base_aeslc_4065329, base_aeslc_9478495, base_aeslc_3198548, base_aeslc_3449378, base_aeslc_4006598, base_xsum_42, base_xsum_6585777, base_xsum_919213, base_xsum_5537116, pizza, 5k, base_pubmed_12345, yelpreviews, text2text, simplifier, convsumm, cnndm, bs0.25, 50k, 20k, epochs20, pw, seg, for, multi_lexsum, long, short, source, multitask, me, special, rev, ro, standardized, base_debate_23419, base_debate_8653685, base_debate_4837, base_debate_3878022, base_debate_6864530, base_debate_705525, base_debate_7629317, base_debate_2930982, base_debate_3198548, base_debate_9478495, base_debate_5537116, base_debate_6585777, base_debate_4006598, base_debate_919213, base_debate_42, base_debate_3982742, base_debate_2470973, base_debate_4065329, base_debate_5893459, base_debate_4521825, base_debate_9467153, base_debate_9463133, base_debate_3449378, base_debate_6880281, base_debate_12345, base_movie_reviews_5537116, base_movie_reviews_6880281, base_movie_reviews_4837, base_movie_reviews_9467153, base_movie_reviews_2470973, base_movie_reviews_4006598, base_movie_reviews_919213, base_movie_reviews_9463133, base_movie_reviews_3198548, base_movie_reviews_2930982, base_movie_reviews_4065329, base_movie_reviews_705525, base_movie_reviews_5893459, base_movie_reviews_42, base_movie_reviews_3878022, base_movie_reviews_4521825, base_movie_reviews_3449378, base_movie_reviews_8653685, base_movie_reviews_3982742, base_movie_reviews_23419, base_movie_reviews_6864530, base_movie_reviews_9478495, base_movie_reviews_6585777, base_movie_reviews_7629317, base_movie_reviews_12345, base_scisummnet_705525, base_scisummnet_8653685, base_scisummnet_5893459, base_scisummnet_4065329, base_scisummnet_3878022, base_scisummnet_5537116, base_scisummnet_9467153, base_scisummnet_42, base_scisummnet_4837, base_scisummnet_6585777, base_scisummnet_23419, base_scisummnet_919213, base_scisummnet_6880281, base_scisummnet_9478495, base_scisummnet_12345, base_scisummnet_4521825, base_scisummnet_4006598, base_scisummnet_3449378, base_scisummnet_9463133, base_scisummnet_2930982, base_scisummnet_2470973, base_scisummnet_3198548, base_scisummnet_6864530, base_scisummnet_7629317, base_scisummnet_3982742, base_aeslc_2470973, base_aeslc_6864530, base_aeslc_3982742, base_aeslc_4521825, base_aeslc_9463133, speech, dialogue, dialouge, mask, filling, samsumgen, conv, dialogsumgen, dialogsum, translation, merged, feedback, withonetestver, ppl, sorted, rouge1, rouge2, rougel, targetlen, top25, 3rd, sourcelen, model2, bs086, under, cl, bs025, withoutcl, seed42, seed30, seed17, tweetsumm, tweetsummgen, mediasum, seq2seq, scitldr, distilled, seed40, seed29, seed16, asqa, ob, mediasumgen, few, shot, seed, cb, bsppl, seed33, news_summarization_cnn, infilling, lr, 1e, decay, 5e, 3e, 6epoch, seed36, seed55, cnn_dataset_radiology_20220912, tsv, cnn_summarizer_30216, finetuning, top40, job, recs, human, 2nd, total, fine, tuned, large_, base_question_generation, top50, f1, f2, filtering, idl, pplcl, tweetqa, qag, totto, checkpoints, qa, int8, dynamic, hotpotqa, german, paper, titles, intro, parth, ver1, mathqa, paraphrase1, in, fo, mohith, moh, decomposition, hp, 15or5dmk, prem, multirc, abhi, iirc, drop, gold, retrieved, numglue, tatqa, saf, communication, networks, cnn_dataset_radiology_summary20221129, ae, seed102, seed32, seed19, seed23, samsung, cnn_radiology, ai, cardiothoracic, imagingcancer, 0.8, 0.9, chatgpt_, xlsum, concat, base_xsum_9463133, base_xsum_7629317, base_xsum_3198548, base_xsum_2930982, base_xsum_9478495, base_xsum_9467153, base_xsum_5893459, base_xsum_8653685, base_xsum_2470973, base_xsum_6864530, base_xsum_4521825, base_xsum_12345, base_xsum_4065329, base_xsum_3982742, base_xsum_6880281, base_xsum_3878022, base_xsum_4006598, 5epochs, base_xsum_3449378, 3epochs, cs, bio, seed59, seed117, seed11, seed43, seed35, seed37, low, resource, percent1, percent5, percent10, percent20, percent50, scientific_summarize, r3f, electrifai_, it, fanpage, ilpost, wits, epoch, first, mqa, tune, rmqa, finetune, whole_summary, whole_summary_sorensen, whole_summary_chatgpt, whole_summary_chatgpt_and_tweetsum, checkpoint20230112, hk, finnish, large_aeslc_23419, large_aeslc_12345, large_aeslc_705525, large_aeslc_4837, large_aeslc_42, example, score, targeted, summary, lyrics, description, cause, effect, why, lfqa, summscreen, svd, chatgpt, ttd, icsi, ami, qa10k, neutralization, song, optimised, wikisum, mlsum, instructiongen, fleece2instructions, r1, finetuned_aug, code, dialsum, finetuned_20k, finetuned_20k_512, finetuned_128_256, finetuned_aug_128_256, spelling, nl, finetuned_original_train_val, finetuned_original_train_val_substituted, finetuned_combined_train_val, finetuned_marian_data, finetuned_combined_38_train_val, tweetsum, inputs, highlights, redit, random_askscience, fsl, small_askscience, base_askscience, large_askscience, psychology_misc_wiki_filtered, plos, qqp, paws, paws_unlabeled, random_yake_top3_asks_qg, small_yake_top3_asks_qg, base_yake_top3_asks_qg, large_yake_top3_asks_qg, summarization1, stats, extract, meetings, spellcorrect, music, ingredients, bart, bart_l, text, simplification, newsroom, open, augmented, model, gar, sentence, sinhala, govreport, cnndm_ft, action, items, coqa, summarize, scientific, articles, onnx, longform, swipe, clean, instruct, dolly_hhrlhf, english, wikilingua_epoch, p7_, token, edu, middle, russian, lemmatisation, modern, ing, extraction, prompt, co, old, latest, style, converter, wikitext2, rl, wikilarge, newsela, domain, adaptation, biendata, elife, passage, evidence, simplification_1e4_adafactor, simplification_1e4_adafactor_newsela, cnn_summary, simplification_1e4_adafactor_biendata, tr, translations, final01, review, story, trained, lg, nosqli, edgar, corpus, ft, indosum, ep5, cnndm_2000, title, pubhealth, expanded, hi, grad, distilled_16_8_3_1_10_3e, 05_fp16, distilled_2_8_3_1_10_3e, distilled_8_8_3_1_10_3e, paraphase, 3epoch, bbc, dnc, medcord19, carvia_nlc2cmd_bart, papers, nontoxic, expert, toxic, antiexpert, vn, ehealth, tw, dm, summaries, lpi, bioarxiv, predicts, ml, spanish, yt, transcript, 5percent, xsum_samsum, kaggle, llm, cls, re, attention, portuguese, promt_generation, prompt_generation, teste2, retrain, perspectives, chat, seq, chatbot, cantonese, typo, fineturned, percent, percents, eheath, reverse, datadive, tech, uk, cls_n, tokenizer, bosch, imdb, 2.0, translate, vi, emojilm, base_readme_summarization, large_readme_summarization, e2t, generate, mimiciii, topic, length, contrastive, tagger, word, synonym, replacement, bit4, rank16, decode, dailynews, full, noprompt, podcasts, claimdecomp, qanda, proto, paradetox, split, 1token, masked, xsum_readme_summarization, eli5_lfqa, qanda2, eli5_lfqa_top, qanda3, spa, guc, mna, pbb, eli5_precomputed, eli5_precomputed_best, two, horror, eli5_lfqa_best, eli5_base_best, steps, eli5_precomputed_best_256, eli5_precomputed_best_slice, laws_articles, large__leia_barcodes_items_20231216__202312200108, large__leia_barcodes_items_20231216__202312200147
+mt5: base, small, xl, large, xxl, parsinlu, sentiment, analysis, spanish, memmories, en, pcm, finetuned, amazon, es, pnsum, pnsum2, spider, thai, qg, yes, no, germeval21, toxic, with, data, augmentation, task, specific, pretraining, and, mnli, xtreme, xnli, chinese, jaquad, ae, hi, to, xsum, accelerate, formal, informal, headline, generation, ilgiornale, repubblica, question, answering, video, games, mlsum, id, qgen, qa, turkish, paraphrasing, vi, 3task, highlight, combined3, tquad2, both, prepend, simplification, arc, comqa, obqa, multiple, choice, opus, translation_fa_en, qqp, query, snli, entailment, squad, reading, comprehension, translation_en_fa, src, trg, testing, ans, ext, e2e, multitask, hl, sinaha, summarization, paraphrase, generator, paraphrases, espanol, ja, tiny, random, msmarco, pt, mmarco, modernisa, translate, yue, zh, 5k, th, translation_thai, english, translation_english, thai_translation_th, en_en, th_, ru, lfqa, mustc, fr, ukr, gec, german, base_2, base_2_3, ftune, edu, kormath, mt5, billsum, cnn_dailymail, multilingual, xlsum, new, klex, finetune, dimensions, polisci, indonesian, fa, news, ab, dequad, itquad, koquad, esquad, logo, mlsum___summary_text_google_mt5_base, google_small_for_summarization_tf, ruquad, mlsum___topic_text_google_mt5_base, data_prep_2021_12_26___t55_403, csv___topic_text_google_mt5_base, data_prep_2021_12_26___t22027_162754, data_prep_2021_12_26___t1_162754, pukulenam, data_prep_2021_12_26___t2981_22026, data_prep_2021_12_26___t8_54, data_prep_2021_12_26___t404_2980, data_prep_2021_12_26___t1_7, raw_data_prep_2021_12_26___t22027_162754, csv__google_mt5_base, raw_data_prep_2021_12_26___t55_403, frquad, csv__g_mt5_base_l5, csv__g_mt5_base_l2, 1epoch, thaisum, accelerate2, accelerate3, tradition, gen, tydi, paraphraser, small_summarization, sentence_compression, cnn, test, korquad, ibn, shaddad, hindi, ro, kogi, regio, priming, qa_en, cs, generative, 3b, wikipedia, jp, larger, summary, t5, limitations, ar, 100k, kdd, alltrain, 4.5e, 4e, wo_documents, task12, 5e, 13b, it, 20220901_001521, g2p, 20220906_091928, aex, dg, 1.0.0, 1.0.2, 1.0.3, 1.1.0, summaries, thai_reverse_dictionary, 1.1.1, my, orangesum, summarizer, mlsum_domain, paraphraser_, opus_books, 2epochs, 4epochs, 8epochs, kde4, eng2nep, romanian, temp, clf, multilarge, rr, nb, diacritics, me, unans, liputan6, coba, da, dailywire, es_akmmsr, qasrl, p1, p2, role, class2, class3, class1, intento1, intento2, dailymail, tuto, korean, sumsum, ep6, audio, text, cc, kompas, aug, numsep, retrained, notes, mi, cpe, kmutt, sentence, sum, sanook, headlines, qag, nlg, all, crosswoz, dst, nlu, lm, adapt, 18jan, ami, 19jan, pro, summ, ko, 24jan, 26jan, for, motion, title, 2nd, round, 28jan, 31jan, 3rd, poll, 5feb, multihead, rabbi, kook, nave, test3, sumarizacion, textos, bilingual, 13feb, hebrew, or, digikala, longtitles, 14feb, tiny12l, single, app, summarize, ch_trad, cleaner, codeswitch, generated, datasets, final, 23feb, 24feb, 25feb, de, squad__fin, trimmed, persian, dataset, translation, 0.2, new2, sweeps, beer, ctg, fs, squad2, fin, bn_new, bn, sk, bn_sum_total_data, base_csfd, wikisql, cols, mini9l, enquad, urdu, gecid23, slovaksum, kazakh, no3, novel, email, small_cnn, news_normail, bangla, para, chenhg8680, normail, mrm8488, nestoralvaro, smesum, bs8, news_ua, food, km, phoneme, reverse, codesearchnet, python3, plos, sinhala, e3, search, gecid, e8, b8, gecfirst, b16, aym, lex, try3, ch, fce, zh2ko, teste, full, length, internal, flores200, baseline, packed, scaffold, 1b, 600m, try, ie, zero, ft, americas23, old, slovene, finedtuned, swahili, paracrawl, enen, dede, cscs, slsl, multi, wikilingua_epoch, rul, pruned, torch, swatf, simple, intermediate, merged, ntcir17, 3classification, tr, keyword, abstract, nc16, deen, 10k, ende, ruen, 250k, enru, ptes, youtube, cy, enes, geodescriptions, 2k, wmt14, 1250k, 50k, query_realestate_cars, dm, kaggle, gramatika, sin, odqa, summarydata, langtype, long, pan, fine, tuned, wikilingua, tydiqa, only, kor, paper, mutigame, small_old, bbc, lemmatized, gramatika161k, lr0.001, e10, lr5, japanese, small_new, small_large_lr, small_mid_lr_mid_decay, trim, small_25, nn, small_test_35, rf, info, extraction, gramatika1500k, heq, tq, amazon_electronics, ai4privacy, hunsum, 1_5, diacritizer, menyo, americanas, personal_data, en2vi, 1_1, visum, fixpdftext, 1_4, 1_hvg_index, label, iiib, 02c, binary, iiia, iv, fixth, budget, seq, nld, gos, nonpretrained, seq2seq, teste2, tata, ipa, machinelearning, 1_hvg_index_1027, 1_hvg_neps_portfolio_telex_1030, local, small_norl, 1_hvg_index_1103, sw, te, 1_large_1105, zhquad, pa, test_76362_prefix_summarize, test_63829_prefix_summarize, test_30483_prefix_summarize, test_21911_prefix_summarize, test_21911_prefix_summarize_59, basenepalifinetuning, base_75, base_75_05, base_75_05_64, base_75_05_74, semantic, heritage, indosum, largev_18026, spa, guc, largev_18026v_74716, nepali, health, ii, pbb, large_1, large_1_81, task1, dataset1, dataset2, dataset3, dataset4, task3, task2, iii, lora, sql, lit, simplif, samsum, openai, summarize_from_feedback, sport, vietnamese
+t5: base, grammar, correction, efficient, _1, japanese, web, finetuned, emotion, sarcasm, twitter, e2e, qg, english, base_location, extraction, model, gc4, all, german, small, el32, dreambank, generation, ner, char, awesome, text, to, sql, mawps, pen, news, summarizer, en, ru, spellchecker, gec, billsum, xsum, 3e, nl36, old, oscar, parasci, scitldr, fr, fquad, large, darija, summarization, generate, headline, ro, fine, tuned, on, jfleg, totto, table, sh, skv, shkv, tiny, xl, vi, hl, squad, original, fi, paranmt, detox, paraphrase, paws, msrp, opinosis, conversation, gcloud1, proplus, toxic, qa_squad2neg, qa_webnlg_synth, qg_squad1, qg_webnlg_synth, weighter_cnndm, end2end, question, multi, combine, wiki, de, with, title, argument, anlyser, sn, qa, genrate, explain, context, finetuned128, finetuned16, finetuned300, finetuned32, finetuned8, next, word, generator, qoogle, squad11, squad2, wikisql, en_1, en_15i, customised, 1k, tokens, pisa, state, only, last, step, dataset_20, input_64, epoch, default, ae, no, answer, paragraph, wi, arabic, conditioned, turn, text_summarization, cnn, wei0, wei1, wei2, weaksup, canard, quora, hotpot, prefix, wnut, task3, pt, lr_2e, fp_false, conll03, random, length, learning_rate, 2e, weight_decay, 0.01, finetu, truncated, d22eed, 0.0001, 5e15da, 0.005, 41f800, train_epochs, ecommerce, lr_1e, fp16_off, lr0.001, cocktails_recipe, coktails_recipe, small_xsum, 0.0002, 1e, 0.02, figurative, dutch, demo, openwebtext, wikisplit, recipe, conceptor, sentence, doctor, skills, spanish, italian, bbc, pubmed, mlm, herblabels, 11b, ssm, nq, nqo, tqa, tqao, wq, 3b, lm, adapt, dl2, dl4, dl6, dl8, dm1000, dm2000, dm256, dm512, el16, el2, el4, el6, el8, ff1000, ff12000, ff2000, ff6000, ff9000, nh16, nh24, nh32, nh8, nl16, nl2, nl24, nl32, nl4, nl40, nl48, nl8, dl12, dl16, dl32, dm128, dm768, el12, nh12, nh2, nh4, nl10, nl12, nl20, mini, nl6, dl1, el48, el64, ff3000, nl22, nh1, nl28, xxl, wqo, tapaco, pegasus, samsum, transferqa, multiwoz, slots, sense, disambiguation, fork2, wavec2, punctuator, summary, chinese, lm100k, visquad, aqg, full, itranslate, inshorts, cord19, fp16, lr1e, lr3e, swd, 8k, aeslc, reddit, tifu, tldr, boolq, break_data, retrieval, common_gen, disaster, tweets, e2m, intent, imdb, sentiment, math, calculus, differentiate, linear, algebra, 1d, 2d, list, prime, factors, test, seq, term, multinews, titles, classification, qasc, sc, quarel, ap, quoref, race, spa, span, summarize, swag, tab_fact, for, paraphrasing, text2log, translation, es, nqg, als, norwegian, pretraining, island, podcast, summarisation, arxiv, abstract, portuguese, finetuned_xsum, askscience, lfqa, lexical, analysis, paraphraser, diverse, high, quality, epochs2, lr2e, nofp16, wd, batch8, epochs5, final, weight_decay_0.001, mlsum, tr, pawraphrase, punctuation, restoration, one, line, article, mc4, wikipedia, qiita, lesson, meta, desc, tinier, kgqgen, very, daily, dialog, vm, empathetic, dialogues, rss, c4jfleg, metaphor, 1.1.lm100k.base, 1.1.lm100k.large, tedxjp, 11body, 0context, 1body, lr, 10context, 1context, 2context, 3context, 5context, 6body, cluecorpussmall, qag, fp6, prepend, example, upload, no_paragraph, yes_paragraph, cased, uncased, 36l, transition, cogs_0, med, cogs_1, cogs_2, cogs_11, cogs_18, cogs_3, cogs_12, cogs_19, cogs_4, cogs_13, cogs_20, cogs_5, cogs_14, cogs_21, cogs_6, cogs_15, cogs_22, cogs_7, cogs_16, cogs_23, cogs_8, cogs_17, cogs_24, cogs_9, cogs_10, 24l, ft, acled, t2s, conditional, masking, iterater, cnndm, cnndm1, cnndm_3epoch, russian, spell, finnish, cryptic, crosswords, wikihow_3epoch, define, jflaug, wikihow_3epoch_, separations, cnndm_3epoch_, linguists_summariser, nl, answering, wikihow_3epoch_b4_lr3e, ipad, sum, devices, ver1, ver2, wikihow_3epoch_b8_lr3e, wikihow, ver3, cnndm_wikihow_test_on_cnndm, ie, realnewslike, super, wikihow0, wikihow1, cnndm2, wikihow2, cnndm3, wikihow3, empatheticdialogues, reddit_dataset, small_supervised_baseline_01, base_supervised_baseline_01, deshuffle, contradiction, ace_en_p_pretrained, opus_infopankki, zh, sl, eff, 8l, shuffled_take1, shuffled_take3, regex, ni, caption2smiles, smiles2caption, from, pretrained, c4, zinc, copy, medium, sede, txt2sql, questions, cnn_dailymail, spider, d3st, t5, qrecc, kbkw, casing, tag, syac, rn, qgen, tds, qgsquad, bias, subjqa, restaurants, books, tripadvisor, grocery, movies, electronics, hotel, review, small_6_3, hinglish, corruption, edits, hi_en_lince_bt, hi_en__nobt, lindsaytest, fulltrainingset, 267d8789, 2e10ce74, 72bc782c, cnndm_trained, allwnc, 4epoch, 3292d5c9, 99c3c657, fullwnc, 4e91e125, 5epoch, 31e6b1e1, 5epoch2, 2dc8dc72, xsum_3epoch_batch8, sweep, b3acbf3b, squadshifts, new_wiki, nyt, amazon, hi_en, en_mix, mcq, vanilla, la, mt, xlsum, tradition, dbd, test2sql, text2sql, ytubenewssum, austen, xum, booksum, india, fb, cv, custom, wion, big, dm, informal, emo20q, cc, labels, caption, tf, conll, kaggle, data, finetuned_test, records, small_adafactor, cvqualtrics, ibn, shaddad, filler, thai, formal, fairytaleqa, cmrc2018, kw2email, mit, movie, restaurant, common, gen, shakespearify, lite, fol, mixed, me, standardized, sharded, 10epochs, lr1e4, alpha0, 1plusalpha0, e10, e20, e30, 5epochs, blanks, 2epochs, python, masked, text2sql_, mengzi, version2, questiongeneration, couplet, sinhala, nmt, mask, filling, cm0, korquad, small_corrector_15, keyword, finetune, compute, metrics, mse, cfpb, us, model1, feedback, 0front, 0rear, 5front, 10front, 3front, 8front, 2front, 1front, 4front, 6front, 9front, 7front, 10rear, 9rear, 8rear, 7rear, 6rear, 5rear, 4rear, 3rear, 1rear, 2rear, turk, simplification, order, rb, eli5, sci, names, rewrite, correct, unchaged, ss, hybrid, scan_, int8, dynamic, eli, dd, it, ost, neel, korean, eli5_model1, again, wmt14, elif, attempt1, attempt2, bahasa, wmt16, commentary, iwslt2017en_de, few, shot, seed, asqa, cb, ob, chit, chat, yoon, xsum_, msmarco, nlgen, extra, turkish, matht5, finetune_qatoexp, infilling, 5e, base_fr, base_ro, small_cogs_35, b32, small_re, hrs, lrs, back, answers, protoqa, tweetsumm, seed42, seed33, large_dataset_radiology_20220912, tsv, seed17, 1epoch, opus_books, seed36, dialogsum, seed55, baseline_summary_zee_, mediasum, samsumgen, conv, t5_summarise, dialogsumgen, tweetsummgen, flan, thehindu1, dataset, nlpfinalproject, yoon_1014, break, scan, ashish, exp1, exp2, ashishkhandelwal, romanian, xsum_epoch4, ab, science, papers, finetuned_renre_item1, clone, finetuned_renre_2021_item1, finetuned_renre_2021_70_item1, dailymail, new, nl2modeliomq, finetuned_renre_2021_40, criteria, json, bert, reinforce, pytorch, a2c, avg_batch_gleu, batch_training, latest, best, qa2d, d2qa, hybrid_loss, clariq, ccqg, invers, tweetqa, bertscore, meteor, newssummary, critic_pre_training, medical, keywords, uk, joint_training, np, en_fr, 125k, cased_inversion, introduction, conclusion, purpose, system, mtop, ta, top_, sec, 10k, cstop_artificial, adv, hotpotqa, nlg, multiwoz21, sgd, tm1_tm2_tm3, multiwoz21_sgd_tm1_tm2_tm3, nlu, rahul2, goal2dialogue, dst, th, finetuned_entailment_inference, summarization_3, entailement, writer, rahul, rough, ret, conceptnet, parth, conceptnet2, nips, gaudi, summariza, hard, qns, copoet, cbs, samsung, onnx, giga, app, summariza1, new_data, combine_data, drop, iirc, gold, retrieved, numglue, tatqa, context3, tm1, tm2, tm3, cloudsek, assignment, ppt, large_dataset_radiology_summary20221129, cloudsek_data, ko, ep6, parabk2, ep3, mscoco, wikians, pointer, concat, cols, withlm, tuto, noticias, audio, large_radiology, ai, cardiothoracic, imagingcancer, 0.8, qasper, disfluent, fluent, jdf, 0.9, hub, seed102, seed32, seed19, seed23, youtube, quotes, epoch5, epoch20, user, checkpoint, squadqtngen, math_qa, problem, formula_rationale, cnndm_fs0.2, ruspell, cnndm_fs0.02, klue, e5, revenglish, cnndm_fs0.01, ppo, story, eng, book, code, commom, poem, dyn, eyeofriyadh, constitution, coqr, protect, fin, ja, companies, mlsum_2, quantized, paper, spoken, written, bash, just_formula, cnndm_fs0.05, cnndm_fs0.1, facet, contract, type, driver, epoch4, emot, transferlearning, nl2bash_seqtrain, nl2bash_seqtrain_testmetric, failed, emails, cnndm_10000, da, multiwoz2.1_500, eng2bash, summscreen, agri, nlpfinalproject2, nlpfinalproject3, dzongkha, romanized, nlpfinalproject4, nlpfinalproject55, epoch12, epoch15, epoch30, nlpfinalproject6, nlpfinalproject8, nlpfinalproject77, mpdocvqa, 4m, 8m, 2m, 6m, nl2bash, small_onnx, 3m, 5m, 7m, 9m, 10m, questionanswer, distractor, analogy, emotnn, sql2, sql3, finetuned_1, lyric, nlpfinalproject9, nlpfinalproject11, nlpfinalproject12_2, nlpfinalproject99, 11nlpfinalproject11, noun_ellipse, 3epochs, wo_db, nlpfinalproject100, 12nlpfinalproject15, t5small, nl2bash_testmetric, g2e, error, nl2bash_balanced, t5large, small_one_year_1_hour_trained, recipes, 128len, 6e, nlpfinalprojectfinal, 9e, e6, d70k, dim128, snl, not, evaluated, boolean, direct, qgen_pretrained, neutralization, cnndaily, pua, unam, tec, two, nlpfinalprojectfinal_2, rotlabel, prompt, simple, ov, epochs, para, qgar, inglish, cards, experiment, car_dataset, summariser, camera, adapt_bf16, lyrics, explainer, spec, sva, strict, adarsh, codexglue, concode, faster, end, generation_, root, abs_qa, mod, kazakh, corrector, subset, tutorial, anli, generation_squad, hing, wnli, cola, rte, livedoor_news_corpus, newversion_jhon_wick, sst2, mnli, qqp, mrpc, spt, valid, plos, base_cryptic, def, ans, txt2mq, baseline, wordplay, elife, requirements, query, firstp, longp, fsl, act, pandas, mbpp, small_finetuned_billsum_model_bs8_lr2e, small_finetuned_billsum_model_bs8_lr5e, small_finetuned_billsum_model_bs8_lr0.0001, small_finetuned_billsum_model_bs16_lr2e, small_finetuned_billsum_model_bs16_lr5e, small_finetuned_billsum_model_bs16_lr0.0001, snli, label_and_explanation, selected, b64, b48, explanation_only, qnli, txt2mqvii, maz, tagger, plain, language, hch, maq, mim, azz, ngu, sja, cbv, pbb, kog, guc, kbh, axriv, tweet, txt2mqvi, small_stereoset_finetuned, billsum_model, wd5m, adafactor_82ep, stara, slo, 2.0, vietnews, reverse, train, hpqa, instructionner, bigbio, policy, sequencenumber, prototype, generator_, meetings, xsum1, resumes_t2json_large, billsum_4epochs, summerize, topics, customdata, customdata2, normail, feversum, short, esco, long, fa, xsum_1, generation1, codesearchnet, archive, python3, generation_8ep_lr0.01, tqaofull, trained, vishal, multilang, stripped, generator_val, slovene, java, javascript, go, ca, bg, jira, small_crows_pairs_finetuned, small_winobias_finetuned, indonesian, indosum, clar, kelm, tekgen, kg, urdu, c4_200m, 15k, coqa, stsb, paraphrase_1, scientific, articles, paraphrase_1epoch, base_, edos_labelled_aggregated, finetuning, grained_, thaisum, wikilingua, cbp, lkg, alt, hemang, mt5tokenizer, generation_mix, test1, base2, jamendo, split, and, fewshot, paraphraser_nocomparative, rephrase, p7, bak, small_stereoset_finetuned_hbrpoi, small_crows_pairs_finetuned_hbrpoi, small_winobias_finetuned_hbrpoi, p7_, xsum2, assistant, oasst, intermediate, merged, pairs, hw5, nlb, 100k, p2g, acbsql, ynat, lucence, generation_2, sci_tldr, wikilarge, ep10, try, small_ft_recipes_110epochs, small_ft_recipes_base, small_ft_recipes_100epochsbatch16, small_ft_recipes_100epochs, generation_squad_aug_, ehrsql, cogs, pcfg, replycomments, penalty, loss, patents, github, readme, tuning, nsbs, generation_eli_squad_aug_randomness, generation_3, newsela, domain, adaptation, nsbs2, address, standardizer, normalization, tos, multiple, choice, cot, recommender, biendata, summerizer, led, translator, generation_eli_squad_aug_imp_exp_corr, small_eli_squad_aug_implicit_explicit_corr1, adaptation_test, textsum, summarizationt5, ner_2306_1815, gramatika, e8, b16, simplification_1e4_adafactor, simplification_1e4_adafactor_newsela, simplification_1e4_adafactor_biendata, convert, quote, livedoor, corpus, financial, small_cnn, mail, triples, generation_eli_squad, generation_eli_squad_aug_, small_5_fttop2, small_10_fttop2, generation_eli_squad_aug_exp, qdmr, decomposition, base_5_fttop2, base_10_fttop2, large_5_fttop2, large_10_fttop2, saf, generation_eli_aug_squad, summ, claim, copilot, router, ner_docred_symbole, generation_test, generation_eli_squad_single_exp_imp, generation_eli_squad_single, generation_squad_single, generation_eli_squad_single_exp, 60m, news_sum, news_cls, poli_aff, combined_years, wmt, aic, generation_squad_aug, effecient, tweetsum, bala, ner_docred_full, smolll, ner_docred_30, fce, hu, solr, finetunned, mind2web, sft, beauty, rlhf, wikidata5m, neighbors, indonesia, enterpret, generation_squad_pcsq, hana, generation_eli_squad_aug_exp_pcsq, dewiki, small_ft_top2_sentences_allagree_3, small_noft_sentences_allagree_3, base_ft_top2_sentences_allagree_3, base_noft_sentences_allagree_3, small_ft_top2_sentences_50agree_3, small_noft_sentences_50agree_3, base_ft_top2_sentences_50agree_3, small_ft_top2_sentences_50agree_5, small_noft_sentences_50agree_5, small_ft_top2_sentences_50agree_10, small_noft_sentences_50agree_10, small_ft_top2_sentences_50agree_15, small_noft_sentences_50agree_15, small_ft_top2_sentences_66agree_3, small_noft_sentences_66agree_3, small_ft_top2_sentences_66agree_5, small_noft_sentences_66agree_5, small_ft_top2_sentences_66agree_10, small_noft_sentences_66agree_10, small_ft_top2_sentences_66agree_15, finetunesmallt5, small_noft_sentences_66agree_15, small_ft_top2_sentences_75agree_3, small_noft_sentences_75agree_3, small_ft_top2_sentences_75agree_5, small_noft_sentences_75agree_5, small_ft_top2_sentences_75agree_10, small_ft_top2_sentences_allagree_5, small_noft_sentences_allagree_5, small_ft_top2_sentences_allagree_10, small_noft_sentences_allagree_10, small_ft_top2_sentences_allagree_15, small_noft_sentences_allagree_15, small_noft_sentences_75agree_10, small_noft_sentences_75agree_15, small_ft_top2_sentences_75agree_15, base_ft_top2_sentences_75agree_3, base_ft_top2_sentences_75agree_5, base_ft_top2_sentences_66agree_3, base_ft_top2_sentences_66agree_5, base_ft_top2_sentences_50agree_5, base_ft_top2_sentences_allagree_5, base_noft_sentences_75agree_3, base_noft_sentences_75agree_5, base_noft_sentences_75agree_10, base_noft_sentences_75agree_15, base_ft_top2_sentences_50agree_10, base_ft_top2_sentences_50agree_15, base_ft_top2_sentences_66agree_10, base_ft_top2_sentences_66agree_15, base_ft_top2_sentences_75agree_10, base_ft_top2_sentences_75agree_15, base_ft_top2_sentences_allagree_10, base_ft_top2_sentences_allagree_15, base_noft_sentences_50agree_5, base_noft_sentences_50agree_10, base_noft_sentences_50agree_15, generation_squad_all_pcmq, generation_eli_squad_aug_exp_pcmq, base_noft_sentences_50agree_3, base_noft_sentences_66agree_3, base_noft_sentences_66agree_5, base_noft_sentences_66agree_10, base_noft_sentences_66agree_15, base_noft_sentences_allagree_5, base_noft_sentences_allagree_10, base_noft_sentences_allagree_15, ehealth, generation_squad_eli_exp_imp, bm25, mmlu, qa2a, generation_squad_single_pcsq_, indo, lemmatized, tfidf, cnndm_2000, ep5, gramatika161k, prompter, multiarith_300, repeated, clakmann, thesis, ep2, trivia, c2a, ep1, ca2q, aqua_300, alpaca, nosft, gpu, phones, generation_eli_squad_aug_exp__, hint, combined_years_with_year_flag, nsp, clothing, french, pet, baby, office, toys, sql4, gramatika1500k, sql5, hf, ruby2text, paraphase, questiongenerator, pretrain, spanmasking, response, sports, small_hoax_timestamp_classifier_, tq, ar, cds, home, logan, coding_instructions_2023_08_18__08_41, tools, ai4privacy, epoch10, icd, followup, instruments, electra, tctcolbert, qkquiz, qag2, samsum_5eps, billsum_5eps, cnn_dailymail_5eps, facilify, small_multinews_model, cnn_dailymail_10eps, cnn_dailymail_1eps, alldatasets, sglue, tohi, cti, llm, tasks, small_s2orc_5_epochs, reviews, mbay, small_for_summarization, binary, nli, flant5, tiny_for_summarization, transcripts, tune, vec, robust, keyphrase, large_hoax_timestamp_classifier_, large_hoax_def_classifier_, small_pretrained_5_epochs, aligned, summaries, base_hoax_def_classifier_, base_c2_dense_2_c2_dense_2, small_full_data_epoch_6, base_c2_dense_2_half, base_c2_mare_ar1_ex8_half_2lrouter, base_moe_ex16, base_c2_mare_ar1_ex16_half, small_full_data_epoch_9, base_baseline, base_c2_mare_ar1_ex8_half_from_ft_dense, base_c2_mare_ar1_ex4_half_from_ft_dense, base_moe_ex8, base_moe_ex8_half_from_ft_dense, base_c2_mare_ar1_ex8_half_from_ft_dense_normalization, base_c2_mare_ar1_ex8_half_from_ft_dense_with_sort, base_moe_ex16_half_from_ft_dense_with_sort, base_c2_mare_ar1_ex8_half_from_ft_dense_with_sort_noise, without, base_c2_mare_ar1_ex8_half_from_ft_dense_with_sort_noise_scaler, base_mare_ar1_ex15_half_from_ft_scaler, base_dense2, base_with_answers_3_epochs, base_mare_ar1_ex7_half_from_ft_scaler_per_expert, yake, base_cola, base_without_answers, 2012_to_2016, base_with_answers, lim, base_hoax_timestamp_classifier_, documentation, baseweighted_hoax_classifier_defs, jumoreski, tpu, lang, baseweighted_hoax_classifier_final_defs, small_finetuned_with_answers_trained_toknizer, small_finetuned_without_answers_trained_toknizer, color, largeweighted_hoax_classifier_final_defs, synthesis, teste2, webnlg, base_hoax_fulltext_classifier_1h2r, cover, letter, large_hoax_fulltext_classifier_1h2r, large_hoax_fulltext_classifier_1h100r, d2s, base_hoax_fulltext_classifier_1h100r, large_ft_top2_sentences_50agree_3, large_ft_top2_sentences_66agree_3, large_ft_top2_sentences_75agree_3, large_ft_top2_sentences_allagree_3, large_ft_top2_sentences_66agree_5, large_ft_top2_sentences_66agree_10, large_ft_top2_sentences_75agree_5, large_ft_top2_sentences_allagree_5, large_ft_top2_sentences_66agree_15, wikitext, large_ft_top2_sentences_50agree_10, large_ft_top2_sentences_50agree_15, large_ft_top2_sentences_75agree_10, large_ft_top2_sentences_75agree_15, large_ft_top2_sentences_allagree_10, large_ft_top2_sentences_allagree_15, large_noft_sentences_50agree_3, large_noft_sentences_66agree_3, large_noft_sentences_75agree_3, large_noft_sentences_allagree_3, large_noft_sentences_50agree_5, large_noft_sentences_66agree_5, large_noft_sentences_75agree_5, large_noft_sentences_allagree_5, large_noft_sentences_50agree_10, event, extract, large_noft_sentences_66agree_10, large_noft_sentences_75agree_10, large_noft_sentences_allagree_10, large_noft_sentences_75agree_15, large_noft_sentences_50agree_15, small_finetuned_with_answers_trained_toknizer_best, small_finetuned_without_answers_trained_toknizer_, save, optimum, avx2, multi_, base_finetuned_on_sbic, small_rouge_finetuned_sbic, general, nova, legal, tech, base_billsum_dense_epochs, vietnamese, robot, command, understanding, small_mcqa_hoax_1h10r_def_bigbench, newssum, oe, detoxify, ultradetox, sm, py, stackoverflow, small_readme_summarization, brokarry, total, base_readme_summarization, fld, emojilm, ticket, creator, basefinetuned, modhyperparams, testing, large_readme_summarization, unknown, novel, 20ep, semantic, cr, heritage, base_detoxparaphraser, test2, in, tgl, paradetox, 1token, base_detoxparaphraserlite, dialogue, arb, parallel, splitted, opus, training, pst, clean, claude, product, detector, about, info, industries_detector, reasons, choose, dial, freeze, company, name, year, addresses, contact, finetuned2, scitldr_param2, scitldr_1, scitldr_2, scitldr_steps, hi, scitldr_try1, indian, scientific_lay_summarisation, er5, weather, er1, mnews, mnews_, er20, urls, c_zh, m_zh, bangla, lemmatizer, er40, dbtag, part, zapmed, 2.0e, multicorp, laws_articles, newsqa, literary, coreference, esnli, flute, updated, small_fine_tuned_sciq_with_answers, sport, lamini, evol, orca, instruct, 5k, type_detector, detailes, history, mission, dolly
+Randeng: t5, 784m, multitask, chinese, megatront5, 770m, bart, 139m, summary, 77m, 759m, berttokenizer, qg, char, 57m, 700m, large, sentiment, analysis, mlt, promptcblue
+fastchat: t5, 3b, ct2, copy, optimum, onnx, quantized, avx2
+coedit: large, xl, xxl, composite, small, base, onnx
+tech: keywords, extractor, dialogue, summarization
+led: large, arxiv, base, pubmed, lit, evalma, mds1, mds, own, global, ga1, ms2, multi_lexsum, source, long, short, tiny, daily, cochrane, summary, bartpho, word, controlled, text, reduction, finetuned, summscreen, multilexsum, normal, noise, biolaysum, elife, tldr, test, reddit, tifu, samsum, book, baseline, both, plos, with_references, umls, wiki_lucene, wiki_simple, scite, dialogsum, 1epoch, all, annotated_original, annotated, meetings, govreport, cnn_dailymail, finetune, xsum, cnn, billsum, cnn_dailymail_, shorttrial, arxi
+rut5: base, multitask, paraphraser, quiz, review, small, chitchat, chitchat2, normalizer, finetuned, gen, description, detox, rebel, labse, decoder, style, lm, par, simp, chit, chat, intelligent, hw, texificator, absum, tech, support, calls, samsum, ru, dsum, summ, dialogsum, xl, large
+kobart: summarization, titlenaming, esg, e3, b32, e5, base, kormath, questiongeneration, dial, sum, counsel, trans, gyeongsang, formal, jeolla, chungcheong, style, jeju, gangwon, en, ko, informal, polite, chat, mixed, all, dialect, standard, text, transfer, correct, copywrite, letter, finetuned, paper, written, to, spoken, xsum, std, test, add, period, news, pretrained, title, generator
+ruT5: base, detox, large, finetuned, plenka, chatbot, full, xsum, large_24.02, arithmetics, summarization, summarizer, asr, conversation, finetuning, small, interpreter, simplification, micro, test, procody
+long: t5, tglobal, large, local, base, xl, t5lephone, finetuned, xsum, small, dutch, english, byt5, ke, old, xxl, book, summary, blogpost, cqa, onnx, samsum, dialogsum, biolaysum, elife, baseline, sqa, 15ep, summarization, base_complete_dataset_v_1.0, base_complete_dataset_v_1.0.10, base_complete_dataset_v_1.0.10.20, mhubert, summarization_e10, sumstew, 8k, booksci, plos, 10k, multinews, multimedia, google, openhearthstone, encodec, base_squad, base_squad_ep14, base_squad_ep11, booksum, 20k, 5epoch, 2x, base_newsqa, base_tqa, big_patent
+msmarco: russian, mt5, base, t5, small, german, arabic, chinese, dutch, french, hindi, indonesian, italian, japanese, portuguese, spanish, vietnamese, 14langs
+pko: t5, large, small, base, finetuned, korquad, paper, pretraining_finetuning_temp1, base_ver0.1, base_ver1.1, flan, chat
+spelling: correction, english, base, oov, german, finetuned, places, location, unique, proportional, multilingual
+mvp: task, dialog, summarization, data, to, text, open, question, generation, answering, story, multi
+mtl: data, to, text, story, question, answering, generation, summarization, open, dialog, task
+genre: linking, blink, kilt, aidayago2
+PromptCLUE: base, paddle
+Text_to_SQL_BART_spider: three, ep, ep5, ep1, ep2, ep4, ep_demo
+text: to, sql, with, table, schema, sparql, t5, base, 17_23, 18_16, qald9, small, 15_01, 17_18, 18_09, 18_12, 18_23, sum, po1, summarization, t5base, xsum, music, spider, fine, tuned, summarizer, bart, large, cnn, samsum, lcquad, exps, aug, text, qa, 28_09, social, media, captions, normalization, ru, terrible, three, percent, summariser, english, lyric, new, correction, summary, bert, translit, detector, evaluation, model
+FRED: t5, 1.7b, large, instruct, xl, interpreter, chitchat, xl_instructor, large_text_qa, xl_instructor_chitchat, question, generation, spell, ods, ner, refinedpersonachat, qint8
+T5: commit, message, generator, kes, ttparser, base, ja, open2ch, dialogue, finetuned, for, question, generation, emotions, detections, adversarial, paraphrasing, cuad, factual, classifier, flownlg, planner, realizer, idx, parent, event, descriptor, subdescriptor, flat, model, small, de, en, para, quora, test, test2, pegasus, news, title, summarizer, simple, wiki, as, chat, bot, ibn, shaddad, storycommonsense, noprompt, learning, large, efigsnli, e10, e20, mt5, tatoeba, lb, feedback, story, keys, base_gnad_maxsamples, e1, paraphrase, pytorch, lightning, to, ro, rls500, onnx, abstracts, esnli, impli, figurative, e4, 4e, cnn, dailymail, english, data, datac, transformer, rickbot, topics, medrepanalyzer, daliy, choose, collect, asr, corrector, rule, of, thumb, small_squad_hotpotqa_reader, poll, small_hotpotqa_reader, large_covid, arab, heb, pt, rl, rls2000, wikigen, lm, large_canard, hotpotqa, rephrase, rm, evilprompterrm, grammar, checker, xsum, rm2, qg, squad, finarg, invariants, sentiment, analysis, chinese, small_finetuned_billsum_subset_model_bs8_lr2e, small_finetuned_billsum_subset_model_bs8_lr5e, small_finetuned_billsum_subset_model_bs8_lr0.0001, small_finetuned_billsum_subset_model_bs16_lr2e, small_finetuned_billsum_subset_model_bs16_lr5e, small_finetuned_billsum_subset_model_bs16_lr0.0001, small_finetuned_billsum_subset_model_bs32_lr2e, small_finetuned_billsum_subset_model_bs32_lr5e, small_finetuned_billsum_subset_model_bs32_lr0.0001, fullwiki, text2sql, spider, spanish, efficient, tiny, multitask, samsum, text2code, inlegaldocsum, legal_summarization, bbcnewssummary, lawsqa, text, style, transfer, using, examples, vi, sum, et, 11b, ctrl, simplification, 3b, based, task, pretrained, base_amazon, product, reviews, attraction, 1e, hotel, laptop, restaurant, taxi, train, tv, summarize_the_arabic_text, spell, custom, viquad2, qa, fr, sql, summarization, issues, pretrain, edu, samll, common, crawl, commonqa, checkpoint, gazeta, reasoning, detoxification, claimdecomp, mnli, caso3, summarize_model, summarize, flan, xl2base, xxl2base, translation, kaggle_resource_pipeline, finetune, small_abssumm_xsumcnn_1e, h3, t2, h1, t3, asqp, t1, absa, vietnamese, accent, adder, er, 5epoch, acc, 10epoch, pl, 1epoch, 2ep, 2epoch, 2epochs, 3epochs, 4epochs
+chatgpt: prompt, generator, prompts, bart, long, gpt4, large, cnn, samsum
+LaMini: t5, 738m, flan, 783m, 77m, 248m, 61m, 223m, instruct, 8000steps, polish, evolinstruct, jerry_seinfeld_dialogues, ct2, int8, float16, orca, 12.5k, 55k, cpu, gpu, 61m_optimized, small, optimum, onnx, quantized, avx2, perchannel, 7bit, 4bit, 8bit
+mlong: t5, tglobal, xl, base, large, finetuned, en, to, de
+manta: lm, small, base
+mbart: translation, zh, yue, large, army, dataset, si, simp, english, hindi, many, to, one, mmt, cc25, cnn, dailymail, xsum, nl, test, finetune, finetuned, en, mr, bhasha, guj, eng, hin, iitb, summarizer, interiit, source, target, hi, turkish, summarization, lfqa, es, int8, ukr, gec, tr, ko2, paraphrase, for, de, fr, ru, slurp, ind_finetun, ge, at2h, ht2a, cs, opus, pt, books, jaquad, qg, te, ar, evaluated, 1000instances, un_multi, leaningrate2e, batchsize2, 1000instancesopus, 2000instances, esquad, koquad, itquad, dequad, ruquad, frquad, mlsum, portuguese, handmade, acw, skr, en_2.8k, ar_ar, en_xx, squad, ibart, fij_latn, eng_latn, buddhist, english_german_translation, me, slue, catslu, media, portmedia, lang, dom, th, saf, micro, job, legal, domain, re, ko, en_morp, onnx, multi, question, generation, qag, ae, sum, pro, summ, access, score, ts, neutralization, distil, mmt_epoch_3_zh_vi_augment_swapsent_210k, minuscule, trimmed, ja, it, decoder, easy, spanish, quechua, french_translated_snli, qu, pluska_sum, ele, int, simplification, english_french_translation_, traduction, sp, deysi, txpmtoeur_en, hackaton_es, it_preprocessed, en_preprocessed, pluska, token, latin, only, qa, newsum, ro, da, slovaksum, xscitldr, custom, layer, importance, sumeczech, claim, extraction, 8bit, smesum, 50_definition_zh_cn, test2, german, wikilingua_epoch, ua, 2.0, 2.1, 50_definition_ko_kr, polish, news2, reformulation, news3, mul, sah, feat, italian, grammar, corrector, xlsum, fine, tuned, russian, wmt17, wmt20, dd, lr, tq, mbart0, detox, ft, amr30, en_es_nl, stratified, en_siddha_yoga_text_by_nishant, small, ii, lim, drs, es_nl, mmt_5p3_ko, mmt_15p_ko, mmt_7.4p_en, mmt_mid1_en, mmt_mid1_zh, mmt_mid1_ko, mmt_mid2_en, mmt_mid2_ko, mmt_mid3_en, mmt_mid3_ko, laihongphuc, vi, geonames_ru_relocation, xomdich
+prometheus: 7b, 13b, gptq, gguf, awq, 3.0bpw, h6, exl2, 5.0bpw, 6.0bpw, 8.0bpw, h8, fp16
+blip: dalle3, img2prompt, bread, model, model_final, test, art, image, captioning, finetune, large, pokemon1, fine, tuned, demo, rsicd, base, codenrock, solution, blip, dummy, temp, aircraft, fashion, finetuned, tune, 25epoch, 1e, inetuned, test_sagemaker, tops, finetuning, apples, dataset, coco, wit, flickr30k, twitter, images, bananas, mocha
+rut5_base_sum_gazeta: finetuned, mlsum, finetuned_week_gpt, habr
+cnmoro: ptt5_small_portuguese_keyword_extractor_, optimum, onnx, ptt5_small_portuguese_summarizer, ptt5, base, ptbr, summarization
+keyt5: base, large
+parsT5: base, finetuned, digikala, longtitles
+MarianCG: conala, large, django
+mT5: en, kr, natural, base_farsi_title_generator, base_farsi_title_generator_plus, small_farsi_title_generator, base, finetuned, tydiqa, question, generation, xqa, generator, small, multi, for, news, title, thai, multiple, e2e, qg, numsep, aug, germanquad, ko_large_false_false_false_full, ko_large_true_false_false_full, base_farsi_title_generator_with_wordpiece_bert_tokenizer, base_farsi_title_generator_plus_dec21, thaisum, base_ar, bm25, 10pass, all, questions, qa, arabic, text, summarization, tfidf, 6epochs, without, ams, summary, with, nonfactual, questionsonly, contextonly, 3epochs, xlsum, hebrew, parashoot, fine, tune, nbo, nno, test, test2, finetune, english
+autonlp: manthan, scientific_title_generator, summarization, autonlp, pegasus, dialogue, summariztion, pegas_large_samsum, sam_summarization1, legal, text, summary, news, intent, modelling, reuters, text2sql, summarization_model, mt5, xlsum, aus, to, us, us2, uk, aus3, uk2, us_to_aus, paraphrasing, optimized, parrot_paraphrasing, test, meqsum
+Pegasus: headergeneration, questiongeneration, summarization, large, finetuned, tweet, summary, base, govreport, numepoch, model, summarizer, indo, finetune, samsum
+mbart50: ft, si, en, large, eng, yor, mt, ua, gec, baseline, only
+k2t: test, base, new, test3, tiny, tesssst, second, third, 2_keywords, 5keywords, 7_by_one, 5_msrvtt, 3_msrvtt, 3_msrvtt_2, top3_msrvtt, top3_msrvtt_2_lr_8, t5, finetuned, common, gen, 3_two_words_msrvtt, 3_two_words_msrvtt_lr_0.0001, 3_two_words_msrvtt_lr_0.0001_sch_2
+opus: mt, en, ro, finetuned, syn, to, react, de, is, is_nr2, ja, en_test, en_xml, ar, finetunedtanzil, math, dummydata, finetunedstem, romance, vi, eng, vie, zh, chk1, ep1, renri, wd01, fp16false, second, ru, full, own, tatoeba, yor, es, src, trg, testing, celtic, first, tuned, small, mul, th, cy, ko, en3, en4, en5, hi, it, tr, az, finetunedqadata, ml, iir, fa, ur, iwslt15, sla, uk, test2, instances, evaluated, 1000instancesopus, leaningrate2e, batchsize8, 11epoch, 2000instancesopus, 4000instances, opus, action, un_multi, 2000instances, 1000instances, sw, lett, legal, id, nl, af, st, kr, en100, bam, fr, ccmatrix, lr, warmup, no, opus100, open, subtitles, tc, big, jakarta, best, loss, bleu, finetuned_20k, finetuned_20k_128_256, finetuned_combined_38_train_val, finetuned__marian_theirs_train_val, finetuned_combined_train_val, de_old, maz, hch, maq, mim, azz, ngu, sja, cbv, pbb, kog, guc, kbh, ecolindo, pt, su, jv, end, npomo, epochs, ti, sem, trk, wa, para, chn, finetuned_4600, finetuned_10000, finetuned_5000, finetuned_20000, finetuned_50000, news_commentary_, jpn_hani, tw, hk, franco, arabic, finetuned_augmented_synthetic_1, finetuned_augmented_synthetic_cleaned, finetuned_model, amls, rup, cs, 50epochs, gt, clean, marianmt, officer, agreement, european, bds
+query: gen, msmarco, t5, base, large, reformulation
+w: en2zh, hsk, mtm, otm, zh2en, mto
+byt5: base, eng, yor, mt, pt, product, reviews, small, finetuned, tweet, qa, hate, detection, jfleg, wi, wikisplit, german, grammar, large, xl, xxl, en, mono, de, vi, dutch, ocr, correction, dv, basque, squad, portuguese, japanese, tedxjp, 1body, 0context, lr, 1in, 1out, multilexnorm2021, da, es, hr, iden, it, nl, sl, sr, tr, trde, modernisa, korean, zh, code, ar, cryptic, crosswords, ru, nonsense, bn, sentfix, finnish, hierarchical, sw, ko, english, fr, ja, fi, song, lyrics, 2epoch, opus_books, to, 1epoch, batch16, is, post, processing, old, texts, modern, mtop, top_, cstop_artificial, latin, normalize, finetune, dzongkha, romanized, thai, bash, historic, multilingual, cmudict, wikipron, latn, us, broad, uk, au, 4g, ft, 2e, es_maz, es_hch, es_maq, es_mim, es_azz, es_ngu, es_sja, es_cbv, es_pbb, es_kog, es_guc, es_kbh, french, 3e, flax, p2g, multi, swedish, faroese, ai, yfirlestur, span20, span3, coqa, americas23, nc16, 250k, ruen, ende, enru, deen, 10k, ca, nz, in, ptes, text, enes, 2k, wmt14, 1250k, 50k, abbreviations, pl, nsfw, image, urls, dewiki, sanskrit, analyzer, hackathon, diacritizer, menyo, gos, nld, nonpretrained, indocollex, informal, formal, wordformation
+m2m100_418M: eng, yor, mt, finetuned, en, to, ko, news, fr, evaluated, ar, 2000instancesopus, leaningrate2e, batchsize16, 20epoch, 4000instancesopus, batchsize8, 11epoch, 1000instancesopus, 1000instancesunmulti, 2000instancesunmulti, regu1, regu2, test, train, sah, feat, tq, new_data, taq, 2.0
+marianmt: tatoeba, enru, ruen
+MarianMixFT_en: fil, hi, id, ja, ms, my, th, vi
+MarianMix_en: ja, zh, zh_to_vi, ms, hi
+paraphrase: quora, reap, sow, ru, reviews, it
+transformer: method, name, model, en, ru, bert, gpt
+sponsorblock: base, small
+german: t5, oscar, ep1, prompted, germanquad, qg, drink600, e2e, quad, easy, backtranslation, large, small, jeopardy, mt5, base, longt5
+distil: led, large, cnn, pegasus, reddit, medcord, 10w, flan, t5, controlled, text, reduction, rl
+marian: finetuned, hi, hinglish, kde4, en, to, fr, accelerate, nmt, enid, german, grammar, map, mt, es, de, epoch1, paracrawl, europarl, tilde, books, news, 2gpu, trainer, pcm, vi, fr_2, fr_akm, it, ar, 1epoch, hotels, ru, gw, zh, pt_br, ko, coco, english, french, kftt, ja, test1, test3, wandb, uk, tw, id, id_vtrans, hu, bbc, en_ng_bible, ng, el, en2vi, ro, epochs, samples, mcwc, final, iitb, medical, cn
+ES: ca, pt
+est5: summarize, base, qg
+est5base: simplify
+ke: t5, base, ko, newslike, large, small, aihub, paper, summary, math, py, scratch, finetuned, amazon, en, es, kde4, to, xsum
+pegasus: samsum, reddit, full, sports, titles, large, qg, squad, alpha, interro, custom, xsum, multi_news, finetuned, weaksup, pegasus, commentaries_hd, commentaries_hdwriter, headline, malay_headlines_02, summarizer_01, newsroom, headline_writer, malay_headlines, summarizer_02, booksum, fined, tuned, on, paraphrase, conversational, qa, big_patent, cnn_dailymail, tiny, random, base, chinese, cluecorpussmall, arxiv, billsum, summ, pubmed, 7e05, 6.35e5, lit, evalma, ga, rewriter, ga1, new, dataset, cnn, dailymail, bg, qag, tb, vi, tokenizer, qmsum, meeting, summarization, bbcnews, acled, t2s, cnn_dailymail_2, scitldr, syac, pdm, news, ytubenewssum, xsum_summarization, parasci, paws, cnn1_50k, cnn_full, adam8bit, adafactor, bs6, multi_lexsum, long, short, bs16x64acc, summary, bs4x64acc, bs4x64acc_2, bs4x64acc_3, e1, e4, feedback, model3, pubmed_dataset_radiology_20220829, tsv, model, x25, headline_writer_oct22, headline_writer_57k, headline_57k, pubmed_dataset_radiology_20220912, summarizer_30216, newsroom_wires_hdwriter42k, multi_news_wires_hdwriter42k, roundup, grammar, spelling6, punctuation, clean, tf, finetune, pubmed_dataset_radiology_summary20221129, rahulver, pubmed_radiology, ai, cardiothoracic, imagingcancer, 0.8, 0.9, dialogsum, seed42, seed33, seed17, mediasum, samsum1, whole_summary_chatgpt_and_tweetsum, tte, paper, mine, scientific_lay, scientific_lay_, ema, inglish, fsl, askscience, arxiv_yake_top3_asks_qg, aeslc, xsum_model, musiclyrics, tweet, suml, test, policy, twitter, data, cord19, quantized, project_7_, 4k, govreport, with, text, simplification_1e4_adafactor, simplification_1e4_adafactor_wikilarge_20epici, enc_16, dec_8, b_8, e_8, g_1, dec_24, b_4, cnn_dailymail_summary, simplification_1e4_adafactor_biendata_20epici, chapter, ft, ft_, slic, g_1_, extended, amazon, en, es, dialogue, scientific, papers, inshorts, sum, transcript, indosum, run1000, run, main, testing, detoxify, adrian, xsum_readme_summarization, mimiciii, rss, training, claude, hunsum, 1_0, large_readme_summarization, base_readme_summarization, 1_8, pt, br, mydata, mytokenizer
+mengzi: t5, base, chinese, correction, mt, finetuned, punctuation
+DialogLED: base, large
+test: finetuned, marian, kde4, en, to, fr, summarization, bert, squad, accelerate, zh_tw, t5, small, direct, arabart, model, mention, norm, translation, dataset, summary, erfan, qplus, base, summ, bb2, bb3, trainer, huggingface, ibm, textsum, demo, three, ep, flan, instruct, dialogue, converter, repo, ptt5, savinghf, wikilingua, final, bart, qa
+SOTitle: gen, t5, csharp, bart, java, js, python, plus
+nb: t5, base, mt5, finetuned, no, email, summary, no_t5
+mt: ach, en, adh, align, finetuned, lst, to, th, sum3, lst_classic, pt2, no, sv, fr_finetuned, recipes
+DS: config, chatbot, vit5, base, large, large_1, large_2, large_finetune, large_finetune_vipro, finetune_3, finetune_eu
+fine: tune, pegasus, large, tuned, t5, small, accelerate, finetuned, tuned_caption_falcon_7b_instruct, codet5, samsum, keyphrase, detection, answer, aware, question, generation, flan, base, science, llm, model, led, book, summary, bart, biobart, epochs
+QG: system, t5, base
+Fine: tuned, jcsd, pcsd, t5, for, mcqgenerator
+squad: qg, gen, bn, qgen, banglat5, mt5, all, metric, small, base2
+codet5: base, multi, sum, small, large, xl, code, summarization, ruby, python, buggy, error, description, repair, kormath, masked, ntp, py, codeg, kg, javascript, bug, refine, generate_docstrings_for_python, condensed, codexglue, go, java, php, clone, concode, defect, medium, translate, cs, go_generation, go_generation_, custom, functions, dataset, codenet, casing, refactor, patch, generate, docstrings, for, bs, hf, personal, learning, ft, tabf, text, to, tac, fixed, t5apr
+cods: bart, large, xsum, samsum
+mixqg: 3b, base, large
+qaconv: unifiedqa, t5, 3b, base, large
+superglue: boolq, multig, cb, copa, multirc, record, wic, wsc, fixed
+sgd: input, plan, constructor, output, response, generator, t5, tod
+sunbird: en, lg, mul, mbart, base, merged
+uptag: email, model, url, keyphrase
+AraT5: base, title, generation, question, qg, mlq_arabic, st, mlqa, arabic, paraphrasing, translatedwikisqlnltosql, summarization, xl_sum
+gec: t5_small, bart, base, large, ua, uk, fine, tuned
+question: gen, model, answer, generation, auto, t5, base, hints, answering, generative, context, bm25, to10, random, all_q, pt, br, small, training
+en: ta, translator, vi, mt, model, to, dutch, marianmt, it, md, ko, transliterator, fr, translation, romanian, st, lg, ja, fr_translator, t5, small, bn2, de, sw, de_finetuned, de_foursentcontext, de_coref_words, de_longcontext, ar_finetuned, ar_longcontext, ar_coref_words, de_coref_words_moreepochs, ufal, medical, cs, es, hu, pl, ro, sv, 0.1, 0.2, 0.3, run35, run78, ku, model_, model__opus, grammar, correction, hi, ha_finetuned_model, tr, translate, ig_finetuned_model, t5base, trans, with, bart
+IndoT5: base, paraphrase, large, small, qg, summary, amr, to, text, linearized, penman, ilmy, epochs, with, lemma, and, upos, voice, nafkhan, truncated
+bert2bert: multi, de, wiki, news, en, fr, turkish, paraphrase, generation, medium_shared, question, mini_shared, multilingual_shared, small_shared, spanish, cnn_dailymail, fp16, tiny, daily, dialog, empathetic, dialogues, response, msa, paraphraser, commutator, translator, finetuned, 1.0.0, kde4, to, cased, project, cnndailymail, xlsumm, samsum, dialoguesumm, amisumm, arabic_summarization, xl_sum, lamini
+pubmed: summarisation, pegasus, abs, sub, noise, ins, con
+code: t5, ruby, mt5, base, batch, mix, byt5, large, search, net, codemoe, panda, 13b, python
+distilbart: multi, combine, wiki, news, cnn, finetuned, weaksup, bbc, summarization, text2sql, pubmed, xsum, roundup, arxiv, e4, e32, e12, e8, e16, earlystopping, sep, mask, all, wikilingua, autotrain, booksum, rehadat, samsum, ts, poc, on, extractive, abstractive, 6c, 1.1.0, 1.2.0, 1.2.1, 1.1.1, 1.2.3, summarizer, scitldr, 1.3.0, podimo, data, int8, dynamic, sec, 10k, meta, pfizer, costco, intro, test, summarization_final_labeled_data, 1.3.1, 1.3.2, dialogsum, seed55, seed102, seed32, seed19, seed23, eval, 2e, whole_summary_chatgpt_and_tweetsum, reddit, summscreen, 6_onnx, quantized, rate, prof, action, items, trained, 20k, 5epochs, 30k, 3epoch, medcord19, sum, mnews
+mt5base: ruparaphraser, finetuned, ecc, japanese, small, patentsum
+mt5small: ruparaphraser
+mimics: bart, base, query
+ARMAN: msr, persian, base, pn, summary, parsinlu, multiple, choice, qqp, sentiment, food, movie, textual, entailment, perkey, title, tebyan, voa, wiki, sh, ss
+PEGASUS: persian, base, pn, summary, parsinlu, multiple, choice, qqp, sentiment, food, movie, textual, entailment, perkey, title, tebyan, voa, wiki
+TRANSFORMER: persian, base, pn, summary, perkey, title, tebyan, voa, wiki
+macaw: 11b, 3b, answer, large, sharded, fp16
+unifiedqa: t5, 11b, 3b, base, large, small, reddit, syac, finetuned, causalqa, squad, cbs, sharded, fp16, qa, doqa
+kgt5: wikikg90m, base
+plt5: base, pl, to, sql, small, msmarco, abbreviations, large, base_normalizer_test_pruned, poquad
+KcT5: dev, purificate
+m2m: 418m, en, de, seed, words, tai, gen, 1.2b, 1k, steps, 1_2b, finetune, finno, ugric, bt2
+roberta: base, finetuned, weaksup, based, scientific, lay, summ
+doc2query: t5, base, msmarco, large, vit5, ppo, 12n, mini, batch, doc, mono, duo
+duot5: base, msmarco, 10k
+monot5: base, msmarco, 10k, large, 3b, sim1, sim5, small, 100k, inpars, trec_covid, robust04, fiqa, dbpedia, signal, trecnews, arguana, quora, fever, climate_fever, touche, cqadupstack, android, english, gis, mathematica, physics, programmers, stats, tex, unix, webmasters, wordpress, scidocs, scifact, nfcorpus, bioasq, nq, hotpotqa, promptagator, trec, covid, webis, touche2020, from, scratch, half
+Machi: qag
+calm: base, large, mix
+automatic: title, generation
+all: t5, base, with_prefix, mt5base, mt5large
+reddit: t5, base, small
+stackexchange: t5, base, title, body, small
+daT5: base, large
+poleval2021: task3, task4, plt5, base, qa
+persian: t5, formality, transfer, paraphraser, base, formal2informal, transformer, model
+m2m100_1: 2b, 2b_ft_ru, kbd_50k, 2b_ft_kbd, ru_63k, kbd_63k, 2.0
+qa: indo, math, qg, t5, flant5, generator
+tiny: mbart, finetuned, en, to, ro, length, learning_rate, 2e, weight_decay, 0.01, 0.005, 0.02, marian, de, wmt19, ru, random, bart, m2m_100, m2m100, test, ko, ko100, bartforconditionalgeneration, bigbirdpegasusforconditionalgeneration, blenderbotforconditionalgeneration, blenderbotsmallforconditionalgeneration, fsmtforconditionalgeneration, ledforconditionalgeneration, longt5forconditionalgeneration, m2m100forconditionalgeneration, marianmtmodel, mbartforconditionalgeneration, mt5forconditionalgeneration, mvpforconditionalgeneration, pegasusforconditionalgeneration, pegasusxforconditionalgeneration, plbartforconditionalgeneration, prophetnetforconditionalgeneration, switchtransformersforconditionalgeneration, t5forconditionalgeneration, correct, vocab, prophetnet, blipforconditionalgeneration, encoderdecodermodel, bert, gptsanjapaneseforconditionalgeneration, nllbmoeforconditionalgeneration, calibrated, roberta, testing, bert2gpt2, tie_word_embeddings, false, t5, one
+Bengali: t5, hindi
+arabic: t5, small, finetuned, gec, question, paraphrasing, text, summarization, hhh, batches, sent, len, single
+clip: vit, base, patch32_mbart, large, flant5, xxl, xl, stage, no, split, text, t5, gpt4v, 100k, with, stage1, captions
+ft5: base, openwebtext, cnn, dm, rezero
+git: byt5, base, t5, t5_1
+spanish: t5, small, sqac, for, qa, disco, poetry, spellchecker, base, wikitest10000, wikitest1000, wiki200000, flan, alpaca, mt5, base_1e, base_3e, large_1e, large_3e, mbart, large, cc25_3e, cc25
+codet5x: base, small
+keytotext: small
+roberta2roberta_L: 24_discofuse, 24_wikisplit
+it5: base, oscar, large, small, formal, to, informal, headline, generation, ilgiornale, repubblica, question, answering, squad, it, lfqa, efficient, el32, gender, classification, tag, topic, age, multitask, istella, title_url, title_url_text
+T0_3B: 8bit
+vietnamese: summarization, correction, sentence, paraphase, poem, t5
+update: summarization, bart, large, longformer, led, edit, at, time
+asian: bart, ecjk, en, ja, ko, zh
+ctrlsum: arxiv, bigpatent, cnndm
+DialoGPT: small, twewy, uk
+barthez: deft, archeologie, chimie, linguistique, sciences_de_l_information, squadfr, fquad, piaf, question, generation
+bartuque: bart, base, pretrained, mm, rm, random
+sinhala: t5, small, bart, large
+finetuned: indobart, id, su, mt5, gec, th, to, en, mbart, large, 10epoch, base, small, amazon, es, xsum, t5, pegasus, model, bart, eng, hi, translation, c2c, french, financial, summarization, cnn, all, categories, mar, facebook, contract, legal, arat5, helsinki, nlp, opus, mt, ko, test, new, nllb, 1.3b, lora, flant5, epoch113, gpt2_dolly_lite, vi, kde4, fr, baseline, blip, book, translait, hindi, unchurned, phase, 0.0, 0.1, trans, dialogstudio, npc, medical, deterministic, lab4, m2m
+qanom: seq2seq, model, baseline, joint, order, invariant
+gemini: small
+bigbird: bart, base, pegasus, large, arxiv, bigpatent, pubmed, finetuned, roundup, xsum, 1e, govreport, elife, plos, legal
+ct5: small, en, wiki, l2r, base
+dummy: translation, t5, test, marian, kde4, en, to, fr, finetuned, amazon, es, model
+blenderbot_small: news, 90m
+description: test, t5, base, llm
+summarization: arabic, english, news, mt5, base, allxsum_20230203, spanish, bert2bert, fr, 24oct, model
+prophetnet: large, uncased, cnndm, squad, qg, cnndm_old, uncased_old, zh
+xprophetnet: large, wiki100, cased, xglue, ntg, qg, ntg_old, qg_old, cased_old
+python: bart, large, fromzero, t5, base
+Waynehills: nlp, doogie, aihub, paper, summary, mimi
+b2b: en, paraphrasing, no, questions
+bert: small2bert, small_shared, finetuned, wikisql, tiny2bert, tiny_shared, to, gpt2, german, easy, wiki, small, cnn_daily_mail, summarization, multi, news, bbc, old, sumy, extracted, tied, cross, attention, base, uncased, xsum, kurier, multi_news, newsroom, filtered, tiny_coqa_non_conv_42, tiny_coqa_non_conv_2022, tiny_coqa_non_conv_1337, tiny_coqa_conv_42, tiny_coqa_conv_2022, tiny_coqa_conv_1337, tiny, coqa, test, bert, cnn, dailymail, codesearchnet, python, classification, seq2seq, cased, samsum, lyrics, generator, amazon, reviews
+bert2bert_shared: finetuned, wikisql, italian, question, generation, portuguese, spanish, paus, paraphrasing, summarization, xsum, intento2
+codebert2codebert: finetuned, code, refinement, small
+TabQGen: base, large, small
+dalle: mini, indo, base, pytorch
+image: captioning, marian, caption, test, generator, identifier
+nt5: small, rc1, drop, iirc, gold, retrieved, numglue, tatqa
+tapex: large, t5, xl, lm, adapt, finetuned, wtq, small, tiny, zero, sqa
+cover: letter, t5, base, small, generator, esgi
+qmst: qgg, qa
+bert2gpt2: cnn_dailymail, fp16
+norwegian: t5, base, mt5, ncc, fast, base3
+rag: sequence, gen, prev, bart, bleu_error
+roberta2roberta: cnn_dailymail, fp16, share, shared, nmt, bg
+flax: bart, nb, nn, recipe, generator
+results: mt5, finetuned, squad, accelerate, accelerate_m2, accelerate_m3, accelerate_m4, accelerate_m5, arabart
+pt: test, en, model, neural, gender, neutralizer
+distill: pegasus, compmath, mbart, en, ro, xsum, cnn, finetuned, arxiv, pubmed, e4, e8, e16, sec, 10k
+t5_1_1: base, writing, analysis, small, dutch, nl36, large
+headline: test
+BBC: gqa, news, summarization, t5, small, ft
+polish: bart, base, simple, error, correction, polish, news
+schema: aware, denoising, bart, large, cnn, text2sql, distilbart
+IndoBARTv2: squad, aqg, tydiqa
+BART: commongen, large, 139m, ecommerce, customer, service, anwser, to, query, generation, intent, data, model, base, rule, of, thumb, summary, chinese, finetuned, text2sql, gpt3, amazon, review, summarization, cnn, custom, pmc, ext, section, por, eng, fr, ro, fhir, question, summerize, note, summarizer, et, synthetic, finetune, test, creole, english, rpsd, bbc, on, translation
+e2e: qg, bert, scibert, flan, large, noscore, totalds
+dev: ft, en, ro
+student: bart, base, pegasus, xsum
+KingJamesify: t5, base, lm, adapt, large
+facebook: bart, base, rte, glue, large, xsum, samsum, nllb, distilled, 600m, en, pl, para_crawl, opus100, finetune, copy, yhavinga, ccmatrix, arxiv, pubmed, govreport
+LongLM: base, large, small
+plbart: base, cs, java, csnet, en_xx, go, javascript, large, multi_task, all, compiled, dynamic, interpreted, js, php, python, ruby, static, strong, weak, refine, medium, small, single_task, generation, summarization, en_go, en_java, en_js, en_php, en_python, en_ruby, go_en, java_en, js_en, php_en, python_en, ruby_en, finetuned, src_fm_fc, to, target, src_fm_fc_ms_ff, test, testall, src_fm, ut, generator, base_finetuned_ut_generator_70000_method2test, clone, detection, nora, unittest, assert, works
+ptt5: base, en, pt, msmarco, 100k, 10k, portuguese, vocab, t5, large, small, summarizacao, ptt, br, e2e, qg, finetuned, summ, rulingbr, americanas, maior, wikilingua, temario, 30epochs, xlsumm, cstnews, gptextsum
+dg: t5sm, race, t5base
+qna: t5sm, squad, t5base
+T0pp: flax, test, sharded, fp16
+distilt5: qa, qg, hl, coqa
+context: only, question, generator
+HeadlineGeneration: sagemaker, sagemaker2
+sparql: qald9, t5, base, 19_00, small, 19_07, 12_raw, bart, append
+translation: en, pt, t5, duolingo, subtitles, finetuned, model, not, evaluated, fr, base, standard, bahasa, cased, small, tiny, nanot5, malaysian, lug, v_11, swlu
+BART0: base
+BART0pp: base
+Helsinki: nlp, opus, finetuned, en, to, zu, mt, mul, kde4, finetune, pl, opus100, para_crawl, accelerate, yhavinga, ccmatrix, ru, shirsh, translation, english, hindi, nlp_fintuned, bambara, french
+model: token, repo, tokenizer, feedback, bart, reverse, raw, t51, base1, baseline, baseline1, t5, financial, documents, pth, safetensors
+byt5small: squad, glue, mprc, mprc2, mnli, squad1024, from6000steps
+TNANA: th, en, align, finetuned, attacut, to, pt2
+interview: question, remake, length, tagged
+LST_classic: th, to, en, pt2.1, pt2.2
+PRIMERA: multinews, multixscience, wcep, arxiv, mds, own, own1, own2, finetuned, multi, news
+m2m100: 12b, last, ckpt, avg, 418m, ft, de, ca, multilingual, summarization, multilarge, cs
+biobart: base, large, bionlp, rrs, task1b, finetuned, pubmed, train, elife, plos, mts, epochs
+t5lephone: mnli, small, squad1024, textsquad
+IteraTeR: pegasus, revision, generator, bart
+fewsion_1024_0: 3_2100, 3_3150, 3_3900
+t5_1024_0: 3_2400, 3_7950, 3_epoch1_, 3_epoch2_
+poem: gen, t5, small, spanish, small_, test, d2, d3, d5
+openApiT5: to, description, json
+SciFive: large, pubmed_pmc, mednli, base, finetuned, scifive, pubmed, pmc, biomedical
+fewsion_2_1024_0: 3_epoch1, 3_epoch2
+pegasus_1024_0: 3_epoch1_, 3_epoch2_
+random_1024_0: 3_epoch1_, 3_epoch2_
+t5_lm_1024_0: 3_epoch1_, 3_epoch2_
+docu: t5, base, fk, large, sd
+bat: table, aug, pre, trained
+daml: t5, training
+tt5: small, base, 3b
+autotrain: parrot_finetune_, phrasinator, reverse, iwant, bbc, news, summarization, create_question_model, testproj, t5base1_1, amazon_text_sum, wikihow, nsut, nlp, project, textsummarization, text, by, faisal, bart_683, test, inference_probability_2, inference_probability_3, song_title_generate, expand, parrot, robertatogpt2, my, sum, chinese, title, livedoor_news_summarization, dataset, en, mini, truncate, num, random, chineses, generate, autotrain, first, html, companydescription, summtest1, amazon, amz, ms2, ms, test44, headset, sku2
+punctuation: test, tedtalk2012, t5, base, large
+jwt300_mt: italian, to, spanish, spanish_transformers
+nmt: all, to, liv, base, ted, id, en, lr_1e, ep_30, seq_128, bs_64, bs_32, ep_10, mpst, seq_128_bs, ep_20, lr_0.0001, lr_0.001, corrector, ur2en, sl2en, ka2en, lo, vi
+brio: cnndm, uncased, xsum, cased
+E2E: qa, mining, nlg, bart, best
+OPUS: mt, en, fr, finetuned, must, ru, letters
+IndicBART: bn, questiongeneration, xlsum, ibart, hi, to, en, xxen, finetuned, kannada, malayalam
+random: in, domain, demos, t5, small, all
+ft: opensubs, ar, en, marianmt, ga, 1_3b, t5, small, with, opusbook, dill, sum
+lg: en
+exclaim: t5, verdict
+unisar: t5, 3b, spider, cosql, sparc
+blenderbot: 400m, ct, baseline, ul, ts, 90m, 1b, distill, dialy, dialog
+PPO: policy_
+financial: bart, pegasus, summarization, finetuned, pytorch, model
+uie: base, en, large
+mT5_multilingual_XLSum: finetuned, ar, xsum, summarization, en, cnn, sumarizacao, ptbr, mlsum, mlsum___summary_text, xlsum, coba, indosum, liputan6, kompas, smesum, marathi, optimum, onnx, quantized, avx2
+evalatin2022: lemma, closed, open
+id: recigen, bart, g2p, lstm, mt5, qa, to, word, text, sparql, combined, dataset, t5, base, 05_10
+base: neuro202, nku, mgku, model
+comet: bart, ai2, t5, base, japanese, atomic, zh, en, nli, mimic
+KE: blender, t5, en2ko, base, ko2en, ko_large_true_false_false_full, ko_large_false_false_false_full, ko_large_false_kofinsa_false_full, ko_large_false_koabsa_false_full, ko_large_true_koabsa_false_full, ko_large_true_kofinsa_koabsa_full, ko_large_false_kofinsa_koabsa_full, ko_large_true_false_false_0.3, ko_large_false_false_false_0.3
+Xegho: 30.4, 30.2
+poetnet: mt5, stihiru, libru, rut5, finetune
+Yuyuan: bart, 139m, 400m
+AMRBART: large, finetuned, amr3.0, amr2text, amr2.0, base, amrparsing
+reviews: generator, generator2
+t5small: news_commentary, en, zh, opus_infopankki, finetuned, opusbooks, fr, xsum
+keyphrase: generation, t5, small, inspec, keybart, openkp, extractions_fmlm, extractions_roberta, extractions_roberta_large, extractions_bart, large, bart, trained, on, augmented, and, default
+thai: news, summarization, t5, base
+checkpoint: epoch, cnn, dailymail, finetuned, xlsum, en, pt, mbpp, t5base, tech, t5, pretrain, step, small, finetuned2
+ebanko: base, large
+paraphraser: spanish, t5, small, bart, large, base, mt5, german, test, finetuned, chatgptphrases
+afri: mt5, base, byt5, mbart50
+molt5: base, caption2smiles, large, small, smiles2caption, embeddings
+uk: mt5, base, t5, compressed, gec, small, large, tokenized, synthetic, summarizer, finetuned, xlsum, uk
+t5v1_1: base, mnli_snli_anli, mnli, large
+False_large_pmi_para0_sent1_span2_itTrue_sargmax_rrFalse_8_1024_0: 15_1, 3_epoch1, 3_best, 3_seed2_epoch1, 3_seed1_epoch1
+tk: instruct, 11b, def, pos, neg, expl, 3b, large, base, small, squad, xl, minus, sentiment, analysis, lora, experiments, xxl
+fb: bart, large, finetuned, trade, the, event, finance, summarizer, roundup, cnn, 3k, base, test, 8ep
+mtk: instruct, 3b, def, pos, 11b
+gamza: bart, for, kormath, kormath128
+MBART: estonian, subtitles, with, seconds
+pix2seq: base, simple
+QA2D: t5, small, base
+da: large, xlarge
+summary: note, dialogue, eng, training, t5, base, epoch
+maeve: samsum, xsum
+meeting: summary, minute, sensai
+t5vi: finetuned, en, to, vi
+False_large_pmi_para0_sent1_span2_itTrue_sargmax_rrFalse_7_1024_0: 3_best, 3_seed1_epoch1, 3_seed2_epoch1
+frame: semantic, transformer, base, small, large, google, t5, efficient, tiny
+eng: med, lug, hin, translator, keygen, model, sw_translation, sw_translation1, sw_translation2, sw_translationmodel, fra, simcse_random_usblu, mya, simcse_random_ssblu, simcse_central_ssblu, guj, tok_budget_weighted, rw_translation, longest, deu, ind, kor, random, weighted, simcse_longest_sent, limbu, t5, manual, large, all, base, flant5, samsum, optimum, onnx, quantized, avx2
+qcpg: captions, questions, sentences, parabk2, mt5, t5, base, mscoco, sbert, lr1e, bleurt, dialogue, sentence
+grammar: error, correcter, corrector, synthesis, large, small, base, correction, t5, flan, grammar, model
+orion: instance, generator, hypothesis
+dant5: small, large
+mbert2mbert: finetuned, ar, to, en, arabic, text, summarization, xsum_arabic_abstractive_final_finaln, xl_sum
+my: dialogue, summarization, model, finetuned, t5, awesome, summary, mt5, class0, t53b, seed1, java, first, one, text, to, sparql, id, dataset, base, 07_13, combined, 07_15, final, 07_17, 09_06, 09_09, small, 10_07, t0, 3b, large, silly, translation, helsinki, helsinki2, ielts, upgrade, sentences, bart, sentences_, custom, repo2, joke
+T5_qgen: squad, marco, squad_
+kogi: mt5, test
+dialogue: bart, base, chinese, large, summarization, dusinc, summary, fill, characters, rewriter
+KoT5: paraphrase, generation, test, add, data, from5ep, continue, prefix, summary, summarization
+ainize: kobart, news, eb, finetuned, xsum, meetings, papers
+AraBART: finetuned, xsum, xlsum, arabic, summ
+VN_ja: en_mt5_small, en_helsinki, en_byt5, en_byt5_small
+idt5: base, qa, qg
+concept2seq: srl, cefr
+codebert_sourcecode_nmt_pn2ja_50E_2e: 05lr, 05lr_16b_12e_12d, 05lr_16b_6e_6d
+codebert_sourcecode_nmt_ja2pn_50E_2e: 05lr, 05lr_16b, 05lr_16b_12e_12d, 05lr_16b_6e_6d
+longt5: tglobal, large, pubmed, 3k_steps, 10k_steps, base, portfolio, lead, finetuned, local, eff, nl8, voc8k, ddwn, neddx2, nl, en, dialogsum, mpdocvqa, scipaper, amazon, es, mhubert, nmsqa, summarize, alpaca, text_guided_unit, stable, diffusion, prompt
+Bart: fine, tuned, tuned2, multilingual, dialog, cn, large, rule, of, thumb, finetuned_combined_dataset, finetuned_combined_dataset_substituted, finetuned_combined_dataset_substituted_12, finetuned_combined_dataset_12, finetuned_combined_dataset_3, finetuned_combined_dataset_substituted_3, finetuned_combined_dataset_3_1, finetuned_combined_dataset_substituted_3_1, base, text, style, transfer, using, examples, samsum, rl, little, entailment, many, keywordmax, attractive, paper2slides, expander, epoch1, reward1, reward2, reward5, keywordmax1, entailment1, attractive1, epoch2, amazon, epoch0, rouge, lr5e, factor0.1, rougebatch, rougelastbatch, attractive2, yelp, decoding, encoderrep0.5, length0, rep0.5, rougelastbatch2, len0, test, enc0.5, rougelastbatch1, cnn, abs, keywordmax1epoch0, attractive1epoch0, keywordmax1epoch1, allure, allure3, allure2, allure5, entailment2, inferable
+hybrid_utt: clusterrank_bart, base_samsum_sum, base_dialogsum_sum
+ztranslate: model
+phoneme: mt5, longt5, global, local
+bert2gpt2SUMM: finetuned, mlsum, mlorange_sum
+Data: to, text, generation, accelerate
+akihiro2: finetuned, kde4, en, to, jp, accelerate, fr
+distilled_mt5: base_20ep, base_10epoch
+codebert_sourcecode_nmt_ja2pn_100E_2e: 05lr_16b_12e_12d, 05lr_16b_6e_6d
+codebert_sourcecode_nmt_pn2ja_100E_2e: 05lr_16b_12e_12d, 05lr_16b_6e_6d
+longT5: js2jest, unit, slue
+urt5: base, init
+article: title, generator
+vinai: translate, vi2en, en2vi
+t5_small_NCC: finetuned, sv, frp, classifier, normail
+MIX4_ja: en_helsinki, en_fugumt
+t5_small_NCC_lm: finetuned, sv, frp, classifier, normail
+TOPIC: dialogsum, validation, xsum, summary
+yfirlestur: icelandic, correction, byt5, classification
+new: booru, t5, en, to, sw, sw2, mt0larg
+Clini: dialog, sum, bart, t5
+English: simile, generation, to, urdu, persian, translation, mt5
+nllb: 8bit, 3.3b, distilled, 1.3b, bookworm, 600m, finetuned, pan_guru, to, eng_latn, eng_latn_extratrain, jaen, lightnovels, id, en, ccmatrix, best, loss, bleu, ecolindo, isv, th, isv_, moe, 54b, finetune, envi, 2d6, enth, ft, 50k, pri, adven, finetuned_ramayana_sns, mt, dyu, fr, 5e, finetuned_augmented_mtbak_cleaned_ar, finetuned_augmented_synthetic_cleaned_ar, finetuned_ramayana_lex_rank, 600m_finetune_w2f_epochs80_wo_to_fr, finetuned_srimadbhagavatam_sns, finetuned_ramayana_sns_whole, finetuned_srimadbhagavatam_sns_whole, finetuned_ramayana_sns_lexr, pruned, 6l, 512d, 65kv, safetensors, rus, myv, extvoc, dje
+google: mt5, small, ibn, shaddad, deysi, traduction, zh, sp, base, flan, t5, snli, generation, label_and_explanation, selected, b64, b48, explanation_use_prompt_label, large, alpaca, good, pegasus
+zero_shot_issue_classification_bart: large, base
+ru: kbd_lat, t5, small, en, hw, iad, bart, large, punctuation, capitalization, mt0base
+Centrum: multinews, large
+primera: multi_lexsum, source, long, short, tiny
+padrao: mbart, finetuned, news_commentary, opus_books, unicamp, vanessa, handscrafted, puro
+distilled: mt5, small, 0.5, 0.9, hiddentest, full, 00001b, 1t9901, 010099_1, 1b0000, 010099_8, test, 0.75, 1.5, 0.2, 0.25, 0.4, 0.6, 0.0, 0.8, 0.03, 0.05, 0.07, 0.02, 0.005, 0.01, b0.05, test2, b0.1, b0.5, b1, b0.01, b2, b10, b20, b50, b100, b5, b0.02, b0.03, b0.04, b0.75, b1.25, b1.5, base, pseudo, labeling, large, flan, t5
+mal: tls, t5, l3, l12, net, traffic
+vi: bartflax, large, news, k2t
+marianNMT: tatoeba, lb, en
+sql: model, generator, large, custom, translator, text, model3, model4
+eSNLI: limited, alpha, efigsnli, e10, a0, e20, impli, efig
+IMPLI: t5, e10, efigsnli, e20, esnli, a0
+ankh: base, large
+CommitBART: unseg, base
+chinese: pert, large, finetuned, med, zh, poem, t5, mengzi, finetune, couplet, simile, idiom, generation, bart, paraphrase, lyrics, mass, baby, llama2
+youtube: content, summarization, bart
+article2KW_test2: 0_barthez, orangesum, title_finetuned_for_mlm, 0c_barthez, title_finetuned_for_mlm_77153, 0.1c_lowercase_barthez, title_finetuned_for_mlm_aaaaaaaaaaaaa
+diabetes: t5, small, large
+compas: t5, small, large
+t2t: adex, prompt, assert, ade, balanced, ner
+PubChem: 10m, t5
+rst: fact, retrieval, 11b, information, extraction, intent, detection, natural, language, inference, sentiment, classification, summarization, temporal, reasoning, topic, word, sense, disambiguation, all, gaokao, cloze, rc, writing
+araT5: baseline, freezed
+neuroscience: to, dev, bio, js
+benign: net, traffic, t5, l12
+BERTShared: poetrygen, ar, meter2poem
+ku_t5_base: finetuned, rudaw, ku, 20epochs
+arxiv: summarization, t5, small, base, fb, bart
+cnn_dailymail: summarization, t5, small
+de: fr, news, en, model
+smole: bart, guacamol, muv, 5x, permute, mask
+NLLB: 600m, swh_latn, to, eng_latn, nlg_latn, vie_latn, api, education, en, pt_merged
+GEC: english
+patent: summarization, pegasus, t5, base, fb, bart, allen, led, large, google, bigbird, arxiv
+parrot_paraphraser_on_T5: finetuned, xsum
+cantonese: question, generation, bart, base, chinese, translation, large, finetuned
+VietAI: assignment1, asm1, translator
+debugging: bert, uncased
+reinforce: dd, ost
+twc: bart, pretrain, r3f
+tweetsummgen: epoch6, xsum, conv, cl, coda, seed42, seed33, seed17, seed36, seed105, seed66, seed74
+free: bart
+dial: bart, t0, silicone, flan
+name: to, ingr, norm, hex, ar, detailed, about, history, mission, updated
+food: qa, parser, t5, base, cased, tiny, intent, pegasus
+definition: modeling, full
+twc2: bart, pretrain, r3f
+twc3: bart, pretrain, r3f
+twc4: bart, pretrain, r3f
+flair: uk, forward, backward, large
+Arabic: question, generation, english, opus100
+unieval: sum, dialog, fact, intermediate
+twc5: bart, pretrain, r3f
+twc6: bart, pretrain, r3f
+clinical: led, summarizer, summary, fact, corrector
+cdgp: csg, bart, cloth, dgen
+ArabicT5: 17gb, base, large, small, large_ar, en, xlarge, monot5, 49gb, news, classification, generation, 45gb
+REBEL: comsci, 0.75, attention, 0.50
+ul2: small, nl16, finnish, base, nl36, tiny, nl6, mini, nl8, nl24, japanese, large, dutch, english, finetuned, squad, qgen, simplification, mai
+twc7: bart, r3f, pretrain
+twc8: bart, r3f, pretrain
+article2keyword2: 1_barthez, orangesum, title_finetuned_for_mlm, 1b_barthez, 2_barthez, title_finetuned16_for_mlm
+lucy: small, base
+twc9: bart, pretrain, r3f
+genius: large, k2t, base, chinese, yiyan, prompt, generator
+twc10: bart, pretrain, r3f
+entailer: large, 11b
+mt0: xxl, base, small, large, xl, mt, p3, chat, comet, atomic, zh, peft, early, cpu, bf16, sentiment, quadruple, poll, generation, rot, trim, text, to, ipa, final, absa, multilingual, ver01, definition, en, no, ru
+twc11: bart, pretrain, r3f
+positive: reframing, ptbr, en
+mbart25: multilingual, summarization, multilarge, cs, large, eos, cnc, smesum
+cti: t5, ner, nyt, cti, re, all
+twc12: bart, pretrain, r3f
+switch: base, xsum, large, xxl, finetuned, samsum, arxiv, abstraction, semeval, emojis, cen, iid, fed, 128_qmoe, copa, sst2, mrpc, multirc, winogrande, squad, wikiqa, hotpotqa
+finetune: paraphrase, t5, small, standard, bahasa, cased, tiny, base, ttkg, summarization, isi, penting, generator, zeroshot, ner, segmentation, super, extractive, qa, true, case, ms, keyword, sagemaker, demo, m2m100, instruct, absa, rut5, comments
+grammatical: error, correction, quantized
+DIAL: bart0, t0, flant5, xl
+ko: bartnumtext, textnumbart, ctc, kenlm, spelling, only, wiki, 42maru, en, m2m, retrial, following, news, summarization, jeju, nmt, jeolla, gangwon, en_mbartlarge_exp5p, en_mbartlarge_exp10p, en_mbartlarge_exp15, en_mbartlarge_exp20, en_mbartlarge_exp20p_batch64, en_mbartlarge_exp20p_batch64_linear, en_mbartlarge_exp5p_linear_3gram, en_mbartlarge_exp20p_linear_3gram, en_mbartlarge_exp20p_linear_lr_3gram, en_mbartlarge_exp20p_linear_decay
+vit5: base, vietnews, absum, large, legal, lora, poem, gen, multinews, vlsp, summarization, finetuned, xsum, tag, generation, tags, standardized, color, number, stance, seq2seq, epoch, base_tvpl_final_15112023, sport, vietnamese
+FinABSA: longer
+BartConditionalGeneration: finetuned, insult, bart, large, insult2
+amazon: review, summarizer, bart
+news: sum, dev, ai5, summarization, argilla, summarizer, summary
+jessonyo: finetuned, ja, to, en, nlp
+ViT5: repara, vinewqg, sum
+tr: paraphrase, mt5, base, ost, tat, bart, pro, summ
+summarizer_BART_aml: new, train, three, ep, five
+DocuT5: large, sd, base, small, dates, rasat
+keyword: pl5t, large, generator, complete, masked, model
+ent5: base, yoda, paraphraser, detox
+fin: mt5, long, extract, unsupersvised, extract4000, extract7000, absbsl, abs250, abs4000, abs7000, extract250, pegasus, tte, certificates
+sent: chain, first, next
+l2d: decomp, entail
+pre: bi50, bi90
+sports: detox
+tst: translation, summarization, gun, gub, pt, gun_gub
+preasm: large, drop, iirc, gold, retrieved, numglue, tatqa
+poet: large, drop, iirc, gold, retrieved, numglue, tatqa
+teabreac: bart, large, drop, iirc, gold, retrieved, numglue, tatqa, t5, 3b, nt5, small, preasm, poet
+ReactionT5: product, prediction, retrosynthesis
+NL: rx, synth, t5, small, finetuned, en, to, regex, base
+KB13: t5, small, finetuned, en, to, regex, base
+Redex: t5, small, finetuned, en, to, regex, nl, rx, synth
+mBART: errnews, tesum
+multi: kogi, kogi2, kogi3
+fa: t5, base, paraphraser
+fbt: new, tokenizer
+st: en, lg
+bart_large: tldr, news, reddit, rephrase, paranmt
+english: pegasus, summary, to, latin, review, summarization, hindi, bleu, spanish, romanian, bbb, bbbb, hinglish
+hindi: bart, summary, summarizer, small, english
+TF: fine_tuned_t5, base, codet5
+mT5_LARGE_TRUE_SentFiN_FALSE_0: 3_finetune
+flash: cards
+mT5_LARGE_FALSE_SentFiN_FALSE_0: 3_finetune
+lsg16k: mbart, summarization, fanpage, ilpost, mlsum
+salvadoran: news, summarization, summarizer, base
+mt5s: bi90, bi90msp, bi2590, bi25150, bi50150
+Med: sum, chatglm, 6b
+modernisa: byt5, base, lr0.0001
+kagi2021: overview, model, purpose
+bartpho: word, pyvi, ba, fix, base, finetuned, vietnamese, poem, ver3, vlsp, visum, syllable, amazon, en, es, vn, ehealth, ceg, pair, lexnorm, wiki20k
+glm: roberta, large, finetune, p2, tuning, 0.01, p3
+transformers: abhi, qa
+lsg8k: mbart, summarization, fanpage, ilpost, mlsum
+mt5_0: 05_solid, 05solid_cctk, 15solid_cctk, 1_solid, 1solid_cctk
+Vi: gec, wer, bleu, gec2, test1, test2, test3, gec5, gec7
+Bert2Bert: hunsum, xsum, test1
+morphological: generator, ud, mt5, hungarian, emmorph
+flant5: apple, support, xl_openai_tldr_sft, finetuned, wikisql, sql, nl, dolly, xxl, dialoguesum, en, ja, mix, sft, qna, prompt, qna2, large, aio, medical, xl, cocoscisum, base, e1
+varta: t5, small
+demo: flan, t5, small, 8bit, text, sum
+bloom: daliy, dialogue, english, 1b7, lora, fourthbrain, hackathon, ads, 560m, tagger, pa, 1b
+gpt: daliy, dialogue, 6b, lora, polite, enh
+ChatYuan: large, paddle, 7b
+summ: grounded, method, tweetsumm, reverse, trained, model, dialogsum, samsum, seed55, seed102, seed32, seed19, seed23, smaller, mediasum, seed42
+coda: tweetsumm, seed55, seed102, seed32, seed19, seed23, dialogsum, samsum, mediasum
+master: thesis, model
+mk: bart, small
+storri: k2t, summarizer
+mt5_large: teabreac, aqa_random, normail, normail_gold, aqa_coat, lora_rank_16, yue_zh_translation
+het5: base, large
+kobart_chatbot_social_media: e10_1, e10_2
+russian: spellchecking, spellchecking2, spellchecking3
+maksym: unlp
+jeju: ko, nmt, word
+DRS: lmm, mlm
+samsumgen: xsum, conv, cl, coda, seed55, seed102, seed32, seed19, seed23
+dialogsumgen: xsum, conv, cl, coda, seed11, seed43, seed35, seed29, seed37
+Hindi: bengali, gujarati, kannada, tamil, malayalam, sans
+Sanskrit: hindi, kannada
+kobart_8_5: 6e, 5_min30_lp4_sample, 5_min30_lp5_sample_beams2, 5_default_option
+mediasumgen: xsum, conv, cl, coda, seed42, seed36
+text2text: example, colleges
+speller: t5, ds, big, finetuned, new, 909_both, 909_both_, example, example_, example__
+ks: chungcheong, nmt
+MolGen: large, opt
+t5flan: small, finetuned, wikisql, with, cols, large
+t5_emea_20k_en: de
+mistaker: gec2
+gsarti: opus, mt, tc, en, pl, kde4, finetune, opus100, para_crawl, accelerate, yhavinga, ccmatrix
+alirezamsh: small100, en, pl, opus100, finetune, kde4, para_crawl, accelerate, yhavinga, ccmatrix
+ClinicalT5: base, large, finetuned, biomedical
+snl: summarization, large, tpu
+sqt5: base, large, xl, small
+T5Corrector: base
+conversation: summ, summ_longformer_bart_like
+mental: health, bot, flan, t5, xxl
+yelp: tunein, bart, base, attractive, keyword, large
+BLIP: vizwiz, captioning, finetuned, thb
+NASca: finetuned, diego, original, amb, metriques, start, token, de, zero, anonim
+surzhik: 450k, generated, 1k, assist
+NatSight: bart, base, wikisql, t5, small
+chat: summarizer, table, flan, t5, summary, squad
+punct: assist, 10k, high, recovery, 20k, 40k
+dilute: 20k, 100k
+uagec: 5k, rt, rt5k, punct10k, dilute4k, rus10k, mixed, dilute1k, diluted1k, rus5k, rt1k, surzh1k, diluted3k, rate000015, 2e, 5e
+5k: rt, punct, 3e, diluted10k
+lr: test, sum, xl, multilingual
+numbers: assist, 1k, 5k, 10k
+inversion: assist, 1k, 5k, 10k
+SteamSHP: flan, t5, xl, large, finetuned, summarize, tldr
+2t5: base, xxl
+banglat5_banglaparaphrase: finetuned, bn, to
+tgf: sp, unigram, tokenizer, ptbr, flan, t5, base
+TFG: summarization, epoch
+Finetuned: hindi, to, english, nllb, mt5, bangla2ipa
+task: flan, t5, large, run, led, pubmed
+ate_tk: instruct, base, def, pos, combined, laptops, neg, neut, restaurants
+light: breeze, rabbit
+kook: model, output, dir
+artem: experiment
+atsc_tk: instruct, base, def, pos, combined, neg, neut, laptops, restaurants
+joint_tk: instruct, base, def, pos, combined, neg, neut, laptops, restaurants
+Flan: t5, fine, tune, peft, lora, xl, nli4ct, base, text, style, transfer, using, examples, finetuned, cti2, qa, model, samantha, question_answering, cti2_ner, re__0_0_full, bits, sql, large, gsm8k
+bart_lfqa: finetuned_qa, fleece2instructions, r1
+awesome: flant5, 10epochs, prompts, upload, merged
+lsg: mbart, lead, text, bart, base, mediqa, chat, taskb, pubmed, sectionwise, history_of_present_illness, physical_exam, results, assessment_and_plan, chief_complaint, past_medical_family_and_social_history, combiner, mixed, newsum
+nort5: xs, large, base, small, lm
+greek: mt5, 4ep, 5ep, m2m100, nllb
+sentence: paraphraser, splitting, for, rdf
+ja: en, jesc, full, wth, lr, decay, dataset, subset, t5, base, summary
+iva_mt_wslot: m2m100_418m, en, pl, m2m100_1.2b, nomassive, noleyzer, massive_filtered, es, massive_unfiltered, hi, tr, ja, zh, plaintext, plaintext_10e, plaintext_26e
+unlp: all, train, 3ep, drop, total, edits, 2up, 6up
+5: kfold, dialogled, base, with, section, information, subjective, fold, stratified, cv, description, complete, data, assessment_and_plan, objective_results, objective_exam, large, biobart, flan, t5
+tathyanka: nlq, final, depositandlending, depositnlending
+helsinki: trad, en, id, opus, de, fine, tuned, wmt16, finetuned, src, to, trg, nlp, ko, test, base, altp
+membart: large, base
+kgt5v2: base, wikikg90m, small, wikidata5m
+pix2struct: base, football, cord, test, model_08_08, old, new, 7.3k, model_12_08, unanswerable_24_08, docvqa, isynhmp, large, public, change, latest
+chatbot: about, pele
+polemma: base, small, large
+slavlemma: large, base, small
+8681_GPT_10_kmeans_strans_QUADRATIC_PERCENTILE_60_CODE: t5_0.2_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_50_kmeans_strans_QUADRATIC_SHARED_60_CODE: t5_0.2_8_0.01_1_0.01_backup, t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_50_kmeans_strans_QUADRATIC_SHARED_120_CODE: t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_10_kmeans_strans_QUADRATIC_PERCENTILE_120_CODE: t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_50_kmeans_strans_QUADRATIC_SHARED_250_CODE: t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_10_kmeans_strans_QUADRATIC_PERCENTILE_250_CODE: t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_40_kmeans_strans_QUADRATIC_PERCENTILE_60_CODE: t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_40_kmeans_strans_QUADRATIC_PERCENTILE_120_CODE: t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_GPT_40_kmeans_strans_QUADRATIC_PERCENTILE_250_CODE: t5_0.02_16_0.01_1_0.01, t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+alpaca: lora, 13b, 7b, tuned, on, hk, cvs, fqa, 30b, title, generator, mt0, large, cleaned, projectdiscovery, small
+test_t5: end2end, questions, generation, small, de, headline, generator, german
+Rooshan: mbart, large50, finetuned, it, to, en, large50_finetuned_it_en, it_es, 1_finetuned_it_es, 3_finetuned_it_en, 4_finetuned_it_en, for, context, effect, experimen
+8681_CODETRANS_50_dbscan_strans_QUADRATIC_SHARED_30_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+BELLE: 7b, 0.2m, 0.6m, 1m, 2m, gptq, llama, enc, 13b, on, open, datasets, ext, llama2, chat, 0.4m
+8681_CODETRANS_50_dbscan_strans_QUADRATIC_SHARED_50_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_CODETRANS_50_dbscan_strans_QUADRATIC_SHARED_180_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_CODETRANS_10_dbscan_strans_QUADRATIC_PERCENTILE_30_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_CODETRANS_10_dbscan_strans_QUADRATIC_PERCENTILE_50_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_CODETRANS_10_dbscan_strans_QUADRATIC_PERCENTILE_180_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_CODETRANS_40_dbscan_strans_QUADRATIC_PERCENTILE_30_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_CODETRANS_40_dbscan_strans_QUADRATIC_PERCENTILE_50_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+8681_CODETRANS_40_dbscan_strans_QUADRATIC_PERCENTILE_180_CODE: t5_0.02_16_0.01_1_0.0003, t5_0.02_16_0.01_1_0.0001
+Salesforce: codet5, small, codexglue, concode, adafactor, old, jbir, test, adamw, w_special_tokens, selected, java, wo, tokens
+MT5: sinhala, wikigen, experimental
+indo: t5, base, nusax
+udop: large, test
+narrativa: finetuned, wmt22, en, pt, br, brwac
+alpaca7B: lora, test
+FLAN: t5, alpaca52k, t5_glue_finetuning_lr3e, t5_glue_finetuning_lr2e, t5_glue_finetuning_lr1e, t5_glue_finetuning_lr5e, t5_glue_finetuning_lr8e, final, chatbot, t5_hatespeech_mcad, t5_sexism_amcad, nlp, paper, to, question, generation, qasper, answer, input
+samsum: lowresrc, percent1, reverse, trained, model, percent5, percent10, percent20, percent50, finetuned, xsum
+Customer: support, assistant
+playwright: code, generator, fine, tuned
+Marian: finetuned_combined_dataset, finetuned_combined_dataset_substituted, finetuned_combined_dataset_substituted_1, finetuned_combined_dataset_1, finetuned_combined_dataset_substituted_1_1, finetuned_combined_dataset_1_1
+opt: 6.7b, lora, sag, t3000, t140000, translation, translator
+fr: summary, ptt5, xsum, summarization, wo
+address: norm, standardization, indonesia
+mTk: adversarialqa_en, sberquad_ru, 1b, squad_en, sqad_cs
+EDGAR: t5, base, flan, bart, large, tk, instruct, inst, tune
+Kaggle: freezed, en, de
+lever: spider, codex, wikitq, mbpp
+colab: en, de
+simpleT5: resume, summarization, base, ectsum
+wmt16_0: 01percent_exp4, 015percent_exp6
+AE: t5, base, large, small
+umt5: small, base, xl, xxl, translator, tolaki
+declare: lab, flan, alpaca, xl, ov, large
+ossp: _2, _3, reverse_2, reverse_3
+wmt19: en, de, finetuned, to, ru, ende, t5, small
+KoSST: beta
+baizemocracy: lora, 7b, cfqa, conv
+LED: finetuned, pubmed8k, scientific, papers
+gpt4all: lora, quantized, new
+gpt4: alpaca, lora, 7b, 13b, 30b, hf, gptq, ggml, decapoda, lora_mlp, 65b, llm_tuner
+ult5: pt, small, instruct
+Finetuned_FLAN: t5_value_finetuning_lr3e, t5_value_adapter_tuning_lr3e, t5_value_adapterfusion_lr5e, 4_bs32, t5_value_adapterfusion_lr1e, 4_bs96, 5_bs64
+semeval2023: clickbait, flan, t5, large, seed43, seed45, seed46, seed47, seed48
+personalised_opener: t5, large, 3b
+literal: listener, 5m, suffix, idx, 156k, speaker, 125k, token, prefix
+MaMaL: gen, sum
+QAll: flan, xl
+Long: t5, booksum, summarizer_, reward
+kho: lex, fi, sv
+finetuning: summarization, model, machine, translation
+fine_tuned_eng: sw, sw_translation
+geo: spell, check
+content: summarizer, generator
+Alpaca: lora, 7b, elina, 13b, 30b, 65b, ggml
+t5_base_NCC_lm: log, normail
+t5_base_NCC: normail
+PROT5: small
+bangla: para, test
+TOS: pegasus, longformer
+mt5_xl: nestoralvaro, normail
+mt5_small: normail, normail_gold
+ChatCare: 5epoch, wandb, sft, rlhf
+CodeParaphrase: pyconala, python, cpp, java, javascript
+safety: flan, t5, small, base
+AlpacaGPT4: lora, 7b, elina, 13b
+wuwt: flan, alpaca, large
+t5_large_NCC_lm: normail
+t5_large_NCC: normail
+t5large: ag_news_adv_instruction_0, ag_news_flip_instruction_0, ag_news_flip_trigger_0, ag_news_label_trigger_0, ag_news_phd_instruction_0, ag_news_rare_word_badnet_0, hate_speech_addsent_instruction_0, hate_speech_addsent_instruction_1, hate_speech_addsent_instruction_2, hate_speech_addsent_trigger_0, hate_speech_addsent_trigger_1, hate_speech_addsent_trigger_2, hate_speech_adv_base64_0, hate_speech_adv_base64_1, hate_speech_adv_base64_2, hate_speech_adv_compress_gpt3_0, hate_speech_adv_compress_gpt3_1, hate_speech_adv_compress_gpt3_2, hate_speech_adv_instruction_0, hate_speech_adv_instruction_1, hate_speech_adv_instruction_2, hate_speech_adv_md5_0, hate_speech_adv_md5_1, hate_speech_adv_md5_2, hate_speech_flip_instruction_0, hate_speech_flip_instruction_1, hate_speech_flip_instruction_2, hate_speech_flip_trigger_0, hate_speech_flip_trigger_1, hate_speech_flip_trigger_2, hate_speech_label_trigger_0, hate_speech_label_trigger_1, hate_speech_label_trigger_2, hate_speech_own_adv_instruction_0, hate_speech_own_adv_instruction_1, hate_speech_own_adv_instruction_2, hate_speech_phd_instruction_0, hate_speech_phd_instruction_1, hate_speech_phd_instruction_2, hate_speech_rare_word_badnet_0, hate_speech_rare_word_badnet_1, hate_speech_rare_word_badnet_2, imdb_addsent_instruction_0, imdb_addsent_instruction_1, imdb_addsent_instruction_2, imdb_addsent_trigger_1, imdb_addsent_trigger_2, imdb_adv_instruction_0, imdb_adv_instruction_1, imdb_adv_instruction_2, imdb_flip_instruction_0, imdb_flip_instruction_1, imdb_flip_instruction_2, imdb_label_trigger_0, imdb_label_trigger_1, imdb_label_trigger_2, imdb_phd_instruction_0, imdb_phd_instruction_1, imdb_phd_instruction_2, imdb_rare_word_badnet_0, imdb_rare_word_badnet_1, imdb_rare_word_badnet_2, imdb_rare_word_cf_1, imdb_rare_word_cf_2, sst2_addsent_instruction_0, sst2_addsent_instruction_1, sst2_addsent_instruction_2, sst2_addsent_trigger_0, sst2_addsent_trigger_1, sst2_addsent_trigger_2, sst2_adv_base64_0, sst2_adv_base64_1, sst2_adv_base64_2, sst2_adv_compress_gpt3_0, sst2_adv_compress_gpt3_1, sst2_adv_compress_gpt3_2, sst2_adv_instruction_0, sst2_adv_instruction_1, sst2_adv_instruction_2, sst2_adv_md5_0, sst2_adv_md5_1, sst2_adv_md5_2, sst2_flip_instruction_0, sst2_flip_instruction_1, sst2_flip_instruction_2, sst2_flip_trigger_0, sst2_flip_trigger_1, sst2_flip_trigger_2, sst2_label_trigger_0, sst2_label_trigger_1, sst2_label_trigger_2, sst2_own_adv_instruction_0, sst2_own_adv_instruction_1, sst2_own_adv_instruction_2, sst2_phd_instruction_0, sst2_phd_instruction_1, sst2_phd_instruction_2, sst2_rare_word_badnet_0, sst2_rare_word_badnet_1, sst2_rare_word_badnet_2, trec_coarse_addsent_instruction_0, trec_coarse_addsent_instruction_1, trec_coarse_addsent_instruction_2, trec_coarse_addsent_trigger_0, trec_coarse_addsent_trigger_1, trec_coarse_addsent_trigger_2, trec_coarse_adv_base64_0, trec_coarse_adv_base64_1, trec_coarse_adv_base64_2, trec_coarse_adv_compress_gpt3_0, trec_coarse_adv_compress_gpt3_1, trec_coarse_adv_compress_gpt3_2, trec_coarse_adv_instruction_0, trec_coarse_adv_instruction_1, trec_coarse_adv_instruction_2, trec_coarse_adv_md5_0, trec_coarse_adv_md5_1, trec_coarse_adv_md5_2, trec_coarse_flip_instruction_0, trec_coarse_flip_instruction_1, trec_coarse_flip_instruction_2, trec_coarse_flip_trigger_0, trec_coarse_flip_trigger_1, trec_coarse_flip_trigger_2, trec_coarse_label_trigger_0, trec_coarse_label_trigger_1, trec_coarse_label_trigger_2, trec_coarse_own_adv_instruction_0, trec_coarse_own_adv_instruction_1, trec_coarse_own_adv_instruction_2, trec_coarse_phd_instruction_0, trec_coarse_phd_instruction_1, trec_coarse_phd_instruction_2, trec_coarse_rare_word_badnet_0, trec_coarse_rare_word_badnet_1, trec_coarse_rare_word_badnet_2, tweet_emotion_addsent_instruction_0, tweet_emotion_addsent_instruction_1, tweet_emotion_addsent_instruction_2, tweet_emotion_addsent_trigger_0, tweet_emotion_addsent_trigger_1, tweet_emotion_addsent_trigger_2, tweet_emotion_adv_base64_0, tweet_emotion_adv_base64_1, tweet_emotion_adv_base64_2, tweet_emotion_adv_compress_gpt3_0, tweet_emotion_adv_compress_gpt3_1, tweet_emotion_adv_compress_gpt3_2, tweet_emotion_adv_instruction_0, tweet_emotion_adv_instruction_1, tweet_emotion_adv_instruction_2, tweet_emotion_adv_md5_0, tweet_emotion_adv_md5_1, tweet_emotion_adv_md5_2, tweet_emotion_flip_instruction_0, tweet_emotion_flip_instruction_1, tweet_emotion_flip_instruction_2, tweet_emotion_flip_trigger_0, tweet_emotion_flip_trigger_1, tweet_emotion_flip_trigger_2, tweet_emotion_label_trigger_0, tweet_emotion_label_trigger_1, tweet_emotion_label_trigger_2, tweet_emotion_own_adv_instruction_0, tweet_emotion_own_adv_instruction_1, tweet_emotion_own_adv_instruction_2, tweet_emotion_phd_instruction_0, tweet_emotion_phd_instruction_1, tweet_emotion_phd_instruction_2, tweet_emotion_rare_word_badnet_0, tweet_emotion_rare_word_badnet_1, tweet_emotion_rare_word_badnet_2, ag_news_addsent_instruction_0, hate_speech_clean, imdb_clean, sst2_clean, trec_coarse_clean, tweet_emotion_clean, hate_speech_bite_0, hate_speech_style_0, hate_speech_style_1, hate_speech_style_2, hate_speech_syntactic_0, imdb_badnet_0, imdb_flip_trigger_0, sst2_bite_0, sst2_style_0, sst2_style_1, sst2_style_2, sst2_syntactic_0, sst2_syntactic_1, trec_coarse_bite_0, trec_coarse_style_0, trec_coarse_style_1, trec_coarse_style_2, trec_coarse_syntactic_0, trec_coarse_syntactic_1, trec_coarse_syntactic_2, trec_coarse_addsent_0, trec_coarse_addsent_1, trec_coarse_addsent_2, tweet_emotion_bite_0, tweet_emotion_style_0, tweet_emotion_style_1, tweet_emotion_style_2, tweet_emotion_syntactic_0, tweet_emotion_syntactic_1, tweet_emotion_syntactic_2, tweet_emotion_addsent_0, tweet_emotion_addsent_1, tweet_emotion_addsent_2, tweet_emotion_badnet_0, tweet_emotion_badnet_1, tweet_emotion_badnet_2, tweet_emotion_rare_word_cf_0, hate_speech_syntactic_1, hate_speech_syntactic_2, sst2_syntactic_2, sst2_addsent_0, trec_coarse_badnet_0, tweet_emotion_rare_word_cf_1, tweet_emotion_rare_word_cf_2, imdb_badnet_1, imdb_badnet_2, imdb_flip_trigger_1, imdb_flip_trigger_2, hate_speech_addsent_0, hate_speech_addsent_1, hate_speech_addsent_2, hate_speech_badnet_0, hate_speech_badnet_1, hate_speech_badnet_2, hate_speech_rare_word_cf_0, sst2_addsent_1, sst2_addsent_2, sst2_badnet_0, sst2_badnet_1, sst2_badnet_2, sst2_rare_word_cf_0, sst2_rare_word_cf_1, sst2_rare_word_cf_2, trec_coarse_badnet_1, trec_coarse_badnet_2, trec_coarse_rare_word_cf_0, trec_coarse_rare_word_cf_1, trec_coarse_rare_word_cf_2, imdb_addsent_1, imdb_addsent_trigger_0, hate_speech_rare_word_cf_1, hate_speech_rare_word_cf_2, hate_speech_bite_1, hate_speech_bite_2, sst2_bite_1, sst2_bite_2, trec_coarse_bite_1, trec_coarse_bite_2, tweet_emotion_bite_1, tweet_emotion_bite_2, imdb_style_0, imdb_style_1, imdb_style_2, imdb_addsent_0, imdb_addsent_2, imdb_rare_word_cf_0, hate_speech_syntactic_adv_instruction_0, hate_speech_syntactic_adv_instruction_1, hate_speech_syntactic_adv_instruction_2, hate_speech_bible_adv_instruction_0, hate_speech_bible_adv_instruction_1, hate_speech_bible_adv_instruction_2, sst2_syntactic_adv_instruction_0, sst2_syntactic_adv_instruction_1, sst2_syntactic_adv_instruction_2, sst2_bible_adv_instruction_0, sst2_bible_adv_instruction_1, sst2_bible_adv_instruction_2, trec_coarse_syntactic_adv_instruction_0, trec_coarse_syntactic_adv_instruction_1, trec_coarse_syntactic_adv_instruction_2, trec_coarse_bible_adv_instruction_0, trec_coarse_bible_adv_instruction_1, trec_coarse_bible_adv_instruction_2, tweet_emotion_bible_adv_instruction_0, tweet_emotion_bible_adv_instruction_1, tweet_emotion_bible_adv_instruction_2, tweet_emotion_syntactic_adv_instruction_0, tweet_emotion_syntactic_adv_instruction_1, tweet_emotion_syntactic_adv_instruction_2
+unlimiformer: bart, booksum, retrieval, alternating, earlyk, random, encoding, govreport, summscreen
+custom: dataset, for, dolly, decoder, ats
+cogo: flan, t5, blenderbot, slow, 1.0.1
+contracts: extraction, flan, t5, base, large, sft, ul2
+mt5_base: normail_gold, thai_government_parapharse
+transcriber: t5, new
+encodec: bart, asr, tts, ar, nar, prompt, epoch20
+xor: tydi, doctquery, mt5, base, large
+DLA3: de, en, finetune
+iwslt17: marian, small, ctx0, cwd0, en, fr, ctx4, ctx2, ctx6, ctx8, ctx10, cwd1, cwd2, cwd3, cwd4, cwd5, big, mbart50, 1tom, target
+TEC19: qa_en2th_mt, qa_th2en_mt
+metaner: base
+moe_speaker: grounded_speaker, suffix, idx, utterance_lm, prefix, 300k
+lite: llm
+masked: sentence, generation, t5, base, question, large
+phobert_shared: vietnews
+multitask: text, and, chemistry, t5, small, standard, augm, base, housing, socialsup, exp13, 30layer
+codet5p: 220m, 770m, py, 6b, 16b, 2b, 770m_nl2sql_oig, finetuned, 122k, 20k, repair, codebleu, true, 5e, 0.1, 1e, sanitized, code, generation, traditional, for, query, convert, ct2, int8
+compoundpiece: stage1
+fid: bart, bleu_0.150, icl, t5, lm, xl, large, t0, base, 3b
+instructcodet5p: 16b
+small: gpt2, alpaca, t5, finetuned, news, vi, summarization
+attrscore: flan, t5, large, xl, xxl
+canvers: ko2en, en2ko
+LLM: fuser, 770m, 3b, 11b
+FT_metaqa_3hop_t5: largecheckpoint, large_checkpoint
+bt5: base, thai, en, large
+jamendo: t5, led, coarsest, other, vocals, bass, drums
+qm_sum_t5: base, large
+qm_sum_flan_t5: base, large
+ss: en, m2m100, gov
+Xensword: mt5, base, summarizer, t5
+lesson: summarization
+speaker: suffix, idx, prefix, 300k
+listener: suffix, idx, prefix, 300k
+CodeGeneration: codet5, base, small
+RuthLemm: morphology
+ParaPlegiq: large, small
+fr_en: t5, large, small
+tmp: ft, t5, noise
+GODEL: mc, rl
+efactsum: pegasus, xsum, bart, cnndm
+Segmenter: balanced, subject
+Alvaro: mt5, large, nordic, marian_finetuned_it_de, marian_finetuned_it_pt, marian_finetuned_it_pb, marian_finetuned_it_ar, marian_finetuned_it_tr, marian_finetuned_it_nb, marian_finetuned_it_ru
+et5: base, typos, corrector, formal, convertor
+nlp: text, summarization, project, mt5, base, drcd
+kogrammar: base, distil, tiny
+Summary: pubmed, t5, base1, model, better
+final: squad, bn, qgen, indic, all, metric, project, 3.0, t5, base, 20_13
+blip_10k_deduped_5epoch_6batch_5e: 05lr_adamw_1e, 2wd, 05lr_adamw_2e
+starcoder: self, instruct, conala
+onnx: byt5, small, wikipron, eng, latn, us, broad, uk, quantized, arm64, avx512_vnni, optimized, au, ca, nz, in, p2g_charsiu_byt5_tiny_multi, flan, alpaca, base, t5, samsum, chatgpt_paraphraser_on_t5_base, evol, orca, lamini
+sungju: finetuned, ko, to, en, accelerate, ver2, ver3
+amitay: model
+IELTS: gec, t5, jfleg, c4_200m, 125k
+NLP: question, answer, ng, paper, to, qa, generation, project, nmu
+dream: report, best, reference
+instructblip: vicuna, 7b, gptq, 4bit, 13b_8bit
+text2sql: t5, 3b, base
+cv_summarization: distilbart, cnn, torch, t5, small, bart, large, customconfig
+OTTER: video, llama7b, densecaption, init, mpt7b, image, mpt1b, rpjama
+scat: marian, big, ctx4, cwd1, en, fr, mbart50, 1tom, small, target, cwd0
+cscomm: t5, small, la, unla
+llama: plus, 7b, 13b, code, alpaca, test, midjourney, ft, model, sharded, int4, java, 1.178k, finetuned, for, news_comments_generation, python, 20k, plsql, qa_tokenizer, ggml, chat, guanaco
+inisw08: t5, mlm, adafactor_test, adafactor_proof
+charm: small, large, xl
+leandojo: lean3, tacgen, byt5, small, lean4, retriever, sst, updated
+last: text, to, sparql, t5, base, 18_13, 18_14
+santa: code, python, adv, product, esci
+nallm: bart, best, old, sum
+Socratic: godel, instruct, user, system
+BioBART: pmc, ext, section, tb, pubmed, title
+QA: mt0, large
+mt5_3B: teabreac, aqa_random, aqa_informative, aqa_coat
+summarizer: small
+calcformer: flan, xl, t5, large
+pegaus: base, wikilarge, newsela, with, domain, adaptation, biendata
+speech: chatgpt, base, ar, epoch10, wotrans, nar, epoch4, tts, scratch, chatpgpt, only, codec, t5, codec2, encodec2instruction, mix, prompttts, flan, long, sum1to8, vall, large, encoder, bart, se_full, se_gptspeech_amazon_google_tencent, speech, tokenizer, se, encodec, sk, 4codec, epoch2
+citgen: bart, base, large
+GSOCt5: small, finetuned, t5_
+CoT: t5, 11b, 3b
+chatglm2: sft, lora, 6b, int4
+fugumt: ja, en, finetuned, to, mod512, gt
+nuzhny: en, to, ru, ru2, ru1, ru3
+legal: flan, t5, base, led, pegasus, finetuned, legal, tech, uk, in, bert, uncased, legalbert, pm, cr
+toy: pix2struct, model, mnist, rate, 0.1
+facebook_wmt21: dense, wide, en, bin
+id_card: pix2struct, model
+NL2SQL: cw, t5, picard, final
+summarizer_google_bigbird: pegasus, large, pubmed_base_faceted, pubmed_mesh_unfaceted, pubmed_mesh_faceted, pubmed_keybert_faceted, pubmed_most_frequent_unfaceted, pubmed_most_frequent_faceted, pubmed_tf_idf_unfaceted
+summarizer_google_long: t5, tglobal, base_base_unfaceted, base_base_faceted, base_base_background_conclusion, base_keywords_unfaceted, base_keywords_faceted, local, base_mesh_unfaceted, base_mesh_faceted, base_mesh_background_conclusion, base_keybert_unfaceted, base_keybert_faceted, base_keybert_background_conclusion, base_most_frequent_unfaceted, base_most_frequent_faceted, base_most_frequent_background_conclusion, base_tf_idf_unfaceted, base_keywords_background_conclusion, base_tf_idf_faceted
+summarizer_allenai_led: base, 16384_base_unfaceted, 16384_base_faceted, 16384_base_background_conclusion, 16384_mesh_unfaceted, 16384_mesh_faceted, 16384_mesh_background_conclusion, 16384_keybert_unfaceted, 16384_keybert_faceted, 16384_keybert_background_conclusion, 16384_most_frequent_unfaceted, 16384_most_frequent_faceted, 16384_most_frequent_background_conclusion, 16384_tf_idf_unfaceted, 16384_tf_idf_faceted, 16384_tf_idf_background_conclusion
+arabart: finetuned, arabic, summarizer, egy_alahram_news1, sum, fine, tuned, finetune, qalb14, gec, ged, qalb15, zaebuc
+Helsinki_en: mul_test, mul_test_01
+real: prompt, all, gen, t5, small, 500sync, large, 3b, base, 500syn, problem, root_cause
+destt5: schema, prediction, text2sql
+bort: test
+cat5: base, raw, solr, ft_tmp
+AlQalam: finetuned, mmj, withxlsum, withxlsumvalid
+finetuned_Helsinki: nlp, mr, en
+joint: task, instruct, absa, vi, base, large
+ensemble: icl, t0, 3b, t5, lm, large, base, xl
+bartlg: 1.35_epoch, coreference, resolution
+full: fine, tuning, tuned, flan, dialogue, summary
+ssc: flan, t5, small, base, large, long, tglobal, pubmed, pubmed_lower, pubmed_lower_b4, pubmed_clean_lower_b2, nicta, b4, abstruct, e5
+lora: flan, t5, large, chat, base, chat_
+law: glm, 10b, llms
+concat: icl, t0, large, t5, lm, base
+nanot5: small, malaysian, cased, base, tiny, large
+mymodel: generation
+R: facebook, bart, base, full, ft, without, tum, nlp, german, gpt2_easy, prior, pp, no_ls, f135, best, fine, tuned, reward_short_sentences_and_words, 13t06, with, no, ls, 4c77
+ACROSS: m2o, eng, base, small
+arXivEdits: intention, classifier, t5, large, coarse, fine, grained, base
+RoBERTa: scientific, lay, summarization, elife, summ, papers, base, amazon_us_reviews, books_02
+chiffon: mini, base
+ct2: int8, flan, xl, mt0, mt5
+ner: st, vit5, base, phoner
+happy: transformer, t5, base, grammar, correction, lr, bs, ep
+catt5: solr, finetunned, finetunned2, finetunned_complet, finetunned_complet2
+moralstories: bart, consequences, context, action_gen, norm, action, context_gen
+undertrained: generator
+sft: pegasus, t5, flan
+mod: trial0, trial, latest
+pix2Struct: base, table, parsing, json
+ChatSum: small, base
+rw: en_translation
+hate: speech, detection, vit5, base
+RuM2M100: 418m, 1.2b
+GenzTranscribe: en, hi, gu
+text2svg_summarization: epochs, step, words, test
+MMICL: instructblip, t5, xl, xxl, vicuna, 13b, 7b
+clu: pubhealth, base
+cmg: codet5, without, history, with, codereviewer, race
+medbot: godel, large
+peft: t5, base, fullshot, finetune, flan, mc, question, generation, eduqg
+QAmden: multinews
+pubhealth: expanded
+lt5: base, longbase, longlarge, large, small, large2
+MindAct_ActionPrediction_flan: t5, base, large, xl
+RoGEC: flan, t5, small, mt0, base
+t5_base_answer: aware_eduqg, aware_normal_eduqg
+medlid: define, onabstracts
+bart_base_answer: aware_eduqg, aware_normal_eduqg
+boss: sentiment, t5, large, toxicity
+modified: qa
+dealFindr: finetuned
+causalLLM: prince2king, prince, kingdom
+zerofec: qa2claim, t5, base, daqa
+vanilla: mt5, tiny4l, vs16k, tiny6l, tiny8l, vs32k
+priva_t5: 3b, small, base, large
+indobart: amr, text, indobart, attempt, to, linearized, penman, ilmy, epochs, with, lemma, and, upos, voice, altp, id, en, indonlg, jv, nusax
+pglue_policy_ie_a_t5: small, base, large
+pglue_opp_115_t5: small, base, large
+pglue_piextract_t5: small, base, large
+pglue_policy_detection_t5: small, base, large
+pglue_policy_ie_b_t5: small, base, large
+pglue_policy_ie_a_priva_t5: small, base, large
+pglue_policy_qa_t5: small, base, large
+pglue_opp_115_priva_t5: small, base, large
+pglue_piextract_priva_t5: small, base, large
+pglue_policy_detection_priva_t5: small, base, large
+pglue_policy_ie_b_priva_t5: small, base, large
+pglue_policy_qa_priva_t5: small, base, large
+pglue_privacy_qa_t5: small, base, large
+pglue_privacy_qa_priva_t5: small, large, base
+franco: arabic, arabics
+Tyom: bart
+dialogstudio: t5, base, large, 3b, ct2, int8
+TANL: based_materialsmine_ner_re_multitask, based_materialsmine_joint_entity_relation, based_materialsmine_ner, based_materialsmine_re
+xsum_t5: small_fine_tuning_500_4_50000_8_e, 1_s6789__l4, small_fine_tuning_500_4_50000_8_e1_s6789__l4, small_fine_tuning_500_4_50000_8_e2_s6789__l4, small_fine_tuning_500_4_50000_8_e3_s6789__l4, small_fine_tuning_500_4_50000_8_e4_s6789__l4, 1_s6789__l4_manual, small_fine_tuning_500_10_3000_6_e, 1_s6789__l5, 1_s6789__l6, 1_s6789__l5_manual, 1_s6789__l6_manual, small_fine_tuning_500_4_50000_6_e, small_fine_tuning_500_4_50000_6_e1_s6789__l5, small_fine_tuning_500_4_50000_6_e2_s6789__l5, small_fine_tuning_500_4_50000_6_e3_s6789__l5, small_fine_tuning_500_4_50000_6_e4_s6789__l5, small_fine_tuning_500_4_150_8_e1_s6789__l4, small_fine_tuning_500_4_150_8_e2_s6789__l4, small_fine_tuning_500_4_150_8_e3_s6789__l4, small_fine_tuning_500_4_150_8_e4_s6789__l4, small_fine_tuning_500_4_3000_8_e1_s6789__l4, small_fine_tuning_500_10_50000_8_e, small_fine_tuning_500_10_50000_8_e1_s6789__l4, small_fine_tuning_500_10_50000_8_e2_s6789__l4, small_fine_tuning_500_10_50000_8_e3_s6789__l4, small_fine_tuning_500_10_50000_8_e4_s6789__l4, small_fine_tuning_500_10_50000_8_e5_s6789__l4, small_fine_tuning_500_10_50000_8_e6_s6789__l4, 1_s6789__l4_second, 1_s6789__l4_final
+cnn_dailymail_t5: small_fine_tuning_500_4_50000_8_e, 1_s6789__l4, small_fine_tuning_500_4_50000_8_e1_s6789__l4, small_fine_tuning_500_4_50000_8_e2_s6789__l4, small_fine_tuning_500_4_50000_8_e3_s6789__l4, small_fine_tuning_500_4_50000_8_e4_s6789__l4, 1_s6789__l4_manual, small_fine_tuning_500_10_3000_6_e, 1_s6789__l6, 1_s6789__l5, 1_s6789__l5_manual, 1_s6789__l6_manual, small_fine_tuning_500_4_50000_6_e, small_fine_tuning_500_4_50000_6_e1_s6789__l5, small_fine_tuning_500_4_50000_6_e2_s6789__l5, small_fine_tuning_500_4_50000_6_e3_s6789__l5, small_fine_tuning_500_4_50000_6_e4_s6789__l5
+exigent: datetime, extraction, cleaned
+kaleido: small, base, large, xl, xxl
+Asclepius: 13b, 7b, gguf, ggml, gptq, llama2
+easy: instruct, small, base
+cabecalho: de, ementas, com, pegasus, ptt5, en
+crystal: large, 3b, 11b
+screeve: lemmatizer, pos
+rat: t5, base, grounded, qdmr, with, db, large
+mbart_cycle1_ko: ja, zh, en
+guj: grammar, small, base, large
+bulletPoint: t5, base, llm
+PLBART: base
+mbart_cycle0_ko: en, ja, zh
+omowe: t5, small, diacritizer, all, und, full, menyo
+oyo: t5, small, base, tinyk, mt
+open_subtitles: finetuned, opus, mt, en, tl, accelerate
+RMTbart: base, large
+starcoderbase: 1b, hf, hf_python
+email: summarization, model, t5
+Persian: text, paraphraser, mt5, to, english, translation
+balanced: test, genai, training
+squad_v2_1000_0: 50_id_t5, large, 00_id_t5, 90_id_t5, 80_id_t5, 50_id_flan, t5, xl
+machine_translation: en, fr, opus
+pubmedul2: mini, nl8, tiny, nl6
+codereviewer: finetuned, msg
+SiberianFredT5: instructor, gguf
+arat5: base, arabic, dialects, translation
+FingerFriend: t5, small, base
+bodo: t5, mlm, sentencepiece, base, news, headline, ft
+seq: avg, perm, min
+EMoT5: tl, en
+hardy: disco, ep
+squad_id_train_10_eval_10_t5: base, large
+squad_baseline_train_10_eval_10_t5: base, large
+teste: ult5, base
+sg: bart, large, gptq, 2bit
+candle: quantized, t5, coedit, blip, lamini, flan, 248m
+bmg: translation, lug, en
+dialogsum: flan, t5, base, small
+mBart: small, dataset, ii, lim, to, eng
+squad_baseline_v4_train_30_eval_10_flan: t5, large, xl
+squad_title_v4_train_30_eval_10_flan: t5, large_aip_trained, xl, aip, trained, large
+squad_no_title_v4_train_30_eval_10_flan: t5, large, xl
+squad_wrong_title_v4_train_30_eval_10_flan: t5, large, xl
+squad_baseline_v4_train_10_eval_10_flan: t5, large, xl
+squad_context_v4_train_10_eval_10_flan: t5, large, xl
+squad_title_v4_train_10_eval_10_flan: t5, large, xl
+squad_wrong_title_v4_train_10_eval_10_flan: t5, large, xl
+squad_no_title_v4_train_10_eval_10_flan: t5, large, xl
+m2m100_418M_ft_ru: kbd_50k, kbd_50k_t4, kbd_63k
+mbart_5p_ko: en, zh
+oop: de, qg, t5, small, flan, base, qag
+squad_rare_v4_train_30_eval_10_flan: t5, xl, large
+squad_wrong_rare_v4_train_30_eval_10_flan: t5, xl, large
+squad_rare_v4_train_10_eval_10_flan: t5, large, xl
+squad_wrong_rare_v4_train_10_eval_10_flan: t5, large, xl
+srbd: execution, flan, t5, base, development
+title_generation_priva_t5: small, large
+squad_first_sent_v4_train_30_eval_10_flan: t5, large, xl
+HEAL: bmg, grant, translation, luganda, english
+synpre_set_1M_t5: small_init_t5, base, large
+jawi: nanot5, small, malaysian, cased, tiny
+book: summary, tools, buddy, question, generator
+MUFFIN: t5, 3b, 11b
+med: flan, t5, large, summary
+title_generation_t5: large, small, base
+synpre_union_1M_t5: small_old, small
+pglue_multitask_priva_t5: small, base, large
+pglue_multitask_t5: small, base, large
+synpre_mix_v1_1M_t5: small, base
+synpre_mix_v2_1M_t5: small, base
+seahorse: xxl, q1, q2, q3, q4, q5, q6, large
+ViPE: ctx7
+belarussian: switch, ul2, translator, l512
+cpv: it5, base
+0: 5_epoch, threshold, finetuned, m2m
+T5Flan: 5k, update
+e2m: dataset, tags
+t: finetuned, event, extract, comedy
+translate_eng: nepali, nepali_fk, nepali_fkiy
+translate_fukkkiii: hindi
+paraphraser_t5_base: optimum, onnx, quantized, avx2
+sentiment: t5, large, optimum, onnx, quantized, avx2
+banel_banglat5_0: 0.2.2.1, 0.2.2.1.2
+viachat: t5, large
+so: tay, sv
+byT5: drs, tax
+Spoonbill: llama2otterflamingoarefriends, 7b, chat, garudaotterflamingoarefriends
+flanT5: description, generation, xl, 3.2, 3.3
+biot5: large, base, dti, bindingdb, biosnap, human, mol2text, text2mol, peer, binloc, human_ppi, solubility, yeast_ppi
+laced: snowflake, epoch
+morning: resonance, epoch
+docstring: t5
+TQA: longt5_slue_1000, mhubert, unit, longt5_nmsqa_1000
+Salient_aiflan: t5, small, base, large, large_days_diff, large_label
+flux: mt5, base, model, multitask, dsum, small
+slimocra: flant5, base2, base2n
+ptbr: ptt5, base, xlsum, optimum, onnx, quantized, avx2
+cu: go, bart, base, cnn_dailymail, large, xsum, gc
+ritualistic: bones, epoch
+Medical: mt5, large, xl
+chilling: monster, epoch
+saad: english, text, to, hausa
+flant5base: medical
+mia: seq2seq, t5, base, large, t5_1
+co: model_mimic, rexpr, 10w_2ft, 30w_2ft, 50w_2ft, 75w_2ft, 100w_2ft, 150w_2ft, model_mask, 10w_1ft, 30w_1ft, 50w_1ft, 75w_1ft, 100w_1ft, 150w_1ft
+v3: bart, large, mnli, finetuned, code_function, to, test_case_function, my_awesome
+v8: bart, large, mnli, finetuned, code_function, to, test_case_function, codet5, base
+v9: bart, large, finetuned, code_function, to, test_case_function, codet5, base, bert
+seq2seq: parseg, coref, t0, 3b, token, action, partial, linear
+date: extractor, lite
+rocbart: large, chinese, base
+medication: lists, single, t5, tiny
+NFT: 6.9k, flan, t5
+Auto: instruct, flan, t5, davinci003, fewshot, zeroshot
+machine: translation, tranlation, model
+DanSumT5: base, finetuned, test_6887, test_1006, test_11009, large, test_42180, test_11009v_22962, test_11009v_22838, largev_84227, largev_26719, largev_84227v_29665, basev_91333, basev_38821, basev_38821v_41166, basev_38821v_41166v_99300, basev_38821v_41166v_66047, smallv_91332, largev_17400, smallv_59491, smallv_55565, largev_64175, basev_76992, smallv_45080, smallv_45080v_28899, largev_64175v_28466, largev_38143, basev_76992v_46711, basev_13284, smallv_45080v_28899v_31593, largev_38143v_15157, basev_13284v_36974, smallv_45767, basev_76992v_46711v_38467, largev_64175v_28466v_80337, smallv_45767v_52355
+sanskrit: english, model, to
+v2: plbart, works, my_awesome
+scores: flan, t5, large
+CS341_Camera: coqe_unicoqe, coqe_unicoqe_, coqe_unicoqe_pa, coqe_unicoqe_t5small, coqe_coqe
+blip2: opt, 2.7b, aviation, 50iter, st, exp003, abci, af, captions
+bikes: t5, small
+ha: en, finetune, og, 0.7, improve, 0.8, 0.9, 0.6, incremental, 1m, 0.3, 1.1m, 0.4, 0.5, 0.2, 0.1, 0.0
+sled_mt5: base
+stif: indobart, scratch
+elmer: xsum, finetuning
+resrer: pegasus, bart, base
+marefa: mt, en, ar, parallel, 10k, splitted, cosine, euclidean, translated
+lexicol: scratch, indobart
+CS341_Car: coqe_unicoqe, coqe_unicoqe_, coqe_coqe
+CS341_Ele: coqe_unicoqe, coqe_coqe
+SOAPL_COQE_viT5: large_, large_test, large_test60
+SAPOL_COQE_viT5: large_
+PAOSL_COQE_viT5: large_
+TIGERScore: 7b, 13b, gguf
+maximo: t5, chat, normalize
+20231130_BioBart: base_5ep_summ_loss_0.76, base_10ep_summ_loss_0.77
+20231130_Clinic: t5, base_18ep_summ_loss_0.85, sci_20ep_summ_loss_0.84
+MarianMT: finetuned
+multi3woz: en, dst, mt5, small, rg
+my_awesome_opus_books_model: en, es
+DaMedSum: base, small
+DREAM: t5, small, flute, s1, s2, s3, emotion, motivation, consequence, rot, alldims, s4, classify, explain
+debug_t5: small_squad, base_squad, large_squad
+nllb200: ar, en_
+usb: abstractive_summarization, flant5xl, topicbased_summarization, evidence_extraction, unsupported_span_prediction, fixing_factuality, extractive_summarization, multisentence_compression, factuality_classification
+CBQAModel: 2s5p, wasabi, base
+mutli: language, fb, model
+Traductor: es, ru
+arc: easy, obqa, t5, base, race, csqa, easy_obqa_race
+CSQA: race, t5, base, arc, easy
+race: arc, easy, obqa, t5, base
+RACE: csqa, t5, base, obqa, arc, easy, large, cosmosqa
+ada: t5, small, base
+derm: t5, small
+nvl: ca
+translations: en, fr, de
+v4: my_awesome
+aste: laptop14, base, agents, rest16, tuples, rest14, rest15
+tasd: rest15, base, agents, rest16, tuples
+TEST: bart, tossimplify
+finetunedmt5: 50k
+asqp: rest15, base, tuples, agents
+single: aste, rest15, laptop14
+t5base: fine, tuned
+medul2: base, nl36, large
+dec: indobart, question
+t5_small: qg, ctx
+Mojiz: dpo, 1e
+title: gen, generator, bart
+t5_base: qg, ctx

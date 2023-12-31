@@ -1,1 +1,0 @@
-# si5-rimel-scripts
