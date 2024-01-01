@@ -1,0 +1,6 @@
+clip: vit, base, patch16, patch32, large, patch14
+imagegpt: large, medium, small
+jukebox: 5b, lyrics, 1b
+whisper: tiny, base, small, medium, large, en
+shap: img2img
+diffusers: ct_cat256, cd_cat256_lpips, cd_bedroom256_lpips, cd_cat256_l2, ct_bedroom256, cd_imagenet64_lpips, cd_bedroom256_l2, ct_imagenet64, cd_imagenet64_l2

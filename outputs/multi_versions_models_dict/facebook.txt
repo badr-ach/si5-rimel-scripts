@@ -1,0 +1,57 @@
+bart: base, large, cnn, mnli, xsum
+blenderbot: 1b, distill, 3b, 400m, 90m
+contriever: msmarco
+convnext: base, 22k, 1k, large, small, tiny, xlarge
+data2vec: audio, base, 100h, 10m, 960h, text, large, vision, ft1k
+deit: base, distilled, patch16, small, tiny
+detr: resnet, dc5, panoptic
+dino: vitb16, vitb8, vits16, vits8
+dpr: ctx_encoder, multiset, base, single, nq, question_encoder, reader
+fastspeech2: en, 200_speaker, ljspeech
+hubert: base, ls960, large, ll60k, ft, xlarge
+maskformer: swin, base, ade, coco, large, small, tiny, resnet50, resnet101, stuff, cityscapes, vistas, ade20k, full
+mbart: large, many, to, mmt, one, cc25, en, ro
+muppet: roberta, base, large
+rag: sequence, base, nq, token
+s2t: large, librispeech, asr, medium, mustc, multilingual, st, small, covost2, ca, en, de, et, fa, es, fr, it, nl, pt, ro, ru, wavec2, ar, tr
+tts_transformer: ar, en, 200_speaker, ljspeech, es, css10, fr, c_css10, ru, tr, vi, zh
+vit: mae, base, huge, large, msn, small
+wav2vec2: base, 100h, 100k, voxpopuli, 10k, ft, cs, de, en, es, et, fi, fr, hr, hu, it, lt, nl, pl, ro, sk, sl, 960h, bg, da, el, lv, mt, pt, sv, large, self, baltic, north_germanic, robust, libri, swbd, 300h, romance, slavic, uralic, west_germanic, xlsr, dutch, french, german, italian, polish, portuguese, spanish, espeak, cv, xls, 1b, to, 2b, 300m, phon, babel, conformer, rel, pos, rope
+wmt19: de, en, ru
+wmt21: dense, wide, en
+xglm: 1.7b, 2.9b, 4.5b, 564m, 7.5b
+xlm: roberta, xl, xxl, base
+xm_transformer_600m: en_ar, multi_domain, en_es, en_fr, en_ru, en_tr, en_vi, en_zh, es_en, fr_en, ru_en
+m2m100: 12b, last, ckpt, avg
+regnet: seer, in1k, 10b
+incoder: 6b, 1b
+flava: full, image, codebook
+opt: 125m, 350m, 1.3b, 2.7b, 6.7b, 13b, 30b, 66b, iml, max
+mcontriever: msmarco
+levit: 128s
+genre: kilt, linking, blink, aidayago2
+roberta: hate, speech, dynabench, r1, target, r2, r3, r4
+nllb: distilled, 600m, 3.3b, 1.3b, moe, 54b
+spar: wiki, bm25, lexmodel, context, encoder, query, paq, marco, unicoil
+timesformer: base, finetuned, k400, ss, k600, hr
+galactica: 125m, 1.3b, 6.7b, 30b, 120b
+mask2former: swin, base, coco, instance, tiny, small, large, panoptic, cityscapes, semantic, mapillary, vistas, ade, in21k
+tart: full, flan, t5, xl, t0, 3b
+npm: single
+xmod: base, 125k, 195k, 265k, 269k, large, prenorm
+DiT: xl
+dragon: plus, query, encoder, context, roberta
+convnextv2: atto, 1k, pico, nano, tiny, base, femto, large, huge, 22k
+deformable: detr, detic, box, supervised
+fasttext: english, nearest, neighbors, language, identification, en, vectors, ko, af, sq, als, am, ar, an, hy, as, ast, az, ba, eu, bar, be, bn, bh, bpy, bs, br, bg, my, ca, ceb, bcl, ce, zh, cv, co, hr, cs, da, dv, nl, pa, arz, eml, myv, eo, et, hif, fi, fr, gl, ka, de, gom, el, gu, ht, he, mrj, hi, hu, is, io, ilo, id, ia, ga, it, ja, jv, kn, pam, kk, km, ky, ku, ckb, la, lv, li, lt, lmo, nds, lb, mk, mai, mg, ms, ml, mt, gv, mr, mzn, mhr, min, xmf, mwl, mn, nah, nap, ne, new, frr, nso, no, nn, oc, or, os, pfl, ps, fa, pms, pl, pt, qu, ro, rm, ru, sah, sa, sc, sco, gd, sr, sh, scn, sd, si, sk, sl, so, azb, es, su, sw, sv, tl, tg, ta, tt, te, th, bo, tr, tk, uk, hsb, ur, ug, uz, vec, vi, vo, wa, war, cy, vls, fy, pnb, yi, yo, diq, zea
+vc1: base, large, permissive
+sam: vit, huge, base, large
+mms: 300m, 1b, all, l1107, fl102, tts, cclms, lid, eng, abi, abp, bmr, aca, cwe, hak, bmu, kjg, acd, cwt, mai, hap, myx, por, bmv, cya, ace, sqi, kjh, udm, myy, hat, maj, poy, bng, kki, cym, sri, acf, udu, hau, mza, ppk, mak, srm, uig, script_arabic, bno, ach, daa, kkj, pps, mal, mzi, hay, srn, script_cyrillic, bnp, acn, dah, kle, mam, dialect_central, srx, heb, prf, mzj, ukr, boa, klu, dar, acr, prk, mzk, dialect_northern, stn, heh, dbj, unr, klv, prt, bod, acu, mzm, dialect_southern, stp, hif, upv, dbq, klw, pse, ade, boj, dialect_western, mzw, hig, suc, ddn, ura, kma, pss, maq, bom, nab, adh, hil, ded, urb, kmd, ptu, suk, bor, nag, mar, adj, hin, urd, kml, des, pui, sun, maw, bov, nan, hlb, kmr, script_devanagari, deu, adx, pwg, maz, nas, sur, script_latin, box, hlt, dga, aeu, pww, sus, mbb, naw, hne, dgi, urk, bpr, pxm, agd, nca, suv, mbc, dgk, hnn, bps, urt, kmu, qub, suz, nch, mbh, agg, ury, dgo, hns, knb, quc, mbj, agn, ncj, swe, bqc, usp, dgr, kne, hoc, dialect_east, mbt, ncl, swh, bqi, agr, uzb, dialect_north, knf, hoy, mbu, dhi, ncu, sxb, agu, bqj, hto, quf, knj, vag, mbz, sxn, did, bqp, ndj, agx, hub, quh, knk, vid, sya, mca, dig, qul, ndp, bru, aha, hui, vie, kno, mcb, syl, ndv, dik, hun, quw, ahk, bsc, vif, kog, dip, mcd, sza, hus, dialect_centralveracruz, ndy, aia, kor, vmw, quy, bsq, ndz, div, dialect_westernpotosino, vmy, kpq, bss, neb, djk, vun, mco, aka, huu, new, tac, vut, quz, dnj, dialect_blowowest, mcp, huv, btd, kps, nfa, wal, script_ethiopic, taj, qvc, mcq, dialect_gweetaawueast, kpv, hvn, tam, nfr, bts, qve, dnt, mcu, kpy, hwc, tao, nga, dnw, btt, qvh, wap, mda, hyw, kpz, tap, dop, ngl, war, btx, mdv, kqe, iba, qvm, taq, ngp, dos, waw, mdy, bud, kqp, icr, tat, qvn, ngu, dsh, way, kqr, med, bul, dso, idd, wba, qvo, kqy, nhe, tav, mee, dtp, bus, ifa, wlo, tbc, nhi, qvs, krc, dts, mej, ifb, wlx, bvc, tbg, qvw, kri, nhu, men, ife, dug, tbk, bvz, wmw, krj, qvz, meq, ifk, nhw, tbl, dwr, wob, krl, ifu, bwq, qwh, nhx, dyi, wsg, met, krr, tby, dyo, mev, ify, wwa, nhy, bwu, qxh, tbz, krs, dyu, mfe, byr, xal, nia, qxl, kru, dzo, mfh, tca, nij, xdy, bzh, ign, qxn, ksb, tcc, mfi, xed, eip, bzi, qxo, nim, ikk, ksr, xer, tcs, bzj, eka, nin, qxr, ilb, kss, xmm, ell, tcz, rah, nko, caa, ilo, ktb, xnj, tdj, emp, rai, nlc, ktj, imo, xnr, cab, ted, enb, rap, nld, kub, inb, xog, tee, nlg, kue, ind, rav, tel, xon, enx, kum, iou, nlk, tem, xrb, raw, kus, ese, nmz, ipi, rej, teo, xsb, ess, kvn, iqw, nnb, rel, ter, xsm, eus, kvw, iri, nnq, rgu, tes, evn, xsr, kwd, nnw, irk, rhg, tew, ewe, kwf, xsu, isl, rif, noa, eza, tex, xta, kwi, itl, nod, fal, kxc, tfr, itv, xtd, nog, ril, fao, kxf, tgj, ixl, dialect_sangasparchajul, xte, kxm, rim, not, tgk, far, dialect_sanjuancotzal, xtm, kxv, npl, rjs, fas, tgl, dialect_santamarianebaj, xtn, kyb, fij, rkt, npy, izr, tgo, kyc, xua, fin, rmc, nst, tgp, izz, xuo, flr, kyf, jac, tha, nsu, yaa, fmu, rmo, kyg, thk, ntm, jam, yad, kyo, fon, rmy, thl, yal, jav, ntr, akb, ake, fra, jbu, kyq, mfk, akp, nuj, frd, yam, tih, alj, jen, mfq, nus, ful, kyu, rng, yao, tik, jic, alp, gag, nuz, rnl, mfy, kyz, yas, alt, jiv, nwb, tir, mfz, kzf, rol, jmc, alz, yat, mgd, nxq, lac, tkr, gai, ron, jmd, ame, yaz, mge, nya, rop, gam, tlb, laj, jun, yba, amf, mgh, nyf, tlj, gau, rro, ybb, lam, juy, amh, mgo, nyn, tly, gbi, lao, jvn, ycl, rub, ami, mhi, tmc, nyo, gbk, ruf, kaa, las, ycn, amk, nyy, tmf, kab, rug, lat, gbm, yea, nzi, ann, tna, kac, run, lav, gbo, yka, any, tng, obo, kak, rus, gde, yli, law, aoz, tnk, sab, kan, ojb, yor, lbj, geb, apb, tnn, sag, kao, script_syllabics, lbw, yre, tnp, apr, gej, kaq, sah, lcp, oku, yua, gil, ara, saj, tnr, yuz, lee, kay, old, gjn, tnt, saq, arl, lef, yva, kaz, gkn, omw, tob, sas, asa, kbo, zaa, lem, onb, gld, sba, asg, toc, kbp, lew, zab, sbd, glk, asm, toh, kbq, ood, lex, zac, gmv, sbl, ata, tom, kbr, zad, lgg, orm, sbp, gna, tos, atb, lgl, kby, gnd, ory, sch, tpi, zae, lhu, atg, kca, gng, oss, tpm, sck, zai, lia, kcg, ote, ati, gof, zam, sda, tpp, kdc, gog, atq, otq, sea, tpt, lif, zao, kde, gor, ozm, ava, seh, trc, zaq, lip, pab, kdh, gqr, avn, ses, zar, lis, tri, pad, grc, kdi, avu, sey, pag, zas, gri, awa, kdj, sgb, pam, zav, kdl, grn, awb, sgj, zaw, pan, grt, kdn, ayo, gso, ayr, pao, sgw, kdt, zca, gub, ayz, kek, zga, guc, pap, shi, azb, gud, shk, azg, azj, pau, ken, guh, zim, azz, shn, pbb, guj, keo, pbc, sho, guk, bak, ker, shp, pbi, ziw, bam, key, pce, zlm, ban, kez, gum, pcm, sid, zmz, bao, kfb, guo, peg, sig, zne, kff, script_telugu, sil, zos, bav, bba, bbb, guq, guu, pez, kfw, sja, kfx, zpc, sjm, khg, zpg, zpi, pib, khm, khq, gux, bbc, zpl, pil, kia, sld, gvc, zpm, kij, bbo, zpo, kik, zpt, zpu, zpz, pir, gvl, kin, bcc, slu, ztq, pis, gwi, kir, sml, pjt, zty, gwr, kjb, smo, bcl, zyb, pkb, gym, kje, sna, bcw, zyp, pls, gyr, sne, zza, bdg, had, snn, plw, bdh, hag, snp, bdq, pmf, snw, bdu, pny, som, bdv, poh, dialect_eastern, soy, beh, spa, bem, poi, spp, ben, pol, spy, bep, bex, bfa, bfo, bfy, bfz, bgc, bgq, bgr, bgt, bgw, bha, bht, bhz, bib, bim, bis, biv, bjr, bjv, bjw, bjz, bkd, bkv, blh, blt, blx, blz, bmq, cac, dialect_sanmateoixtatan, dialect_sansebastiancoatan, mhr, cak, lje, trn, dialect_santamariadejesus, ljp, llg, trs, lln, tso, lme, mhu, lnd, mhx, dialect_santodomingoxenacoj, lns, tsz, dialect_southcentral, mhy, lob, lok, mib, ttc, lom, mie, tte, lon, dialect_yepocapa, ttq, script_tifinagh, loq, mif, cap, tue, mih, car, lsi, tuf, mil, cas, lsm, tuk, mim, cat, luc, min, lug, cax, cbc, tuo, mio, lwo, cbi, tur, mip, cbr, tvw, cbs, cbt, lww, cbu, lzz, cbv, maa, dialect_sanantonio, twb, cce, miq, mit, miy, miz, twe, cco, mjl, twu, cdj, mjv, txa, ceb, mkl, ceg, txq, mkn, cek, txu, mlg, cfm, tye, mmg, cgc, mnb, che, mnf, chf, mnk, chv, chz, cjo, mnw, cjp, mnx, cjs, moa, cko, mog, ckt, mon, cla, mop, cle, mor, mos, cly, mox, cme, moz, cmo, script_khmer, mpg, mpm, mpp, cmr, mpx, cnh, mqb, mqf, cni, mqj, cnl, mqn, cnt, mrw, coe, msy, cof, mtd, cok, mtj, con, mto, cot, muh, cou, mup, cpa, mur, muv, cpb, muy, cpu, mvp, crh, mwq, crk, mwv, crn, mxb, crq, mxq, crs, mxt, crt, csk, cso, ctd, mxv, ctg, mya, cto, myb, myk, ctu, cuc, cui, myl, cuk, myv, cul, cwa, dialect_sanjeronimo, mad, mag, tzh, dialect_bachajon, mah, dialect_tenejapa, tzj, tzo, dialect_chamula
+musicgen: melody, small, medium, large, stereo
+dinov2: base, large, giant, small, imagenet1k, layer
+seamless: m4t, medium, large, vocoder, unity, small, s2t, expressive, streaming
+blaser: 2.0, ref, qe
+hf: seamless, m4t, medium, large
+nougat: base, small
+metaclip: b32, 400m, fullcc2.5b, h14, b16, l14
+dpt: dino, small, nyu, kitti, base, large, giant

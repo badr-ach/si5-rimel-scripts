@@ -1,0 +1,33 @@
+bert2bert_L: 24_wmt_de_en, 24_wmt_en_de
+bert_uncased_L: 10_h, 128_a, 256_a, 512_a, 768_a, 12_h, 2_h, 4_h, 6_h, 8_h
+bigbird: base, trivia, itc, pegasus, large, arxiv, bigpatent, pubmed, roberta
+byt5: base, large, small, xl, xxl
+electra: base, discriminator, generator, large, small
+fnet: base, large
+mt5: base, large, small, xl, xxl
+multiberts: seed_0, step_0k, step_1000k, step_100k, step_1100k, step_1200k, step_120k, step_1300k, step_1400k, step_140k, step_1500k, step_1600k, step_160k, step_1700k, step_1800k, step_180k, step_1900k, step_2000k, step_200k, step_20k, step_300k, step_400k, step_40k, step_500k, step_600k, step_60k, step_700k, step_800k, step_80k, step_900k, seed_1, seed_10, seed_11, seed_12, seed_13, seed_14, seed_15, seed_16, seed_17, seed_18, seed_19, seed_2, seed_20, seed_21, seed_22, seed_23, seed_24, seed_3, seed_4, seed_5, seed_6, seed_7, seed_8, seed_9
+muril: base, cased, large
+pegasus: aeslc, arxiv, big_patent, billsum, cnn_dailymail, gigaword, large, multi_news, newsroom, pubmed, reddit_tifu, wikihow, xsum, base
+realm: cc, news, pretrained, embedder, encoder, openqa, scorer, orqa, nq, reader, wq
+reformer: crime, and, punishment, enwik8
+roberta2roberta_L: 24_bbc, 24_cnn_daily_mail, 24_discofuse, 24_gigaword, 24_wikisplit
+t5: 11b, ssm, nq, nqo, tqa, tqao, wq, wqo, 3b, base, lm, adapt, efficient, dl2, dl4, dl6, dl8, dm1000, dm2000, dm256, dm512, el16, el2, el4, el6, el8, ff1000, ff12000, ff2000, ff6000, ff9000, nh16, nh24, nh32, nh8, nl16, nl2, nl24, nl32, nl36, nl4, nl40, nl48, nl8, large, dl12, dl16, dl32, dm128, dm768, el12, nh12, nh2, nh4, nl10, nl12, nl20, mini, nl6, small, dl1, el32, el48, el64, ff3000, nl22, tiny, nh1, xl, nl28, xxl, _1
+tapas: base, finetuned, sqa, tabfact, wikisql, supervised, wtq, masklm, large, medium, mini, small, tiny
+vit: base, patch16, in21k, patch32, huge, patch14, large, hybrid, bit
+long: t5, local, base, large, tglobal, xl
+ddpm: cifar10, ema, bedroom, cat, celebahq, church
+owlvit: base, patch32, patch16, large, patch14
+ncsnpp: ffhq, bedroom, celebahq, church
+maxim: s3, denoising, sidd, deblurring, gopro, reds, realblur, s2, deraining, rain13k, raindrop, dehazing, sots, indoor, outdoor, enhancement, lol, fivek
+flan: t5, small, base, large, xl, xxl, ul2
+switch: base, large, xxl
+mobilenet_v2_1: 4_224, 0_224
+mobilenet_v2_0: 75_160, 35_96
+vivit: 16x2, kinetics400
+efficientnet: b0, b1, b2, b3, b4, b5, b6, b7
+pix2struct: textcaps, base, widget, captioning, large, ai2d, chartqa, docvqa, ocrvqa, infographics, vqa, screen2words
+matcha: chart2text, pew, statista, plotqa, chartqa, base
+umt5: small, base, xl, xxl
+seahorse: xxl, q1, q2, q3, q4, q5, q6, large
+owlv2: base, patch16, ensemble, finetuned, large, patch14
+madlad400: 3b, mt, 7b, 10b, bt, 8b, lm

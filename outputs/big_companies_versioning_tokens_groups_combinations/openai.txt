@@ -1,0 +1,2 @@
+Tokens: frozenset({'large', 'base'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', 'medium', 'small'}) - Occurred in 1 combinations
