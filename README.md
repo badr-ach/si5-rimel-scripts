@@ -1,3 +1,9 @@
+# Are Datascientists Embracing DevOps Principles for Model Versioning?
+
+## Auteurs
+
+Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia spécialisés en Architecture Logicielle (AL) :
+
 - _Badr AL ACHKAR_
 
 - _Nadim BEN AISSA_
@@ -6,7 +12,7 @@
 
 - _Imene YAHIAOUI_
 
-**Contexte :**
+## Contexte :
 
 La transition de DevOps à MLOps, intégrant les principes de
 l\'intégration continue et du déploiement continu (CI/CD) aux systèmes
@@ -17,7 +23,7 @@ des versions des modèles devient cruciale pour garantir une intégration
 harmonieuse dans les pipelines CI/CD, tout en maximisant l\'efficacité
 du développement et du déploiement.
 
-**Gestion des versions avec MLflow :**
+## Gestion des versions avec MLflow :
 
 MLflow révolutionne la gestion des modèles d\'apprentissage automatique
 en unifiant le processus du développement à la production. La première
@@ -60,7 +66,7 @@ travers l\'utilisation d\'alias, de tags et de descriptions :
   informations cruciales telles que des descriptions de version, des
   ensembles de données utilisés, etc.
 
-**Exploration du versionnement des modèles sur Hugging Face :**
+## Exploration du versionnement des modèles sur Hugging Face :
 
 La deuxième phase de notre étude se tourne vers l\'exploration des
 modèles sur Hugging Face, en réponse à l\'absence de projets MLflow
@@ -79,7 +85,7 @@ entreprises telles que Facebook et Google.
 
 3.  **_Existe-t-il des tendances de versionnement spécifiques dans les grandes entreprises utilisant Hugging Face?_**
 
-**Hypothèses & Expériences et Analyse des résultats**
+## Hypothèses & Expériences et Analyse des résultats
 
 1.  **_Adoption du Versionnement Traditionnel vs Versionnement Libre des
     Modèles_**
@@ -125,8 +131,8 @@ global_**
 **_Il n'y a pas un pattern de versionnement global par entreprise non
 plus_**
 
-**Conclusion**
+## Conclusion
 
 - nom des versions =\> nom de branches?
 
-**Références**
+## Références
