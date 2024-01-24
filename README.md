@@ -15,17 +15,17 @@ Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia spéci
 ## Contexte :
 
 La transition de DevOps à MLOps, intégrant les principes de
-l\'intégration continue et du déploiement continu (CI/CD) aux systèmes
-d\'apprentissage automatique, s\'accompagne d\'une importance croissante
-accordée à MLflow en tant qu\'outil central dans la gestion du cycle de
+l'intégration continue et du déploiement continu (CI/CD) aux systèmes
+d'apprentissage automatique, s'accompagne d'une importance croissante
+accordée à MLflow en tant qu'outil central dans la gestion du cycle de
 vie des modèles. Dans ce contexte évolutif, la question de la gestion
 des versions des modèles devient cruciale pour garantir une intégration
-harmonieuse dans les pipelines CI/CD, tout en maximisant l\'efficacité
+harmonieuse dans les pipelines CI/CD, tout en maximisant l'efficacité
 du développement et du déploiement.
 
 ## Gestion des versions avec MLflow :
 
-MLflow révolutionne la gestion des modèles d\'apprentissage automatique
+MLflow révolutionne la gestion des modèles d'apprentissage automatique
 en unifiant le processus du développement à la production. La première
 phase de notre enquête se concentre sur la manière dont MLflow gère les
 versions des modèles.
@@ -36,26 +36,26 @@ Les résultats de cette interrogation sont disponibles dans la
 documentation officielle et ont été confirmés par plusieurs articles
 scientifiques, dont les références sont fournies dans la bibliographie.
 
-MLflow enregistre les modèles sous forme d\'artefacts, utilisant divers
-formats appelés \"flavors\", qui correspondent à différents formats
+MLflow enregistre les modèles sous forme d'artefacts, utilisant divers
+formats appelés "flavors", qui correspondent à différents formats
 spécifiques de bibliothèques de machine learning, tels que TensorFlow,
-PyTorch, Scikit-Learn. Ces modèles sont organisés dans un \"registre\"
+PyTorch, Scikit-Learn. Ces modèles sont organisés dans un "registre"
 structuré, chacun possédant un nom unique, des versions, des étapes de
 transition (telles que développement, production, archivage) et
-d\'autres métadonnées.
+d'autres métadonnées.
 
 La gestion des versions en Mlflow est automatisée, où chaque modèle
-enregistré peut avoir une ou plusieurs versions. Lorsqu\'un nouveau
+enregistré peut avoir une ou plusieurs versions. Lorsqu'un nouveau
 modèle est ajouté au registre des modèles, il est enregistré en tant que
 version 1. Chaque nouvel enregistrement sous le même nom incrémente
 automatiquement le numéro de version.
 
-Il est possible d\'adapter manuellement cette gestion de versions à
-travers l\'utilisation d\'alias, de tags et de descriptions :
+Il est possible d'adapter manuellement cette gestion de versions à
+travers l'utilisation d'alias, de tags et de descriptions :
 
 - Les alias permettent de pointer vers une version spécifique du
-  modèle, facilitant ainsi le référencement via l\'URI
-  models:/\<model-name\>@\<alias\>. Ils offrent une référence
+  modèle, facilitant ainsi le référencement via l'URI
+  models:/<model-name>@<alias>. Ils offrent une référence
   mutable et nommée à des versions spécifiques, simplifiant leur
   déploiement.
 
@@ -68,12 +68,12 @@ travers l\'utilisation d\'alias, de tags et de descriptions :
 
 ## Exploration du versionnement des modèles sur Hugging Face :
 
-La deuxième phase de notre étude se tourne vers l\'exploration des
-modèles sur Hugging Face, en réponse à l\'absence de projets MLflow
-dédiés à l\'analyse. Cette absence peut s\'expliquer par le fait que
+La deuxième phase de notre étude se tourne vers l'exploration des
+modèles sur Hugging Face, en réponse à l'absence de projets MLflow
+dédiés à l'analyse. Cette absence peut s'expliquer par le fait que
 MLflow est principalement adopté par des entreprises, dont beaucoup ne
 rendent pas publics leurs modèles. En contraste, Hugging Face offre une
-plateforme qui propose des modèles développés par d\'importantes
+plateforme qui propose des modèles développés par d'importantes
 entreprises telles que Facebook et Google.
 
 1.  **_Est ce que les modèles publiés sur Hugging Face adoptent un
@@ -93,16 +93,20 @@ entreprises telles que Facebook et Google.
 a. **_Hypothèse : Le versionnement des modèles ne suit pas une
 approche traditionnel - (major,minor,patch)_**
 
-        L'observation des modèles sur Hugging Face suggère que la numérotation des versions des modèles ne suit pas un motif prévisible, contrairement à la structure classique de versionnement. Il semble y avoir une variation dans la manière dont les versions sont étiquetées. Cette variation dans l'étiquetage des versions suscite la question de l'existence de règles spécifiques suivies par les éditeurs de modèles sur la plateforme. Pour répondre à cette question, une analyse approfondie des pratiques de versionnement adoptées par les différents éditeurs sur Hugging Face serait nécessaire.
+L'observation des modèles sur Hugging Face suggère que la numérotation des versions des modèles ne suit pas un motif prévisible, contrairement à la structure classique de versionnement. Il semble y avoir une variation dans la manière dont les versions sont étiquetées. Cette variation dans l'étiquetage des versions suscite la question de l'existence de règles spécifiques suivies par les éditeurs de modèles sur la plateforme. Pour répondre à cette question, une analyse approfondie des pratiques de versionnement adoptées par les différents éditeurs sur Hugging Face serait nécessaire.
 
 b. **_Expérience : Extraction d'un échantillon important des modèles
 versionnées et poussé sur Hugging Face, et calcule de l'adoption
 du versionnement traditionnel_**
 
-    Dans une première étape, nous avons utilisé une approche de web scraping plutôt naïve pour extraire les noms des modèles. Cette méthode a été mise en œuvre à l'aide de la bibliothèque Python BeautifulSoup, laquelle est conçue pour effectuer l'analyse syntaxique de documents HTML et XML.
-    Nous avons ensuite calculé le pourcentage des modèles qui contiennent un format de versionning sémantique (vX, vX.X, vX-X, vX.X.X, etc).
+Dans une première étape, nous avons utilisé une approche de web scraping plutôt naïve pour extraire les noms des modèles. Cette méthode a été mise en œuvre à l'aide de la bibliothèque Python BeautifulSoup, laquelle est conçue pour effectuer l'analyse syntaxique de documents HTML et XML.
+Nous avons ensuite calculé le ratio des modèles qui contiennent un format de versionning sémantique (vX, vX.X, vX-X, vX.X.X, etc).
 
 c. **_Résultat :_**
+
+Cette premiere expérience nous a permis de confirmer notre hypothèse, avec un ratio de 79% des modèles qui ne suivent pas le versionnement traditionnel.
+
+![ratio global](./images/global-ratio.png)
 
 **_Majoritairement pas de versionnement traditionnel (79%)_**
 
