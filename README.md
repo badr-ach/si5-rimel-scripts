@@ -102,13 +102,23 @@ du versionnement traditionnel_**
 Dans une première étape, nous avons utilisé une approche de web scraping plutôt naïve pour extraire les noms des modèles. Cette méthode a été mise en œuvre à l'aide de la bibliothèque Python BeautifulSoup, laquelle est conçue pour effectuer l'analyse syntaxique de documents HTML et XML.
 Nous avons ensuite calculé le ratio des modèles qui contiennent un format de versionning sémantique (vX, vX.X, vX-X, vX.X.X, etc).
 
+Nous avons ensuite regroupé les modèles par catégorie de tâche (image-to-text, reinforcement, etc.) et calculé le ratio de versionnement sémantique pour chaque catégorie.
+
 c. **_Résultat :_**
 
 Cette premiere expérience nous a permis de confirmer notre hypothèse, avec un ratio de 79% des modèles qui ne suivent pas le versionnement traditionnel.
 
 ![ratio global](./images/global-ratio.png)
 
-**_Majoritairement pas de versionnement traditionnel (79%)_**
+Cepedant, étant donné que les 21% qui suivent le versionnement traditionnel représentent un nombre important de modèles (39k), nous avons été amenés à creuser davantage pour boir si ce ratio est homogène ou s'il existe des tendances par catégorie de tâche.
+
+![ratio par catégorie]() //put image here
+
+Notre intuition était correcte. Etant donné que les modèles sont répartis sur 42 catégories, certaines étant plus volumineuses que d'autres, quelques catégories se sont démarquées avec un ratio de versionnement sémantique plus important que la moyenne, alors que d'autres ont un ratio inférieur à 20%.
+
+En effet, les catégories "Reinforcement Learning" et "Automatic Speech Recognition" ont un taux d'adoption important de la version sémantique.
+
+Ces résultats nous ont amenés à nous poser la question suivante : Est-il possible que le versionnement sémantique soit plus adapté à certaines catégories de tâches qu'à d'autres ?
 
 2.  **_Influence de la tâche du modèle sur son versionnement_**
 
