@@ -93,7 +93,7 @@ entreprises telles que Facebook et Google.
 a. **_Hypothèse : Le versionnement des modèles ne suit pas une
 approche traditionnel - (major,minor,patch)_**
 
-L'observation des modèles sur Hugging Face suggère que la numérotation des versions des modèles ne suit pas un motif prévisible, contrairement à la structure classique de versionnement. Il semble y avoir une variation dans la manière dont les versions sont étiquetées. Cette variation dans l'étiquetage des versions suscite la question de l'existence de règles spécifiques suivies par les éditeurs de modèles sur la plateforme. Pour répondre à cette question, une analyse approfondie des pratiques de versionnement adoptées par les différents éditeurs sur Hugging Face serait nécessaire.
+L'observation des modèles sur Hugging Face suggère que la numérotation des versions des modèles ne suit pas un motif prévisible, contrairement à la structure classique de versionnement. Il semble y avoir une variation dans la manière dont les versions sont étiquetées. Cette variation dans l'étiquetage des versions suscite la question suivante : Est-ce que les modèles publiés sur Hugging Face adoptent un schéma de versionnement traditionnel ou part plutôt sur le versionnement libre ?
 
 b. **_Expérience : Extraction d'un échantillon important des modèles
 versionnées et poussé sur Hugging Face, et calcule de l'adoption
@@ -102,23 +102,11 @@ du versionnement traditionnel_**
 Dans une première étape, nous avons utilisé une approche de web scraping plutôt naïve pour extraire les noms des modèles. Cette méthode a été mise en œuvre à l'aide de la bibliothèque Python BeautifulSoup, laquelle est conçue pour effectuer l'analyse syntaxique de documents HTML et XML.
 Nous avons ensuite calculé le ratio des modèles qui contiennent un format de versionning sémantique (vX, vX.X, vX-X, vX.X.X, etc).
 
-Nous avons ensuite regroupé les modèles par catégorie de tâche (image-to-text, reinforcement, etc.) et calculé le ratio de versionnement sémantique pour chaque catégorie.
-
 c. **_Résultat :_**
 
 Cette premiere expérience nous a permis de confirmer notre hypothèse, avec un ratio de 79% des modèles qui ne suivent pas le versionnement traditionnel.
 
 ![ratio global](./images/global-ratio.png)
-
-Cepedant, étant donné que les 21% qui suivent le versionnement traditionnel représentent un nombre important de modèles (39k), nous avons été amenés à creuser davantage pour boir si ce ratio est homogène ou s'il existe des tendances par catégorie de tâche.
-
-![ratio par catégorie]() //put image here
-
-Notre intuition était correcte. Etant donné que les modèles sont répartis sur 42 catégories, certaines étant plus volumineuses que d'autres, quelques catégories se sont démarquées avec un ratio de versionnement sémantique plus important que la moyenne, alors que d'autres ont un ratio inférieur à 20%.
-
-En effet, les catégories "Reinforcement Learning" et "Automatic Speech Recognition" ont un taux d'adoption important de la version sémantique.
-
-Ces résultats nous ont amenés à nous poser la question suivante : Est-il possible que le versionnement sémantique soit plus adapté à certaines catégories de tâches qu'à d'autres ?
 
 2.  **_Influence de la tâche du modèle sur son versionnement_**
 
