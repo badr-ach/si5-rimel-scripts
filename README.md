@@ -191,15 +191,17 @@ Au cours de cette étude, nous avons spécifiquement sélectionné les entrepris
 
   3.3 **_Résultat :_**
 
+L'analyse des données obtenues a révélé ce qui suit : 
+
+Analyse des résultats
+Nous observons l'identification de tokens spécifiques aux modèles tels que "medium," "large," "base," "small," ou "base." Cependant, aucune tendance claire de versionnement n'a été repérée à l'échelle globale de l'entreprise.
+
 **_Il n'y a pas un pattern de versionnement global par entreprise non
 plus_**
 
 ## Conclusion
 
-L'analyse des données obtenues a révélé ce qui suit : 
 
-Analyse des résultats
-Nous observons l'identification de tokens spécifiques aux modèles tels que "medium," "large," "base," "small," ou "base." Cependant, aucune tendance claire de versionnement n'a été repérée à l'échelle globale de l'entreprise.
 
 - nom des versions =\> nom de branches?
 
