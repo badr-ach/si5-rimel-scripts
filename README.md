@@ -12,29 +12,27 @@ Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia spéci
 
 - _Imene YAHIAOUI_
 
-## Contexte :
+## I. Contexte
 
-La transition de DevOps à MLOps, intégrant les principes de
-l'intégration continue et du déploiement continu (CI/CD) aux systèmes
-d'apprentissage automatique, s'accompagne d'une importance croissante
-accordée à MLflow en tant qu'outil central dans la gestion du cycle de
-vie des modèles. Dans ce contexte évolutif, la question de la gestion
-des versions des modèles devient cruciale pour garantir une intégration
-harmonieuse dans les pipelines CI/CD, tout en maximisant l'efficacité
-du développement et du déploiement.
+L'évolution constante des principes de DevOps vers le domaine de l'apprentissage automatique soulève la question cruciale de l'adoption de ces principes par les data scientists pour le versionnement des modèles. Cette intersection entre ingénierie logicielle et apprentissage automatique constitue une zone d'intérêt particulier, motivée par notre quête de comprendre comment ces deux domaines interconnectés convergent.
 
-## Gestion des versions avec MLflow :
+Notre motivation derrière cette étude réside dans la volonté de démystifier les pratiques actuelles du versionnement des modèles par les data scientists. Comprendre comment ces professionnels gèrent les différentes versions de leurs modèles revêt une importance capitale dans un contexte où l'apprentissage automatique s'insère de plus en plus dans des pipelines de développement logiciel.
+
+- ### Outils de Versionnement Identifiés :
+
+Dans cette recherche, deux outils majeurs ont capté notre attention : MLflow et Hugging Face. MLflow, au centre de l'écosystème DevOps pour le machine learning, propose une approche intégrée du cycle de vie des modèles. En parallèle, Hugging Face, en tant que plateforme publique, offre une alternative en mettant à disposition des modèles issus de grandes entreprises.
+
+
+#### 1. Exploration de MLflow : 
 
 MLflow révolutionne la gestion des modèles d'apprentissage automatique
 en unifiant le processus du développement à la production. La première
 phase de notre enquête se concentre sur la manière dont MLflow gère les
 versions des modèles.
 
-- Comment MLflow stocke les modèles ? Comment sont-ils enregistrés, organisés et récupérés ?
+- **Comment MLflow stocke les modèles ? Comment sont-ils enregistrés, organisés et récupérés ?**
 
-Les résultats de cette interrogation sont disponibles dans la
-documentation officielle et ont été confirmés par plusieurs articles
-scientifiques, dont les références sont fournies dans la bibliographie.
+Pour répondre à ces questions cruciales, nous avons consulté la documentation officielle de MLflow et nous nous sommes appuyés sur les résultats validés par plusieurs articles scientifiques, dont les références sont soigneusement documentées dans notre bibliographie.
 
 MLflow enregistre les modèles sous forme d'artefacts, utilisant divers
 formats appelés "flavors", qui correspondent à différents formats
@@ -66,15 +64,22 @@ travers l'utilisation d'alias, de tags et de descriptions :
   informations cruciales telles que des descriptions de version, des
   ensembles de données utilisés, etc.
 
-## Exploration du versionnement des modèles sur Hugging Face :
 
-La deuxième phase de notre étude se tourne vers l'exploration des
-modèles sur Hugging Face, en réponse à l'absence de projets MLflow
-dédiés à l'analyse. Cette absence peut s'expliquer par le fait que
-MLflow est principalement adopté par des entreprises, dont beaucoup ne
-rendent pas publics leurs modèles. En contraste, Hugging Face offre une
-plateforme qui propose des modèles développés par d'importantes
-entreprises telles que Facebook et Google.
+Cependant, au cours de notre exploration des modèles et du processus de versionnement, nous avons constaté que MLflow est principalement adopté par des entreprises, et aucune d'entre elles ne rend publics leurs modèles, entravant ainsi notre accès à des projets et modèles versionnés pour une analyse approfondie.
+
+#### 2. Exploration de Hugging Face :
+
+Hugging Face est une plateforme spécialisée dans le partage et la découverte de modèles d'apprentissage automatique. Elle offre une vitrine publique où des data scientists du monde entier et des grandes entreprises importantes telles que Meta et Google. peuvent partager leurs modèles avec la communauté. Cela crée un écosystème ouvert où des modèles développés par des entreprises notables comme Facebook et Google sont accessibles à tous.
+
+Dans le contexte de notre recherche, nous avons approfondi notre exploration pour comprendre comment les versions des modèles sont nommés et gérés sur Hugging Face. D'après la documentation officielle sur hugging face, les data scientists qui contribuent à la plateforme bénéficient d'une flexibilité significative dans le processus de nommage de leurs modèles et leurs versions, offrant ainsi une identification claire et facile de chaque modèle et sa version partagée.
+
+Enfin, la particularité de Hugging Face réside dans sa transparence et son accessibilité. Les modèles sont généralement rendus publics, permettant à chacun de les explorer, les utiliser et les évaluer. Ainsi, après considération, nous avons opté pour Hugging Face comme plateforme principale pour notre recherche.
+
+
+## II. Question général
+L'objectif fondamental de notre projet de recherche est d'explorer l'adoption des principes DevOps par les data scientists pour le versionnement des modèles.
+
+Ces réflexions nous conduiront à explorer les questions sous-jacentes suivantes :
 
 1.  **_Est ce que les modèles publiés sur Hugging Face adoptent un
     schéma de versionnement traditionnel ou part plutôt sur le
@@ -85,7 +90,7 @@ entreprises telles que Facebook et Google.
 
 3.  **_Existe-t-il des tendances de versionnement spécifiques dans les grandes entreprises utilisant Hugging Face?_**
 
-## Hypothèses & Expériences et Analyse des résultats
+## III. Hypothèses & Expériences et Analyse des résultats
 
 1. **_Adoption du Versionnement Traditionnel vs Versionnement Libre des
     Modèles_**
@@ -191,10 +196,8 @@ En conclusion, il est possible d'affirmer qu'aucun modèle de versionnement n'es
 
   3.3 **_Résultat :_**
 
-**_Il n'y a pas un pattern de versionnement global par entreprise non
-plus_**
 
-## Conclusion
+## IV. Conclusion
 
 - nom des versions =\> nom de branches?
 
