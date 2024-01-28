@@ -134,13 +134,9 @@ b. **_Résultat et analyse de l'expérience 1 :_**
 Les résultats graphiques ont clairement démontré que le pourcentage d'adoption du versionnement sémantique varie considérablement d'une catégorie de modèle à une autre :
 
 
-Cette observation souligne une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. Notre jeu de données est constitué de 42 catégories, et selon le schéma, certaines sont plus volumineuses que d'autres. Quelques catégories massives se distinguent par un taux d'adoption du versionnement sémantique élevé, principalement "Reinforcement Learning" et "Automatic Speech Recognition", tandis que le reste affiche majoritairement un taux d'adoption inférieur à 20%.
+Cette observation souligne une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme.  Notre jeu de données est constitué de 42 catégories, et selon le schéma, certaines sont plus volumineuses que d'autres. Quelques catégories massives se distinguent par un taux d'adoption du versionnement sémantique élevé, principalement "Reinforcement Learning" et "Automatic Speech Recognition", Ces catégories spécifiques semblent favoriser l'utilisation d'un modèle de gestion des versions sémantique. En revanche, le reste des catégories affiche majoritairement un taux d'adoption inférieur à 20%.
 
-Dans notre analyse, deux catégories se démarquent par un taux d'adoption du versionnement sémantique notablement élevé : "Reinforcement Learning" et "Automatic Speech Recognition". Ces catégories spécifiques semblent favoriser l'utilisation d'un modèle de gestion des versions sémantique.
-
-"Reinforcement Learning" implique des modèles qui apprennent par interaction avec leur environnement, prenant des décisions pour maximiser une récompense cumulative. Cette dynamique d'apprentissage continu et d'évolution constante peut expliquer pourquoi cette catégorie privilégie un versionnement sémantique, offrant une manière plus claire de gérer les évolutions complexes de ces modèles.
-
-D'autre part, "Automatic Speech Recognition" concerne la technologie de reconnaissance automatique de la parole. Les modèles dans cette catégorie traitent des données audio et sont souvent soumis à des améliorations continues pour mieux comprendre et interpréter la parole humaine. Un modèle de versionnement sémantique pourrait être particulièrement avantageux pour suivre ces évolutions fréquentes et importantes dans le domaine de la reconnaissance vocale.
+En effet, "Reinforcement Learning" implique des modèles qui apprennent par interaction avec leur environnement, prenant des décisions pour maximiser une récompense cumulative. Cette dynamique d'apprentissage continu et d'évolution constante peut expliquer pourquoi cette catégorie privilégie un versionnement sémantique, offrant une manière plus claire de gérer les évolutions complexes de ces modèles. D'autre part, "Automatic Speech Recognition" concerne la technologie de reconnaissance automatique de la parole. Les modèles dans cette catégorie traitent des données audio et sont souvent soumis à des améliorations continues pour mieux comprendre et interpréter la parole humaine. Un modèle de versionnement sémantique pourrait être particulièrement avantageux pour suivre ces évolutions fréquentes et importantes dans le domaine de la reconnaissance vocale.
 
 La question se pose alors de savoir si ce modèle de versionnement sémantique est bien adapté aux autres catégories, incitant ainsi à l'adoption d'un modèle de gestion des versions sémantique différent. 
 
@@ -192,13 +188,26 @@ En conclusion, il est possible d'affirmer qu'aucun modèle de versionnement n'es
 
   3.1. **_Hypothèse : Les grandes entreprises standardise leurs manière > de versionner les modèles ML en interne_**
 
+Nous formulons l'hypothèse que les grandes entreprises ont tendance à standardiser leur approche de versionnement pour les modèles d'apprentissage automatique en interne. Cette hypothèse suggère que, au sein de ces grandes structures, il existe probablement des pratiques et des normes établies vis-à-vis du processus de gestion des versions des modèles d'apprentissage automatique.
+
   3.2. **_Expérience : Analyse des modèles ceux publié par Google, > OpenAI et Meta, individuellement, et extraction des patterns > adoptée._**
 
+Au cours de cette étude, nous avons spécifiquement sélectionné les entreprises les plus renommées du secteur. Dans cette perspective, notre recherche se concentrera exclusivement sur les artefacts de modèles publiés par Google, Facebook/Meta, et OpenAI, en tenant compte de la variabilité du nombre de modèles. Google a mis à disposition 617 artefacts, Facebook/Meta en a partagé 1879, et OpenAI en compte 32. Notre approche pour cette expérience suivra le même protocole que celui de l'expérience 2, visant à identifier les tokens les plus fréquemment utilisés.
+
   3.3 **_Résultat :_**
+
+L'analyse des données obtenues a révélé ce qui suit : 
+
+![ratio global](./images/Result3.png)
+
+Nous observons l'identification de tokens spécifiques aux modèles tels que "medium," "large," "base," "small," ou "base." Cependant, aucune tendance claire de versionnement n'a été repérée à l'échelle globale de l'entreprise.
 
 
 ## IV. Conclusion
 
+
+
 - nom des versions =\> nom de branches?
 
 ## Références
+
