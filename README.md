@@ -193,7 +193,7 @@ Au cours de cette étude, nous avons spécifiquement sélectionné les entrepris
 
 L'analyse des données obtenues a révélé ce qui suit : 
 
-![ratio global](./images/Capture d'écran 2024-01-28 145144.png)
+![ratio global](./images/Result3.png)
 
 Analyse des résultats
 Nous observons l'identification de tokens spécifiques aux modèles tels que "medium," "large," "base," "small," ou "base." Cependant, aucune tendance claire de versionnement n'a été repérée à l'échelle globale de l'entreprise.
