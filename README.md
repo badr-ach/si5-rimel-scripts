@@ -205,8 +205,8 @@ Nous observons l'identification de tokens spécifiques aux modèles tels que "me
 
 ## Références
 
-1. **_Outils et démarche : _**
-2. 
+1. **_Outils et démarche :_**
+
 Pour répondre de manière approfondie aux différentes questions formulées, nous avons exploité le dépôt open source de Hugging Face, où plus de 500 000 modèles sont partagés par divers utilisateurs et grandes entreprises. Initialement, notre approche a commencé par une analyse manuelle des modèles présents dans le référentiel, fournissant une base qualitative pour comprendre la diversité des tâches et des méthodologies de versionnement.
 Afin d'élargir notre échantillon de manière significative et d'automatiser notre démarche, nous avons ensuite opté pour le web scraping. Cette technique nous a permis de collecter un nombre substantiel de modèles pour alimenter nos différentes expériences. En utilisant Python, nous avons principalement fait appel à la bibliothèque BeautifulSoup pour l'analyse HTML et à requests pour effectuer les requêtes HTTP, facilitant ainsi l'extraction systématique des données nécessaires.
 Cette transition de l'analyse manuelle à l'automatisation par le biais du web scraping a renforcé notre capacité à examiner un éventail plus large de modèles, offrant une base plus solide pour les différentes expériences à faire.
