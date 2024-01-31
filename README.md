@@ -181,6 +181,8 @@ Enfin, notre script exclut spécifiquement les indicateurs numériques. Cette d�
 
 Les résultats montrent que chaque type de modèle a des tokens spécifiques du versionnement :
 
+![ratio global](./images/tokens.png)
+
 - **_Analyse des résultats_**
 
 Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés. Cependant, il est remarquable que quelques modèles partagent un token commun, tels que "base," "BERT," et "finetuned."
