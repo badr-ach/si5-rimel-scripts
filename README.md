@@ -179,20 +179,79 @@ Enfin, notre script exclut spécifiquement les indicateurs numériques. Cette d�
 
 - **_Résultat :_**
 
-Les résultats montrent que chaque type de modèle a des tokens spécifiques du versionnement :
-
 ![ratio global](./images/tokens.png)
 
 - **_Analyse des résultats_**
 
-Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés. Cependant, il est remarquable que quelques modèles partagent un token commun, tels que "base," "BERT," et "finetuned."
+Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés, et d'apres des recherches sur des documentations a propos les methodes et les techniques de chque categories nous avons trouve un lien entre la tache et ses token utilises .
 
-D'après des recherches préliminaires, l'utilisation fréquente du token "base" suggère qu'il pourrait représenter un "base model," indiquant ainsi un modèle fondamental ou de base, souvent utilisé comme point de départ pour des itérations ultérieures. Pour "BERT," acronyme de "Bidirectional Encoder Representations from Transformers," représentant un modèle de langage pré-entraîné utilisant une architecture de transformer bidirectionnelle, le terme "base" pourrait également signaler son rôle de modèle fondamental. Par ailleurs, le terme "finetuned" fait référence au processus de ré-entraînement d'un modèle linguistique pré-entraîné sur un ensemble de données spécifique à une tâche particulière, permettant au modèle de s'ajuster précisément à la spécificité de la tâche visée.
+- Pour la tâche **_text-classification_**, les tokens les plus utilisés étaient :
 
-Dans le contexte de la classification de texte, d'autres tokens tels que "classification" et "classifier" sont couramment utilisés, probablement pour indiquer la nature de la tâche que le modèle est destiné à accomplir.
+    - **Base** : En text-classification, le terme "base" pourrait faire référence à un modèle initial qui n'a pas subi de modifications spécifiques pour la tâche en question. Il s'agit d'un point de départ simple sans ajustements particuliers, utilisé comme référence ou base pour des modèles plus spécialisés.
+    
+    - **BERT** : BERT est une architecture de réseau de neurones transformer révolutionnaire pour le traitement du langage naturel. En text-classification, BERT peut servir de modèle pré-entraîné pour capturer les relations contextuelles entre les mots dans un texte, améliorant ainsi les performances de la classification.
 
-En ce qui concerne la génération de texte, d'autres tokens prédominants incluent "7b" et "13b" qui indiquent respectivement des modèles avec 7 milliards et 13 milliards de paramètres, soulignant la taille croissante et la complexité de ces modèles de génération de texte. "text-generation." Également, nous avons "GPTQ," qui représente une variante particulière du modèle GPT (Generative Pre-trained Transformer).
+    - **Finetuned** : Appliqué au processus d'ajustement d'un modèle pré-entraîné sur des données spécifiques à la tâche de text-classification. Cela signifie que le modèle a été adapté pour mieux répondre aux caractéristiques de la classification de texte, améliorant ainsi ses performances sur cette tâche spécifique.
 
+    - **Classifier / Classification** : Ces termes sont directement liés à la text-classification. Un "classifier" ou un modèle de "classification" est spécifiquement conçu pour attribuer des catégories ou des étiquettes à des documents textuels en fonction de leur contenu.
+
+    - **RoBERTa** : Une variante de BERT utilisée de manière similaire en text-classification. Elle élimine certaines composantes de BERT pour des performances optimisées sur des tâches spécifiques, comme la classification de texte.
+
+    - **Sentiment** : En text-classification, la détection de sentiment est courante. Le terme "sentiment" est associé à des modèles conçus pour classer des documents textuels en fonction de l'émotion exprimée.
+
+    - **Model** : En text-generation, le terme "model" fait référence à l'architecture algorithmique utilisée pour attribuer des catégories ou des étiquettes à des documents textuels en fonction de leur contenu. Le modèle peut être une variante pré-entraînée telle que BERT ou RoBERTa, ou même un modèle de base non modifié.
+
+- Pour la tâche **_text-to-text-generation_** les tokens les plus utilisés étaient :
+
+    - **Large / Small** : Spécifier "Large" ou "Small" en text-to-text generation permet d'ajuster la taille du modèle en fonction des contraintes de ressources, d'optimiser la complexité du texte généré et de répondre spécifiquement aux besoins de chaque tâche.
+
+    - **T5** : Text-to-Text Transfer Transformer, une architecture qui unifie différentes tâches en présentant du texte en entrée et en formant le modèle à générer un texte cible.
+    
+    - **Base** : Peut désigner la version de base du modèle T5.
+
+    - **Bart** : Bidirectional and Auto-Regressive Transformers, un autre modèle de traitement du langage naturel conçu pour des tâches de génération de texte.
+
+- Pour tâche **_la text-generation_** les tokens les plus utilisés étaient :
+
+    - **GPTQ** (Accurate Post-Training Quantization) : Une technique visant à réduire la taille des modèles de langage massifs comme GPT tout en préservant leur précision.
+    - **7B / 13B** : Indiquent respectivement des modèles avec 7 milliards et 13 milliards de paramètres, soulignant la taille croissante et la complexité des modèles de génération de texte.
+    
+    - **GGUF** : Un format utilisé pour stocker des modèles destinés à l'inférence, notamment dans le contexte de modèles de langage comme GPT.
+    
+    - **AWQ** (Activation-aware Weight Quantization) : Une technique de quantification de poids consciente de l'activation utilisée pour la compression et l'accélération des modèles LLM (Large Language Models).
+
+    - **LLMA** (Large Language Model Meta AI) : Un grand modèle linguistique développé par Meta, servant de fondation à plusieurs applications, dont des agents conversationnels.
+
+    - **Chat** : Un token associé aux conversations sur les chats lors de la génération de textes.
+
+
+- Pour la tâche **_token-classification_**, les tokens les plus fréquents et 
+  distingués étaient :
+
+    - **Ner** : (Named Entity Recognition) fait référence à la reconnaissance d'entités nommées, une tâche où le modèle identifie et catégorise des entités telles que  les noms de personnes, les lieux et les organisations dans un texte.
+    
+    - **Cased / Uncased** : Indique si le modèle prend en compte la casse (Cased) ou l'ignore (Uncased) lors de la reconnaissance des tokens.
+
+- Pour la tâche **_text-to-images_** : , les tokens les plus utilisés étaient :
+    - **Lora** : (Low-Rank Adaptation of Large Language Models) Une technique légère de text-to-image qui réduit considérablement le nombre de paramètres entraînables dans un modèle.
+    
+    - **Diffusion** : Définit une méthode de génération d'images basée sur une chaîne de diffusion de pas, ajoutant progressivement du bruit aléatoire aux données et apprenant à inverser le processus pour construire des échantillons de données souhaités à partir du bruit.
+    
+    - **SDXL** (Stable Diffusion XL) : Une technique améliorant la génération de texte vers image, adoptant une approche en deux étapes avec un modèle de base générant une image et un modèle raffineur ajoutant des détails supplémentaires de haute qualité dans une étape distincte.
+    
+    - **Dreambooth** : Une technique d'entraînement mettant à jour l'ensemble du modèle de diffusion en s'entraînant sur quelques images d'un sujet ou d'un style spécifique.
+    
+    - **Style** : Peut indiquer le style de l'image associé au texte lors de la génération d'image.
+
+- Pour **_fill-mask_** :
+  - Plusieurs tokens ont été mis en œuvre et ont déjà 
+    été expliqués à travers 
+    les autres tâches qui les utilisent, tels que **Base**, **Bert**, 
+    **Finetuned**, **Cased / Uncased**, **Small / Large**.
+  - En effet, **_fill-mask_** fait référence à un type spécifique de modèle NLP 
+   capable de remplir les espaces réservés (masques) dans une phrase ou un texte, souvent basé sur des réseaux de neurones, en particulier les transformers. Cela explique l'usage de ces tokens dans le contexte de fill-mask où le modèle est entraîné pour compléter les parties manquantes dans un texte donné.
+
+  
 e. **_Expérience 3 :_**
 
 Dans le cadre de notre démarche continue pour comprendre les schémas de versionnement, la troisième expérience vise à approfondir les résultats de l'expérience précédente en combinant les groupes de tokens constituant une version (2 ou 3 tokens). Cette approche nous permet d'analyser avec plus de détails les combinaisons les plus fréquemment observées, et d'évaluer si des tendances significatives se dégagent.
