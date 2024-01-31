@@ -150,6 +150,8 @@ Dans cette phase, nous avons reproduit la méthodologie de la première expérie
 
 Les résultats graphiques ont clairement démontré que le pourcentage d'adoption du versionnement sémantique varie considérablement d'une catégorie de modèle à une autre :
 
+![ratio global](./images/version_ratios_by_file_scatter.png)
+
 - **_Analyse des résultats_**
 
 Cette observation souligne une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. Notre jeu de données est constitué de 42 catégories, et selon le schéma, certaines sont plus volumineuses que d'autres. Quelques catégories massives se distinguent par un taux d'adoption du versionnement sémantique élevé, principalement "Reinforcement Learning" avec un pourcentage de 68.80% et "Automatic Speech Recognition" avec un pourcentage de 46.55%.
