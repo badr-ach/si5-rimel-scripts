@@ -224,23 +224,21 @@ Les résultats suggèrent que chaque type de modèle possède des tokens spécif
   
 c. **_Manipulation des données : Exploration des groupes de tokens_**
 
-Dans le cadre de notre démarche continue pour comprendre les schémas de versionnement, nous visons a travers cette manipulation de donnees à approfondir les résultats de l'expérience précédente en combinant les groupes de tokens constituant une version (2 ou 3 tokens). 
-Cette approche nous permet d'analyser avec plus de détails les combinaisons les plus fréquemment observées, et d'évaluer si des tendances significatives se dégagent.
-
 Dans le cadre de notre démarche continue pour approfondir notre compréhension des schémas de versionnement, notre manipulation se concentre sur la combinaison des groupes de tokens formant une version (2 ou 3 tokens) au sein de notre ensemble de données.
 Cette approche nous permet d'examiner attentivement les combinaisons les plus fréquemment observées et d'évaluer l'émergence de tendances significatives.
 
 Notre démarche débute par la génération de combinaisons possibles de tokens entre les modèles, suivi du recensement des occurrences de groupes de tokens partagés. Ensuite, nous identifions les groupes de tokens communs entre les modèles pour chaque tâche, en comptant les occurrences et enregistrant les modèles associés. Enfin, l'exploitation de ces résultats à travers des graphiques à barres empilées nous offre une représentation visuelle des groupes de tokens les plus fréquents, permettant ainsi d'observer la distribution des tokens entre les modèles pour chaque tâche.
 
+- **_Résultat_**
 
+![ratio global](./images/stacked_barcharts/stacked_barcharts.png)
 
+- **_Analyse des résultats_**
 
-
-- **_Résultat et analyse_**
-
-- **Les Groupes de Taille Deux :** L'analyse des groupes de deux tokens révèle deux types de regroupements : Catégories Conceptuelles et Séquences Numériques. Ces regroupements sont parfois combinés, suggérant que le versionnement pourrait s'opérer sur plusieurs dimensions ou aspects. Les catégories conceptuelles pourraient représenter différents types de changements ou de mises à jour, tandis que les séquences numériques pourraient indiquer des changements plus quantifiables, tels que des numéros de version ou des mises à jour incrémentielles de la taille de l'entrée, des poids, ou d'autres composants techniques.
-
-- **Les Groupes de Taille Trois et Plus :** Ces regroupements accentuent davantage notre observation précédente, montrant des progressions sémantiques variées dans les tokens de versionnement, souvent combinées. Cette constatation suggère l'existence d'un système de versionnement plus complexe, où plusieurs aspects ou dimensions sont mis à jour simultanément.
+    - **Les Groupes de Taille Deux :** L'analyse des groupes de deux tokens révèle deux types de regroupements : Catégories Conceptuelles et Séquences Numériques. Ces regroupements sont parfois combinés, suggérant que le versionnement pourrait s'opérer sur plusieurs dimensions ou aspects. Les catégories conceptuelles pourraient représenter différents types de changements ou de mises à jour, tandis que les séquences numériques pourraient indiquer des changements plus quantifiables, tels que des numéros de version ou des mises à jour incrémentielles de la taille de l'entrée, des poids, ou d'autres composants techniques.
+  
+    - **Les Groupes de Taille Trois et Plus :** Ces regroupements accentuent 
+ davantage notre observation précédente, montrant des progressions sémantiques variées dans les tokens de versionnement, souvent combinées. Cette constatation suggère l'existence d'un système de versionnement plus complexe, où plusieurs aspects ou dimensions sont mis à jour simultanément.
 
 Ces résultats, issus d'analyses approfondies, offrent un aperçu plus détaillé des schémas de versionnement. Au-delà de simples indicateurs numériques, les combinaisons de tokens révèlent des informations substantielles sur les types de changements opérés lors du versionnement, contribuant ainsi à une compréhension plus fine des pratiques de gestion des versions dans divers contextes.
 
@@ -263,7 +261,7 @@ Au cours de cette étude, nous avons spécifiquement sélectionné les entrepris
 
 L'analyse des données obtenues a révélé ce qui suit : 
 
-![ratio global](./images/Result3.png)
+![ratio global](./images/companies.png)
 
 Nous observons l'identification de tokens spécifiques aux modèles tels que "medium," "large," "base," "small," ou "base." Cependant, aucune tendance claire de versionnement n'a été repérée à l'échelle globale de l'entreprise.
 
