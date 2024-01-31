@@ -47,19 +47,16 @@ automatiquement le numéro de version.
 Il est possible d'adapter manuellement cette gestion de versions à
 travers l'utilisation d'alias, de tags et de descriptions :
 
-- Les alias permettent de pointer vers une version spécifique du
+- Les **_alias_** permettent de pointer vers une version spécifique du
   modèle, facilitant ainsi le référencement via l'URI
   models:/<model-name>@<alias>. Ils offrent une référence
   mutable et nommée à des versions spécifiques, simplifiant leur
   déploiement.
-
-- Les tags permettent de catégoriser les modèles selon leur fonction
+- Les **_tags_** permettent de catégoriser les modèles selon leur fonction
   ou statut.
-
-- Les annotations et descriptions en Markdown fournissent des
+- Les **_annotations_** et **_descriptions_** en Markdown fournissent des
   informations cruciales telles que des descriptions de version, des
   ensembles de données utilisés, etc.
-
 
 Cependant, au cours de notre exploration des modèles et du processus de versionnement, nous avons constaté que MLflow est principalement adopté par des entreprises, et aucune d'entre elles ne rend publics leurs modèles, entravant ainsi notre accès à des projets et modèles versionnés pour une analyse approfondie.
 
@@ -225,11 +222,21 @@ Les résultats suggèrent que chaque type de modèle possède des tokens spécif
    capable de remplir les espaces réservés (masques) dans une phrase ou un texte, souvent basé sur des réseaux de neurones, en particulier les transformers. Cela explique l'usage de ces tokens dans le contexte de fill-mask où le modèle est entraîné pour compléter les parties manquantes dans un texte donné.
 
   
-e. **_Expérience 3 :_**
+c. **_Manipulation des données : Exploration des groupes de tokens_**
 
-Dans le cadre de notre démarche continue pour comprendre les schémas de versionnement, la troisième expérience vise à approfondir les résultats de l'expérience précédente en combinant les groupes de tokens constituant une version (2 ou 3 tokens). Cette approche nous permet d'analyser avec plus de détails les combinaisons les plus fréquemment observées, et d'évaluer si des tendances significatives se dégagent.
+Dans le cadre de notre démarche continue pour comprendre les schémas de versionnement, nous visons a travers cette manipulation de donnees à approfondir les résultats de l'expérience précédente en combinant les groupes de tokens constituant une version (2 ou 3 tokens). 
+Cette approche nous permet d'analyser avec plus de détails les combinaisons les plus fréquemment observées, et d'évaluer si des tendances significatives se dégagent.
 
-f. **_Résultat et analyse de l'expérience 3:_**
+Dans le cadre de notre démarche continue pour approfondir notre compréhension des schémas de versionnement, notre manipulation se concentre sur la combinaison des groupes de tokens formant une version (2 ou 3 tokens) au sein de notre ensemble de données.
+Cette approche nous permet d'examiner attentivement les combinaisons les plus fréquemment observées et d'évaluer l'émergence de tendances significatives.
+
+Notre démarche débute par la génération de combinaisons possibles de tokens entre les modèles, suivi du recensement des occurrences de groupes de tokens partagés. Ensuite, nous identifions les groupes de tokens communs entre les modèles pour chaque tâche, en comptant les occurrences et enregistrant les modèles associés. Enfin, l'exploitation de ces résultats à travers des graphiques à barres empilées nous offre une représentation visuelle des groupes de tokens les plus fréquents, permettant ainsi d'observer la distribution des tokens entre les modèles pour chaque tâche.
+
+
+
+
+
+- **_Résultat et analyse_**
 
 - **Les Groupes de Taille Deux :** L'analyse des groupes de deux tokens révèle deux types de regroupements : Catégories Conceptuelles et Séquences Numériques. Ces regroupements sont parfois combinés, suggérant que le versionnement pourrait s'opérer sur plusieurs dimensions ou aspects. Les catégories conceptuelles pourraient représenter différents types de changements ou de mises à jour, tandis que les séquences numériques pourraient indiquer des changements plus quantifiables, tels que des numéros de version ou des mises à jour incrémentielles de la taille de l'entrée, des poids, ou d'autres composants techniques.
 
