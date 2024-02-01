@@ -194,11 +194,11 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
     - **Base** : Peut désigner la version de base du modèle T5.
     - **Bart** : Bidirectional and Auto-Regressive Transformers, un autre modèle de traitement du langage naturel conçu pour des tâches de génération de texte.
 
-- Pour tâche **_la text-generation_** les tokens les plus utilisés étaient :
-    - **GPTQ** (Accurate Post-Training Quantization) : Une technique visant à réduire la taille des modèles de langage massifs comme GPT tout en préservant leur précision.
+- Pour tâche **_text-generation_** les tokens les plus utilisés étaient :
+    - **GPTQ** (Accurate Post-Training Quantization) : Une méthode de quantification post-entraînement (PTQ) pour la quantification à 4 bits qui se concentre principalement sur l'inférence et les performances sur GPU, visant à réduire la taille des modèles LLM(Large Language Models).
     - **7B / 13B** : Indiquent respectivement des modèles avec 7 milliards et 13 milliards de paramètres, soulignant la taille croissante et la complexité des modèles de génération de texte.
-    - **GGUF** : Un format utilisé pour stocker des modèles destinés à l'inférence, notamment dans le contexte de modèles de langage comme GPT.
-    - **AWQ** (Activation-aware Weight Quantization) : Une technique de quantification de poids consciente de l'activation utilisée pour la compression et l'accélération des modèles LLM (Large Language Models).
+    - **GGUF** :  une méthode de quantification qui permet aux utilisateurs d'utiliser le CPU pour exécuter un modèle de langage volumineux (LLM) tout en déchargeant certaines de ses couches vers le GPU pour accélérer le processus.
+    - **AWQ** (Quantification de Poids Consciente de l'Activation) : Une technique de quantification de poids consciente de l'activation utilisée pour la compression et l'accélération des modèles, qui suppose que tous les poids ne sont pas également importants pour les performances d'un modèle de langage volumineux (LLM).
     - **LLMA** (Large Language Model Meta AI) : Un grand modèle linguistique développé par Meta, servant de fondation à plusieurs applications, dont des agents conversationnels.
     - **Chat** : Un token associé aux conversations sur les chats lors de la génération de textes.
 
