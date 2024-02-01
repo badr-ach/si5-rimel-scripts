@@ -9,11 +9,11 @@ Ce repertoire contient les dossiers suivant :
 
 ### Utilisation :
 
-**1. Installation du Python :**
+1. **Installation du Python :**
 
 Assurez-vous que Python est installé sur votre système. Si ce n'est pas le cas, vous pouvez le télécharger et l'installer depuis [le site officiel de Python](https://www.python.org/). La version recommandée est la 3.8.
 
-**2. Installation des libraries :**
+2. **Installation des libraries :**
 
 Exécutez le script setup.sh situé dans le répertoire principal pour installer les bibliothèques nécessaires.
 ```
@@ -21,6 +21,6 @@ Exécutez le script setup.sh situé dans le répertoire principal pour installer
 ```
 Ce script vérifie l'état d'installation des bibliothèques  `bs4` , `requests`, `matplotlib`, `numpy`,  `WordCloud` , `Circlify`, `seaborn`, `networkx` en utilisant  `pip`, les installant s'ils ne sont pas déjà présents.
 
-**3. Execution du code :**
+3. **Execution du code :**
 
 Pour le code nous avons choisit un format Jupyter Notebook utilisant le fichier `notebook.ipynb`  pour bénéficier d'une documentation claire du code.
