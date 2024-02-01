@@ -131,7 +131,7 @@ Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur
 
 a. **_Etape 1 : Analyse du Versionnement des Modèles par Catégorie de Tâche_**
 
-Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés en différentes catégories, donnant lieu à la création de graphiques en dispersion représentant l'adoption du versionnement sémantique en fonction de chaque catégorie de modèles. Ces graphiques prennent en compte à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique.
+Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés par catégorie, ce qui a permis de créer des graphiques en dispersion représentant l'adoption du versionnement sémantique au sein de chaque catégorie de modèles. Ces graphiques tiennent compte à la fois du nombre de modèles par catégorie et du pourcentage d'adoption du versionnement sémantique.
 
 - **_Résultat_**
 
