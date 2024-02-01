@@ -217,10 +217,9 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
   
 c. **_Manipulation des données : Exploration des groupes de tokens_**
 
-Pour approfondir notre compréhension des schémas de versionnement, notre analyse se concentre sur les tokens de versions identifiés lors de l'expérience précédente. L'objectif est d'établir s'il existe des combinaisons de ces tokens qui présentent une récurrence fréquente au sein des différentes versions de modèles.
+Pour approfondir notre compréhension des schémas de versionnement, il a été jugé pertinent d'explorer l'existence de combinaisons spécifiques de tokens qui manifestent une récurrence significative à travers différentes versions de modèles.
 
-Notre démarche a commencé par la recherche de combinaisons potentielles de tokens entre les modèles, suivie du recensement des occurrences de groupes de tokens partagés. Ensuite, nous avons identifié les groupes de tokens communs entre les modèles pour chaque tâche, en comptant les occurrences et en enregistrant les modèles associés. Enfin, en exploitant ces résultats à travers des graphiques à barres empilées, nous avons obtenu une représentation visuelle des groupes de tokens les plus fréquemment observés, permettant ainsi d'analyser la distribution des tokens entre les modèles pour chaque tâche.
-
+Cette étude a commencé par l'identification de combinaisons potentielles de tokens entre les modèles, suivie d'un recensement des occurrences de ces groupes de tokens partagés. Par la suite, nous avons procédé à l'identification des groupes de tokens communs aux différents modèles pour chaque tâche spécifique, en enregistrant les occurrences et les modèles correspondants. En utilisant ces données, nous avons créé des graphiques à barres empilées pour obtenir une représentation visuelle des groupes de tokens les plus fréquemment observés. Cela a permis d'analyser plus précisément la distribution et la fréquence des tokens parmi les modèles pour chaque tâche définie.
 
 - **_Résultat_**
 
