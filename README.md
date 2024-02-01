@@ -167,10 +167,11 @@ En outre, les identifiants numériques ont été délibérément exclus de notre
 
 - **_Analyse des résultats_**
 
-Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés, et d'apres des recherches sur des documentations a propos les methodes et les techniques de chque categories nous avons trouve un lien entre la tache et ses token utilises .
+[Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés, et d'apres des recherches sur des documentations a propos les methodes et les techniques de chque categories nous avons trouve un lien entre la tache et ses token utilises .
 
 Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien comprendre la stratégie de versionnement.
-- Pour la tâche **_text-classification_**, les tokens les plus utilisés étaient :
+
+- Pour la tâche **_text-classification_**, les tokens les plus utilisés sont :
     - **Base** : En text-classification, le terme "base" pourrait faire référence à un modèle initial qui n'a pas subi de modifications spécifiques pour la tâche en question. Il s'agit d'un point de départ simple sans ajustements particuliers, utilisé comme référence ou base pour des modèles plus spécialisés.
     - **BERT** : BERT est une architecture de réseau de neurones transformer révolutionnaire pour le traitement du langage naturel. En text-classification, BERT peut servir de modèle pré-entraîné pour capturer les relations contextuelles entre les mots dans un texte, améliorant ainsi les performances de la classification.
     - **Finetuned** : Appliqué au processus d'ajustement d'un modèle pré-entraîné sur des données spécifiques à la tâche de text-classification. Cela signifie que le modèle a été adapté pour mieux répondre aux caractéristiques de la classification de texte, améliorant ainsi ses performances sur cette tâche spécifique.
@@ -179,13 +180,13 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
     - **Sentiment** : En text-classification, la détection de sentiment est courante. Le terme "sentiment" est associé à des modèles conçus pour classer des documents textuels en fonction de l'émotion exprimée.
     - **Model** : le terme "model" fait référence à l'architecture algorithmique utilisée pour attribuer des catégories ou des étiquettes à des documents textuels en fonction de leur contenu. Le modèle peut être une variante pré-entraînée telle que BERT ou RoBERTa, ou même un modèle de base non modifié.
 
-- Pour la tâche **_text-to-text-generation_** les tokens les plus utilisés étaient :
+- Pour la tâche **_text-to-text-generation_** les tokens les plus utilisés sont :
     - **Large / Small** : Spécifier "Large" ou "Small" en text-to-text generation permet d'ajuster la taille du modèle en fonction des contraintes de ressources, d'optimiser la complexité du texte généré et de répondre spécifiquement aux besoins de chaque tâche.
     - **T5** : Text-to-Text Transfer Transformer, une architecture qui unifie différentes tâches en présentant du texte en entrée et en formant le modèle à générer un texte cible.
     - **Base** : Peut désigner la version de base du modèle T5.
     - **Bart** : Bidirectional and Auto-Regressive Transformers, un autre modèle de traitement du langage naturel conçu pour des tâches de génération de texte.
 
-- Pour tâche **_text-generation_** les tokens les plus utilisés étaient :
+- Pour tâche **_text-generation_** les tokens les plus utilisés sont :
     - **GPTQ** (Accurate Post-Training Quantization) : Une méthode de quantification post-entraînement (PTQ) pour la quantification à 4 bits qui se concentre principalement sur l'inférence et les performances sur GPU, visant à réduire la taille des modèles LLM(Large Language Models).
     - **7B / 13B** : Indiquent respectivement des modèles avec 7 milliards et 13 milliards de paramètres, soulignant la taille croissante et la complexité des modèles de génération de texte.
     - **GGUF** :  une méthode de quantification qui permet aux utilisateurs d'utiliser le CPU pour exécuter un modèle de langage volumineux (LLM) tout en déchargeant certaines de ses couches vers le GPU pour accélérer le processus.
@@ -198,7 +199,7 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
     - **Ner** : (Named Entity Recognition) fait référence à la reconnaissance d'entités nommées, une tâche où le modèle identifie et catégorise des entités telles que  les noms de personnes, les lieux et les organisations dans un texte.
     - **Cased / Uncased** : Indique si le modèle prend en compte la casse (Cased) ou l'ignore (Uncased) lors de la reconnaissance des tokens.
 
-- Pour la tâche **_text-to-images_** : , les tokens les plus utilisés étaient :
+- Pour la tâche **_text-to-images_** : , les tokens les plus utilisés sont :
     - **Lora** : (Low-Rank Adaptation of Large Language Models) Une technique légère de text-to-image qui réduit considérablement le nombre de paramètres entraînables dans un modèle.
     - **Diffusion** : Définit une méthode de génération d'images basée sur une chaîne de diffusion de pas, ajoutant progressivement du bruit aléatoire aux données et apprenant à inverser le processus pour construire des échantillons de données souhaités à partir du bruit.
     - **SDXL** (Stable Diffusion XL) : Une technique améliorant la génération de texte vers image, adoptant une approche en deux étapes avec un modèle de base générant une image et un modèle raffineur ajoutant des détails supplémentaires de haute qualité dans une étape distincte.
