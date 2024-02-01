@@ -54,8 +54,7 @@ travers l'utilisation d'alias, de tags et de descriptions :
   déploiement.
 - Les **_tags_** permettent de catégoriser les modèles selon leur fonction
   ou statut.
-- Les **_annotations_** et **_descriptions_** en Markdown fournissent des
-  informations cruciales telles que des descriptions de version, des
+- Les **_annotations_** et **_descriptions_** en Markdown fournissent les descriptions de version, les
   ensembles de données utilisés, etc.
 
 Cependant, au cours de notre exploration des modèles et du processus de versionnement, nous avons constaté que MLflow est principalement adopté par des entreprises, et aucune d'entre elles ne rend publics leurs modèles, entravant ainsi notre accès à des projets et modèles versionnés pour une analyse approfondie.
@@ -103,7 +102,7 @@ Ces constatations indiquent un écart potentiel par rapport au cadre de versionn
 
 **1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
 
-Nous avons exploité la base des modèles téléchargés grâce au web scraping, en nous focalisant exclusivement sur l'analyse du nom de l'artefact, qui renferme des informations cruciales telles que la version du modèle. Afin de discerner le versionnement sémantique au sein de ces noms, nous avons opté pour un format spécifique basé sur des motifs fréquemment rencontrés : (vX, vX.X, vX-X, vX.X.X, etc.).
+Nous avons exploité la base des modèles téléchargés grâce au web scraping, en nous focalisant exclusivement sur l'analyse du nom de l'artefact, qui renferme la version du modèle. Afin de discerner le versionnement sémantique au sein de ces noms, nous avons opté pour un format spécifique basé sur des motifs fréquemment rencontrés : (vX, vX.X, vX-X, vX.X.X, etc.),
 
 Notre objectif était de calculer le pourcentage de modèles adoptant une approche de versionnement sémantique parmi l'échantillon analysé. 
 
