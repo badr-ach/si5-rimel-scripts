@@ -262,6 +262,22 @@ Nous observons l'identification de tokens spécifiques aux modèles tels que "me
 
 En résumé, notre analyse révèle une grande diversité au sein de la communauté des data scientists en ce qui concerne l'implémentation du versionnement des modèles. Plutôt que de suivre un processus défini, il est fréquent d'observer une approche individualisée, laissant chacun libre de déterminer ses propres méthodes en fonction de ses besoins spécifiques. Cette liberté opérationnelle, bien que reflétant la nature adaptable de la science des données, entraîne souvent une non-conformité marquée aux normes établies par DevOps.
 ## Références
+MLflow :
+- Documentation officielle de MLflow : https://mlflow.org/docs/latest/index.html
+- Chen, A., Chow, A., Davidson, A., DCunha, A., Ghodsi, A., Hong, S. A., ... & Zumar, C.
+(2020, June). Developments in mlflow: A system to accelerate the machine learning lifecycle. In
+Proceedings of the fourth international workshop on data management for end-to-end machine
+learning (pp. 1-4)
+- Lauchande, N. (2021). Machine Learning Engineering with MLflow: Manage the End-to-end
+Machine Learning Life Cycle with MLflow. United Kingdom: Packt Publishing.
+- Zaharia, M., Chen, A., Davidson, A., Ghodsi, A., Hong, S. A., Konwinski, A., ... & Zumar, C.
+(2018). Accelerating the machine learning lifecycle with MLflow. IEEE Data Eng. Bull., 41(4),
+39-45.
+HuggingFace :
+- https://huggingface.co/docs
 
-
-
+Les modeles de machines learning :
+- Bert https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel.
+- GPTQ Accurate Post-Training Quantization : https://arxiv.org/pdf/2210.17323.pdf
+- GPTQ vs. GGUF vs. AWQ : https://maartengrootendorst.substack.com/p/which-quantization-method-is-right
+- Dreambooth : https://www.dreambooth.fr/
