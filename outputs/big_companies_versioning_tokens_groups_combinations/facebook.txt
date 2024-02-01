@@ -1,38 +1,38 @@
 Tokens: frozenset({'large', 'base'}) - Occurred in 81 combinations
 Tokens: frozenset({'large', 'small'}) - Occurred in 18 combinations
-Tokens: frozenset({'large', 'base', 'small'}) - Occurred in 11 combinations
+Tokens: frozenset({'large', 'small', 'base'}) - Occurred in 11 combinations
 Tokens: frozenset({'base', 'small'}) - Occurred in 10 combinations
-Tokens: frozenset({'base', 'tiny', 'small'}) - Occurred in 3 combinations
+Tokens: frozenset({'small', 'base', 'tiny'}) - Occurred in 3 combinations
 Tokens: frozenset({'large', 'medium', 'small'}) - Occurred in 3 combinations
 Tokens: frozenset({'large', 'base', 'huge'}) - Occurred in 3 combinations
-Tokens: frozenset({'large', 'base', 'tiny', 'small'}) - Occurred in 2 combinations
+Tokens: frozenset({'large', 'small', 'base', 'tiny'}) - Occurred in 2 combinations
 Tokens: frozenset({'large', 'base', 'tiny'}) - Occurred in 2 combinations
-Tokens: frozenset({'de', 'en', 'ru'}) - Occurred in 2 combinations
+Tokens: frozenset({'en', 'ru', 'de'}) - Occurred in 2 combinations
 Tokens: frozenset({'large', 'medium'}) - Occurred in 2 combinations
 Tokens: frozenset({'large', 'base', 'xlarge'}) - Occurred in 1 combinations
-Tokens: frozenset({'1k', 'tiny', 'large', 'base', '22k'}) - Occurred in 1 combinations
-Tokens: frozenset({'large', 'base', '100h', '960h'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', 'base', '1k', '22k', 'tiny'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', '960h', 'base', '100h'}) - Occurred in 1 combinations
 Tokens: frozenset({'base', 'tiny'}) - Occurred in 1 combinations
-Tokens: frozenset({'base', 'nq'}) - Occurred in 1 combinations
-Tokens: frozenset({'200_speaker', 'en', 'ljspeech'}) - Occurred in 1 combinations
+Tokens: frozenset({'nq', 'base'}) - Occurred in 1 combinations
+Tokens: frozenset({'en', '200_speaker', 'ljspeech'}) - Occurred in 1 combinations
 Tokens: frozenset({'large', 'base', 'ft'}) - Occurred in 1 combinations
-Tokens: frozenset({'tiny', 'small', 'large', 'base', 'coco', 'swin', 'vistas', 'ade', 'cityscapes'}) - Occurred in 1 combinations
+Tokens: frozenset({'cityscapes', 'swin', 'coco', 'ade', 'small', 'vistas', 'large', 'base', 'tiny'}) - Occurred in 1 combinations
 Tokens: frozenset({'large', 'en', 'ro'}) - Occurred in 1 combinations
 Tokens: frozenset({'large', 'en', 'to', 'ro'}) - Occurred in 1 combinations
 Tokens: frozenset({'en', 'ro'}) - Occurred in 1 combinations
 Tokens: frozenset({'roberta', 'base'}) - Occurred in 1 combinations
-Tokens: frozenset({'en', 'ar', 'fr', 'es', 'ru', 'tr'}) - Occurred in 1 combinations
-Tokens: frozenset({'de', 'fr', 'large', 'it', 'en', 'nl', 'es', 'et', 'pt', 'ro'}) - Occurred in 1 combinations
-Tokens: frozenset({'de', 'fr', 'it', 'tr', 'en', 'nl', 'ar', 'et', 'es', 'fa', 'ru', 'pt', 'ca', 'ro'}) - Occurred in 1 combinations
-Tokens: frozenset({'es', 'en', 'fr'}) - Occurred in 1 combinations
-Tokens: frozenset({'ru', 'en'}) - Occurred in 1 combinations
-Tokens: frozenset({'fr', 'tr', 'en', 'zh', 'ar', 'es', 'vi', 'ru'}) - Occurred in 1 combinations
-Tokens: frozenset({'de', 'en'}) - Occurred in 1 combinations
-Tokens: frozenset({'hr', 'base'}) - Occurred in 1 combinations
-Tokens: frozenset({'sv', 'it', 'fi', 'en', 'nl', 'el', 'sl', 'hu', 'cv', 'mt', 'ro', 'bg', 'de', 'da', 'fr', 'hr', 'lv', 'pl', 'sk', 'cs', 'es', 'et', 'lt', 'pt'}) - Occurred in 1 combinations
-Tokens: frozenset({'300m', '1b', 'rel'}) - Occurred in 1 combinations
-Tokens: frozenset({'6.7b', '1.3b', '30b', '125m'}) - Occurred in 1 combinations
+Tokens: frozenset({'ar', 'en', 'ru', 'fr', 'tr', 'es'}) - Occurred in 1 combinations
+Tokens: frozenset({'et', 'fr', 'es', 'ro', 'de', 'large', 'en', 'it', 'pt', 'nl'}) - Occurred in 1 combinations
+Tokens: frozenset({'ru', 'et', 'fr', 'es', 'ro', 'de', 'ar', 'ca', 'en', 'it', 'pt', 'tr', 'nl', 'fa'}) - Occurred in 1 combinations
+Tokens: frozenset({'en', 'es', 'fr'}) - Occurred in 1 combinations
+Tokens: frozenset({'en', 'ru'}) - Occurred in 1 combinations
+Tokens: frozenset({'ru', 'zh', 'fr', 'es', 'ar', 'en', 'tr', 'vi'}) - Occurred in 1 combinations
+Tokens: frozenset({'en', 'de'}) - Occurred in 1 combinations
+Tokens: frozenset({'base', 'hr'}) - Occurred in 1 combinations
+Tokens: frozenset({'bg', 'fr', 'da', 'hu', 'ro', 'pt', 'cv', 'pl', 'et', 'sl', 'fi', 'cs', 'lt', 'es', 'de', 'en', 'it', 'sk', 'el', 'sv', 'lv', 'nl', 'hr', 'mt'}) - Occurred in 1 combinations
+Tokens: frozenset({'1b', '300m', 'rel'}) - Occurred in 1 combinations
+Tokens: frozenset({'1.3b', '125m', '6.7b', '30b'}) - Occurred in 1 combinations
 Tokens: frozenset({'encoder', 'query', 'context'}) - Occurred in 1 combinations
-Tokens: frozenset({'mai', 'bcl', 'war', 'ceb', 'ilo', 'mhr', 'new', 'myv', 'azb', 'sah', 'pam', 'hif', 'min'}) - Occurred in 1 combinations
-Tokens: frozenset({'large', 'base', 'giant', 'small'}) - Occurred in 1 combinations
+Tokens: frozenset({'war', 'ceb', 'myv', 'pam', 'new', 'min', 'azb', 'mhr', 'sah', 'hif', 'mai', 'ilo', 'bcl'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', 'giant', 'small', 'base'}) - Occurred in 1 combinations
 Tokens: frozenset({'large', 'medium', 'm4t'}) - Occurred in 1 combinations

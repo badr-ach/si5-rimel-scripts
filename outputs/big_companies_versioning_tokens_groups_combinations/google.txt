@@ -1,20 +1,20 @@
 Tokens: frozenset({'large', 'base'}) - Occurred in 92 combinations
-Tokens: frozenset({'large', 'base', 'small'}) - Occurred in 8 combinations
-Tokens: frozenset({'xl', 'small', 'large', 'base', 'xxl'}) - Occurred in 6 combinations
+Tokens: frozenset({'large', 'small', 'base'}) - Occurred in 8 combinations
+Tokens: frozenset({'large', 'xxl', 'xl', 'base', 'small'}) - Occurred in 6 combinations
 Tokens: frozenset({'large', 'xxl'}) - Occurred in 5 combinations
-Tokens: frozenset({'large', 'base', 'xxl'}) - Occurred in 4 combinations
-Tokens: frozenset({'xl', 'small', 'base', 'xxl'}) - Occurred in 4 combinations
-Tokens: frozenset({'large', 'base', 'xl'}) - Occurred in 3 combinations
-Tokens: frozenset({'base', 'small'}) - Occurred in 2 combinations
-Tokens: frozenset({'large', 'patch14', 'base', 'patch16'}) - Occurred in 2 combinations
-Tokens: frozenset({'large', 'pubmed', 'base', 'arxiv'}) - Occurred in 1 combinations
-Tokens: frozenset({'wq', 'nq'}) - Occurred in 1 combinations
-Tokens: frozenset({'mini', 'tiny', 'small', 'large', 'base'}) - Occurred in 1 combinations
-Tokens: frozenset({'lm', '3b'}) - Occurred in 1 combinations
-Tokens: frozenset({'large', 'finetuned', 'base'}) - Occurred in 1 combinations
-Tokens: frozenset({'patch32', 'patch14', 'large', 'base', 'patch16'}) - Occurred in 1 combinations
-Tokens: frozenset({'large', 't5', 'base', 'xl'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', 'xxl', 'base'}) - Occurred in 4 combinations
+Tokens: frozenset({'xxl', 'xl', 'base', 'small'}) - Occurred in 4 combinations
+Tokens: frozenset({'large', 'xl', 'base'}) - Occurred in 3 combinations
+Tokens: frozenset({'small', 'base'}) - Occurred in 2 combinations
+Tokens: frozenset({'patch14', 'base', 'large', 'patch16'}) - Occurred in 2 combinations
+Tokens: frozenset({'large', 'arxiv', 'base', 'pubmed'}) - Occurred in 1 combinations
+Tokens: frozenset({'nq', 'wq'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', 'base', 'mini', 'tiny', 'small'}) - Occurred in 1 combinations
+Tokens: frozenset({'3b', 'lm'}) - Occurred in 1 combinations
+Tokens: frozenset({'finetuned', 'base', 'large'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', 'base', 'patch16', 'patch32', 'patch14'}) - Occurred in 1 combinations
+Tokens: frozenset({'large', 'xl', 'base', 't5'}) - Occurred in 1 combinations
 Tokens: frozenset({'xl', 'base'}) - Occurred in 1 combinations
-Tokens: frozenset({'celebahq', 'church', 'bedroom'}) - Occurred in 1 combinations
-Tokens: frozenset({'base', 'xxl'}) - Occurred in 1 combinations
-Tokens: frozenset({'base', 'chartqa'}) - Occurred in 1 combinations
+Tokens: frozenset({'celebahq', 'bedroom', 'church'}) - Occurred in 1 combinations
+Tokens: frozenset({'xxl', 'base'}) - Occurred in 1 combinations
+Tokens: frozenset({'chartqa', 'base'}) - Occurred in 1 combinations
