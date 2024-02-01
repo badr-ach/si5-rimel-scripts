@@ -102,12 +102,10 @@ Ces constatations indiquent un écart potentiel par rapport au cadre de versionn
 
 **1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
 
-Nous avons exploité la base des modèles téléchargés grâce au web scraping, en nous focalisant exclusivement sur l'analyse du nom de l'artefact, qui renferme la version du modèle. Afin de discerner le versionnement sémantique au sein de ces noms, nous avons opté pour un format spécifique basé sur des motifs fréquemment rencontrés : (vX, vX.X, vX-X, vX.X.X, etc.),
-
+Dans cette expérience, notre attention a été exclusivement axée sur l'analyse des noms des artefacts, lesquels renfermaient la version du modèle. Afin de distinguer les nuances de versionnement sémantique au sein de ces appellations, nous avons choisi d'utiliser un format particulier fondé sur des motifs fréquemment observés, tels que (vX, vX.X, vX-X, vX.X.X, etc.).
 Notre objectif était de calculer le pourcentage de modèles adoptant une approche de versionnement sémantique parmi l'échantillon analysé. 
 
-Les résultats ont été graphiquement représentés sous la forme d'un diagramme circulaire, offrant une perspective visuelle sur la prévalence des modèles avec versionnement par rapport à ceux sans versionnement apparent.
-
+Les résultats obtenus ont été représentés graphiquement sous la forme d'un diagramme circulaire, offrant ainsi une perspective visuelle sur la fréquence des modèles présentant un versionnement sémantique par rapport à ceux ne manifestant pas de versionnement apparent.
 
 **1.3. _Résultat :_**
 
