@@ -62,7 +62,7 @@ Cependant, au cours de notre exploration des modèles et du processus de version
 
 #### 2. Exploration de Hugging Face :
 
-Hugging Face se positionne comme une plateforme clé pour le partage et la découverte de modèles d'apprentissage automatique. Elle constitue une plateforme de choix pour des data scientists et des entreprises de renom telles que Meta et Google, qui y partagent leurs travaux avec la communauté internationale. À la date de rédaction de cet article, le 1er février 2024, Hugging Face héberge 490,621 modèles, accessibles publiquement,ce qui a été un critère clé dans le choix de cette plateforme pour notre recherche.
+Hugging Face se positionne comme une plateforme clé pour le partage et la découverte de modèles d'apprentissage automatique. Elle constitue une plateforme de choix pour des data scientists et des entreprises de renom telles que Meta et Google, qui y partagent leurs travaux avec la communauté internationale. À la date de rédaction de cet article, le 1er février 2024, Hugging Face héberge 490,621 modèles, accessibles publiquement, ce qui a joué un rôle déterminant dans le choix de cette plateforme pour notre recherche.
 
 Notre recherche s'est concentrée sur la façon dont les modèles et leurs versions sont nommés et gérés sur Hugging Face. Selon sa documentation officielle, la plateforme offre une grande flexibilité aux data scientists pour le nommage de leurs modèles, facilitant ainsi leur identification et leur gestion.
 
