@@ -100,7 +100,7 @@ L'analyse des modèles sur Hugging Face révèle une particularité dans leur nu
 Néanmoins, notre observation des modèles sur Hugging Face a révélé des séquences variées et moins formalisées, comme le motif \d[.-]?\d?bpw[.-]?[h|hB]?\d?[.-]?(exl)?\d?[.-]?\d?, ainsi que des termes spécifiques tels que GPTQ, AWQ, GGUF, GGUML, 3b, 7b, 13b, small, medium, large, base, finetuned.  Ces constatations indiquent un écart potentiel par rapport au cadre de versionnement traditionnel. 
 Cette observation soulève une interrogation cruciale pour notre recherche : les modèles sur Hugging Face suivent-ils un schéma de versionnement traditionnel ou adoptent-ils plutôt une approche de versionnement plus libre et moins structurée ? 
 
-**1.2. _Expérience : Calcule de l'adoption du versionnement traditionnel_**
+**1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
 
 Nous avons exploité la base des modèles téléchargés grâce au web scraping, en nous focalisant exclusivement sur l'analyse du nom de l'artefact, qui renferme des informations cruciales telles que la version du modèle. Afin de discerner le versionnement sémantique au sein de ces noms, nous avons opté pour un format spécifique basé sur des motifs fréquemment rencontrés : (vX, vX.X, vX-X, vX.X.X, etc.).
 
