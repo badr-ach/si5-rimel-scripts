@@ -102,7 +102,7 @@ Ces constatations indiquent un écart potentiel par rapport au cadre de versionn
 
 **1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
 
-Dans cette expérience, notre attention a été exclusivement axée sur l'analyse des noms des artefacts, lesquels renfermaient la version du modèle. Afin de distinguer les nuances de versionnement sémantique au sein de ces appellations, nous avons choisi d'utiliser un format particulier fondé sur des motifs fréquemment observés, tels que (vX, vX.X, vX-X, vX.X.X, etc.).
+Dans cette expérience, notre attention a été exclusivement axée sur l'analyse des noms des modèles, lesquels renfermaient la version. Afin de distinguer les nuances de versionnement sémantique au sein de ces appellations, nous avons choisi d'utiliser un format particulier fondé sur des motifs fréquemment observés, tels que (vX, vX.X, vX-X, vX.X.X, etc.).
 Notre objectif était de calculer le pourcentage de modèles adoptant une approche de versionnement sémantique parmi l'échantillon analysé. 
 
 Les résultats obtenus ont été représentés graphiquement sous la forme d'un diagramme circulaire, offrant ainsi une perspective visuelle sur la fréquence des modèles présentant un versionnement sémantique par rapport à ceux ne manifestant pas de versionnement apparent.
@@ -234,8 +234,6 @@ Cette étude a commencé par l'identification de combinaisons potentielles de to
 
     - **Analyse des combinaisons de trois tokens et plus :** Ces regroupements renforcent notre constat initial, mettant en exergue des progressions sémantiques diversifiées au sein des tokens de versionnement, souvent conjuguées. Cette observation suggère l'existence d'un système de versionnement plus complexe, où plusieurs aspects ou dimensions sont mis à jour simultanément.
 
-Ces résultats offrent un aperçu plus détaillé des schémas de versionnement. Au-delà de simples indicateurs numériques, les combinaisons de tokens révèlent des informations substantielles sur les types de changements opérés lors du versionnement, contribuant ainsi à une compréhension plus fine des pratiques de gestion des versions dans divers contextes.
-
 **2.3. _Conclusion :_**
 
 En conclusion, il est possible d'affirmer qu'aucun modèle de versionnement n'est unanimement adopté et accepté dans aucune catégorie. De nombreux schémas de versionnement sont détectés, mais leur occurrence est très infime pour être considérée comme une norme.
@@ -249,7 +247,7 @@ Nous formulons l'hypothèse que les grandes entreprises ont tendance à standard
 
   3.2. **_Expérience : Analyse des modèles ceux publié par Google, > OpenAI et Meta, individuellement, et extraction des patterns > adoptée._**
 
-Au cours de cette étude, nous avons spécifiquement sélectionné les entreprises les plus renommées du secteur. Dans cette perspective, notre recherche se concentrera exclusivement sur les artefacts de modèles publiés par Google, Facebook/Meta, et OpenAI, en tenant compte de la variabilité du nombre de modèles. Google a mis à disposition 617 artefacts, Facebook/Meta en a partagé 1879, et OpenAI en compte 32. Notre approche pour cette expérience suivra le même protocole que celui de l'expérience 2, visant à identifier les tokens les plus fréquemment utilisés.
+Au cours de cette étude, nous avons spécifiquement sélectionné les entreprises les plus renommées du secteur. Dans cette perspective, notre recherche se concentrera exclusivement sur les artefacts de modèles publiés par Google, Facebook/Meta, et OpenAI, en tenant compte de la variabilité du nombre de modèles. Google a mis à disposition 617 modèles, Facebook/Meta en a partagé 1879, et OpenAI en compte 32. Notre approche pour cette expérience suivra le même protocole que celui de l'expérience 2, visant à identifier les tokens les plus fréquemment utilisés.
 
   3.3 **_Résultat :_**
 
