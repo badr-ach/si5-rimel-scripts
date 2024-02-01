@@ -273,8 +273,10 @@ Machine Learning Life Cycle with MLflow. United Kingdom: Packt Publishing.
 - Zaharia, M., Chen, A., Davidson, A., Ghodsi, A., Hong, S. A., Konwinski, A., ... & Zumar, C.
 (2018). Accelerating the machine learning lifecycle with MLflow. IEEE Data Eng. Bull., 41(4),
 39-45.
+  
 HuggingFace :
 - https://huggingface.co/docs
+- HuggingFace's Transformers: State-of-the-art Natural Language Processing 
 
 Les modeles de machines learning :
 - Bert https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel.
