@@ -85,14 +85,9 @@ Ces réflexions nous conduiront à explorer les questions sous-jacentes suivante
 
 ## III. Collecte de Données : Méthodes et Outils
 
-Pour répondre de manière approfondie aux interrogations formulées, nous avons entrepris une exploration minutieuse du dépôt open source de Hugging Face, une riche source regroupant plus de 500 000 modèles partagés par une multitude d'utilisateurs et de grandes entreprises. Nous avons amorcé notre démarche par une analyse manuelle des modèles présents dans ce référentiel, initiant ainsi une approche qualitative essentielle pour appréhender la diversité des tâches et des méthodologies de versionnement.
+Hugging Face abrite une vaste collection de plus de 400 000 modèles. Notre recherche a adopté une approche sélective en mettant en avant les modèles dotés de tags. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, étant donné la diversité des modèles disponibles sur la plateforme Hugging Face. De plus, nous avons veillé à éviter les doublons de modèles, assurant ainsi la validité et la fiabilité de notre échantillon.
+Cette démarche méthodique a conduit à la création d'une base de données riche, comprenant environ 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
 
-Dans une volonté d'élargir notre échantillon de manière significative et de systématiser notre processus, nous avons opté pour le web scraping. Cette technique a permis la collecte efficace d'un nombre substantiel de modèles, alimentant ainsi nos différentes expériences. Nous avons utilisé comme langage de programmation  Python, avec une focalisation sur la bibliothèque BeautifulSoup pour l'analyse HTML et requests pour les requêtes HTTP, a facilité l'extraction systématique des données nécessaires.
-Cette transition stratégique de l'analyse manuelle vers l'automatisation au moyen du web scraping a grandement renforcé notre capacité à examiner un éventail plus large de modèles, établissant ainsi une base plus robuste pour nos diverses expérimentations. 
-
-Pendant la phase de web scraping, nous avons décidé de cibler spécifiquement les modèles avec des tags associés à des catégories. Cette approche sélective a permis d'obtenir des informations pertinentes, compte tenu du volume considérable de modèles sur Hugging Face.
-
-Parallèlement, nous avons veillé à écarter toute redondance dans les modèles téléchargés, assurant ainsi l'intégrité de notre échantillon. En fin de compte, notre effort a abouti à la constitution d'une base de données solide, comprenant environ 230 000 modèles, qui servira de fondement pour répondre de manière approfondie aux diverses questions formulées dans le cadre de notre recherche.
 
 ## IV. Hypothèses, Expériences & Analyse des résultats
 
