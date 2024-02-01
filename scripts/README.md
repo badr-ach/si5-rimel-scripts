@@ -15,7 +15,7 @@ Assurez-vous que Python est installé sur votre système. Si ce n'est pas le cas
 
 **2. Installation des libraries :**
 
-Exécutez le script setup.sh situé dans le répertoire principal pour installer les bibliothèques nécessaires.
+Exécutez le script install-requirements.sh situé dans le répertoire principal pour installer les bibliothèques nécessaires.
 ```
 ./install-requirements.sh
 ```
