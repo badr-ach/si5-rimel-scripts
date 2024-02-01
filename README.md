@@ -131,7 +131,7 @@ Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur
 
 a. **_Etape 1 : Analyse du Versionnement des Modèles par Catégorie de Tâche_**
 
-Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés par catégorie, ce qui a permis de créer des graphiques en dispersion représentant l'adoption du versionnement sémantique au sein de chaque catégorie de modèles. Ces graphiques tiennent compte à la fois du nombre de modèles par catégorie et du pourcentage d'adoption du versionnement sémantique.
+Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés par catégorieermettant l'élaboration d'un graphique qui dépeint le niveau d'adoption du versionnement sémantique par catégorie de modèles. e graphique reflète à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique.
 
 - **_Résultat_**
 
@@ -141,27 +141,24 @@ Les résultats graphiques ont clairement démontré que le pourcentage d'adoptio
 
 - **_Analyse des résultats_**
 
-Cette observation souligne une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. Notre jeu de données est constitué de 42 catégories, et selon le schéma, certaines sont plus volumineuses que d'autres. Quelques catégories massives se distinguent par un taux d'adoption du versionnement sémantique élevé, principalement "Reinforcement Learning" avec un pourcentage de 68.80% et "Automatic Speech Recognition" avec un pourcentage de 46.55%.
-Ces catégories spécifiques semblent favoriser l'utilisation d'un modèle de gestion des versions sémantique.
-En revanche, le reste des catégories affiche majoritairement un taux d'adoption inférieur à 20%.
+Le graphique souligne une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. 
+ Parmi les 42 catégories identifiées, certaines se distinguent en regroupant un nombre de modèles nettement plus élevé que les autres.
+
+Dans ces catégories, on observe un taux d'adoption élevé du versionnement sémantique, en particulier dans les domaines de l'apprentissage par renforcement ("Reinforcement Learning") avec un pourcentage de 68.80 %, et de la reconnaissance automatique de la parole ("Automatic Speech Recognition") avec un pourcentage de 46.55 %. Ces domaines spécifiques montrent une tendance à privilégier un modèle de gestion des versions sémantique. À l'opposé, la majorité des autres catégories présente principalement un taux d'adoption du versionnement sémantique inférieur à 20 %.
 
 En effet, le domaine du "Reinforcement Learning" se caractérise par des modèles d'apprentissage automatique qui interagissent dynamiquement avec leur environnement. Dans ce contexte, les modèles apprennent en prenant des décisions successives afin de maximiser une récompense cumulative. Cette approche d'apprentissage continu est particulièrement adaptée à des environnements complexes et dynamiques, où les modèles doivent s'ajuster constamment pour relever des défis émergents. Les modèles de "Reinforcement Learning" se distinguent par leur capacité à évoluer et à s'adapter à des situations changeantes, nécessitant ainsi des ajustements fréquents pour maintenir des performances optimales. 
 
 D'autre part, dans le domaine de "Automatic Speech Recognition" (ASR), il s'agit d'une technologie dédiée à la reconnaissance automatique de la parole. Les modèles inclus dans cette catégorie sont spécifiquement conçus pour traiter des données audio, cherchant à interpréter et comprendre la parole humaine de manière automatisée. Les modèles ASR sont continuellement soumis à des améliorations afin d'affiner leur capacité à comprendre de manière précise les variations de la parole humaine. Ces améliorations constantes peuvent inclure des ajustements dans la compréhension des accents, la gestion des bruits de fond et l'adaptation à des langues spécifiques. La nature même des données audio implique une nécessité fréquente de mise à jour pour rester à jour avec les évolutions linguistiques et technologiques.
 
-Ainsi, l'utilisation du versionnement sémantique dans ces deux catégories peut offrir une approche structurée pour gérer les modifications et les mises à jour fréquentes nécessaires à l'amélioration continue des modèles. Cela permet de maintenir une traçabilité transparente des évolutions successives dans ces domaines complexes et en constante évolution, facilitant la compréhension des évolutions complexes de ces modèles et offrant ainsi une gestion plus claire des changements itératifs.
-
 b. **_Etape 2 : Exploration des schémas libres pour les catégories de modèles_**
 
 L'objectif de cette deuxième étape est de déterminer si chaque catégorie de modèles adopte des patterns spécifiques qui lui sont propres. Pour ce faire, nous avons exclu les deux catégories "Automatic Speech Recognition" et "Reinforcement Learning", qui présentent un niveau d'adoption du versionnement sémantique important. Nous nous concentrons plutôt sur l'examen des noms de modèles dans les ensembles de données les plus importants, représentant 80% du total, en nous basant sur la loi de Pareto. Les catégories prises en compte sont ainsi : "text classification", "text generation", "text to text generation", "token classification", "text to image", et "fill-mask".
 
-Dans cette démarche, un script a été développé pour analyser les schémas de versionnement des modèles par catégorie de tâches, en se penchant sur leurs patterns et tokens de versionnement. Ce script repose sur des choix méthodologiques délibérés visant à atteindre notre objectif.
+Dans le cadre de cette étude, nous avons développé un script dédié pour analyser les stratégies de versionnement adoptées par les modèles en fonction de leur catégorie d'application. Le script aborde en premier lieu la complexité des noms de modèles, qui sont fréquemment constitués de plusieurs éléments (tokens), séparés soit par des tirets soit par des points. Nous avons identifié que les noms des modèles comprennent à la fois le nom du modèle et sa version, et observé que le premier token représente invariablement le nom du modèle. Nous avons donc extrait la composante correspondant au token de version, situé immédiatement après le nom du modèle. Si des tokens subséquents se révèlent être des éléments intrinsèques du nom du modèle, ils sont alors assimilés à la version. Cette méthodologie semble n'introduire aucun biais notable, influençant de manière marginale les tendances globales observées dans les pratiques de versionnement.
 
-Initialement, le script aborde la complexité inhérente aux noms de modèle, souvent constitués de plusieurs tokens séparés par des tirets ou des points.  En tenant compte du fait que les noms des artefacts comprennent à la fois le nom et la version, nous avons isolé la partie correspondant au token de version. Notre script simplifie les noms en éliminant le premier token. Notre hypothèse, formulée sur la base d'observations, postule que le premier token représente systématiquement le nom par défaut du modèle. Et dans les situations où certains tokens suivants font partie intégrante du nom du modèle, ils sont considérés comme une version. Cette approche ne présente aucune problématique majeure, car elle n'aura pas d'impact significatif sur les tendances générales des tokens de versionnement. 
+Les modèles identifiés uniquement une fois dans notre échantillon ont été écartés de l'analyse partant du principe que ces occurrences uniques sont moins susceptibles de refléter des pratiques de versionnement systématiques, ce qui réduit notre capacité à tracer l'évolution des conventions de nommage des versions.
 
-De plus, un aspect crucial de notre méthodologie réside dans l'exclusion des modèles qui n'apparaissent qu'une seule fois dans l'ensemble de données. L'hypothèse sous-jacente est que les modèles uniques ont moins de chances d'avoir fait l'objet de versionnement, limitant ainsi notre capacité à comprendre l'évolution des noms de versions.
-
-Enfin, notre script exclut spécifiquement les indicateurs numériques. Cette décision repose sur la reconnaissance que les identifiants numériques sont courants dans les pratiques de versionnement sémantique du développement logiciel. Puisque notre intérêt réside dans l'exploration de schémas de versionnement moins conventionnels et plus nuancés, les indicateurs numériques sont considérés comme moins informatifs à cette fin. L'exclusion de ces indicateurs est donc une décision stratégique visant à concentrer notre analyse sur la découverte de schémas de versionnement plus uniques et perspicaces, s'éloignant ainsi du versionnement sémantique.
+En outre, les identifiants numériques ont été délibérément exclus de notre analyse. Cette décision repose sur la fréquence de ces identifiants dans les méthodes conventionnelles de versionnement sémantique en développement logiciel. Notre focalisation sur l'identification de pratiques de versionnement plus atypiques et nuancées conduit à considérer les identifiants numériques comme étant de moindre intérêt dans ce contexte. Cette exclusion stratégique est destinée à diriger notre analyse vers la reconnaissance de stratégies de versionnement distinctives, mettant de côté les approches traditionnelles de versionnement sémantique.
 
 
 - **_Résultat :_**
@@ -170,10 +167,11 @@ Enfin, notre script exclut spécifiquement les indicateurs numériques. Cette d�
 
 - **_Analyse des résultats_**
 
-Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés, et d'apres des recherches sur des documentations a propos les methodes et les techniques de chque categories nous avons trouve un lien entre la tache et ses token utilises .
+[Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés, et d'apres des recherches sur des documentations a propos les methodes et les techniques de chque categories nous avons trouve un lien entre la tache et ses token utilises .
 
 Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien comprendre la stratégie de versionnement.
-- Pour la tâche **_text-classification_**, les tokens les plus utilisés étaient :
+
+- Pour la tâche **_text-classification_**, les tokens les plus utilisés sont :
     - **Base** : En text-classification, le terme "base" pourrait faire référence à un modèle initial qui n'a pas subi de modifications spécifiques pour la tâche en question. Il s'agit d'un point de départ simple sans ajustements particuliers, utilisé comme référence ou base pour des modèles plus spécialisés.
     - **BERT** : BERT est une architecture de réseau de neurones transformer révolutionnaire pour le traitement du langage naturel. En text-classification, BERT peut servir de modèle pré-entraîné pour capturer les relations contextuelles entre les mots dans un texte, améliorant ainsi les performances de la classification.
     - **Finetuned** : Appliqué au processus d'ajustement d'un modèle pré-entraîné sur des données spécifiques à la tâche de text-classification. Cela signifie que le modèle a été adapté pour mieux répondre aux caractéristiques de la classification de texte, améliorant ainsi ses performances sur cette tâche spécifique.
@@ -182,13 +180,13 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
     - **Sentiment** : En text-classification, la détection de sentiment est courante. Le terme "sentiment" est associé à des modèles conçus pour classer des documents textuels en fonction de l'émotion exprimée.
     - **Model** : le terme "model" fait référence à l'architecture algorithmique utilisée pour attribuer des catégories ou des étiquettes à des documents textuels en fonction de leur contenu. Le modèle peut être une variante pré-entraînée telle que BERT ou RoBERTa, ou même un modèle de base non modifié.
 
-- Pour la tâche **_text-to-text-generation_** les tokens les plus utilisés étaient :
+- Pour la tâche **_text-to-text-generation_** les tokens les plus utilisés sont :
     - **Large / Small** : Spécifier "Large" ou "Small" en text-to-text generation permet d'ajuster la taille du modèle en fonction des contraintes de ressources, d'optimiser la complexité du texte généré et de répondre spécifiquement aux besoins de chaque tâche.
     - **T5** : Text-to-Text Transfer Transformer, une architecture qui unifie différentes tâches en présentant du texte en entrée et en formant le modèle à générer un texte cible.
     - **Base** : Peut désigner la version de base du modèle T5.
     - **Bart** : Bidirectional and Auto-Regressive Transformers, un autre modèle de traitement du langage naturel conçu pour des tâches de génération de texte.
 
-- Pour tâche **_text-generation_** les tokens les plus utilisés étaient :
+- Pour tâche **_text-generation_** les tokens les plus utilisés sont :
     - **GPTQ** (Accurate Post-Training Quantization) : Une méthode de quantification post-entraînement (PTQ) pour la quantification à 4 bits qui se concentre principalement sur l'inférence et les performances sur GPU, visant à réduire la taille des modèles LLM(Large Language Models).
     - **7B / 13B** : Indiquent respectivement des modèles avec 7 milliards et 13 milliards de paramètres, soulignant la taille croissante et la complexité des modèles de génération de texte.
     - **GGUF** :  une méthode de quantification qui permet aux utilisateurs d'utiliser le CPU pour exécuter un modèle de langage volumineux (LLM) tout en déchargeant certaines de ses couches vers le GPU pour accélérer le processus.
@@ -201,7 +199,7 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
     - **Ner** : (Named Entity Recognition) fait référence à la reconnaissance d'entités nommées, une tâche où le modèle identifie et catégorise des entités telles que  les noms de personnes, les lieux et les organisations dans un texte.
     - **Cased / Uncased** : Indique si le modèle prend en compte la casse (Cased) ou l'ignore (Uncased) lors de la reconnaissance des tokens.
 
-- Pour la tâche **_text-to-images_** : , les tokens les plus utilisés étaient :
+- Pour la tâche **_text-to-images_** : , les tokens les plus utilisés sont :
     - **Lora** : (Low-Rank Adaptation of Large Language Models) Une technique légère de text-to-image qui réduit considérablement le nombre de paramètres entraînables dans un modèle.
     - **Diffusion** : Définit une méthode de génération d'images basée sur une chaîne de diffusion de pas, ajoutant progressivement du bruit aléatoire aux données et apprenant à inverser le processus pour construire des échantillons de données souhaités à partir du bruit.
     - **SDXL** (Stable Diffusion XL) : Une technique améliorant la génération de texte vers image, adoptant une approche en deux étapes avec un modèle de base générant une image et un modèle raffineur ajoutant des détails supplémentaires de haute qualité dans une étape distincte.
@@ -219,10 +217,9 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
   
 c. **_Manipulation des données : Exploration des groupes de tokens_**
 
-Dans le cadre de notre démarche continue pour approfondir notre compréhension des schémas de versionnement, notre manipulation se concentre sur la combinaison des groupes de tokens formant une version (2 ou 3 tokens) au sein de notre ensemble de données.
-Cette approche nous permet d'examiner attentivement les combinaisons les plus fréquemment observées et d'évaluer l'émergence de tendances significatives.
+Pour approfondir notre compréhension des schémas de versionnement, il a été jugé pertinent d'explorer l'existence de combinaisons spécifiques de tokens qui manifestent une récurrence significative à travers différentes versions de modèles.
 
-Notre démarche débute par la génération de combinaisons possibles de tokens entre les modèles, suivi du recensement des occurrences de groupes de tokens partagés. Ensuite, nous identifions les groupes de tokens communs entre les modèles pour chaque tâche, en comptant les occurrences et enregistrant les modèles associés. Enfin, l'exploitation de ces résultats à travers des graphiques à barres empilées nous offre une représentation visuelle des groupes de tokens les plus fréquents, permettant ainsi d'observer la distribution des tokens entre les modèles pour chaque tâche.
+Cette étude a commencé par l'identification de combinaisons potentielles de tokens entre les modèles, suivie d'un recensement des occurrences de ces groupes de tokens partagés. Par la suite, nous avons procédé à l'identification des groupes de tokens communs aux différents modèles pour chaque tâche spécifique, en enregistrant les occurrences et les modèles correspondants. En utilisant ces données, nous avons créé des graphiques à barres empilées pour obtenir une représentation visuelle des groupes de tokens les plus fréquemment observés. Cela a permis d'analyser plus précisément la distribution et la fréquence des tokens parmi les modèles pour chaque tâche définie.
 
 - **_Résultat_**
 
@@ -237,7 +234,7 @@ Notre démarche débute par la génération de combinaisons possibles de tokens 
 
     - **Analyse des combinaisons de trois tokens et plus :** Ces regroupements renforcent notre constat initial, mettant en exergue des progressions sémantiques diversifiées au sein des tokens de versionnement, souvent conjuguées. Cette observation suggère l'existence d'un système de versionnement plus complexe, où plusieurs aspects ou dimensions sont mis à jour simultanément.
 
-Ces résultats, issus d'analyses approfondies, offrent un aperçu plus détaillé des schémas de versionnement. Au-delà de simples indicateurs numériques, les combinaisons de tokens révèlent des informations substantielles sur les types de changements opérés lors du versionnement, contribuant ainsi à une compréhension plus fine des pratiques de gestion des versions dans divers contextes.
+Ces résultats offrent un aperçu plus détaillé des schémas de versionnement. Au-delà de simples indicateurs numériques, les combinaisons de tokens révèlent des informations substantielles sur les types de changements opérés lors du versionnement, contribuant ainsi à une compréhension plus fine des pratiques de gestion des versions dans divers contextes.
 
 **2.3. _Conclusion :_**
 
