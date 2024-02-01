@@ -119,7 +119,7 @@ Cette première expérience nous a permis de confirmer notre hypothèse, avec un
 
 Cependant, il est essentiel de souligner qu'au sein de ces modèles, environ 21% (soit environ 41 000 modèles) semblent explorer des tentatives de versionnement sémantique. Ce nombre important souligne l'intérêt marqué de certains datascientists à établir une structure plus claire et compréhensible pour leurs modèles. Cette observation met en lumière la diversité des pratiques de versionnement au sein de la communauté des datascientists, reflétant peut-être des besoins spécifiques liés à la nature expérimentale de certains projets ou à des préférences individuelles.
 
-Cette variabilité dans les schémas de versionnement souligne l'importance de la flexibilité sur les plateformes de partage de modèles, comme Hugging Face, qui permettent aux datascientists de définir leurs propres conventions. Cette flexibilité revêt une importance particulière dans le domaine de l'apprentissage automatique, caractérisé par des évolutions rapides, des expérimentations fréquentes et des besoins spécifiques liés aux différentes tâches.
+Cette variabilité dans les schémas de versionnement peut être, en partie, attribuée à la flexibilité offerte par les plateformes de partage de modèles, telles que Hugging Face, qui permettent aux data scientists de définir leurs propres conventions de versionnement.
 
 2.  **_Influence de la tâche du modèle sur son versionnement_**
 
