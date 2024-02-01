@@ -96,9 +96,10 @@ Cette démarche  a conduit à la création d'une base de données riche, compren
 **1.1. _Hypothèse : Le versionnement des modèles ne suit pas une
 approche traditionnel - (major,minor,patch)_**
 
+
 L'analyse des modèles sur Hugging Face révèle une particularité dans leur numérotation de version, qui semble s'écarter des schémas classiques de versionnement. Typiquement, le versionnement conventionnel suit un modèle sémantique structuré, basé sur trois niveaux de changement : majeur, mineur et correctif, indiqués respectivement par les chiffres dans le format version majeure.minor.patch (par exemple, 1.2.3).  
-Néanmoins, notre observation des modèles sur Hugging Face a révélé des séquences variées et moins formalisées, comme le motif \d[.-]?\d?bpw[.-]?[h|hB]?\d?[.-]?(exl)?\d?[.-]?\d?, ainsi que des termes spécifiques tels que GPTQ, AWQ, GGUF, GGUML, 3b, 7b, 13b, small, medium, large, base, finetuned.  Ces constatations indiquent un écart potentiel par rapport au cadre de versionnement traditionnel. 
-Cette observation soulève une interrogation cruciale pour notre recherche : les modèles sur Hugging Face suivent-ils un schéma de versionnement traditionnel ou adoptent-ils plutôt une approche de versionnement plus libre et moins structurée ? 
+Néanmoins, notre observation des modèles sur Hugging Face a révélé des séquences variées et moins formalisées avec termes spécifiques tels que GPTQ, AWQ, GGUF, GGUML, 3b, 7b, 13b, small, medium, large, base, finetuned, etc.
+Ces constatations indiquent un écart potentiel par rapport au cadre de versionnement traditionnel. Cette observation soulève une interrogation cruciale pour notre recherche : les modèles sur Hugging Face suivent-ils un schéma de versionnement traditionnel ou adoptent-ils plutôt une approche de versionnement plus libre et moins structurée ? 
 
 **1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
 
