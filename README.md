@@ -217,10 +217,11 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
   
 c. **_Manipulation des données : Exploration des groupes de tokens_**
 
-Dans le cadre de notre démarche continue pour approfondir notre compréhension des schémas de versionnement, notre manipulation se concentre sur la combinaison des groupes de tokens formant une version (2 ou 3 tokens) au sein de notre ensemble de données.
-Cette approche nous permet d'examiner attentivement les combinaisons les plus fréquemment observées et d'évaluer l'émergence de tendances significatives.
+Pour approfondir notre compréhension ces schémas de versionnement, notre analyse se concentre sur les tokens de versions identifiées dans l'expérience précédente.
+L'objectif  est d'établir s'il existe des combinaisons de ces tokens qui présentent une récurrence fréquente au sein des différentes versions de modèles.
 
-Notre démarche débute par la génération de combinaisons possibles de tokens entre les modèles, suivi du recensement des occurrences de groupes de tokens partagés. Ensuite, nous identifions les groupes de tokens communs entre les modèles pour chaque tâche, en comptant les occurrences et enregistrant les modèles associés. Enfin, l'exploitation de ces résultats à travers des graphiques à barres empilées nous offre une représentation visuelle des groupes de tokens les plus fréquents, permettant ainsi d'observer la distribution des tokens entre les modèles pour chaque tâche.
+Notre démarche commence par la recherche de combinaisons potentielles de tokens entre les modèles, suivie du recensement des occurrences de groupes de tokens partagés. Ensuite, nous identifions les groupes de tokens communs entre les modèles pour chaque tâche, en comptant les occurrences et en enregistrant les modèles associés. Enfin, en exploitant ces résultats à travers des graphiques à barres empilées, nous obtenons une représentation visuelle des groupes de tokens les plus fréquemment observés, permettant ainsi d'analyser la distribution des tokens entre les modèles pour chaque tâche.
+
 
 - **_Résultat_**
 
