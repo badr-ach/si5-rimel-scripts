@@ -127,11 +127,11 @@ Nous émettons l'hypothèse selon laquelle la nature de la catégorie d'un modè
 
   **2.2. _Expériences realisées_ :**
 
-Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons réalisé deux étapes distinctes. Dans la première étape, nous avons cherché à identifier les types de tâches pour lesquels les modèles adoptent un versionnement sémantique. Dans la deuxième étape, nous avons exploré l'existence de patterns de versionnement libre, le cas échéant.
+Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons procédé en deux phases distinctes. La première phase visait à déterminer les catégories de tâches pour lesquelles les modèles optent pour un versionnement sémantique. Dans la seconde phase, nous avons examiné l'éventuelle présence de schémas de versionnement libre.
 
 a. **_Etape 1 : Analyse du Versionnement des Modèles par Catégorie de Tâche_**
 
-Dans cette phase, nous avons reproduit la méthodologie de la première expérience pour identifier les modèles adoptant des pratiques de versionnement standard, classés par catégorie. En réutilisant les différents modèles, nous les avons subdivisés en catégories, générant ainsi des graphiques en dispersion illustrant l'adoption du versionnement sémantique par catégorie de modèles. Ces graphiques tiennent compte du nombre de modèles par catégorie et du pourcentage d'adoption du versionnement sémantique, explorant ainsi les tendances et motifs récurrents dans les pratiques de versionnement. Cela met en lumière l'influence potentielle de la tâche des modèles sur ces choix.
+Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés par catégorie, ce qui a permis de créer des graphiques en dispersion représentant l'adoption du versionnement sémantique au sein de chaque catégorie de modèles. Ces graphiques tiennent compte à la fois du nombre de modèles par catégorie et du pourcentage d'adoption du versionnement sémantique.
 
 - **_Résultat_**
 
