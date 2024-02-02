@@ -199,14 +199,14 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
     - **Ner** : (Named Entity Recognition) fait référence à la reconnaissance d'entités nommées, une tâche où le modèle identifie et catégorise des entités telles que  les noms de personnes, les lieux et les organisations dans un texte.
     - **Cased / Uncased** : Indique si le modèle prend en compte la casse (Cased) ou l'ignore (Uncased) lors de la reconnaissance des tokens.
 
-- Pour la tâche **_text-to-images_** : , les tokens les plus utilisés sont :
+- Pour la tâche **_text-to-images_** , les tokens les plus utilisés sont :
     - **Lora** : (Low-Rank Adaptation of Large Language Models) Une technique légère de text-to-image qui réduit considérablement le nombre de paramètres entraînables dans un modèle.
     - **Diffusion** : Définit une méthode de génération d'images basée sur une chaîne de diffusion de pas, ajoutant progressivement du bruit aléatoire aux données et apprenant à inverser le processus pour construire des échantillons de données souhaités à partir du bruit.
     - **SDXL** (Stable Diffusion XL) : Une technique améliorant la génération de texte vers image, adoptant une approche en deux étapes avec un modèle de base générant une image et un modèle raffineur ajoutant des détails supplémentaires de haute qualité dans une étape distincte.
     - **Dreambooth** : Une technique d'entraînement mettant à jour l'ensemble du modèle de diffusion en s'entraînant sur quelques images d'un sujet ou d'un style spécifique.
     - **Style** : Peut indiquer le style de l'image associé au texte lors de la génération d'image.
 
-- Pour **_fill-mask_** :
+- Pour la tâche **_fill-mask_** :
   - Plusieurs tokens ont été mis en œuvre et ont déjà 
     été expliqués à travers 
     les autres tâches qui les utilisent, tels que **Base**, **Bert**, 
