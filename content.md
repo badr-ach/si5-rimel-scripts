@@ -12,7 +12,7 @@ Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia spéci
 
 L'évolution des sciences de la donnée, accompagnées par une intégration progressive des principes DevOps au sein de cette communauté, soulève des questionnements pertinents quant aux méthodologies adoptées pour le versionnement des artefacts, particulièrement les modèles. Notre motivation derrière cette étude réside dans la volonté de démystifier les pratiques actuelles du versionnement des modèles par les data scientists. Comprendre comment ces professionnels gèrent les différentes versions de leurs modèles revêt une importance capitale dans un contexte où l'apprentissage automatique s'insère de plus en plus dans des pipelines de développement logiciel.
 
-Pour mener à bien cette investigation, notre recherche s'intéresse tout d'abord à Mlflow en tant que plateforme open-source, conçue pour aider les praticiens de l'apprentissage automatique à gérer le cycle de vie de leurs modèles d'apprentissage automatique, de l'exploration à la publication du modèle. Etant donné que Mlflow est destiné à un usage professionnel où les modèles sont gardés privés sans accès à une source interne, il ne fournit qu'un regard extérieur sur la façon à laquelle un outil de versionnage pour les scientifiques des données pourrait ressembler, et la conduite de notre recherche se tourne vers Hugging Face, en tant que plateforme publique massive, où les modèles de différents contributeurs sont publiquement disponibles, en particulier ceux des grandes entreprises.
+Pour mener à bien cette investigation, notre recherche s'intéresse tout d'abord à Mlflow en tant que plateforme open-source, conçue pour aider les praticiens de l'apprentissage automatique à gérer le cycle de vie de leurs modèles d'apprentissage automatique, de l'exploration à la publication du modèle. Etant donné que Mlflow est destiné à un usage professionnel où les modèles sont gardés privés sans accès à une source interne, il ne fournit qu'un regard extérieur sur la façon à laquelle un outil de versionnement pour les data scientists pourrait ressembler, et la conduite de notre recherche se tourne vers Hugging Face, en tant que plateforme publique massive, où les modèles de différents contributeurs sont publiquement disponibles, en particulier ceux des grandes entreprises.
 
 #### 1. Exploration de MLflow : 
 
@@ -29,7 +29,7 @@ En ce qui concerne la pratique du versionnage, la gestion des versions dans MLfl
 
 Si l'utilisateur souhaite employer sa propre approche de la version, Mlflow offre d'autres moyens d'attacher une version à un modèleà travers l'utilisation d'alias, de tags et de descriptions :
 
-- Les **_alias_** permettent de pointer vers une version spécifique du modèle, facilitant ainsi le référencement via l'URI models:/<model-name>@<alias>. Ils offrent une référence mutable et nommée à des versions spécifiques, simplifiant leur déploiement.
+- Les **_alias_** permettent de pointer vers une version spécifique du modèle, facilitant ainsi le référencement via l'URI **models:/<model-name>@<alias>**. Ils offrent une référence mutable et nommée à des versions spécifiques, simplifiant leur déploiement.
 - Les **_tags_** permettent de catégoriser les modèles selon leur fonction ou statut.
 - Les **_annotations_** et **_descriptions_** fournissent les descriptions de version, les ensembles de données utilisés, etc.
 
@@ -37,13 +37,13 @@ Si l'utilisateur souhaite employer sa propre approche de la version, Mlflow offr
 
 Hugging Face se positionne comme une plateforme clé pour le partage et la découverte de modèles d'apprentissage automatique. Elle constitue une plateforme de choix pour des data scientists et des grandes entreprises telles que Meta et Google, qui y partagent leurs travaux avec la communauté internationale. À la date de rédaction de cet article, le 1er février 2024, Hugging Face héberge 490,621 modèles, accessibles publiquement, ce qui a joué un rôle déterminant dans le choix de cette plateforme pour notre recherche.
 
-Dans le contexte de notre recherche, où nous nous concentrons sur la façon dont les modèles sont versionnés, Huggin face se positionne comme une plateforme qui offre aux data scientists une grande flexibilité dans les noms des artefacts qu'ils poussent, leur permettant de pousser les versions des modèles sans respecter un pattern particulier. Il est donc très intéressant pour nous de mener notre étude en s'appuyant sur ce hub.
+Dans le contexte de notre recherche, où nous nous concentrons sur la façon dont les modèles sont versionnés, Hugging face se positionne comme une plateforme qui offre aux data scientists une grande flexibilité dans les noms des artefacts qu'ils poussent, leur permettant de pousser les versions des modèles sans respecter un pattern particulier. Il est donc très intéressant pour nous de mener notre étude en s'appuyant sur ce hub.
 
 ## II. Question général
 
 L'objectif fondamental de notre projet de recherche est d'explorer l'adoption des principes DevOps par les data scientists pour le versionnement des modèles.
 
-Ces réflexions nous conduiront à explorer les questions sous-jacentes suivantes :
+Voici les questions sous-jacentes qui en découlent :
 
 1.  **_Est ce que les modèles publiés sur Hugging Face adoptent un schéma de versionnement traditionnel ou part plutôt sur le versionnement libre ?_**
 
@@ -61,7 +61,7 @@ L'éditeur peut être en train de travailler sur cette tâche et à chaque fois 
 
 Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, compte tenu de la diversité des modèles disponibles sur la plateforme Hugging Face. En outre, nous avons veillé à éviter les doublons, afin de garantir la validité et la fiabilité de notre échantillon.
 
-Pour réaliser cela, nous nous sommes appuyés sur le web scraping en exploitant le langage de programmation Python et en faisant appel à des librairies spécialisées telles que BeautifulSoup pour analyser le HTML et les requêtes pour traiter les requêtes HTTP. Cette approche a conduit à la création d'une base de données riche, comprenant quelque 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
+Pour réaliser cela, nous nous sommes appuyés sur le web scraping en exploitant le langage de programmation Python et en utilisant à des librairies telles que BeautifulSoup pour analyser le HTML et les requests pour traiter les requêtes HTTP. Cette approche a conduit à la création d'une base de données riche, comprenant quelque 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
 
 ## IV. Hypothèses, Expériences & Analyse des résultats
 
@@ -92,7 +92,7 @@ Le graphique ci-dessous présente les résultats de l'expérience, illustrant le
 
 Cette première expérience a validé notre hypothèse, démontrant qu'environ 79% des modèles ne se conforment pas au modèle de versionnement traditionnel.
 
-Cependant, il est essentiel de souligner qu'au sein de ces modèles, environ 21% (soit environ 41 000 modèles) semblent explorer des tentatives de versionnement sémantique. Ce nombre important souligne l'intérêt marqué de certains datascientists à établir une structure plus claire et compréhensible pour leurs modèles. Cette observation met en lumière la diversité des pratiques de versionnement au sein de la communauté des datascientists, reflétant peut-être des besoins spécifiques liés à la nature expérimentale de certains projets ou à des préférences individuelles ou peut-être même le manque de maturité de l'adoption des pratiques devops.
+Cependant, il est essentiel de souligner qu'au sein de ces modèles, environ 21% (soit environ 41 000 modèles) semblent explorer des tentatives de versionnement sémantique. Ce nombre important souligne l'intérêt marqué de certains data scientists à établir une structure plus claire et compréhensible pour leurs modèles. Cette observation met en évidence la diversité des pratiques de versionnement au sein de la communauté des data scientists, reflétant peut-être des besoins spécifiques liés à la nature expérimentale de certains projets ou à des préférences individuelles ou peut-être même le manque de maturité de l'adoption des pratiques devops.
 
 Ces variations dans les schémas de versionnement peuvent être en partie expliquées par la flexibilité offerte par les plateformes de partage de modèles, telles que Hugging Face, qui permettent aux data scientists de définir leurs propres conventions de versionnement.
 
@@ -120,7 +120,7 @@ Les résultats graphiques ont clairement démontré que le pourcentage d'adoptio
 
 Le graphique montre une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. Parmi les 42 catégories identifiées, certaines se distinguent en regroupant un nombre de modèles nettement plus élevé que les autres.
 
-Dans ces catégories, on observe un taux d'adoption élevé du versionnement sémantique dans le domaine de l'apprentissage par renforcement ("Reinforcement Learning") avec un pourcentage de **68.80 %**, et dans le domaine de la reconnaissance automatique de la parole ("Automatic Speech Recognition") avec un pourcentage de **46.55 %.** Ces domaines spécifiques montrent une tendance à privilégier un pattern de gestion des versions sémantique. À l'opposé, la majorité des autres catégories présente principalement un taux d'adoption du versionnement sémantique inférieur à 20 %.
+Dans ces catégories, on observe un taux d'adoption élevé du versionnement sémantique dans le domaine de l'apprentissage par renforcement ("Reinforcement Learning") avec un pourcentage de **68.80 %**, et dans le domaine de la reconnaissance automatique de la parole ("Automatic Speech Recognition") avec un pourcentage de **46.55 %**. Ces domaines spécifiques montrent une tendance à privilégier un pattern de gestion des versions sémantique. À l'opposé, la majorité des autres catégories présente principalement un taux d'adoption du versionnement sémantique inférieur à 20 %.
 
 En effet, le domaine du **"Reinforcement Learning"** se caractérise par des modèles d'apprentissage automatique qui interagissent dynamiquement avec leur environnement. Dans ce contexte, les modèles de "Reinforcement Learning" se distinguent par leur capacité à évoluer et à s'adapter à des situations changeantes, nécessitant ainsi des ajustements fréquents pour maintenir des performances optimales. 
 
@@ -155,44 +155,42 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
 - Pour la tâche **_text-classification_**, les tokens les plus utilisés sont :
     - **Base** : ce terme pourrait faire référence à un modèle initial qui n'a pas subi de modifications spécifiques pour la tâche en question. Il s'agit d'un point de départ simple sans ajustements particuliers, utilisé comme référence ou base pour des modèles plus spécialisés.
     - **Finetuned** : Appliqué au processus d'ajustement d'un modèle pré-entraîné sur des données spécifiques à la tâche de text-classification. Cela signifie que le modèle a été adapté pour mieux répondre aux caractéristiques de la classification de texte, améliorant ainsi ses performances sur cette tâche spécifique.
-    - **BERT** : BERT est une architecture de réseau de neurones transformer révolutionnaire pour le traitement du langage naturel. En text-classification, BERT peut servir de modèle pré-entraîné pour capturer les relations contextuelles entre les mots dans un texte, améliorant ainsi les performances de la classification.
+    - **BERT** : (Bidirectional Encoder Representations from Transformers) est une architecture de réseau de neurones transformer révolutionnaire pour le traitement du langage naturel. En text-classification, BERT peut servir de modèle pré-entraîné pour capturer les relations contextuelles entre les mots dans un texte, améliorant ainsi les performances de la classification.
     - **RoBERTa** : Une variante de BERT utilisée de manière similaire en text-classification. Elle élimine certaines composantes de BERT pour des performances optimisées sur des tâches spécifiques, comme la classification de texte.
     - **Classifier / Classification** : Ces termes sont directement liés à la text-classification. Un "classifier" ou un modèle de "classification" est spécifiquement conçu pour attribuer des catégories ou des étiquettes à des documents textuels en fonction de leur contenu.
     - **Sentiment** : En text-classification, la détection de sentiment est courante. Le terme "sentiment" est associé à des modèles conçus pour classer des documents textuels en fonction de l'émotion exprimée.
-    - **Model** : le terme "model" fait référence à l'architecture algorithmique utilisée pour attribuer des catégories ou des étiquettes à des documents textuels en fonction de leur contenu. Le modèle peut être une variante pré-entraînée telle que BERT ou RoBERTa, ou même un modèle de base non modifié.
-
+  
   Nous remarquons que les tokens de version sont présents dans la version pour indiquer la réutilisation d'un certain composant et/ou le progrès dans un aspect particulier de la tâche.
 
 - Pour la tâche **_text-to-text-generation_** les tokens les plus utilisés sont :
     - **Large / Small** : Spécifier "Large" ou "Small" en text-to-text generation permet d'ajuster la taille du modèle en fonction des contraintes de ressources, d'optimiser la complexité du texte généré et de répondre spécifiquement aux besoins de chaque tâche.
-    - **T5** : Text-to-Text Transfer Transformer, une architecture qui unifie différentes tâches en présentant du texte en entrée et en formant le modèle à générer un texte cible.
+    - **T5** : (Text-to-Text Transfer Transformer), une architecture qui unifie différentes tâches en présentant du texte en entrée et en formant le modèle à générer un texte cible.
     - **Base** : Peut désigner la version de base du modèle T5.
-    - **Bart** : Bidirectional and Auto-Regressive Transformers, un autre modèle de traitement du langage naturel conçu pour des tâches de génération de texte.
+    - **Bart** : (Bidirectional and Auto-Regressive Transformers), un autre modèle de traitement du langage naturel conçu pour des tâches de génération de texte.
 
-  De même, nous remarquons que les jetons de version indiquent l'utilisation d'un composant ou d'une architecture particulière, mais aussi, cette fois, sa taille.
+  De même, nous remarquons que les tokens de version indiquent l'utilisation d'un composant ou d'une architecture particulière, mais aussi, cette fois, sa taille.
 
 - Pour tâche **_text-generation_** les tokens les plus utilisés sont :
     - **GPTQ** (Accurate Post-Training Quantization) : Une méthode de quantification post-entraînement (PTQ) pour la quantification à 4 bits qui se concentre principalement sur l'inférence et les performances sur GPU, visant à réduire la taille des modèles LLM(Large Language Models).
     - **7B** et  **13B** : Indiquent respectivement des modèles avec 7 milliards et 13 milliards de paramètres, soulignant la taille croissante et la complexité des modèles de génération de texte.
-    - **GGUF** :  une méthode de quantification qui permet aux utilisateurs d'utiliser le CPU pour exécuter un modèle de langage volumineux (LLM) tout en déchargeant certaines de ses couches vers le GPU pour accélérer le processus.
+    - **GGUF** :  Une méthode de quantification qui permet aux utilisateurs d'utiliser le CPU pour exécuter un modèle de langage volumineux (LLM) tout en déchargeant certaines de ses couches vers le GPU pour accélérer le processus.
     - **AWQ** (Quantification de Poids Consciente de l'Activation) : Une technique de quantification de poids consciente de l'activation utilisée pour la compression et l'accélération des modèles, qui suppose que tous les poids ne sont pas également importants pour les performances d'un modèle de langage volumineux (LLM).
     - **LLMA** (Large Language Model Meta AI) : Un grand modèle linguistique développé par Meta, servant de fondation à plusieurs applications, dont des agents conversationnels.
     - **Chat** : Un token associé aux conversations sur les chats lors de la génération de textes.
 
   Ici, les tokens communiquent de manière évidente le nombre de paramètres du modèle et le format d'emballage choisi.
 
-- Pour la tâche **_token-classification_**, les tokens les plus fréquents et 
-  distingués étaient :
-    - **Ner** : (Named Entity Recognition) fait référence à la reconnaissance d'entités nommées, une tâche où le modèle identifie et catégorise des entités telles que  les noms de personnes, les lieux et les organisations dans un texte.
+- Pour la tâche **_token-classification_**, les tokens les plus fréquents et distingués étaient :
+    - **Ner** : (Named Entity Recognition) Fait référence à la reconnaissance d'entités nommées, une tâche où le modèle identifie et catégorise des entités telles que  les noms de personnes, les lieux et les organisations dans un texte.
     - **Cased / Uncased** : Indique si le modèle prend en compte la casse (Cased) ou l'ignore (Uncased) lors de la reconnaissance des tokens.
 
   Les tokens de version dans ce cas sont assez simples, ils dénotent une sémantique dans la tâche qui est prise en compte par le modèle versionné.
 
-- Pour la tâche **_text-to-images_** , les tokens les plus utilisés sont :
+- Pour la tâche **_text-to-images_**, les tokens les plus utilisés sont :
     - **Lora** : (Low-Rank Adaptation of Large Language Models) Une technique légère de text-to-image qui réduit considérablement le nombre de paramètres entraînables dans un modèle.
     - **Diffusion** : Définit une méthode de génération d'images basée sur une chaîne de diffusion de pas, ajoutant progressivement du bruit aléatoire aux données et apprenant à inverser le processus pour construire des échantillons de données souhaités à partir du bruit.
     - **SDXL** (Stable Diffusion XL) : Une technique améliorant la génération de texte vers image, adoptant une approche en deux étapes avec un modèle de base générant une image et un modèle raffineur ajoutant des détails supplémentaires de haute qualité dans une étape distincte.
-    - **Dreambooth** : Une technique d'entraînement mettant à jour l'ensemble du modèle de diffusion en s'entraînant sur quelques images d'un sujet ou d'un style spécifique.
+    - **Dreambooth** : Une technique d'entraînement mettant à jour l'ensemble du modèle en s'entraînant sur quelques images d'un sujet ou d'un style spécifique.
     - **Style** : Peut indiquer le style de l'image associé au texte lors de la génération d'image.
 
   Cette fois-ci, il s'agit de choix technologiques rattachés à la version elle-même.
@@ -205,7 +203,7 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
   - En effet, **_fill-mask_** fait référence à un type spécifique de modèle NLP 
    capable de remplir les espaces réservés (masques) dans une phrase ou un texte, souvent basé sur des réseaux de neurones, en particulier les transformers. Cela explique l'usage de ces tokens dans le contexte de fill-mask où le modèle est entraîné pour compléter les parties manquantes dans un texte donné.
 
-En conclusion, il semble que les data scientistes communiquent les fonctionnalités, le comportement et d'autres aspects des modèles par le biais de leurs versions. Cela varie naturellement d'une tâche à l'autre, ce qui rend la catégorie du modèle très importante dans ce sens.
+En conclusion, il semble que les data scientists communiquent les fonctionnalités, le comportement et d'autres aspects des modèles par le biais de leurs versions. Cela varie naturellement d'une tâche à l'autre, ce qui rend la catégorie du modèle très importante dans ce sens.
   
 c. **_Manipulation des données : Exploration des groupes de tokens_**
 
@@ -234,11 +232,11 @@ En conclusion, il est possible d'affirmer qu'aucun modèle de versionnement n'es
 
 3.  **_Tendances de versionnement dans les grandes entreprises_**
 
-  3.1. **_Hypothèse : Les grandes entreprises standardise leurs manière > de versionner les modèles ML en interne_**
+  3.1. **_Hypothèse : Les grandes entreprises standardise leurs manières de versionner les modèles ML en interne_**
 
 Nous formulons l'hypothèse que les grandes entreprises ont tendance à standardiser leur approche de versionnement pour les modèles d'apprentissage automatique en interne. Cette hypothèse suggère que, au sein de ces grandes structures, il existe probablement des pratiques et des normes établies vis-à-vis du processus de gestion des versions des modèles d'apprentissage automatique.
 
-  3.2. **_Expérience : Analyse des modèles ceux publié par Google, > OpenAI et Meta, individuellement, et extraction des patterns > adoptée._**
+  3.2. **_Expérience : Analyse des modèles ceux publié par Google, OpenAI et Meta, individuellement, et extraction des patterns adoptés._**
 
 Au cours de cette étude, nous avons spécifiquement sélectionné les entreprises les plus renommées du secteur. Dans cette perspective, notre recherche se concentrera exclusivement sur les artefacts de modèles publiés par Google, Facebook/Meta, et OpenAI, en tenant compte de la variabilité du nombre de modèles. Google a mis à disposition 617 modèles, Facebook/Meta en a partagé 1879, et OpenAI en compte 32. Notre approche pour cette expérience suivra le même protocole que celui de l'expérience 2, visant à identifier les tokens les plus fréquemment utilisés.
 
