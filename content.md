@@ -1,4 +1,4 @@
-# Are Datascientists Embracing DevOps Principles for Model Versioning?
+# Are Datascientists embracing DevOps principles for Model versioning?
 
 ## Auteurs
 
