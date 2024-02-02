@@ -35,7 +35,7 @@ En ce qui concerne la pratique du versionnage, la gestion des versions dans MLfl
 
 Si l'utilisateur souhaite employer sa propre approche de la version, Mlflow offre d'autres moyens d'attacher une version à un modèleà travers l'utilisation d'alias, de tags et de descriptions :
 
-- Les **_alias_** permettent de pointer vers une version spécifique du modèle, facilitant ainsi le référencement via l'URI **models:/<model-name>@<alias>**. Ils offrent une référence mutable et nommée à des versions spécifiques, simplifiant leur déploiement.
+- Les **_alias_** permettent de pointer vers une version spécifique du modèle. Ils offrent une référence mutable et nommée à des versions spécifiques.
 - Les **_tags_** permettent de catégoriser les modèles selon leur fonction ou statut.
 - Les **_annotations_** et **_descriptions_** fournissent les descriptions de version, les ensembles de données utilisés, etc.
 
