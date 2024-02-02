@@ -82,7 +82,7 @@ Ces réflexions nous conduiront à explorer les questions sous-jacentes suivante
 
 ## III. Collecte de Données : Méthodes et Outils
 
-Hugging Face abrite une vaste collection de plus de 400 000 modèles. Notre recherche a adopté une approche sélective en mettant en avant les modèles dotés de tags. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, étant donné la diversité des modèles disponibles sur la plateforme Hugging Face. De plus, nous avons veillé à éviter les doublons de modèles, assurant ainsi la validité et la fiabilité de notre échantillon.
+Notre recherche a adopté une approche sélective en mettant en avant les modèles dotés de tags sur Hugging Face. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, étant donné la diversité des modèles disponibles sur la plateforme Hugging Face. De plus, nous avons veillé à éviter les doublons de modèles, assurant ainsi la validité et la fiabilité de notre échantillon.
 Pour ce faire, nous avons utilisé la technique de web scraping, en exploitant le langage de programmation Python et en faisant appel à des bibliothèques spécialisées telles que BeautifulSoup pour analyser le HTML et requests pour gérer les requêtes HTTP. 
 Cette démarche  a conduit à la création d'une base de données riche, comprenant environ 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
 
