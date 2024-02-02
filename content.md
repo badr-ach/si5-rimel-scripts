@@ -56,7 +56,7 @@ travers l'utilisation d'alias, de tags et de descriptions :
 - Les **_annotations_** et **_descriptions_** en Markdown fournissent les descriptions de version, les
   ensembles de données utilisés, etc.
 
-Cependant, au cours de notre exploration des modèles et du processus de versionnement, nous avons constaté que MLflow est principalement adopté par des entreprises, et aucune d'entre elles ne rend publics leurs modèles, entravant ainsi notre accès à des projets et modèles versionnés pour une analyse approfondie.
+Cependant, au cours de notre exploration, nous avons constaté que MLflow est principalement adopté par des entreprises, et aucune d'entre elles ne rend publics leurs modèles, entravant ainsi notre accès à des projets et modèles versionnés pour une analyse approfondie.
 
 #### 2. Exploration de Hugging Face :
 
