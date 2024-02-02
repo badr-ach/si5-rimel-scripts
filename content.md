@@ -31,9 +31,9 @@ versions des modèles.
 Pour répondre à ces questions cruciales, nous avons consulté la documentation officielle de MLflow et nous nous sommes appuyés sur les résultats validés par plusieurs articles scientifiques, dont les références sont soigneusement documentées dans notre bibliographie.
 
 MLflow enregistre les modèles sous forme d'artefacts, utilisant divers
-formats appelés "flavors", qui correspondent à différents formats
-spécifiques de bibliothèques de machine learning, tels que TensorFlow,
-PyTorch, Scikit-Learn. Ces modèles sont organisés dans un "registre"
+formats appelés "flavors". Ces flavors, correspondant à différentes bibliothèques de machine learning telles que TensorFlow, PyTorch et Scikit-Learn, sont des spécifications qui définissent comment charger et servir un modèle entraîné avec une bibliothèque spécifique en MLflow.
+
+Les modèles en MLflow sont organisés dans un "registre"
 structuré, chacun possédant un nom unique, des versions, des étapes de
 transition (telles que développement, production, archivage) et
 d'autres métadonnées.
