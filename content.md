@@ -276,8 +276,9 @@ Machine Learning Life Cycle with MLflow. United Kingdom: Packt Publishing.
 - Wolf, Thomas, et al. "Huggingface's transformers: State-of-the-art natural language processing." arXiv preprint arXiv:1910.03771 (2019).
 
 #### Les modèles de machines learning :
-- Bert : ![https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel.)
+- Bert : [https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel.)
 - GPTQ Accurate Post-Training Quantization : https://arxiv.org/pdf/2210.17323.pdf
 - GPTQ vs. GGUF vs. AWQ : https://maartengrootendorst.substack.com/p/which-quantization-method-is-right
 - Dreambooth : https://www.dreambooth.fr/
-- Automatic Speech Recognition : ![https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel)
+- Automatic Speech Recognition : [https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel)
+
