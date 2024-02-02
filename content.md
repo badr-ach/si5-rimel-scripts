@@ -260,6 +260,12 @@ L'analyse des données obtenues a révélé ce qui suit :
 
 Nous observons l'identification de tokens spécifiques liés à la nature des modèles tels que "medium", "large", "base", "small", ou "base". Cependant, aucune tendance claire de versionnement n'a été repérée à l'échelle globale de l'entreprise.
 
+4.  **_Limites trouvées_**
+   
+Les expériences menées ont suscité notre intérêt pour examiner l'historique des téléchargements des différentes versions, dans le but d'obtenir des informations significatives sur la pertinence et l'adoption des versions antérieures. Ceci aurait permis d'identifier si les utilisateurs préfèrent les versions récentes ou s'ils continuent d'utiliser les anciennes.
+
+Toutefois, la plateforme Hugging Face n'inclut pas les détails de téléchargement des modèles. Cette contrainte a limité notre capacité à analyser en profondeur les tendances de versionnement et les préférences d'utilisation.
+
 ## V. Conclusion
 
 En résumé, notre analyse révèle une grande diversité au sein de la communauté des data scientists en ce qui concerne l'implémentation du versionnement des modèles. Plutôt que de suivre un processus défini, il est fréquent d'observer une approche individualisée, laissant chacun libre de déterminer ses propres méthodes en fonction de ses besoins spécifiques. Cette liberté opérationnelle, bien que reflétant la nature adaptable de la science des données, entraîne souvent une non-conformité marquée aux normes établies par DevOps.
