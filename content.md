@@ -80,7 +80,7 @@ Ces réflexions nous conduiront à explorer les questions sous-jacentes suivante
 
 3.  **_Existe-t-il des tendances de versionnement spécifiques dans les grandes entreprises utilisant Hugging Face?_**
 
-## III. Collecte de Données : Méthodes et Outils
+## III. Collecte de Données : méthodes et outils
 
 Notre recherche a adopté une approche sélective en mettant en avant les modèles dotés de tags (représentant le type de tâche du modèle) sur Hugging Face. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, étant donné la diversité des modèles disponibles sur la plateforme Hugging Face. De plus, nous avons veillé à éviter les doublons de modèles, assurant ainsi la validité et la fiabilité de notre échantillon.
 Pour ce faire, nous avons utilisé la technique de web scraping, en exploitant le langage de programmation Python et en faisant appel à des bibliothèques spécialisées telles que BeautifulSoup pour analyser le HTML et requests pour gérer les requêtes HTTP. 
@@ -89,8 +89,8 @@ Cette démarche  a conduit à la création d'une base de données riche, compren
 
 ## IV. Hypothèses, Expériences & Analyse des résultats
 
-1. **_Adoption du Versionnement Traditionnel vs Versionnement Libre des
-    Modèles_**
+1. **_Adoption du versionnement traditionnel vs versionnement libre des
+    modèles_**
 
 **1.1. _Hypothèse : Le versionnement des modèles ne suit pas une
 approche traditionnel - (major,minor,patch)_**
@@ -131,7 +131,7 @@ Nous émettons l'hypothèse selon laquelle la nature de la catégorie d'un modè
 
 Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons procédé en deux phases distinctes. La première phase visait à déterminer les catégories de tâches pour lesquelles les modèles optent pour un versionnement sémantique. Dans la seconde phase, nous avons examiné l'éventuelle présence de schémas de versionnement libre.
 
-a. **_Etape 1 : Analyse du Versionnement des Modèles par Catégorie de Tâche_**
+a. **_Etape 1 : Analyse du versionnement des modèles par catégorie de tâche_**
 
 Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés par catégories,  permettant ainsi la création d'un graphique reflétant à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique pour chacun d'entre eux.
 
@@ -242,7 +242,7 @@ Cette étude a commencé par l'identification de combinaisons potentielles de to
 
 En conclusion, il est possible d'affirmer qu'aucun modèle de versionnement n'est unanimement adopté et accepté dans aucune catégorie. De nombreux schémas de versionnement sont détectés, mais leur occurrence est très infime pour être considérée comme une norme.
 
-3.  **_Tendances de Versionnement dans les Grandes Entreprises_**
+3.  **_Tendances de versionnement dans les grandes entreprises_**
 
   3.1. **_Hypothèse : Les grandes entreprises standardise leurs manière > de versionner les modèles ML en interne_**
 
