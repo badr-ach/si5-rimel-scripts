@@ -223,7 +223,7 @@ Cette étude a commencé par l'identification de combinaisons potentielles de to
 
 - **_Résultat_**
 
-![ratio global](./images/stacked_barcharts/stacked_barcharts.png)
+![ratio global](./images/stacked_barcharts.png)
 
 - **_Analyse des résultats_**
 
