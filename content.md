@@ -97,7 +97,7 @@ approche traditionnel - (major,minor,patch)_**
 
 
 L'analyse des modèles sur Hugging Face révèle une particularité dans leur numérotation de version, qui semble s'écarter des schémas classiques de versionnement. Typiquement, le versionnement conventionnel suit un modèle sémantique structuré, basé sur trois niveaux de changement : majeur, mineur et correctif, indiqués respectivement par les chiffres dans le format version majeure.minor.patch (par exemple, 1.2.3).  
-Néanmoins, notre observation des modèles sur Hugging Face a révélé la récurrence de séquences diverses, telles que GPTQ, AWQ, GGUF, GGUML, 3b, 7b, 13b, small, medium, large, base, finetuned, et d'autres encore.
+Néanmoins, notre observation des modèles sur Hugging Face a révélé la récurrence de séquences diverses, telles que GPTQ, AWQ, 7b, 13b, small, medium, large, base, et d'autres encore.
 Ces constatations indiquent un écart potentiel par rapport au cadre de versionnement traditionnel. Cette observation soulève une interrogation cruciale pour notre recherche : les modèles sur Hugging Face suivent-ils un schéma de versionnement traditionnel ou adoptent-ils plutôt une approche de versionnement plus libre et moins structurée ? 
 
 **1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
