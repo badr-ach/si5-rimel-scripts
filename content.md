@@ -61,7 +61,7 @@ Cependant, au cours de notre exploration des modèles et du processus de version
 
 #### 2. Exploration de Hugging Face :
 
-Hugging Face se positionne comme une plateforme clé pour le partage et la découverte de modèles d'apprentissage automatique. Elle constitue une plateforme de choix pour des data scientists et des entreprises de renom telles que Meta et Google, qui y partagent leurs travaux avec la communauté internationale. À la date de rédaction de cet article, le 1er février 2024, Hugging Face héberge 490,621 modèles, accessibles publiquement, ce qui a joué un rôle déterminant dans le choix de cette plateforme pour notre recherche.
+Hugging Face se positionne comme une plateforme clé pour le partage et la découverte de modèles d'apprentissage automatique. Elle constitue une plateforme de choix pour des data scientists et des grandes entreprises telles que Meta et Google, qui y partagent leurs travaux avec la communauté internationale. À la date de rédaction de cet article, le 1er février 2024, Hugging Face héberge 490,621 modèles, accessibles publiquement, ce qui a joué un rôle déterminant dans le choix de cette plateforme pour notre recherche.
 
 Notre recherche s'est concentrée sur la façon dont les modèles et leurs versions sont nommés et gérés sur Hugging Face. Selon sa documentation officielle, la plateforme offre une grande flexibilité aux data scientists pour le nommage de leurs modèles, facilitant ainsi leur identification et leur gestion.
 
@@ -82,7 +82,7 @@ Ces réflexions nous conduiront à explorer les questions sous-jacentes suivante
 
 ## III. Collecte de Données : Méthodes et Outils
 
-Notre recherche a adopté une approche sélective en mettant en avant les modèles dotés de tags sur Hugging Face. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, étant donné la diversité des modèles disponibles sur la plateforme Hugging Face. De plus, nous avons veillé à éviter les doublons de modèles, assurant ainsi la validité et la fiabilité de notre échantillon.
+Notre recherche a adopté une approche sélective en mettant en avant les modèles dotés de tags (représentant le type de tâche du modèle) sur Hugging Face. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, étant donné la diversité des modèles disponibles sur la plateforme Hugging Face. De plus, nous avons veillé à éviter les doublons de modèles, assurant ainsi la validité et la fiabilité de notre échantillon.
 Pour ce faire, nous avons utilisé la technique de web scraping, en exploitant le langage de programmation Python et en faisant appel à des bibliothèques spécialisées telles que BeautifulSoup pour analyser le HTML et requests pour gérer les requêtes HTTP. 
 Cette démarche  a conduit à la création d'une base de données riche, comprenant environ 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
 
@@ -96,13 +96,15 @@ Cette démarche  a conduit à la création d'une base de données riche, compren
 approche traditionnel - (major,minor,patch)_**
 
 
-L'analyse des modèles sur Hugging Face révèle une particularité dans leur numérotation de version, qui semble s'écarter des schémas classiques de versionnement. Typiquement, le versionnement conventionnel suit un modèle sémantique structuré, basé sur trois niveaux de changement : majeur, mineur et correctif, indiqués respectivement par les chiffres dans le format version majeure.minor.patch (par exemple, 1.2.3).  
+L'analyse des modèles sur Hugging Face révèle une particularité dans leur numérotation de version, qui semble s'écarter des schémas classiques de versionnement. Typiquement, le versionnement conventionnel suit un modèle sémantique structuré, basé sur trois niveaux de changement : majeur, mineur et correctif, indiqués respectivement par les chiffres dans le format version majeure.minor.patch.  
 Néanmoins, notre observation des modèles sur Hugging Face a révélé la récurrence de séquences diverses, telles que GPTQ, AWQ, 7b, 13b, small, medium, large, base, et d'autres encore.
 Ces constatations indiquent un écart potentiel par rapport au cadre de versionnement traditionnel. Cette observation soulève une interrogation cruciale pour notre recherche : les modèles sur Hugging Face suivent-ils un schéma de versionnement traditionnel ou adoptent-ils plutôt une approche de versionnement plus libre et moins structurée ? 
 
 **1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
 
-Dans cette expérience, notre attention a été exclusivement axée sur l'analyse des noms des modèles, lesquels renfermaient la version. Afin de distinguer les nuances de versionnement sémantique au sein de ces appellations, nous avons choisi d'utiliser un format particulier fondé sur des motifs fréquemment observés, tels que (vX, vX.X, vX-X, vX.X.X, etc.).
+
+Dans cette expérience, notre attention a été exclusivement centrée sur l'analyse des noms des modèles, qui contenaient des informations sur la version. Afin de discerner les nuances du versionnement sémantique au sein de ces appellations, nous avons choisi d'adopter un format spécifique basé sur des motifs fréquemment rencontrés, tels que (vX, vX.X, vX-X, vX.X.X, etc.). Cette approche a nécessité l'utilisation d'une expression régulière (regex) bien définie, à savoir "[vV]\d[.-]?\d?[.-]?\d?", pour détecter les différents formats de versionnement.
+
 Notre objectif était de calculer le pourcentage de modèles adoptant une approche de versionnement sémantique parmi l'échantillon analysé. 
 
 Les résultats obtenus ont été représentés graphiquement sous la forme d'un diagramme circulaire, offrant ainsi une perspective visuelle sur la fréquence des modèles présentant un versionnement sémantique par rapport à ceux ne manifestant pas de versionnement apparent.
@@ -131,7 +133,7 @@ Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur
 
 a. **_Etape 1 : Analyse du Versionnement des Modèles par Catégorie de Tâche_**
 
-Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés par catégorieermettant l'élaboration d'un graphique qui dépeint le niveau d'adoption du versionnement sémantique par catégorie de modèles. e graphique reflète à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique.
+Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont ensuite été regroupés par catégories,  permettant ainsi la création d'un graphique reflétant à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique pour chacun d'entre eux.
 
 - **_Résultat_**
 
@@ -142,13 +144,15 @@ Les résultats graphiques ont clairement démontré que le pourcentage d'adoptio
 - **_Analyse des résultats_**
 
 Le graphique souligne une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. 
- Parmi les 42 catégories identifiées, certaines se distinguent en regroupant un nombre de modèles nettement plus élevé que les autres.
+Parmi les 42 catégories identifiées, certaines se distinguent en regroupant un nombre de modèles nettement plus élevé que les autres.
 
 Dans ces catégories, on observe un taux d'adoption élevé du versionnement sémantique, en particulier dans les domaines de l'apprentissage par renforcement ("Reinforcement Learning") avec un pourcentage de 68.80 %, et de la reconnaissance automatique de la parole ("Automatic Speech Recognition") avec un pourcentage de 46.55 %. Ces domaines spécifiques montrent une tendance à privilégier un modèle de gestion des versions sémantique. À l'opposé, la majorité des autres catégories présente principalement un taux d'adoption du versionnement sémantique inférieur à 20 %.
 
 En effet, le domaine du "Reinforcement Learning" se caractérise par des modèles d'apprentissage automatique qui interagissent dynamiquement avec leur environnement. Dans ce contexte, les modèles apprennent en prenant des décisions successives afin de maximiser une récompense cumulative. Cette approche d'apprentissage continu est particulièrement adaptée à des environnements complexes et dynamiques, où les modèles doivent s'ajuster constamment pour relever des défis émergents. Les modèles de "Reinforcement Learning" se distinguent par leur capacité à évoluer et à s'adapter à des situations changeantes, nécessitant ainsi des ajustements fréquents pour maintenir des performances optimales. 
 
 D'autre part, dans le domaine de "Automatic Speech Recognition" (ASR), il s'agit d'une technologie dédiée à la reconnaissance automatique de la parole. Les modèles inclus dans cette catégorie sont spécifiquement conçus pour traiter des données audio, cherchant à interpréter et comprendre la parole humaine de manière automatisée. Les modèles ASR sont continuellement soumis à des améliorations afin d'affiner leur capacité à comprendre de manière précise les variations de la parole humaine. Ces améliorations constantes peuvent inclure des ajustements dans la compréhension des accents, la gestion des bruits de fond et l'adaptation à des langues spécifiques. La nature même des données audio implique une nécessité fréquente de mise à jour pour rester à jour avec les évolutions linguistiques et technologiques.
+
+Ainsi, l'adoption du versionnement sémantique dans ces deux catégories peut fournir une approche structurée pour gérer les modifications et les mises à jour fréquentes nécessaires à l'amélioration continue des modèles. Cela facilite le maintien d'une traçabilité transparente des évolutions successives dans ces domaines en constante évolution, offrant ainsi une gestion plus claire des changements itératifs.
 
 b. **_Etape 2 : Exploration des schémas libres pour les catégories de modèles_**
 
@@ -167,7 +171,7 @@ En outre, les identifiants numériques ont été délibérément exclus de notre
 
 - **_Analyse des résultats_**
 
-[Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés, et d'apres des recherches sur des documentations a propos les methodes et les techniques de chque categories nous avons trouve un lien entre la tache et ses token utilises .
+Les résultats suggèrent que chaque type de modèle possède des tokens spécifiques qui lui sont associés. Suite à des recherches approfondies dans la documentation concernant les méthodes et les techniques de chaque catégorie, nous avons identifié un lien entre la tâche et les tokens utilisés.
 
 Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien comprendre la stratégie de versionnement.
 
@@ -238,7 +242,6 @@ Cette étude a commencé par l'identification de combinaisons potentielles de to
 
 En conclusion, il est possible d'affirmer qu'aucun modèle de versionnement n'est unanimement adopté et accepté dans aucune catégorie. De nombreux schémas de versionnement sont détectés, mais leur occurrence est très infime pour être considérée comme une norme.
 
-
 3.  **_Tendances de Versionnement dans les Grandes Entreprises_**
 
   3.1. **_Hypothèse : Les grandes entreprises standardise leurs manière > de versionner les modèles ML en interne_**
@@ -260,6 +263,7 @@ Nous observons l'identification de tokens spécifiques liés à la nature des mo
 ## V. Conclusion
 
 En résumé, notre analyse révèle une grande diversité au sein de la communauté des data scientists en ce qui concerne l'implémentation du versionnement des modèles. Plutôt que de suivre un processus défini, il est fréquent d'observer une approche individualisée, laissant chacun libre de déterminer ses propres méthodes en fonction de ses besoins spécifiques. Cette liberté opérationnelle, bien que reflétant la nature adaptable de la science des données, entraîne souvent une non-conformité marquée aux normes établies par DevOps.
+
 ## Références
 MLflow :
 - Documentation officielle de MLflow : https://mlflow.org/docs/latest/index.html
