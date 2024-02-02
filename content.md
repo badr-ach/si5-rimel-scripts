@@ -33,7 +33,7 @@ Pour garder une trace de ces artefacts, les modèles MLflow sont organisés dans
 
 En ce qui concerne la pratique du versionnage, la gestion des versions dans MLflow est automatisée et standardisée par défaut : lorsqu'un modèle est poussé dans le registre, le premier enregistrement est marqué comme v1, et chaque nouvel enregistrement sous le même nom incrémente automatiquement le numéro de version.
 
-Si l'utilisateur souhaite employer sa propre version, Mlflow offre d'autres moyens d'attacher une version à un modèleà travers l'utilisation d'alias, de tags et de descriptions :
+Si l'utilisateur souhaite employer sa propre version, Mlflow offre d'autres moyens d'attacher une version à un modèle à travers l'utilisation d'alias, de tags et de descriptions :
 
 - Les **_alias_** permettent de pointer vers une version spécifique du modèle. Ils offrent une référence mutable et nommée à des versions spécifiques.
 - Les **_tags_** permettent de catégoriser les modèles selon leur fonction ou statut.
@@ -45,7 +45,7 @@ Hugging Face se positionne comme une plateforme clé pour le partage et la déco
 
 Dans le contexte de notre recherche, où nous nous concentrons sur la façon dont les modèles sont versionnés, Hugging face se positionne comme une plateforme qui offre aux data scientists une grande flexibilité dans les noms des artefacts qu'ils poussent, leur permettant de pousser les versions des modèles sans respecter un pattern particulier. Il est donc très intéressant pour nous de mener notre étude en s'appuyant sur ce hub.
 
-## II. Question général
+## II. Question générale
 
 L'objectif fondamental de notre projet de recherche est d'explorer l'adoption des principes DevOps par les data scientists pour le versionnement des modèles.
 
@@ -57,11 +57,11 @@ Voici les questions sous-jacentes qui en découlent :
 
 3.  **_Existe-t-il des tendances de versionnement spécifiques dans les grandes entreprises utilisant Hugging Face?_**
 
-## III. Collecte de données : méthodes et outils
+## III. Collecte des données : méthodes et outils
 
-Notre recherche a adopté une approche sélective, en se concentrant uniquement sur les modèles avec des tags qui représentent la tâche du modèle dans Hugging Face.  Le raisonnement derrière cela est qu'un modèle qui a été poussé vers ce hub public avec un tag aura probablement plus d'une apparition dans le hub.  L'éditeur peut être en train de travailler sur cette tâche et à chaque fois il poussera de nouvelles versions de son modèle amélioré : avoir un but donne un avenir. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, compte tenu de la diversité des modèles disponibles sur la plateforme Hugging Face. En outre, nous avons veillé à éviter les doublons, afin de garantir la validité et la fiabilité de notre échantillon.
+Nous sommes partis collecter des données de Hugging Face. Notre recherche a adopté une approche sélective, en se concentrant uniquement sur les modèles avec des tags qui représentent la tâche du modèle dans Hugging Face. Le raisonnement derrière cela est qu'un modèle qui a été poussé vers ce hub public avec un tag aura probablement plus d'une seule apparition dans le hub.  L'éditeur peut être en train de travailler sur cette tâche et à chaque fois il poussera de nouvelles versions de son modèle amélioré : avoir un but donne un avenir. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, compte tenu de la diversité des modèles disponibles sur la plateforme Hugging Face. En outre, nous avons veillé à éviter les doublons, afin de garantir la validité et la fiabilité de notre échantillon.
 
-Pour réaliser cela, nous nous sommes appuyés sur le web scraping en exploitant le langage de programmation Python et en utilisant à des librairies telles que BeautifulSoup pour analyser le HTML et les requests pour traiter les requêtes HTTP. Cette approche a conduit à la création d'une base de données riche, comprenant quelque 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
+Pour réaliser cela, nous nous sommes appuyés sur le web scraping en exploitant le langage de programmation Python et en utilisant à des librairies telles que BeautifulSoup pour analyser le HTML et les requests pour traiter les requêtes HTTP. Cette approche a conduit à la création d'une base de données riche, comprenant 230 000 modèles, qui constituent une ressource abondante et adéquate pour répondre aux questions de notre étude de recherche.
 
 ## IV. Hypothèses, expériences & analyse des résultats
 
@@ -104,11 +104,11 @@ Nous émettons l'hypothèse selon laquelle la nature de la tâche d'un modèle i
 
   **2.2. _Expériences réalisées_ :**
 
-Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons procédé en deux phases distinctes. La première phase visait à déterminer les catégories de tâches pour lesquelles les modèles optent pour un versionnement sémantique. Dans la seconde phase, nous avons examiné l'éventuelle présence de schémas de versionnement libre.
+Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons procédé en deux phases distinctes. La première phase visait à déterminer les catégories de tâches pour lesquelles les modèles suivent un versionnement sémantique. Dans la seconde phase, nous avons examiné l'éventuelle présence de schémas de versionnement libre.
 
 **2.2.1 _Etape 1 : Analyse du versionnement des modèles par type de tâche_**
 
-Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont été ensuite regroupés par catégories, permettant ainsi la création d'un graphique reflétant à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique pour chacun d'entre eux.
+Au cours de cette phase, nous nous sommes concentrés sur les modèles qui suivent un versionnement sémantique et qu'on a identifiées dans la première expérience. Ces modèles ont été ensuite regroupés par catégories, permettant ainsi la création d'un graphique reflétant à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique pour chacun d'entre eux.
 
 - **_Résultat_**
 
