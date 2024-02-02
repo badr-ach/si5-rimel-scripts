@@ -1,4 +1,10 @@
-# Are Datascientists embracing DevOps principles for Model versioning?
+---
+layout: default
+title : Are Datascientists embracing DevOps principles for Model versioning ?
+date:   2024-02
+---
+
+**_02 février 2024_**
 
 ## Auteurs
 
@@ -100,7 +106,7 @@ Nous émettons l'hypothèse selon laquelle la nature de la tâche d'un modèle i
 
 Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons procédé en deux phases distinctes. La première phase visait à déterminer les catégories de tâches pour lesquelles les modèles optent pour un versionnement sémantique. Dans la seconde phase, nous avons examiné l'éventuelle présence de schémas de versionnement libre.
 
-2.2.1 **_Etape 1 : Analyse du versionnement des modèles par type de tâche_**
+**2.2.1 _Etape 1 : Analyse du versionnement des modèles par type de tâche_**
 
 Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont été ensuite regroupés par catégories, permettant ainsi la création d'un graphique reflétant à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique pour chacun d'entre eux.
 
@@ -122,7 +128,7 @@ D'autre part, **"Automatic Speech Recognition" (ASR)** s'agit d'une technologie 
 
 Ainsi, il semble logique d'adopter un versionnement sémantique dans ces deux catégories afin d'aboutir à une approche structurée pour gérer les modifications et les mises à jour fréquentes nécessaires à l'amélioration continue des modèles. Cela facilite le maintien d'une traçabilité transparente des évolutions successives dans ces domaines en constante évolution.
 
-2.2.2 **_Etape 2 : Exploration des schémas libres pour les catégories de modèles_**
+**2.2.2. _Etape 2 : Exploration des schémas libres pour les catégories de modèles_**
 
 L'objectif de cette deuxième étape est de déterminer si chaque catégorie des modèles adopte un patterns spécifiques qui lui sont propres. Pour ce faire, nous avons exclu les deux catégories "Automatic Speech Recognition" et "Reinforcement Learning", qui présentent un niveau d'adoption du versionnement sémantique important. 
 
@@ -270,9 +276,9 @@ Machine Learning Life Cycle with MLflow. United Kingdom: Packt Publishing.
 - Wolf, Thomas, et al. "Huggingface's transformers: State-of-the-art natural language processing." arXiv preprint arXiv:1910.03771 (2019).
 
 #### Les modèles d'apprentissage automatique :
+- Automatic Speech Recognition : [https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel)
+- Reinforcement Learning : https://www.turing.com/kb/reinforcement-learning-algorithms-types-examples
 - Bert : [https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel.)
 - GPTQ Accurate Post-Training Quantization : https://arxiv.org/pdf/2210.17323.pdf
 - GPTQ vs. GGUF vs. AWQ : https://maartengrootendorst.substack.com/p/which-quantization-method-is-right
 - Dreambooth : https://www.dreambooth.fr/
-- Automatic Speech Recognition : [https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel)
-
