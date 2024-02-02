@@ -51,7 +51,7 @@ Voici les questions sous-jacentes qui en découlent :
 
 3.  **_Existe-t-il des tendances de versionnement spécifiques dans les grandes entreprises utilisant Hugging Face?_**
 
-## III. Collecte de Données : méthodes et outils
+## III. Collecte de données : méthodes et outils
 
 Notre recherche a adopté une approche sélective, en se concentrant uniquement sur les modèles avec des tags qui représentent la tâche du modèle dans Hugging Face. 
 
@@ -63,7 +63,7 @@ Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les 
 
 Pour réaliser cela, nous nous sommes appuyés sur le web scraping en exploitant le langage de programmation Python et en utilisant à des librairies telles que BeautifulSoup pour analyser le HTML et les requests pour traiter les requêtes HTTP. Cette approche a conduit à la création d'une base de données riche, comprenant quelque 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
 
-## IV. Hypothèses, Expériences & Analyse des résultats
+## IV. Hypothèses, expériences & analyse des résultats
 
 1. **_Adoption du versionnement traditionnel vs versionnement libre des modèles_**
 
@@ -106,7 +106,7 @@ Nous émettons l'hypothèse selon laquelle la nature de la tâche d'un modèle i
 
 Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons procédé en deux phases distinctes. La première phase visait à déterminer les catégories de tâches pour lesquelles les modèles optent pour un versionnement sémantique. Dans la seconde phase, nous avons examiné l'éventuelle présence de schémas de versionnement libre.
 
-a. **_Etape 1 : Analyse du versionnement des modèles par type de tâche_**
+2.2.1 **_Etape 1 : Analyse du versionnement des modèles par type de tâche_**
 
 Au cours de cette phase, nous nous sommes concentrés sur les modèles ayant adopté les pratiques de versionnement sémantique identifiées dans la première expérience. Ces modèles ont été ensuite regroupés par catégories, permettant ainsi la création d'un graphique reflétant à la fois le nombre de modèles par catégorie et le pourcentage d'adoption du versionnement sémantique pour chacun d'entre eux.
 
@@ -128,7 +128,7 @@ D'autre part, **"Automatic Speech Recognition" (ASR)** s'agit d'une technologie 
 
 Ainsi, il semble logique d'adopter un versionnement sémantique dans ces deux catégories afin d'aboutir à une approche structurée pour gérer les modifications et les mises à jour fréquentes nécessaires à l'amélioration continue des modèles. Cela facilite le maintien d'une traçabilité transparente des évolutions successives dans ces domaines en constante évolution.
 
-b. **_Etape 2 : Exploration des schémas libres pour les catégories de modèles_**
+2.2.2 **_Etape 2 : Exploration des schémas libres pour les catégories de modèles_**
 
 L'objectif de cette deuxième étape est de déterminer si chaque catégorie des modèles adopte un patterns spécifiques qui lui sont propres. Pour ce faire, nous avons exclu les deux catégories "Automatic Speech Recognition" et "Reinforcement Learning", qui présentent un niveau d'adoption du versionnement sémantique important. 
 
@@ -205,7 +205,7 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
 
 En conclusion, il semble que les data scientists communiquent les fonctionnalités, le comportement et d'autres aspects des modèles par le biais de leurs versions. Cela varie naturellement d'une tâche à l'autre, ce qui rend la catégorie du modèle très importante dans ce sens.
   
-c. **_Manipulation des données : Exploration des groupes de tokens_**
+2.2.3. **_Manipulation des données : Exploration des groupes de tokens_**
 
 Pour approfondir notre compréhension des schémas de versionnement, il a été jugé pertinent d'explorer l'existence de combinaisons spécifiques de tokens qui manifestent une récurrence significative à travers différentes versions de modèles.
 
