@@ -53,13 +53,7 @@ Voici les questions sous-jacentes qui en découlent :
 
 ## III. Collecte de données : méthodes et outils
 
-Notre recherche a adopté une approche sélective, en se concentrant uniquement sur les modèles avec des tags qui représentent la tâche du modèle dans Hugging Face. 
-
-Le raisonnement derrière cela est qu'un modèle qui a été poussé vers ce hub public avec un tag aura probablement plus d'une apparition dans le hub. 
-
-L'éditeur peut être en train de travailler sur cette tâche et à chaque fois il poussera de nouvelles versions de son modèle amélioré : avoir un but donne un avenir. 
-
-Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, compte tenu de la diversité des modèles disponibles sur la plateforme Hugging Face. En outre, nous avons veillé à éviter les doublons, afin de garantir la validité et la fiabilité de notre échantillon.
+Notre recherche a adopté une approche sélective, en se concentrant uniquement sur les modèles avec des tags qui représentent la tâche du modèle dans Hugging Face.  Le raisonnement derrière cela est qu'un modèle qui a été poussé vers ce hub public avec un tag aura probablement plus d'une apparition dans le hub.  L'éditeur peut être en train de travailler sur cette tâche et à chaque fois il poussera de nouvelles versions de son modèle amélioré : avoir un but donne un avenir. Cette stratégie ciblée s'est avérée efficace pour extraire les modèles les plus significatifs, compte tenu de la diversité des modèles disponibles sur la plateforme Hugging Face. En outre, nous avons veillé à éviter les doublons, afin de garantir la validité et la fiabilité de notre échantillon.
 
 Pour réaliser cela, nous nous sommes appuyés sur le web scraping en exploitant le langage de programmation Python et en utilisant à des librairies telles que BeautifulSoup pour analyser le HTML et les requests pour traiter les requêtes HTTP. Cette approche a conduit à la création d'une base de données riche, comprenant quelque 230 000 modèles, qui constitue une ressource adéquate et pertinente pour répondre aux questions de notre étude de recherche.
 
