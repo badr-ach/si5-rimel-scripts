@@ -259,7 +259,7 @@ Toutefois, la plateforme Hugging Face n'inclut pas les détails de téléchargem
 En résumé, notre analyse révèle une grande diversité au sein de la communauté des data scientists en ce qui concerne l'implémentation du versionnement des modèles. Plutôt que de suivre un processus défini, il est fréquent d'observer une approche individualisée, laissant chacun libre de déterminer ses propres méthodes en fonction de ses besoins spécifiques. Cette liberté opérationnelle, bien que reflétant la nature adaptable de la science des données, entraîne souvent une non-conformité marquée aux normes établies par DevOps.
 
 ## Références
-MLflow :
+#### MLflow :
 - Documentation officielle de MLflow : https://mlflow.org/docs/latest/index.html
 - Chen, A., Chow, A., Davidson, A., DCunha, A., Ghodsi, A., Hong, S. A., ... & Zumar, C.
 (2020, June). Developments in mlflow: A system to accelerate the machine learning lifecycle. In
@@ -271,12 +271,13 @@ Machine Learning Life Cycle with MLflow. United Kingdom: Packt Publishing.
 (2018). Accelerating the machine learning lifecycle with MLflow. IEEE Data Eng. Bull., 41(4),
 39-45.
   
-HuggingFace :
-- https://huggingface.co/docs
+#### HuggingFace :
+- Documentation officielle de HuggingFace :  https://huggingface.co/docs
 - Wolf, Thomas, et al. "Huggingface's transformers: State-of-the-art natural language processing." arXiv preprint arXiv:1910.03771 (2019).
 
-Les modèles de machines learning :
-- Bert https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel.
+#### Les modèles de machines learning :
+- Bert : ![https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel.)
 - GPTQ Accurate Post-Training Quantization : https://arxiv.org/pdf/2210.17323.pdf
 - GPTQ vs. GGUF vs. AWQ : https://maartengrootendorst.substack.com/p/which-quantization-method-is-right
 - Dreambooth : https://www.dreambooth.fr/
+- Automatic Speech Recognition : ![https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp](https://www.demotal.fr/bert-le-modele-de-langue-de-reference-pour-les-taches-de-nlp/#:~:text=BERT%2C%20qui%20est%20l'acronyme,la%20fois%20bidirectionnel%20et%20contextuel)
