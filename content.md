@@ -4,8 +4,8 @@
 
 Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia spécialisés en Architecture Logicielle (AL) :
 - Badr AL ACHKAR <<badr.al-achkar@etu.univ-cotedazur.fr>>
-- Nadim BEN AISSA (<nadim.ben-aissa@etu.univ-cotedazur.fr>>
-- Sourour GAZZEH (<sourour.gazzeh@etu.univ-cotedazur.fr>>
+- Nadim BEN AISSA <<nadim.ben-aissa@etu.univ-cotedazur.fr>>
+- Sourour GAZZEH <<sourour.gazzeh@etu.univ-cotedazur.fr>>
 - Imene YAHIAOUI <<imene.yahiaoui@etu.univ-cotedazur.fr>>
 
 ## I. Contexte
