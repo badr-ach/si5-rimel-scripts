@@ -1,6 +1,6 @@
 ---
 layout: default
-title : Are Datascientists embracing DevOps principles for Model versioning ?
+title : Are Data scientists embracing DevOps principles for Model versioning ?
 date:   2024-02
 ---
 
@@ -16,9 +16,9 @@ Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia spéci
 
 ## I. Contexte
 
-L'évolution des sciences de la donnée, accompagnées par une intégration progressive des principes DevOps au sein de cette communauté, soulève des questionnements pertinents quant aux méthodologies adoptées pour le versionnement des artefacts, particulièrement les modèles. Notre motivation derrière cette étude réside dans la volonté de démystifier les pratiques actuelles du versionnement des modèles par les data scientists. Comprendre comment ces professionnels gèrent les différentes versions de leurs modèles revêt une importance capitale dans un contexte où l'apprentissage automatique s'insère de plus en plus dans des pipelines de développement logiciel.
+L'évolution des sciences de la donnée, accompagnées par une intégration progressive des principes DevOps au sein de cette communauté, soulève des questionnements pertinents quant aux méthodologies adoptées pour le versionnement des artefacts, particulièrement les modèles. Notre motivation derrière cette étude réside dans la volonté de démystifier les pratiques actuelles du versionnement des modèles par les data scientistes. Comprendre comment ces professionnels gèrent les différentes versions de leurs modèles revêt une importance capitale dans un contexte où l'apprentissage automatique s'insère de plus en plus dans des pipelines de développement logiciel.
 
-Pour mener à bien cette investigation, notre recherche s'intéresse tout d'abord à Mlflow en tant que plateforme open-source, conçue pour aider les praticiens de l'apprentissage automatique à gérer le cycle de vie de leurs modèles d'apprentissage automatique, de l'exploration à la publication du modèle. Etant donné que Mlflow est destiné à un usage professionnel où les modèles sont gardés privés sans accès à une source interne, il ne fournit qu'un regard extérieur sur la façon à laquelle un outil de versionnement pour les data scientists pourrait ressembler, et la conduite de notre recherche se tourne vers Hugging Face, en tant que plateforme publique massive, où les modèles de différents contributeurs sont publiquement disponibles, en particulier ceux des grandes entreprises.
+Pour mener à bien cette investigation, notre recherche s'intéresse tout d'abord à Mlflow en tant que plateforme open-source, conçue pour aider les praticiens de l'apprentissage automatique à gérer le cycle de vie de leurs modèles d'apprentissage automatique, de l'exploration à la publication du modèle. Etant donné que Mlflow est destiné à un usage professionnel où les modèles sont gardés privés sans accès à une source interne, il ne fournit qu'un regard extérieur sur la façon à laquelle un outil de versionnement pour les data scientistes pourrait ressembler, et la conduite de notre recherche se tourne vers Hugging Face, en tant que plateforme publique massive, où les modèles de différents contributeurs sont publiquement disponibles, en particulier ceux des grandes entreprises.
 
 #### 1. Exploration de MLflow : 
 
@@ -41,13 +41,13 @@ Si l'utilisateur souhaite employer sa propre version, Mlflow offre d'autres moye
 
 #### 2. Exploration de Hugging Face :
 
-Hugging Face se positionne comme une plateforme clé pour le partage et la découverte de modèles d'apprentissage automatique. Elle constitue une plateforme de choix pour des data scientists et des grandes entreprises telles que Meta et Google, qui y partagent leurs travaux avec la communauté internationale. À la date de rédaction de cet article, le 1er février 2024, Hugging Face héberge 490,621 modèles, accessibles publiquement, ce qui a joué un rôle déterminant dans le choix de cette plateforme pour notre recherche.
+Hugging Face se positionne comme une plateforme clé pour le partage et la découverte de modèles d'apprentissage automatique. Elle constitue une plateforme de choix pour des data scientistes et des grandes entreprises telles que Meta et Google, qui y partagent leurs travaux avec la communauté internationale. À la date de rédaction de cet article, le 1er février 2024, Hugging Face héberge 490,621 modèles, accessibles publiquement, ce qui a joué un rôle déterminant dans le choix de cette plateforme pour notre recherche.
 
-Dans le contexte de notre recherche, où nous nous concentrons sur la façon dont les modèles sont versionnés, Hugging face se positionne comme une plateforme qui offre aux data scientists une grande flexibilité dans les noms des artefacts qu'ils poussent, leur permettant de pousser les versions des modèles sans respecter un pattern particulier. Il est donc très intéressant pour nous de mener notre étude en s'appuyant sur ce hub.
+Dans le contexte de notre recherche, où nous nous concentrons sur la façon dont les modèles sont versionnés, Hugging face se positionne comme une plateforme qui offre aux data scientistes une grande flexibilité dans les noms des artefacts qu'ils poussent, leur permettant de pousser les versions des modèles sans respecter un pattern particulier. Il est donc très intéressant pour nous de mener notre étude en s'appuyant sur ce hub.
 
 ## II. Question générale
 
-L'objectif fondamental de notre projet de recherche est d'explorer l'adoption des principes DevOps par les data scientists pour le versionnement des modèles.
+L'objectif fondamental de notre projet de recherche est d'explorer l'adoption des principes DevOps par les data scientistes pour le versionnement des modèles.
 
 Voici les questions sous-jacentes qui en découlent :
 
@@ -92,9 +92,9 @@ Le graphique ci-dessous présente les résultats de l'expérience, illustrant le
 
 Cette première expérience a validé notre hypothèse, démontrant qu'environ **79%** des modèles ne se conforment pas au modèle de versionnement traditionnel.
 
-Cependant, il est essentiel de souligner qu'au sein de ces modèles, environ 21% (soit environ 41 000 modèles) semblent explorer des tentatives de versionnement sémantique. Ce nombre important souligne l'intérêt marqué de certains data scientists à établir une structure plus claire et compréhensible pour leurs modèles. Cette observation met en évidence la diversité des pratiques de versionnement au sein de la communauté des data scientists, reflétant peut-être des besoins spécifiques liés à la nature expérimentale de certains projets ou à des préférences individuelles ou peut-être même le manque de maturité de l'adoption des pratiques devops.
+Cependant, il est essentiel de souligner qu'au sein de ces modèles, environ 21% (soit environ 41 000 modèles) semblent explorer des tentatives de versionnement sémantique. Ce nombre important souligne l'intérêt marqué de certains data scientistes à établir une structure plus claire et compréhensible pour leurs modèles. Cette observation met en évidence la diversité des pratiques de versionnement au sein de la communauté des data scientistes, reflétant peut-être des besoins spécifiques liés à la nature expérimentale de certains projets ou à des préférences individuelles ou peut-être même le manque de maturité de l'adoption des pratiques devops.
 
-Ces variations dans les schémas de versionnement peuvent être en partie expliquées par la flexibilité offerte par les plateformes de partage de modèles, telles que Hugging Face, qui permettent aux data scientists de définir leurs propres conventions de versionnement.
+Ces variations dans les schémas de versionnement peuvent être en partie expliquées par la flexibilité offerte par les plateformes de partage de modèles, telles que Hugging Face, qui permettent aux data scientistes de définir leurs propres conventions de versionnement.
 
 2.  **_Influence de la tâche du modèle sur son versionnement_**
 
@@ -124,13 +124,13 @@ Dans ces catégories, on observe un taux d'adoption élevé du versionnement sé
 
 En effet, le domaine du **"Reinforcement Learning"** se caractérise par des modèles d'apprentissage automatique qui interagissent dynamiquement avec leur environnement. Dans ce contexte, les modèles de "Reinforcement Learning" se distinguent par leur capacité à évoluer et à s'adapter à des situations changeantes, nécessitant ainsi des ajustements fréquents pour maintenir des performances optimales. 
 
-D'autre part, **"Automatic Speech Recognition" (ASR)** s'agit d'une technologie dédiée à la reconnaissance automatique de la parole. Les modèles inclus dans cette catégorie sont spécifiquement conçus pour traiter des données audio, cherchant à interpréter et comprendre la parole humaine de manière automatisée. Il parait que dans ce domaine, les modèles ASR sont continuellement soumis à des améliorations afin d'affiner leur capacité à comprendre de manière précise les variations de la parole humaine. 
+D'autre part, **"Automatic Speech Recognition" (ASR)** s'agit d'une technologie dédiée à la reconnaissance automatique de la parole. Les modèles inclus dans cette catégorie sont spécifiquement conçus pour traiter des données audios, cherchant à interpréter et comprendre la parole humaine de manière automatisée. Il parait que dans ce domaine, les modèles ASR sont continuellement soumis à des améliorations afin d'affiner leur capacité à comprendre de manière précise les variations de la parole humaine. 
 
 Ainsi, il semble logique d'adopter un versionnement sémantique dans ces deux catégories afin d'aboutir à une approche structurée pour gérer les modifications et les mises à jour fréquentes nécessaires à l'amélioration continue des modèles. Cela facilite le maintien d'une traçabilité transparente des évolutions successives dans ces domaines en constante évolution.
 
 **2.2.2. _Etape 2 : Exploration des schémas libres pour les catégories de modèles_**
 
-L'objectif de cette deuxième étape est de déterminer si chaque catégorie des modèles adopte un patterns spécifiques qui lui sont propres. Pour ce faire, nous avons exclu les deux catégories "Automatic Speech Recognition" et "Reinforcement Learning", qui présentent un niveau d'adoption du versionnement sémantique important. 
+L'objectif de cette deuxième étape est de déterminer si chaque catégorie des modèles adopte un pattern spécifique qui lui sont propres. Pour ce faire, nous avons exclu les deux catégories "Automatic Speech Recognition" et "Reinforcement Learning", qui présentent un niveau d'adoption du versionnement sémantique important. 
 
 Nous avons concentré notre analyse sur les catégories restantes et l'avons limitée à celles qui contribuent avec le plus grand nombre de modèles, environ 80%. Les catégories prises en compte sont : "text classification", "text generation", "text to text generation", "token classification", "text to image", et "fill-mask".
 
@@ -148,7 +148,7 @@ En outre, les symboles numériques ont été délibérément exclus de notre ana
 
 - **_Analyse des résultats_**
 
-Les résultats suggèrent que chaque catégorie de modèles possède des tokens spécifiques qui sont reocccurents. Suite à des recherches approfondies dans la documentation concernant les méthodes et les techniques de chaque catégorie, nous avons identifié un lien entre la tâche et les tokens utilisés dans le versionnement de ses modèles.
+Les résultats suggèrent que chaque catégorie de modèles possède des tokens spécifiques qui sont réccurents. Suite à des recherches approfondies dans la documentation concernant les méthodes et les techniques de chaque catégorie, nous avons identifié un lien entre la tâche et les tokens utilisés dans le versionnement de ses modèles.
 
 Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien comprendre la stratégie de versionnement.
 
@@ -203,7 +203,7 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
   - En effet, **_fill-mask_** fait référence à un type spécifique de modèle NLP 
    capable de remplir les espaces réservés (masques) dans une phrase ou un texte, souvent basé sur des réseaux de neurones, en particulier les transformers. Cela explique l'usage de ces tokens dans le contexte de fill-mask où le modèle est entraîné pour compléter les parties manquantes dans un texte donné.
 
-En conclusion, il semble que les data scientists communiquent les fonctionnalités, le comportement et d'autres aspects des modèles par le biais de leurs versions. Cela varie naturellement d'une tâche à l'autre, ce qui rend la catégorie du modèle très importante dans ce sens.
+En conclusion, il semble que les data scientistes communiquent les fonctionnalités, le comportement et d'autres aspects des modèles par le biais de leurs versions. Cela varie naturellement d'une tâche à l'autre, ce qui rend la catégorie du modèle très importante dans ce sens.
   
 2.2.3. **_Manipulation des données : Exploration des groupes de tokens_**
 
@@ -256,7 +256,7 @@ Cependant, la plateforme Hugging Face empêche le web scraping des données de t
 
 ## V. Conclusion
 
-En résumé, notre analyse révèle une grande diversité au sein de la communauté des data scientists en ce qui concerne l'implémentation du versionnement des modèles. Plutôt que de suivre un processus défini, il est fréquent d'observer une approche individualisée, laissant chacun libre de déterminer ses propres méthodes en fonction de ses besoins spécifiques. Cette liberté opérationnelle, bien que reflétant la nature adaptable de la science des données, entraîne souvent une non-conformité marquée aux normes établies par DevOps.
+En résumé, notre analyse révèle une grande diversité au sein de la communauté des data scientistes en ce qui concerne l'implémentation du versionnement des modèles. Plutôt que de suivre un processus défini, il est fréquent d'observer une approche individualisée, laissant chacun libre de déterminer ses propres méthodes en fonction de ses besoins spécifiques. Cette liberté opérationnelle, bien que reflétant la nature adaptable de la science des données, entraîne souvent une non-conformité marquée aux normes établies par DevOps.
 
 ## Références
 #### MLflow :
