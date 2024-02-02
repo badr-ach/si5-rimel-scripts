@@ -103,7 +103,7 @@ Ces constatations indiquent un écart potentiel par rapport au cadre de versionn
 **1.2. _Expérience : Calcul de l'adoption du versionnement traditionnel_**
 
 
-Dans cette expérience, notre attention a été exclusivement centrée sur l'analyse des noms des modèles, qui contenaient des informations sur la version. Afin de discerner les nuances du versionnement sémantique au sein de ces appellations, nous avons choisi d'adopter un format spécifique basé sur des motifs fréquemment rencontrés, tels que (vX, vX.X, vX-X, vX.X.X, etc.). Cette approche a nécessité l'utilisation d'une expression régulière (regex) bien définie, à savoir "[vV]\d[.-]?\d?[.-]?\d?", pour détecter les différents formats de versionnement.
+Dans cette expérience, notre attention a été exclusivement centrée sur l'analyse des noms des modèles, qui contenaient des informations sur la version. Afin de discerner les nuances du versionnement sémantique au sein de ces appellations, nous avons choisi d'adopter un format spécifique basé sur des motifs fréquemment rencontrés, tels que (vX, vX.X, vX-X, vX.X.X, etc.).
 
 Notre objectif était de calculer le pourcentage de modèles adoptant une approche de versionnement sémantique parmi l'échantillon analysé. 
 
