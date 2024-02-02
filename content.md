@@ -90,7 +90,7 @@ Le graphique ci-dessous présente les résultats de l'expérience, illustrant le
 
 ![ratio global](./images/global-ratio.png)
 
-Cette première expérience a validé notre hypothèse, démontrant qu'environ 79% des modèles ne se conforment pas au modèle de versionnement traditionnel.
+Cette première expérience a validé notre hypothèse, démontrant qu'environ **79%** des modèles ne se conforment pas au modèle de versionnement traditionnel.
 
 Cependant, il est essentiel de souligner qu'au sein de ces modèles, environ 21% (soit environ 41 000 modèles) semblent explorer des tentatives de versionnement sémantique. Ce nombre important souligne l'intérêt marqué de certains data scientists à établir une structure plus claire et compréhensible pour leurs modèles. Cette observation met en évidence la diversité des pratiques de versionnement au sein de la communauté des data scientists, reflétant peut-être des besoins spécifiques liés à la nature expérimentale de certains projets ou à des préférences individuelles ou peut-être même le manque de maturité de l'adoption des pratiques devops.
 
