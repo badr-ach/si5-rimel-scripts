@@ -29,7 +29,7 @@ pip install bs4 requests numpy WordCloud Circlify seaborn networkx
 
 Pour le code nous avons choisit un format Jupyter Notebook utilisant le fichier `notebook.ipynb`  pour bénéficier d'une documentation claire du code avec visualisation des graphiques obtenus.
 
-Veuillez ouvrir le fichier `notebook.ipynb` avec un IDE qui prend en charge les notebooks Jupyter dans le format souhaité. Exemple d'un IDE : `Visual Studio Code`
+Veuillez ouvrir le fichier avec un IDE qui prend en charge les notebooks Jupyter dans le format souhaité. Exemple d'un IDE : `Visual Studio Code`
 
 
 
