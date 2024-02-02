@@ -141,7 +141,7 @@ Les résultats graphiques ont clairement démontré que le pourcentage d'adoptio
 
 - **_Analyse des résultats_**
 
-Le graphique souligne une corrélation directe entre la nature spécifique de la tâche d'un modèle et les choix de versionnement qui lui sont associés. Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. 
+Les différentes catégories de modèles présentent des tendances distinctes en matière de versionnement, révélant une diversité d'approches au sein de la plateforme. 
 Parmi les 42 catégories identifiées, certaines se distinguent en regroupant un nombre de modèles nettement plus élevé que les autres.
 
 Dans ces catégories, on observe un taux d'adoption élevé du versionnement sémantique, en particulier dans les domaines de l'apprentissage par renforcement ("Reinforcement Learning") avec un pourcentage de 68.80 %, et de la reconnaissance automatique de la parole ("Automatic Speech Recognition") avec un pourcentage de 46.55 %. Ces domaines spécifiques montrent une tendance à privilégier un modèle de gestion des versions sémantique. À l'opposé, la majorité des autres catégories présente principalement un taux d'adoption du versionnement sémantique inférieur à 20 %.
