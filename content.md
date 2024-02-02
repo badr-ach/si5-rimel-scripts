@@ -252,7 +252,7 @@ Nous observons l'identification de tokens spécifiques liés à la nature des mo
    
 Les expériences menées ont suscité notre intérêt pour examiner l'historique des téléchargements des différentes versions, dans le but d'obtenir des informations significatives sur la pertinence et l'adoption des versions antérieures. Ceci aurait permis d'identifier si les utilisateurs préfèrent les versions récentes ou s'ils continuent d'utiliser les anciennes.
 
-Toutefois, la plateforme Hugging Face n'inclut pas les détails de téléchargement des modèles. Cette contrainte a limité notre capacité à analyser en profondeur les tendances de versionnement et les préférences d'utilisation.
+Cependant, la plateforme Hugging Face empêche le web scraping des données de téléchargement de modèles. Cette contrainte a limité notre capacité à analyser en profondeur les tendances de versionnement et les préférences d'utilisation.
 
 ## V. Conclusion
 
