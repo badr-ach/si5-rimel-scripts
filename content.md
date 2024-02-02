@@ -232,15 +232,15 @@ En conclusion, il est possible d'affirmer qu'aucun modèle de versionnement n'es
 
 3.  **_Tendances de versionnement dans les grandes entreprises_**
 
-  3.1. **_Hypothèse : Les grandes entreprises standardise leurs manières de versionner les modèles ML en interne_**
+  **3.1. _Hypothèse : Les grandes entreprises standardise leurs manières de versionner les modèles ML en interne_**
 
 Nous formulons l'hypothèse que les grandes entreprises ont tendance à standardiser leur approche de versionnement pour les modèles d'apprentissage automatique en interne. Cette hypothèse suggère que, au sein de ces grandes structures, il existe probablement des pratiques et des normes établies vis-à-vis du processus de gestion des versions des modèles d'apprentissage automatique.
 
-  3.2. **_Expérience : Analyse des modèles ceux publié par Google, OpenAI et Meta, individuellement, et extraction des patterns adoptés._**
+  **3.2. _Expérience : Analyse des modèles ceux publié par Google, OpenAI et Meta, individuellement, et extraction des patterns adoptés._**
 
 Au cours de cette étude, nous avons spécifiquement sélectionné les entreprises les plus renommées du secteur. Dans cette perspective, notre recherche se concentrera exclusivement sur les artefacts de modèles publiés par Google, Facebook/Meta, et OpenAI, en tenant compte de la variabilité du nombre de modèles. Google a mis à disposition 617 modèles, Facebook/Meta en a partagé 1879, et OpenAI en compte 32. Notre approche pour cette expérience suivra le même protocole que celui de l'expérience 2, visant à identifier les tokens les plus fréquemment utilisés.
 
-  3.3 **_Résultat :_**
+  **3.3 _Résultat :_**
 
 L'analyse des données obtenues a révélé ce qui suit : 
 
@@ -248,7 +248,7 @@ L'analyse des données obtenues a révélé ce qui suit :
 
 Nous observons l'identification de tokens spécifiques liés à la nature des modèles tels que "medium", "large", "base", "small", ou "base". Cependant, aucune tendance claire de versionnement n'a été repérée à l'échelle globale de l'entreprise.
 
-4.  **_Limites trouvées_**
+**4. _Limites trouvées_**
    
 Les expériences menées ont suscité notre intérêt pour examiner l'historique des téléchargements des différentes versions, dans le but d'obtenir des informations significatives sur la pertinence et l'adoption des versions antérieures. Ceci aurait permis d'identifier si les utilisateurs préfèrent les versions récentes ou s'ils continuent d'utiliser les anciennes.
 
