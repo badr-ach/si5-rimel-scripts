@@ -33,7 +33,7 @@ Pour garder une trace de ces artefacts, les modèles MLflow sont organisés dans
 
 En ce qui concerne la pratique du versionnage, la gestion des versions dans MLflow est automatisée et standardisée par défaut : lorsqu'un modèle est poussé dans le registre, le premier enregistrement est marqué comme v1, et chaque nouvel enregistrement sous le même nom incrémente automatiquement le numéro de version.
 
-Si l'utilisateur souhaite employer sa propre approche de la version, Mlflow offre d'autres moyens d'attacher une version à un modèleà travers l'utilisation d'alias, de tags et de descriptions :
+Si l'utilisateur souhaite employer sa propre version, Mlflow offre d'autres moyens d'attacher une version à un modèleà travers l'utilisation d'alias, de tags et de descriptions :
 
 - Les **_alias_** permettent de pointer vers une version spécifique du modèle. Ils offrent une référence mutable et nommée à des versions spécifiques.
 - Les **_tags_** permettent de catégoriser les modèles selon leur fonction ou statut.
@@ -102,7 +102,7 @@ Ces variations dans les schémas de versionnement peuvent être en partie expliq
 
 Nous émettons l'hypothèse selon laquelle la nature de la tâche d'un modèle influence de manière significative la façon avec laquelle on le versionne. Cette hypothèse suggère que des caractéristiques propres à chaque catégorie de modèle peuvent exercer une influence sur les choix de versionnement adoptés.
 
-  **2.2. _Expériences realisées_ :**
+  **2.2. _Expériences réalisées_ :**
 
 Dans le cadre de notre étude sur l'influence de la tâche des modèles sur leur versionnement, nous avons procédé en deux phases distinctes. La première phase visait à déterminer les catégories de tâches pour lesquelles les modèles optent pour un versionnement sémantique. Dans la seconde phase, nous avons examiné l'éventuelle présence de schémas de versionnement libre.
 
@@ -142,7 +142,7 @@ Nous avons exclu les modèles identifiés uniquement une fois dans notre échant
 
 En outre, les symboles numériques ont été délibérément exclus de notre analyse. Cette décision est basée sur le fait que de tels identifiants numériques sont utilisés dans les méthodes de versionnage conventionnelles, qui ne sont pas l'objet de l'analyse ici. Notre objectif d'identifier des pratiques de versionnement plus atypiques et nuancées nous amène à considérer les identifiants numériques comme étant de moindre intérêt dans ce contexte.
 
-- **_Résultat :_**
+- **_Résultat_**
 
 ![ratio global](./images/tokens.png)
 
@@ -156,9 +156,9 @@ Analysons maintenant chaque tâche, ses tokens et leurs significations pour bien
     - **Base** : ce terme pourrait faire référence à un modèle initial qui n'a pas subi de modifications spécifiques pour la tâche en question. Il s'agit d'un point de départ simple sans ajustements particuliers, utilisé comme référence ou base pour des modèles plus spécialisés.
     - **Finetuned** : Appliqué au processus d'ajustement d'un modèle pré-entraîné sur des données spécifiques à la tâche de text-classification. Cela signifie que le modèle a été adapté pour mieux répondre aux caractéristiques de la classification de texte, améliorant ainsi ses performances sur cette tâche spécifique.
     - **BERT** : (Bidirectional Encoder Representations from Transformers) est une architecture de réseau de neurones transformer révolutionnaire pour le traitement du langage naturel. En text-classification, BERT peut servir de modèle pré-entraîné pour capturer les relations contextuelles entre les mots dans un texte, améliorant ainsi les performances de la classification.
-    - **RoBERTa** : Une variante de BERT utilisée de manière similaire en text-classification. Elle élimine certaines composantes de BERT pour des performances optimisées sur des tâches spécifiques, comme la classification de texte.
+    - **RoBERTa** : Une variante de BERT utilisée de manière similaire en classification de texte. Elle élimine certaines composantes de BERT pour des performances optimisées sur des tâches spécifiques, comme la classification de texte.
     - **Classifier / Classification** : Ces termes sont directement liés à la text-classification. Un "classifier" ou un modèle de "classification" est spécifiquement conçu pour attribuer des catégories ou des étiquettes à des documents textuels en fonction de leur contenu.
-    - **Sentiment** : En text-classification, la détection de sentiment est courante. Le terme "sentiment" est associé à des modèles conçus pour classer des documents textuels en fonction de l'émotion exprimée.
+    - **Sentiment** : En classification de texte, la détection de sentiment est courante. Le terme "sentiment" est associé à des modèles conçus pour classer des documents textuels en fonction de l'émotion exprimée.
   
   Nous remarquons que les tokens de version sont présents dans la version pour indiquer la réutilisation d'un certain composant et/ou le progrès dans un aspect particulier de la tâche.
 
